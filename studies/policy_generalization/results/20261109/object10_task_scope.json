@@ -1,0 +1,85 @@
+{
+  "source": "frozen Object10 manifest; dataset task IDs are not benchmark task IDs",
+  "tasks": [
+    {
+      "dataset_task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "episodes": 45,
+      "frames": 6291,
+      "train_episodes": 36,
+      "validation_episodes": 9
+    },
+    {
+      "dataset_task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "episodes": 45,
+      "frames": 6919,
+      "train_episodes": 36,
+      "validation_episodes": 9
+    },
+    {
+      "dataset_task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "episodes": 45,
+      "frames": 6378,
+      "train_episodes": 36,
+      "validation_episodes": 9
+    },
+    {
+      "dataset_task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "episodes": 46,
+      "frames": 6723,
+      "train_episodes": 37,
+      "validation_episodes": 9
+    },
+    {
+      "dataset_task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "episodes": 44,
+      "frames": 6867,
+      "train_episodes": 35,
+      "validation_episodes": 9
+    },
+    {
+      "dataset_task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "episodes": 45,
+      "frames": 6443,
+      "train_episodes": 36,
+      "validation_episodes": 9
+    },
+    {
+      "dataset_task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "episodes": 47,
+      "frames": 6200,
+      "train_episodes": 38,
+      "validation_episodes": 9
+    },
+    {
+      "dataset_task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "episodes": 45,
+      "frames": 7102,
+      "train_episodes": 36,
+      "validation_episodes": 9
+    },
+    {
+      "dataset_task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "episodes": 42,
+      "frames": 6097,
+      "train_episodes": 34,
+      "validation_episodes": 8
+    },
+    {
+      "dataset_task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "episodes": 50,
+      "frames": 7964,
+      "train_episodes": 40,
+      "validation_episodes": 10
+    }
+  ]
+}

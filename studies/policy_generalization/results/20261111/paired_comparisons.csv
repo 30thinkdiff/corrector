@@ -1,0 +1,16 @@
+cohort,baseline,candidate,matched,candidate_only_success,baseline_only_success,both_success,both_failure,net_pp,exact_mcnemar_two_sided_unadjusted
+night/mlp_s42,H50,ogg,60,11,0,44,5,18.333333333333332,0.0009765625
+night/mlp_s42,H20,ogg,60,5,1,50,4,6.666666666666667,0.21875
+night/mlp_s42,lvm,ogg,60,0,0,55,5,0.0,1.0
+night/transformer-h1_s42,H50,ogg,60,11,0,44,5,18.333333333333332,0.0009765625
+night/transformer-h1_s42,H20,ogg,60,5,1,50,4,6.666666666666667,0.21875
+night/transformer-h1_s42,lvm,ogg,60,0,0,55,5,0.0,1.0
+night/transformer-h3_s42,H50,ogg,60,12,0,44,4,20.0,0.00048828125
+night/transformer-h3_s42,H20,ogg,60,6,1,50,3,8.333333333333334,0.125
+night/transformer-h3_s42,lvm,ogg,60,0,0,56,4,0.0,1.0
+actions/transformer-a10-h1_s42,H50,ogg,60,6,0,44,10,10.0,0.03125
+actions/transformer-a10-h1_s42,H20,ogg,60,3,4,47,6,-1.6666666666666667,1.0
+actions/transformer-a10-h1_s42,lvm,ogg,60,0,0,50,10,0.0,1.0
+actions/transformer-a10-h3_s42,H50,ogg,60,7,0,44,9,11.666666666666666,0.015625
+actions/transformer-a10-h3_s42,H20,ogg,60,3,3,48,6,0.0,1.0
+actions/transformer-a10-h3_s42,lvm,ogg,60,0,0,51,9,0.0,1.0

@@ -1,0 +1,30 @@
+{
+  "ready": true,
+  "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "python": "/root/autodl-tmp/corrector/runtime/sim-venv/bin/python",
+  "source": "/root/autodl-tmp/corrector/runtime/libero-original",
+  "config": {
+    "benchmark_root": "/root/autodl-tmp/corrector/runtime/libero-original/libero/libero",
+    "bddl_files": "/root/autodl-tmp/corrector/runtime/libero-original/libero/libero/bddl_files",
+    "init_states": "/root/autodl-tmp/corrector/runtime/libero-original/libero/libero/init_files",
+    "assets": "/root/autodl-tmp/corrector/runtime/libero-original/libero/libero/assets",
+    "datasets": "/root/autodl-tmp/corrector/runtime/libero-unused-datasets"
+  },
+  "requirements": [
+    "robosuite==1.4.1",
+    "bddl==1.0.1",
+    "easydict==1.13",
+    "mujoco==3.7.0",
+    "future==1.0.0",
+    "Wand==0.6.13",
+    "scikit-image==0.25.2",
+    "gym==0.26.2",
+    "matplotlib==3.10.8",
+    "numba==0.61.2",
+    "hydra-core>=1.2,<1.4",
+    "h5py>=3.11,<4",
+    "cloudpickle>=2"
+  ],
+  "render_probe": "/root/autodl-tmp/corrector/runtime/logs/20261108T153015.231839Z_prepare/simulation/20261108T183443.987850Z_prepare-sim/render_probe",
+  "sim_fps": 20
+}

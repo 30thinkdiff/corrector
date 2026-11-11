@@ -1,0 +1,25 @@
+{
+  "purpose": "camera validation after selecting on default/view_15; no retuning on heldout results",
+  "candidate_n_action_steps": 20,
+  "reference_n_action_steps": 50,
+  "chunk_size": 50,
+  "num_steps": 10,
+  "conditions": {
+    "view_5": 656,
+    "view_10": 661
+  },
+  "seeds": [
+    1000,
+    1001,
+    1002
+  ],
+  "initial_state_index": 0,
+  "control_frequency_hz": 20,
+  "control_mode": "relative",
+  "checkpoint": "lerobot/smolvla_libero",
+  "checkpoint_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+  "libero_plus_revision": "4976dc30028e805ff8094b55501d532c48fec182",
+  "asset_revision": "dd2bd61b7d9a6fef1abc52d606e983b41886a149",
+  "language": "pick the alphabet soup and place it in the basket",
+  "scope": "same task and initialization; unseen camera variants, not cross-task or cross-initialization"
+}

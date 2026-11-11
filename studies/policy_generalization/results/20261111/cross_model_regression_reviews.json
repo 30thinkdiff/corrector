@@ -1,0 +1,142 @@
+[
+  {
+    "baseline": "night/transformer-h1_s42",
+    "candidate": "actions/transformer-a10-h1_s42",
+    "condition": "libero_object/task_0/init_2",
+    "seed": 1001,
+    "baseline_trace": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/2ce42b1ae73a0dca60ec/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/73f5519bacab2d07b8b2/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/73f5519bacab2d07b8b2/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 265,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h1_s42",
+    "candidate": "actions/transformer-a10-h1_s42",
+    "condition": "libero_object/task_1/init_0",
+    "seed": 1000,
+    "baseline_trace": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/c40b8758746b4cc9f0aa/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/f7256706d370ba004b4b/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/f7256706d370ba004b4b/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 168,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h1_s42",
+    "candidate": "actions/transformer-a10-h1_s42",
+    "condition": "libero_object/task_5/init_0",
+    "seed": 1001,
+    "baseline_trace": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/99da64945fbefa2ec075/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/9d00624073b874795c44/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/9d00624073b874795c44/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 168,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h1_s42",
+    "candidate": "actions/transformer-a10-h1_s42",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1001,
+    "baseline_trace": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/1147138b8349adf3bf8f/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/51914d5342d7f227ccd4/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/51914d5342d7f227ccd4/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 199,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h1_s42",
+    "candidate": "actions/transformer-a10-h1_s42",
+    "condition": "libero_object/task_9/init_1",
+    "seed": 1001,
+    "baseline_trace": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/396a75f31e50ed435ac5/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/677650889b0129a69afc/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/677650889b0129a69afc/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 169,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h3_s42",
+    "candidate": "actions/transformer-a10-h3_s42",
+    "condition": "libero_object/task_0/init_2",
+    "seed": 1001,
+    "baseline_trace": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/c191c5017fedac59237d/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/8ced7f0fbdcc2aa47e4f/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/8ced7f0fbdcc2aa47e4f/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 268,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h3_s42",
+    "candidate": "actions/transformer-a10-h3_s42",
+    "condition": "libero_object/task_1/init_0",
+    "seed": 1000,
+    "baseline_trace": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/2cb0792e375c79746b57/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/7cde8790be297874280c/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/7cde8790be297874280c/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 195,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h3_s42",
+    "candidate": "actions/transformer-a10-h3_s42",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1001,
+    "baseline_trace": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/42e52390d2ead43a2e16/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/7cc097905beb0035e9bd/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/7cc097905beb0035e9bd/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 166,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h3_s42",
+    "candidate": "actions/transformer-a10-h3_s42",
+    "condition": "libero_object/task_9/init_1",
+    "seed": 1001,
+    "baseline_trace": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/a4b0cc8b838d37450ea0/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/f268fdc371e54c55f094/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/f268fdc371e54c55f094/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 165,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  },
+  {
+    "baseline": "night/transformer-h3_s42",
+    "candidate": "actions/transformer-a10-h3_s42",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1000,
+    "baseline_trace": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/0ea4d51ec3f51efa74d0/attempt_001/monitor_steps.jsonl",
+    "candidate_trace": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/c61f717fa7a0cfe6e769/attempt_001/monitor_steps.jsonl",
+    "failure_videos": [
+      "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/c61f717fa7a0cfe6e769/attempt_001/videos/eval_episode_0.mp4"
+    ],
+    "baseline_env_steps": 163,
+    "candidate_env_steps": 280,
+    "scope": "matched initial case but subsequent trajectories differ; not equal-state prediction comparison"
+  }
+]

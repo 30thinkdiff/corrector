@@ -1,0 +1,101 @@
+{
+  "evidence_origin": "User-pasted remote corrector_finish_queue.py --inspect and recovery launcher logs on 2026-11-09; raw remote artifacts not yet retrieved",
+  "scope": "Object10 within-suite development validation; not an independent predictor test set or completed closed-loop benchmark",
+  "dataset": {
+    "repo_id": "HuggingFaceVLA/libero",
+    "revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+    "episodes": 454,
+    "frames": 66984,
+    "train_episodes": 364,
+    "validation_episodes": 90,
+    "train_pairs": 50175,
+    "validation_pairs": 12269,
+    "shared_episodes": [],
+    "fps": 10,
+    "k_step": 10
+  },
+  "predictor": {
+    "architecture": "upstream residual MLP, four hidden blocks of width 2048",
+    "parameters": 38052800,
+    "checkpoint_sha256": "ac82257d743645b745f85846ccea236c869dcc5440171f7d289f33b472bf1ba3",
+    "checkpoint_epoch": 45
+  },
+  "training": {
+    "status": "completed",
+    "reason": "early_stopping",
+    "epochs_completed": 50,
+    "optimizer_steps": 4900,
+    "loss_type": "both",
+    "epoch_compute_seconds": 2954.293520776555,
+    "mean_epoch_seconds": 59.0858704155311,
+    "peak_cuda_allocated_gib": 1.3120651245117188,
+    "checkpoint_reload_verified": true
+  },
+  "initial_validation": {
+    "loss": 13.949799434199525,
+    "mse": 12.950594029514798,
+    "cosine_loss": 0.9992053931514775
+  },
+  "best_validation": {
+    "loss": 4.191555987594471,
+    "mse": 3.9959158991842343,
+    "cosine_loss": 0.19564009214129655,
+    "zero_prediction_mse": 11.585701170347752,
+    "samples": 12269,
+    "zero_targets": 0
+  },
+  "prediction_report": {
+    "sample_count": 12269,
+    "cosine": 0.8043599110025339,
+    "mse": 3.9959158968037407,
+    "zero_mse": 11.585701514304787,
+    "train_mean_mse": 11.375276500530276,
+    "train_mean_cosine": 0.1320578334036324,
+    "pred_norm": 996.1376847436526,
+    "target_norm": 1173.3614818794686,
+    "task_macro_cosine": 0.8046258439685813,
+    "task_macro_mse": 3.9986415940130984,
+    "report_runtime_seconds": 58.8393592312932
+  },
+  "closed_loop": {
+    "plots": "recovery child returned zero; plot images not independently inspected locally",
+    "smoke": "completed gate passed for 10 trials; no numerical success rates supplied",
+    "paired": "launched; no completion or success-rate results supplied",
+    "suite": "libero_object",
+    "task_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "initial_state_ids": [
+      0,
+      1,
+      2
+    ],
+    "seeds": [
+      1000,
+      1001
+    ],
+    "methods": [
+      "H50",
+      "H20",
+      "monitor",
+      "lvm",
+      "ogg"
+    ],
+    "planned_paired_trials": 300,
+    "local_source": "frozen remote queue-code-fdca69dae6, not overwritten by current workspace changes"
+  },
+  "derived": {
+    "epoch_compute_minutes": 49.23822534627592,
+    "mse_reduction_vs_zero": 0.6550993574389941,
+    "mse_reduction_vs_train_mean": 0.6487192292321453
+  }
+}

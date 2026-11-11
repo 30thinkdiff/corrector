@@ -1,0 +1,64 @@
+{
+  "evidence_origin": "User-pasted remote corrector_temporal_audit.py output; this is actual saved feature/trace audit, not local toy data",
+  "feature_episodes_checked": 454,
+  "expected_feature_episodes": 454,
+  "stored_frame_dt_seconds_range": [
+    0.09999990463256836,
+    0.10000038146972656
+  ],
+  "execution_status": "completed",
+  "planned_trials": 300,
+  "completed_trials_checked": 300,
+  "by_method": {
+    "H50": 60,
+    "H20": 60,
+    "monitor": 60,
+    "lvm": 60,
+    "ogg": 60
+  },
+  "horizon_columns": [
+    "data_fps",
+    "training_k",
+    "prediction_seconds",
+    "online_fps",
+    "online_due_steps"
+  ],
+  "horizons": [
+    [
+      10.0,
+      10,
+      1.0,
+      20.0,
+      20
+    ]
+  ],
+  "first_score_steps": [
+    20
+  ],
+  "error_count": 0,
+  "paired_outcomes": {
+    "H50_vs_ogg": {
+      "matched_cases": 60,
+      "both_success": 44,
+      "both_failure": 5,
+      "ogg_only_success": 11,
+      "baseline_only_success": 0
+    },
+    "H20_vs_ogg": {
+      "matched_cases": 60,
+      "both_success": 50,
+      "both_failure": 4,
+      "ogg_only_success": 5,
+      "baseline_only_success": 1
+    },
+    "lvm_vs_ogg": {
+      "matched_cases": 60,
+      "both_success": 54,
+      "both_failure": 5,
+      "ogg_only_success": 1,
+      "baseline_only_success": 0
+    }
+  },
+  "source_physical_clock_verified": false,
+  "interpretation": "No mismatch between stored dataset timebase and online due queue; source acquisition/resampling clock remains unverified."
+}

@@ -1,0 +1,201 @@
+cohort,task_id,language,method,completed,successes,success_rate
+night/mlp_s42,6,pick up the butter and place it in the basket,H50,6,6,1
+night/mlp_s42,7,pick up the milk and place it in the basket,lvm,6,5,0.8333333333333334
+night/mlp_s42,9,pick up the orange juice and place it in the basket,H20,6,2,0.3333333333333333
+night/mlp_s42,0,pick up the alphabet soup and place it in the basket,ogg,6,5,0.8333333333333334
+night/mlp_s42,7,pick up the milk and place it in the basket,ogg,6,5,0.8333333333333334
+night/mlp_s42,4,pick up the ketchup and place it in the basket,H20,6,6,1
+night/mlp_s42,2,pick up the salad dressing and place it in the basket,ogg,6,4,0.6666666666666666
+night/mlp_s42,1,pick up the cream cheese and place it in the basket,ogg,6,6,1
+night/mlp_s42,2,pick up the salad dressing and place it in the basket,H20,6,4,0.6666666666666666
+night/mlp_s42,7,pick up the milk and place it in the basket,H20,6,4,0.6666666666666666
+night/mlp_s42,9,pick up the orange juice and place it in the basket,lvm,6,5,0.8333333333333334
+night/mlp_s42,5,pick up the tomato sauce and place it in the basket,H50,6,4,0.6666666666666666
+night/mlp_s42,9,pick up the orange juice and place it in the basket,H50,6,3,0.5
+night/mlp_s42,8,pick up the chocolate pudding and place it in the basket,lvm,6,6,1
+night/mlp_s42,0,pick up the alphabet soup and place it in the basket,H50,6,5,0.8333333333333334
+night/mlp_s42,1,pick up the cream cheese and place it in the basket,lvm,6,6,1
+night/mlp_s42,1,pick up the cream cheese and place it in the basket,H50,6,2,0.3333333333333333
+night/mlp_s42,7,pick up the milk and place it in the basket,H50,6,4,0.6666666666666666
+night/mlp_s42,6,pick up the butter and place it in the basket,ogg,6,6,1
+night/mlp_s42,8,pick up the chocolate pudding and place it in the basket,ogg,6,6,1
+night/mlp_s42,9,pick up the orange juice and place it in the basket,ogg,6,5,0.8333333333333334
+night/mlp_s42,5,pick up the tomato sauce and place it in the basket,H20,6,6,1
+night/mlp_s42,0,pick up the alphabet soup and place it in the basket,lvm,6,5,0.8333333333333334
+night/mlp_s42,5,pick up the tomato sauce and place it in the basket,lvm,6,6,1
+night/mlp_s42,4,pick up the ketchup and place it in the basket,ogg,6,6,1
+night/mlp_s42,6,pick up the butter and place it in the basket,lvm,6,6,1
+night/mlp_s42,3,pick up the bbq sauce and place it in the basket,lvm,6,6,1
+night/mlp_s42,1,pick up the cream cheese and place it in the basket,H20,6,5,0.8333333333333334
+night/mlp_s42,3,pick up the bbq sauce and place it in the basket,ogg,6,6,1
+night/mlp_s42,5,pick up the tomato sauce and place it in the basket,ogg,6,6,1
+night/mlp_s42,8,pick up the chocolate pudding and place it in the basket,H50,6,6,1
+night/mlp_s42,4,pick up the ketchup and place it in the basket,H50,6,6,1
+night/mlp_s42,3,pick up the bbq sauce and place it in the basket,H50,6,6,1
+night/mlp_s42,0,pick up the alphabet soup and place it in the basket,H20,6,6,1
+night/mlp_s42,3,pick up the bbq sauce and place it in the basket,H20,6,6,1
+night/mlp_s42,2,pick up the salad dressing and place it in the basket,lvm,6,4,0.6666666666666666
+night/mlp_s42,2,pick up the salad dressing and place it in the basket,H50,6,2,0.3333333333333333
+night/mlp_s42,8,pick up the chocolate pudding and place it in the basket,H20,6,6,1
+night/mlp_s42,6,pick up the butter and place it in the basket,H20,6,6,1
+night/mlp_s42,4,pick up the ketchup and place it in the basket,lvm,6,6,1
+night/transformer-h1_s42,6,pick up the butter and place it in the basket,H50,6,6,1
+night/transformer-h1_s42,0,pick up the alphabet soup and place it in the basket,lvm,6,6,1
+night/transformer-h1_s42,9,pick up the orange juice and place it in the basket,H20,6,2,0.3333333333333333
+night/transformer-h1_s42,4,pick up the ketchup and place it in the basket,H20,6,6,1
+night/transformer-h1_s42,4,pick up the ketchup and place it in the basket,ogg,6,6,1
+night/transformer-h1_s42,7,pick up the milk and place it in the basket,ogg,6,5,0.8333333333333334
+night/transformer-h1_s42,2,pick up the salad dressing and place it in the basket,lvm,6,4,0.6666666666666666
+night/transformer-h1_s42,2,pick up the salad dressing and place it in the basket,H20,6,4,0.6666666666666666
+night/transformer-h1_s42,7,pick up the milk and place it in the basket,H20,6,4,0.6666666666666666
+night/transformer-h1_s42,9,pick up the orange juice and place it in the basket,ogg,6,5,0.8333333333333334
+night/transformer-h1_s42,9,pick up the orange juice and place it in the basket,lvm,6,5,0.8333333333333334
+night/transformer-h1_s42,5,pick up the tomato sauce and place it in the basket,H50,6,4,0.6666666666666666
+night/transformer-h1_s42,9,pick up the orange juice and place it in the basket,H50,6,3,0.5
+night/transformer-h1_s42,0,pick up the alphabet soup and place it in the basket,H50,6,5,0.8333333333333334
+night/transformer-h1_s42,8,pick up the chocolate pudding and place it in the basket,ogg,6,6,1
+night/transformer-h1_s42,1,pick up the cream cheese and place it in the basket,H50,6,2,0.3333333333333333
+night/transformer-h1_s42,7,pick up the milk and place it in the basket,H50,6,4,0.6666666666666666
+night/transformer-h1_s42,8,pick up the chocolate pudding and place it in the basket,lvm,6,6,1
+night/transformer-h1_s42,3,pick up the bbq sauce and place it in the basket,ogg,6,6,1
+night/transformer-h1_s42,5,pick up the tomato sauce and place it in the basket,H20,6,6,1
+night/transformer-h1_s42,6,pick up the butter and place it in the basket,ogg,6,6,1
+night/transformer-h1_s42,2,pick up the salad dressing and place it in the basket,ogg,6,4,0.6666666666666666
+night/transformer-h1_s42,1,pick up the cream cheese and place it in the basket,H20,6,5,0.8333333333333334
+night/transformer-h1_s42,5,pick up the tomato sauce and place it in the basket,lvm,6,6,1
+night/transformer-h1_s42,7,pick up the milk and place it in the basket,lvm,6,5,0.8333333333333334
+night/transformer-h1_s42,5,pick up the tomato sauce and place it in the basket,ogg,6,6,1
+night/transformer-h1_s42,0,pick up the alphabet soup and place it in the basket,ogg,6,6,1
+night/transformer-h1_s42,1,pick up the cream cheese and place it in the basket,ogg,6,5,0.8333333333333334
+night/transformer-h1_s42,1,pick up the cream cheese and place it in the basket,lvm,6,5,0.8333333333333334
+night/transformer-h1_s42,3,pick up the bbq sauce and place it in the basket,lvm,6,6,1
+night/transformer-h1_s42,8,pick up the chocolate pudding and place it in the basket,H50,6,6,1
+night/transformer-h1_s42,4,pick up the ketchup and place it in the basket,lvm,6,6,1
+night/transformer-h1_s42,4,pick up the ketchup and place it in the basket,H50,6,6,1
+night/transformer-h1_s42,3,pick up the bbq sauce and place it in the basket,H50,6,6,1
+night/transformer-h1_s42,0,pick up the alphabet soup and place it in the basket,H20,6,6,1
+night/transformer-h1_s42,3,pick up the bbq sauce and place it in the basket,H20,6,6,1
+night/transformer-h1_s42,6,pick up the butter and place it in the basket,lvm,6,6,1
+night/transformer-h1_s42,2,pick up the salad dressing and place it in the basket,H50,6,2,0.3333333333333333
+night/transformer-h1_s42,8,pick up the chocolate pudding and place it in the basket,H20,6,6,1
+night/transformer-h1_s42,6,pick up the butter and place it in the basket,H20,6,6,1
+night/transformer-h3_s42,6,pick up the butter and place it in the basket,H50,6,6,1
+night/transformer-h3_s42,8,pick up the chocolate pudding and place it in the basket,ogg,6,6,1
+night/transformer-h3_s42,0,pick up the alphabet soup and place it in the basket,ogg,6,6,1
+night/transformer-h3_s42,1,pick up the cream cheese and place it in the basket,ogg,6,6,1
+night/transformer-h3_s42,9,pick up the orange juice and place it in the basket,H20,6,2,0.3333333333333333
+night/transformer-h3_s42,9,pick up the orange juice and place it in the basket,lvm,6,6,1
+night/transformer-h3_s42,4,pick up the ketchup and place it in the basket,H20,6,6,1
+night/transformer-h3_s42,4,pick up the ketchup and place it in the basket,lvm,6,6,1
+night/transformer-h3_s42,3,pick up the bbq sauce and place it in the basket,lvm,6,6,1
+night/transformer-h3_s42,0,pick up the alphabet soup and place it in the basket,lvm,6,6,1
+night/transformer-h3_s42,2,pick up the salad dressing and place it in the basket,H20,6,4,0.6666666666666666
+night/transformer-h3_s42,7,pick up the milk and place it in the basket,H20,6,4,0.6666666666666666
+night/transformer-h3_s42,4,pick up the ketchup and place it in the basket,ogg,6,6,1
+night/transformer-h3_s42,9,pick up the orange juice and place it in the basket,ogg,6,6,1
+night/transformer-h3_s42,5,pick up the tomato sauce and place it in the basket,H50,6,4,0.6666666666666666
+night/transformer-h3_s42,9,pick up the orange juice and place it in the basket,H50,6,3,0.5
+night/transformer-h3_s42,0,pick up the alphabet soup and place it in the basket,H50,6,5,0.8333333333333334
+night/transformer-h3_s42,1,pick up the cream cheese and place it in the basket,H50,6,2,0.3333333333333333
+night/transformer-h3_s42,5,pick up the tomato sauce and place it in the basket,lvm,6,5,0.8333333333333334
+night/transformer-h3_s42,7,pick up the milk and place it in the basket,H50,6,4,0.6666666666666666
+night/transformer-h3_s42,6,pick up the butter and place it in the basket,ogg,6,6,1
+night/transformer-h3_s42,5,pick up the tomato sauce and place it in the basket,H20,6,6,1
+night/transformer-h3_s42,8,pick up the chocolate pudding and place it in the basket,lvm,6,6,1
+night/transformer-h3_s42,6,pick up the butter and place it in the basket,lvm,6,6,1
+night/transformer-h3_s42,1,pick up the cream cheese and place it in the basket,lvm,6,6,1
+night/transformer-h3_s42,2,pick up the salad dressing and place it in the basket,ogg,6,4,0.6666666666666666
+night/transformer-h3_s42,1,pick up the cream cheese and place it in the basket,H20,6,5,0.8333333333333334
+night/transformer-h3_s42,5,pick up the tomato sauce and place it in the basket,ogg,6,5,0.8333333333333334
+night/transformer-h3_s42,8,pick up the chocolate pudding and place it in the basket,H50,6,6,1
+night/transformer-h3_s42,4,pick up the ketchup and place it in the basket,H50,6,6,1
+night/transformer-h3_s42,3,pick up the bbq sauce and place it in the basket,H50,6,6,1
+night/transformer-h3_s42,0,pick up the alphabet soup and place it in the basket,H20,6,6,1
+night/transformer-h3_s42,2,pick up the salad dressing and place it in the basket,lvm,6,4,0.6666666666666666
+night/transformer-h3_s42,3,pick up the bbq sauce and place it in the basket,H20,6,6,1
+night/transformer-h3_s42,7,pick up the milk and place it in the basket,lvm,6,5,0.8333333333333334
+night/transformer-h3_s42,7,pick up the milk and place it in the basket,ogg,6,5,0.8333333333333334
+night/transformer-h3_s42,3,pick up the bbq sauce and place it in the basket,ogg,6,6,1
+night/transformer-h3_s42,2,pick up the salad dressing and place it in the basket,H50,6,2,0.3333333333333333
+night/transformer-h3_s42,8,pick up the chocolate pudding and place it in the basket,H20,6,6,1
+night/transformer-h3_s42,6,pick up the butter and place it in the basket,H20,6,6,1
+actions/transformer-a10-h1_s42,6,pick up the butter and place it in the basket,H50,6,6,1
+actions/transformer-a10-h1_s42,6,pick up the butter and place it in the basket,ogg,6,6,1
+actions/transformer-a10-h1_s42,6,pick up the butter and place it in the basket,lvm,6,6,1
+actions/transformer-a10-h1_s42,9,pick up the orange juice and place it in the basket,H20,6,2,0.3333333333333333
+actions/transformer-a10-h1_s42,4,pick up the ketchup and place it in the basket,H20,6,6,1
+actions/transformer-a10-h1_s42,4,pick up the ketchup and place it in the basket,ogg,6,6,1
+actions/transformer-a10-h1_s42,2,pick up the salad dressing and place it in the basket,ogg,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,2,pick up the salad dressing and place it in the basket,H20,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,7,pick up the milk and place it in the basket,H20,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,9,pick up the orange juice and place it in the basket,lvm,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,5,pick up the tomato sauce and place it in the basket,H50,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,9,pick up the orange juice and place it in the basket,H50,6,3,0.5
+actions/transformer-a10-h1_s42,7,pick up the milk and place it in the basket,ogg,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,0,pick up the alphabet soup and place it in the basket,H50,6,5,0.8333333333333334
+actions/transformer-a10-h1_s42,1,pick up the cream cheese and place it in the basket,H50,6,2,0.3333333333333333
+actions/transformer-a10-h1_s42,7,pick up the milk and place it in the basket,H50,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,3,pick up the bbq sauce and place it in the basket,lvm,6,6,1
+actions/transformer-a10-h1_s42,8,pick up the chocolate pudding and place it in the basket,ogg,6,6,1
+actions/transformer-a10-h1_s42,4,pick up the ketchup and place it in the basket,lvm,6,6,1
+actions/transformer-a10-h1_s42,5,pick up the tomato sauce and place it in the basket,H20,6,6,1
+actions/transformer-a10-h1_s42,5,pick up the tomato sauce and place it in the basket,lvm,6,5,0.8333333333333334
+actions/transformer-a10-h1_s42,0,pick up the alphabet soup and place it in the basket,lvm,6,5,0.8333333333333334
+actions/transformer-a10-h1_s42,0,pick up the alphabet soup and place it in the basket,ogg,6,5,0.8333333333333334
+actions/transformer-a10-h1_s42,5,pick up the tomato sauce and place it in the basket,ogg,6,5,0.8333333333333334
+actions/transformer-a10-h1_s42,2,pick up the salad dressing and place it in the basket,lvm,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,1,pick up the cream cheese and place it in the basket,H20,6,5,0.8333333333333334
+actions/transformer-a10-h1_s42,1,pick up the cream cheese and place it in the basket,lvm,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,8,pick up the chocolate pudding and place it in the basket,H50,6,6,1
+actions/transformer-a10-h1_s42,4,pick up the ketchup and place it in the basket,H50,6,6,1
+actions/transformer-a10-h1_s42,3,pick up the bbq sauce and place it in the basket,H50,6,6,1
+actions/transformer-a10-h1_s42,0,pick up the alphabet soup and place it in the basket,H20,6,6,1
+actions/transformer-a10-h1_s42,3,pick up the bbq sauce and place it in the basket,ogg,6,6,1
+actions/transformer-a10-h1_s42,3,pick up the bbq sauce and place it in the basket,H20,6,6,1
+actions/transformer-a10-h1_s42,2,pick up the salad dressing and place it in the basket,H50,6,2,0.3333333333333333
+actions/transformer-a10-h1_s42,8,pick up the chocolate pudding and place it in the basket,H20,6,6,1
+actions/transformer-a10-h1_s42,1,pick up the cream cheese and place it in the basket,ogg,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,7,pick up the milk and place it in the basket,lvm,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,9,pick up the orange juice and place it in the basket,ogg,6,4,0.6666666666666666
+actions/transformer-a10-h1_s42,8,pick up the chocolate pudding and place it in the basket,lvm,6,6,1
+actions/transformer-a10-h1_s42,6,pick up the butter and place it in the basket,H20,6,6,1
+actions/transformer-a10-h3_s42,6,pick up the butter and place it in the basket,H50,6,6,1
+actions/transformer-a10-h3_s42,7,pick up the milk and place it in the basket,lvm,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,9,pick up the orange juice and place it in the basket,lvm,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,9,pick up the orange juice and place it in the basket,H20,6,2,0.3333333333333333
+actions/transformer-a10-h3_s42,2,pick up the salad dressing and place it in the basket,lvm,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,1,pick up the cream cheese and place it in the basket,ogg,6,5,0.8333333333333334
+actions/transformer-a10-h3_s42,4,pick up the ketchup and place it in the basket,H20,6,6,1
+actions/transformer-a10-h3_s42,8,pick up the chocolate pudding and place it in the basket,ogg,6,6,1
+actions/transformer-a10-h3_s42,0,pick up the alphabet soup and place it in the basket,lvm,6,5,0.8333333333333334
+actions/transformer-a10-h3_s42,1,pick up the cream cheese and place it in the basket,lvm,6,5,0.8333333333333334
+actions/transformer-a10-h3_s42,6,pick up the butter and place it in the basket,lvm,6,6,1
+actions/transformer-a10-h3_s42,2,pick up the salad dressing and place it in the basket,H20,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,7,pick up the milk and place it in the basket,H20,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,5,pick up the tomato sauce and place it in the basket,H50,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,9,pick up the orange juice and place it in the basket,H50,6,3,0.5
+actions/transformer-a10-h3_s42,0,pick up the alphabet soup and place it in the basket,H50,6,5,0.8333333333333334
+actions/transformer-a10-h3_s42,1,pick up the cream cheese and place it in the basket,H50,6,2,0.3333333333333333
+actions/transformer-a10-h3_s42,9,pick up the orange juice and place it in the basket,ogg,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,7,pick up the milk and place it in the basket,H50,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,7,pick up the milk and place it in the basket,ogg,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,5,pick up the tomato sauce and place it in the basket,H20,6,6,1
+actions/transformer-a10-h3_s42,0,pick up the alphabet soup and place it in the basket,ogg,6,5,0.8333333333333334
+actions/transformer-a10-h3_s42,2,pick up the salad dressing and place it in the basket,ogg,6,4,0.6666666666666666
+actions/transformer-a10-h3_s42,1,pick up the cream cheese and place it in the basket,H20,6,5,0.8333333333333334
+actions/transformer-a10-h3_s42,4,pick up the ketchup and place it in the basket,ogg,6,6,1
+actions/transformer-a10-h3_s42,8,pick up the chocolate pudding and place it in the basket,H50,6,6,1
+actions/transformer-a10-h3_s42,4,pick up the ketchup and place it in the basket,H50,6,6,1
+actions/transformer-a10-h3_s42,6,pick up the butter and place it in the basket,ogg,6,6,1
+actions/transformer-a10-h3_s42,3,pick up the bbq sauce and place it in the basket,H50,6,6,1
+actions/transformer-a10-h3_s42,0,pick up the alphabet soup and place it in the basket,H20,6,6,1
+actions/transformer-a10-h3_s42,3,pick up the bbq sauce and place it in the basket,H20,6,6,1
+actions/transformer-a10-h3_s42,5,pick up the tomato sauce and place it in the basket,ogg,6,5,0.8333333333333334
+actions/transformer-a10-h3_s42,3,pick up the bbq sauce and place it in the basket,lvm,6,6,1
+actions/transformer-a10-h3_s42,2,pick up the salad dressing and place it in the basket,H50,6,2,0.3333333333333333
+actions/transformer-a10-h3_s42,8,pick up the chocolate pudding and place it in the basket,H20,6,6,1
+actions/transformer-a10-h3_s42,3,pick up the bbq sauce and place it in the basket,ogg,6,6,1
+actions/transformer-a10-h3_s42,4,pick up the ketchup and place it in the basket,lvm,6,6,1
+actions/transformer-a10-h3_s42,5,pick up the tomato sauce and place it in the basket,lvm,6,5,0.8333333333333334
+actions/transformer-a10-h3_s42,8,pick up the chocolate pudding and place it in the basket,lvm,6,6,1
+actions/transformer-a10-h3_s42,6,pick up the butter and place it in the basket,H20,6,6,1

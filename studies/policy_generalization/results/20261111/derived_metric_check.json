@@ -1,0 +1,10 @@
+{
+  "scope": "Numerical identity check on first32 real frozen validation rows per model report",
+  "checked_rows": 480,
+  "flat_feature_dimensions": [
+    122880
+  ],
+  "max_absolute_mse_reconstruction_error": 4.200513854080157e-06,
+  "mean_absolute_error": 1.1229495324551383e-06,
+  "online_caveat": "Norm/cos reconstruction does not equal matched-state causal comparison"
+}

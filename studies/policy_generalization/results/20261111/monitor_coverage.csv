@@ -1,0 +1,11 @@
+cohort,variant,method,eligible_steps,scored_steps,coverage,skips,cancellations,max_gap_seconds,mean_max_gap_seconds
+night/mlp_s42,mlp,lvm,7585,7585,1.0,0,0,0.0,0.0
+night/mlp_s42,mlp,ogg,7578,7578,1.0,0,0,0.0,0.0
+night/transformer-h1_s42,transformer-h1,lvm,7674,7674,1.0,0,0,0.0,0.0
+night/transformer-h1_s42,transformer-h1,ogg,7713,7713,1.0,0,0,0.0,0.0
+night/transformer-h3_s42,transformer-h3,lvm,7554,7554,1.0,0,0,0.0,0.0
+night/transformer-h3_s42,transformer-h3,ogg,7582,7582,1.0,0,0,0.0,0.0
+actions/transformer-a10-h1_s42,transformer-a10-h1,lvm,8260,4862,0.5886198547215497,2603,1096,0.95,0.95
+actions/transformer-a10-h1_s42,transformer-a10-h1,ogg,8256,4873,0.5902374031007752,2581,1116,0.95,0.95
+actions/transformer-a10-h3_s42,transformer-a10-h3,lvm,8131,4766,0.5861517648505719,2525,1155,0.95,0.95
+actions/transformer-a10-h3_s42,transformer-a10-h3,ogg,8131,4787,0.5887344730045505,2559,1107,0.95,0.95

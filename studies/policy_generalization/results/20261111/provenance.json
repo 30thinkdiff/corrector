@@ -1,0 +1,200 @@
+{
+  "source": "read-only user-authenticated SSH stream from the two user-specified AutoDL roots",
+  "source_export_utc": "2026-11-11T07:58:43.434673+00:00",
+  "bundle_sha256": "425a22e6d2ebbdf9c611eef8d78b9e58ae70da7de7c2957b9858b19662293c8e",
+  "export_format": 1,
+  "verified_payload_members": 3375,
+  "payload_bytes": 63715632,
+  "roots": {
+    "night": "/root/autodl-tmp/corrector/object10/night_20261109_001",
+    "actions": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001"
+  },
+  "export_warnings": [],
+  "analysis_script_sha256": "1d9a8d8696689ee1850afd36dcd7bbc505852a0373c743053571787245597f6e",
+  "analysis_script": "scripts/corrector_results_analysis.py",
+  "formal_evaluation_protocols": [
+    {
+      "policy_id": "lerobot/smolvla_libero",
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "lerobot_revision": "7e241bd630a3719a56157a497ce5d08f244784f1",
+      "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+      "runtime": {
+        "torch": "2.11.0+cu128",
+        "cuda_build": "12.8",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "lerobot": "0.6.1",
+        "transformers": "5.5.4",
+        "mujoco": "3.7.0",
+        "robosuite": "1.4.1"
+      },
+      "fps": 20,
+      "corrector_settings": {
+        "stride": 1,
+        "eta": 1.0,
+        "guidance_every": 3,
+        "cooldown": 0,
+        "force_step": -1,
+        "control_implementation": "reference"
+      },
+      "retention": {
+        "video": "failures",
+        "audit": "failures",
+        "trace": "all"
+      },
+      "evaluation_entry_sha256": "18a4844cbdceb28e674d3ef5b18cb9f8df24136b2e3b92d39d8d7450cb0a984c",
+      "runtime_source_sha256": "32a6daa67254f6e587e43df0f5c42a0cc83e29fa17854dbab874715f8ae70a5a",
+      "model_api_source_sha256": "811386798aa491d8c0b43c08cd400bf00f397ad380484693689a1912976c4201",
+      "learner_core_sha256": "5c076c017b086254ec63c3aa8089063d8fbae5840c01c3240f7a57afce99198f"
+    },
+    {
+      "policy_id": "lerobot/smolvla_libero",
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "lerobot_revision": "7e241bd630a3719a56157a497ce5d08f244784f1",
+      "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+      "runtime": {
+        "torch": "2.11.0+cu128",
+        "cuda_build": "12.8",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "lerobot": "0.6.1",
+        "transformers": "5.5.4",
+        "mujoco": "3.7.0",
+        "robosuite": "1.4.1"
+      },
+      "fps": 20,
+      "corrector_settings": {
+        "stride": 1,
+        "eta": 1.0,
+        "guidance_every": 3,
+        "cooldown": 0,
+        "force_step": -1,
+        "control_implementation": "reference"
+      },
+      "retention": {
+        "video": "failures",
+        "audit": "failures",
+        "trace": "all"
+      },
+      "evaluation_entry_sha256": "18a4844cbdceb28e674d3ef5b18cb9f8df24136b2e3b92d39d8d7450cb0a984c",
+      "runtime_source_sha256": "32a6daa67254f6e587e43df0f5c42a0cc83e29fa17854dbab874715f8ae70a5a",
+      "model_api_source_sha256": "811386798aa491d8c0b43c08cd400bf00f397ad380484693689a1912976c4201",
+      "learner_core_sha256": "5c076c017b086254ec63c3aa8089063d8fbae5840c01c3240f7a57afce99198f"
+    },
+    {
+      "policy_id": "lerobot/smolvla_libero",
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "lerobot_revision": "7e241bd630a3719a56157a497ce5d08f244784f1",
+      "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+      "runtime": {
+        "torch": "2.11.0+cu128",
+        "cuda_build": "12.8",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "lerobot": "0.6.1",
+        "transformers": "5.5.4",
+        "mujoco": "3.7.0",
+        "robosuite": "1.4.1"
+      },
+      "fps": 20,
+      "corrector_settings": {
+        "stride": 1,
+        "eta": 1.0,
+        "guidance_every": 3,
+        "cooldown": 0,
+        "force_step": -1,
+        "control_implementation": "reference"
+      },
+      "retention": {
+        "video": "failures",
+        "audit": "failures",
+        "trace": "all"
+      },
+      "evaluation_entry_sha256": "18a4844cbdceb28e674d3ef5b18cb9f8df24136b2e3b92d39d8d7450cb0a984c",
+      "runtime_source_sha256": "32a6daa67254f6e587e43df0f5c42a0cc83e29fa17854dbab874715f8ae70a5a",
+      "model_api_source_sha256": "811386798aa491d8c0b43c08cd400bf00f397ad380484693689a1912976c4201",
+      "learner_core_sha256": "5c076c017b086254ec63c3aa8089063d8fbae5840c01c3240f7a57afce99198f"
+    },
+    {
+      "policy_id": "lerobot/smolvla_libero",
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "lerobot_revision": "7e241bd630a3719a56157a497ce5d08f244784f1",
+      "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+      "runtime": {
+        "torch": "2.11.0+cu128",
+        "cuda_build": "12.8",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "lerobot": "0.6.1",
+        "transformers": "5.5.4",
+        "mujoco": "3.7.0",
+        "robosuite": "1.4.1"
+      },
+      "fps": 20,
+      "corrector_settings": {
+        "stride": 1,
+        "eta": 1.0,
+        "guidance_every": 3,
+        "cooldown": 0,
+        "force_step": -1,
+        "control_implementation": "reference"
+      },
+      "retention": {
+        "video": "failures",
+        "audit": "failures",
+        "trace": "all"
+      },
+      "evaluation_entry_sha256": "ab26ae3ba25854b4966d209ece43f3edc5e94409bc644ff4826ecdf943f0e895",
+      "runtime_source_sha256": "71549a22d96e6b559ac0a256cf523cf98f8d4bfbcd5fd9535be1c7aeb23f0118",
+      "model_api_source_sha256": "fa491d421b581425320279403a8d7dcbb970d8a0a3a2d32b4ab674a0ae2db168",
+      "learner_core_sha256": "5c076c017b086254ec63c3aa8089063d8fbae5840c01c3240f7a57afce99198f"
+    },
+    {
+      "policy_id": "lerobot/smolvla_libero",
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "lerobot_revision": "7e241bd630a3719a56157a497ce5d08f244784f1",
+      "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+      "runtime": {
+        "torch": "2.11.0+cu128",
+        "cuda_build": "12.8",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "lerobot": "0.6.1",
+        "transformers": "5.5.4",
+        "mujoco": "3.7.0",
+        "robosuite": "1.4.1"
+      },
+      "fps": 20,
+      "corrector_settings": {
+        "stride": 1,
+        "eta": 1.0,
+        "guidance_every": 3,
+        "cooldown": 0,
+        "force_step": -1,
+        "control_implementation": "reference"
+      },
+      "retention": {
+        "video": "failures",
+        "audit": "failures",
+        "trace": "all"
+      },
+      "evaluation_entry_sha256": "ab26ae3ba25854b4966d209ece43f3edc5e94409bc644ff4826ecdf943f0e895",
+      "runtime_source_sha256": "71549a22d96e6b559ac0a256cf523cf98f8d4bfbcd5fd9535be1c7aeb23f0118",
+      "model_api_source_sha256": "fa491d421b581425320279403a8d7dcbb970d8a0a3a2d32b4ab674a0ae2db168",
+      "learner_core_sha256": "5c076c017b086254ec63c3aa8089063d8fbae5840c01c3240f7a57afce99198f"
+    }
+  ],
+  "checks": [
+    "payload member SHA/CRC",
+    "all 15 best weight hashes computed remotely and matched to JOB_COMPLETE + reports",
+    "saved train/validation index arrays hashed and checked disjoint",
+    "best epoch vs minimum recorded validation loss",
+    "reloaded validation MSE vs report",
+    "planned/completed trial counts and exact case identity",
+    "horizon/history settings",
+    "trace guidance counts",
+    "paired baseline outcomes across all five cohorts"
+  ],
+  "not_checked": [
+    "raw model tensors loaded locally",
+    "video content or content SHA rehash",
+    "initial-state/first-noise tensor equivalence",
+    "original physical acquisition clock",
+    "additional guardian evaluations outside the two result roots"
+  ]
+}

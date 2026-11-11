@@ -1,0 +1,105 @@
+{
+  "evidence_origin": "User-pasted remote execution.json and analysis/overall.csv; raw remote artifacts not yet retrieved",
+  "scope": "Interim progress only; same Object10 best checkpoint, first 135 of 300 paired trials; not final benchmark",
+  "checkpoint_sha256": "ac82257d743645b745f85846ccea236c869dcc5440171f7d289f33b472bf1ba3",
+  "execution": {
+    "status": "running",
+    "started_utc": "2026-11-09T11:20:58.852087+00:00",
+    "started_asia_shanghai": "2026-11-09T19:20:58.852087+08:00",
+    "max_seconds": 7069.8874549064785,
+    "wall_seconds": 1418.7346366979182,
+    "planned": 300,
+    "completed": 135,
+    "errors": 0
+  },
+  "method_semantics": {
+    "H50": "fixed 50-action execution prefix; no Corrector",
+    "H20": "fixed 20-action execution prefix; no Corrector",
+    "monitor": "predictor + LVM scores/thresholds, passive recording only; no interruption or OGG",
+    "lvm": "predictor + LVM detection + interruption + ordinary replan; no OGG",
+    "ogg": "predictor + LVM detection + interruption + OGG-guided recovery; full functional Corrector adaptation, synchronous monitor"
+  },
+  "overall_by_method": [
+    {
+      "method": "H20",
+      "planned": 60,
+      "completed": 27,
+      "successes": 24,
+      "errors": 0,
+      "success_rate": 0.8888888888888888,
+      "mean_env_steps": 146.55555555555554,
+      "mean_chunk_calls": 7.666666666666667,
+      "mean_policy_s": 1.6362433096186981,
+      "mean_monitor_s": 0.0,
+      "mean_event_replans": 0.0,
+      "mean_guidance_calls": 0.0,
+      "mean_episode_wall_s": 8.212616862453244
+    },
+    {
+      "method": "H50",
+      "planned": 60,
+      "completed": 27,
+      "successes": 18,
+      "errors": 0,
+      "success_rate": 0.6666666666666666,
+      "mean_env_steps": 178.85185185185185,
+      "mean_chunk_calls": 4.0,
+      "mean_policy_s": 0.8676990134710515,
+      "mean_monitor_s": 0.0,
+      "mean_event_replans": 0.0,
+      "mean_guidance_calls": 0.0,
+      "mean_episode_wall_s": 8.962510475336954
+    },
+    {
+      "method": "lvm",
+      "planned": 60,
+      "completed": 27,
+      "successes": 23,
+      "errors": 0,
+      "success_rate": 0.8518518518518519,
+      "mean_env_steps": 156.03703703703704,
+      "mean_chunk_calls": 5.2592592592592595,
+      "mean_policy_s": 1.263661866593692,
+      "mean_monitor_s": 3.3531597846498093,
+      "mean_event_replans": 2.4814814814814814,
+      "mean_guidance_calls": 0.0,
+      "mean_episode_wall_s": 11.635073880699498
+    },
+    {
+      "method": "monitor",
+      "planned": 60,
+      "completed": 27,
+      "successes": 18,
+      "errors": 0,
+      "success_rate": 0.6666666666666666,
+      "mean_env_steps": 178.85185185185185,
+      "mean_chunk_calls": 4.0,
+      "mean_policy_s": 0.9596482400127031,
+      "mean_monitor_s": 3.84351889623536,
+      "mean_event_replans": 0.0,
+      "mean_guidance_calls": 0.0,
+      "mean_episode_wall_s": 12.304172517317864
+    },
+    {
+      "method": "ogg",
+      "planned": 60,
+      "completed": 27,
+      "successes": 24,
+      "errors": 0,
+      "success_rate": 0.8888888888888888,
+      "mean_env_steps": 151.8148148148148,
+      "mean_chunk_calls": 5.148148148148148,
+      "mean_policy_s": 1.2886814611653488,
+      "mean_monitor_s": 3.2573856692071312,
+      "mean_event_replans": 2.5555555555555554,
+      "mean_guidance_calls": 10.222222222222221,
+      "mean_episode_wall_s": 11.391710043988294
+    }
+  ],
+  "limitations": [
+    "Same aggregate successes do not imply identical successful trials.",
+    "Task-ordered partial queue may change success rates as remaining tasks run.",
+    "Synchronous monitor and current OGG parameters do not reproduce all paper deployment details.",
+    "Wall time includes environment/rendering/export; lower chunk calls alone do not prove system speedup."
+  ]
+}

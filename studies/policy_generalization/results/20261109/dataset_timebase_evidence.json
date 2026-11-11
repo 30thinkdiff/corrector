@@ -1,0 +1,41 @@
+{
+  "scope": "declared dataset timebase and local cache sample checks; source collection/resampling lineage unverified",
+  "dataset_revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "dataset_card_url": "https://huggingface.co/datasets/HuggingFaceVLA/libero/blob/86958911c0f959db2bbbdb107eb3e17c5f9c798e/README.md",
+  "declared_data_fps": 10.0,
+  "training_k": 10,
+  "declared_prediction_seconds": 1.0,
+  "online_control_hz": 20,
+  "deployed_due_steps_from_code": 20,
+  "deployed_online_source_matches_local": true,
+  "remote_300_trial_temporal_audit": "received from user; 454 feature episodes and 300 completed trials checked, error_count=0; see temporal_audit_returned.json",
+  "source_physical_clock_verified": false,
+  "card_notes": "Dataset card describes LeRobot format and fps=10; does not document original acquisition control rate or resampling lineage.",
+  "local_samples": [
+    {
+      "episode": 813,
+      "median_timestamp_dt": 0.09999996423721313,
+      "k10_timestamp_dt_min": 0.9999995231628418,
+      "k10_timestamp_dt_max": 1.0000004768371582
+    },
+    {
+      "episode": 818,
+      "median_timestamp_dt": 0.09999999403953552,
+      "k10_timestamp_dt_min": 0.9999990463256836,
+      "k10_timestamp_dt_max": 1.0000009536743164
+    },
+    {
+      "episode": 825,
+      "median_timestamp_dt": 0.09999996423721313,
+      "k10_timestamp_dt_min": 0.9999995231628418,
+      "k10_timestamp_dt_max": 1.0000004768371582
+    }
+  ],
+  "warnings": [
+    "Dataset rate and simulator control rate differ intentionally; equality of k alone would be wrong.",
+    "Declared timestamps can be assigned by conversion and are not proof of original physical sampling.",
+    "If source was 20 Hz with every other frame retained, 10 Hz timebase is consistent; if only metadata was relabeled, it is not. No such source mapping has been proven here.",
+    "Changing simulator control frequency changes the control protocol; do not silently edit completed experiment settings."
+  ],
+  "downloaded_dataset_card_sha256": "b3387b5890017ce8cdea40168b56d611fb782bb1e2aed922d92f0e9ad4c963f7"
+}

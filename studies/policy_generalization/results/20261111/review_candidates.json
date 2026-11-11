@@ -1,0 +1,665 @@
+[
+  {
+    "cohort": "night/mlp_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_2/init_1",
+    "seed": 1001,
+    "outcomes": {
+      "ogg": true,
+      "H50": false,
+      "lvm": true,
+      "H20": true
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/7d1a5ccaec86e7e6c3de/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/mlp_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_1/init_0",
+    "seed": 1001,
+    "outcomes": {
+      "ogg": true,
+      "lvm": true,
+      "H20": true,
+      "H50": false
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/5b53ca4f9696d5bf057c/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/mlp_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_9/init_1",
+    "seed": 1001,
+    "outcomes": {
+      "lvm": true,
+      "H20": false,
+      "ogg": true,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/60c732896b7db7a823f3/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/f27ee408e137dda06b5d/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/mlp_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "ogg": false,
+      "lvm": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/02e9cba325f35e6d12b5/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/1a1620245337d59a8093/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/6827705048bf78b0cdb2/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/d3fdf4d13218b6bde7bb/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/mlp_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "ogg": false,
+      "lvm": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/0c85e982c7092903b107/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/4656bb6a83289110e4f7/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/69419fa11b6d48851a8d/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/7f4f23132a7212bc8422/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/mlp_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_2/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "lvm": false,
+      "H20": false,
+      "ogg": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/3f50fd83a436a29c4f47/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/724a3e3dd5fb8b63d434/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/89ddaae814ef16fbf0fd/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/mlp_s42/05d55ba9452142be/paired/attempts/b96d20940959cb75d9bb/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h1_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "ogg": true,
+      "H50": false,
+      "H20": true,
+      "lvm": true
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/0f1d957158e3bfb4e4f3/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h1_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "ogg": true,
+      "H20": false,
+      "H50": false,
+      "lvm": true
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/4c22351b5c321841ce63/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/dad484f9cdcb86f3896c/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h1_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_1/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "H50": false,
+      "lvm": true,
+      "ogg": true,
+      "H20": false
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/11c99a33eca115895f4d/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/dfe5b2ba9b25da911112/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h1_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "lvm": false,
+      "ogg": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/02e9cba325f35e6d12b5/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/35394cb667d4366a51af/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/4b092c1f2854d8b0fee1/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/d3fdf4d13218b6bde7bb/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h1_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "lvm": false,
+      "ogg": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/0c85e982c7092903b107/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/2a47c4a1baf3d4e57a90/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/445e9c1797cd5489e111/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/7f4f23132a7212bc8422/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h1_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_2/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "ogg": false,
+      "H50": false,
+      "H20": false,
+      "lvm": false
+    },
+    "failure_videos": {
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/1d946b187705093f2908/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/845690a7512048141634/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/95ed577fed3c15f7c595/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/attempts/d3b6e13f37c72e4657c5/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h3_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "lvm": true,
+      "ogg": true,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/02e9cba325f35e6d12b5/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/d3fdf4d13218b6bde7bb/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h3_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_0/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "lvm": true,
+      "H50": false,
+      "ogg": true,
+      "H20": true
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/5a9d8a3d368e07c1c2e5/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h3_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "H50": false,
+      "H20": true,
+      "ogg": true,
+      "lvm": true
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/0f1d957158e3bfb4e4f3/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h3_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "lvm": false,
+      "H50": false,
+      "ogg": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/0c85e982c7092903b107/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/54cd3f7fef137cd18a41/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/7f4f23132a7212bc8422/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/eaafcd8242333ef9743d/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h3_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_2/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "lvm": false,
+      "ogg": false,
+      "H20": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/3d121c672eee83aee8db/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/403119bba7ac3fb4982b/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/724a3e3dd5fb8b63d434/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/b96d20940959cb75d9bb/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "night/transformer-h3_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_2/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "ogg": false,
+      "lvm": false,
+      "H50": false,
+      "H20": false
+    },
+    "failure_videos": {
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/3d8ed9828591ac175207/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/59bfeab85c2a399da1cd/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/845690a7512048141634/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/night_20261109_001/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/attempts/95ed577fed3c15f7c595/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h1_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "H50": false,
+      "H20": true,
+      "lvm": true,
+      "ogg": true
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/0f1d957158e3bfb4e4f3/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h1_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_1/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "H50": false,
+      "lvm": true,
+      "ogg": true,
+      "H20": false
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/11c99a33eca115895f4d/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/dfe5b2ba9b25da911112/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h1_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_5/init_0",
+    "seed": 1000,
+    "outcomes": {
+      "lvm": true,
+      "H50": false,
+      "ogg": true,
+      "H20": true
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/228b9360277d20acd90c/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h1_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "lvm": false,
+      "ogg": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/02e9cba325f35e6d12b5/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/2513e78bfa427a4ea736/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/ac3a53b895da9b0c6f59/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/d3fdf4d13218b6bde7bb/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h1_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "ogg": false,
+      "lvm": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/0c85e982c7092903b107/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/47729285e8bd2224c59b/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/536d7e254539f756a070/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/7f4f23132a7212bc8422/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h1_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "H20": false,
+      "ogg": false,
+      "lvm": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/4c22351b5c321841ce63/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/51914d5342d7f227ccd4/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/8e13f8b201c3b7e3ffe5/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/attempts/dad484f9cdcb86f3896c/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h3_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_1/init_0",
+    "seed": 1001,
+    "outcomes": {
+      "ogg": true,
+      "H20": true,
+      "H50": false,
+      "lvm": true
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/5b53ca4f9696d5bf057c/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h3_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_1/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "lvm": true,
+      "H50": false,
+      "ogg": true,
+      "H20": false
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/11c99a33eca115895f4d/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/dfe5b2ba9b25da911112/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h3_s42",
+    "category": "ogg_rescue_H50",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "H50": false,
+      "H20": true,
+      "ogg": true,
+      "lvm": true
+    },
+    "failure_videos": {
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/0f1d957158e3bfb4e4f3/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h3_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_9/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "lvm": false,
+      "ogg": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/02e9cba325f35e6d12b5/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/9107e9daa5395341b601/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/c61f717fa7a0cfe6e769/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/d3fdf4d13218b6bde7bb/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h3_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_2/init_2",
+    "seed": 1001,
+    "outcomes": {
+      "lvm": false,
+      "ogg": false,
+      "H50": false,
+      "H20": false
+    },
+    "failure_videos": {
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/0371cbdf9ff471fb2582/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/238bb595414f35246d85/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/845690a7512048141634/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/95ed577fed3c15f7c595/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  },
+  {
+    "cohort": "actions/transformer-a10-h3_s42",
+    "category": "all_methods_failed",
+    "condition": "libero_object/task_7/init_2",
+    "seed": 1000,
+    "outcomes": {
+      "H20": false,
+      "ogg": false,
+      "lvm": false,
+      "H50": false
+    },
+    "failure_videos": {
+      "H20": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/0c85e982c7092903b107/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "ogg": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/1914a1745c53cafff64d/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "lvm": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/6f8488511a31fd5f2ad9/attempt_001/videos/eval_episode_0.mp4"
+      ],
+      "H50": [
+        "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/attempts/7f4f23132a7212bc8422/attempt_001/videos/eval_episode_0.mp4"
+      ]
+    }
+  }
+]

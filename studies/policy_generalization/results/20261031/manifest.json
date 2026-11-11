@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "published_date": "2026-11-01",
+  "actual_trials": 30,
+  "unique_noise_seeds_per_camera": 3,
+  "original_heldout_files_recovered": 151,
+  "source_summaries": [
+    {
+      "stage": "selection_50_vs_10",
+      "logical_input": "outputs/smolvla_replan_20261031_001/analysis/replanning_summary.csv",
+      "input_sha256": "2dc23a1beb5d501267d940dc7f1b301b22f1d205c259a356e09658e84f59a023",
+      "included_trials": 12
+    },
+    {
+      "stage": "budget_20",
+      "logical_input": "outputs/smolvla_replan_budget_20261031_001/analysis/notebook_budget_summary.csv",
+      "input_sha256": "902d938a56fbc70b57773a890e4bd3add9bdb9e9acd975f1072155ac6b0a6eea",
+      "included_trials": 6
+    },
+    {
+      "stage": "heldout_50_vs_20",
+      "logical_input": "outputs/smolvla_heldout_camera_20261031_001/analysis/heldout_summary_6pairs.csv",
+      "input_sha256": "93bbc4dac3914a386825324f9abb0f85ff9f6eb062a885ed9f1dbdbc44a52187",
+      "included_trials": 12
+    }
+  ],
+  "scope": "same task and physical reset; selected and held-out cameras reported separately",
+  "privacy": "Only numerical summaries/configuration and plots; no raw logs, videos, tensors, private cloud links or notebook identity metadata.",
+  "files": {
+    "heldout_first6s.png": "7f4ca0e21138662dd94aa3d92996f6afd6b3fdbf2c7aeabfe0966b041d1a1132",
+    "heldout_protocol.json": "f726d47b5a98ec3c271ec8b37e05d42add4372dbdb8da70215b6b9e5e2d7c4c8",
+    "execution_window_trials.csv": "dc2fc007be892112cea327ce95d74488c6bdc5ef8cfabd60be11159c00afd1ad",
+    "replanning_overview.png": "9b5b3efb98f83342b07f2fe17634ceeb6fd6b0f52220c565275bcd17bd362671",
+    "event_candidates.json": "36a5381c17ffbd58e8d25d39b3bd5758432664dfc396d03c0f3a20698a24a37c"
+  }
+}

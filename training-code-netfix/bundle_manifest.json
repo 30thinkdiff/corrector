@@ -1,0 +1,23 @@
+{
+  "format": 1,
+  "scope": "current source snapshot, no model or credentials",
+  "files": {
+    "smolvla_training_workbench.py": "bce2e5c77ebec1070008f28d163e0ab02fa4c98db6122a0fc2b8f1befe44e250",
+    "corrector_data_workbench.py": "fd990da64e02814ab3f3710a0cf9fa4d6e948dec5f56b84398d1195c9085ae4b",
+    "smolvla_libero_tools.py": "43d8c17b7242339d8456823ed3c47b8bb0eebd9445d2d960d3a67a24404039f4",
+    "smolvla_baseline_benchmark.py": "a20d113324228b8de1625eeb6df9dc6835863d632d98ef4e95d0dbf4c72a9f3b",
+    "batch_evaluation.py": "524c91972422a12282f457d40f43a5fa9b69bbeaf567b9fc27d2ea7cfa94bbf7",
+    "inspect_robot_datasets.py": "fe132976490704526d829de06171d25f52901d04165ae9f40e94a073890e448d",
+    "corrector_train.py": "a2cf4deb0bd8665bd1707b686195b576f083f63e64aa070be85b55ac3772b772",
+    "corrector_prediction_report.py": "fbfcb3018b3c0933f34baaa0e17f2dc9012140158fc93ca65d88bb110e1601c9",
+    "corrector_stream_workbench.py": "96bb9002d214060a4c3f719b38f8bc225776ef61c2db9872fe045fe61d139616",
+    "task24_manifest.json": "840e647863ba62350a964148dd3249b47ba26f61136120db9d3a9ec8eeb98071",
+    "corrector_online_runtime.py": "72a240aa5e8dcefd82520c343a067f3940ced248ba7f5ddb1f14b6072d8a0f37",
+    "corrector_online_practice.py": "5c076c017b086254ec63c3aa8089063d8fbae5840c01c3240f7a57afce99198f",
+    "corrector_closed_loop_eval.py": "1a2496489dea84f02d82993ca07cb8a45d8fdcc36b91f432a03fa4e775d68c45",
+    "corrector_autodl.py": "0b5406369d10211e7651d577b1d9be7fb28801ad9596c769e139a57389efa2ab",
+    "START_HERE.txt": "cf6b90c38d83c7533985923bef8a7e79a46aa9cbb466810c3c6d7af92f752500",
+    "object10_manifest.json": "61c9f63f16553ae2f81d57478fdeeaccc8cb653223da9931705102c935d4acb9",
+    "START_TRAINING.txt": "7875a076eb22d4fd95e8aa01961fb57300a10de00b6bf6de6bb40cfebfec313f"
+  }
+}

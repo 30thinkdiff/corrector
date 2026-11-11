@@ -1,0 +1,41 @@
+{
+  "evidence_origin": "user-pasted remote night sweep status and epochs14/15 training log",
+  "run": "night_20261109_001/runs/transformer-h1_s42",
+  "status": "running snapshot, not final training result",
+  "model_type": "transformer",
+  "h_window": 1,
+  "parameters": 37316544,
+  "precision": "amp-bfloat16",
+  "pairs": {
+    "train": 49447,
+    "validation": 12089
+  },
+  "probe": {
+    "batch_size": 8,
+    "grad_norm": 2.0485713481903076,
+    "seconds": 0.5949196666479111,
+    "peak_cuda_gib": 0.7307381629943848,
+    "ogg_gradient_checked": true
+  },
+  "epochs": [
+    {
+      "epoch": 14,
+      "step": 1358,
+      "train_loss": 3.854336420093882,
+      "validation_loss": 4.76078661946172,
+      "validation_mse": 4.534398867165108,
+      "validation_cosine_loss": 0.2263877533813181,
+      "seconds": 263.6680178511888
+    },
+    {
+      "epoch": 15,
+      "step": 1455,
+      "train_loss": 3.7393064804018517,
+      "validation_loss": 4.698084208261031,
+      "validation_mse": 4.4751199290300585,
+      "validation_cosine_loss": 0.22296427906333627,
+      "seconds": 262.7625160738826
+    }
+  ],
+  "scope": "same-cache development validation; no completed Transformer success-rate claim"
+}

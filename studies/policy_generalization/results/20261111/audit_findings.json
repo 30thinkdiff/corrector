@@ -1,0 +1,22 @@
+[
+  {
+    "severity": "warning",
+    "code": "monitor_coverage_loss",
+    "message": "actions/transformer-a10-h1_s42 lvm 58.86% after warmup"
+  },
+  {
+    "severity": "warning",
+    "code": "monitor_coverage_loss",
+    "message": "actions/transformer-a10-h1_s42 ogg 59.02% after warmup"
+  },
+  {
+    "severity": "warning",
+    "code": "monitor_coverage_loss",
+    "message": "actions/transformer-a10-h3_s42 lvm 58.62% after warmup"
+  },
+  {
+    "severity": "warning",
+    "code": "monitor_coverage_loss",
+    "message": "actions/transformer-a10-h3_s42 ogg 58.87% after warmup"
+  }
+]

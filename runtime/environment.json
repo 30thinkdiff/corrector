@@ -1,0 +1,16 @@
+{
+  "profile": "gpu",
+  "python": "/root/autodl-tmp/corrector/runtime/venv/bin/python",
+  "torch_source": "/root/autodl-tmp/corrector/runtime/torch-runtime-2.11-cu128/lib/python3.12/site-packages",
+  "lerobot_revision": "7e241bd630a3719a56157a497ce5d08f244784f1",
+  "assets_ready": false,
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 4090",
+    "memory_GiB": 23.5184326171875,
+    "capability": [
+      8,
+      9
+    ],
+    "torch_cuda": "12.8"
+  }
+}

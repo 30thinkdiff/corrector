@@ -1,0 +1,123 @@
+{
+  "jobs": [
+    {
+      "name": "transformer-h1_s42",
+      "variant": "transformer-h1",
+      "model_type": "transformer",
+      "h_window": 1,
+      "seed": 42
+    },
+    {
+      "name": "mlp_s42",
+      "variant": "mlp",
+      "model_type": "mlp",
+      "h_window": 1,
+      "seed": 42
+    },
+    {
+      "name": "transformer-h3_s42",
+      "variant": "transformer-h3",
+      "model_type": "transformer",
+      "h_window": 3,
+      "seed": 42
+    },
+    {
+      "name": "transformer-h1_s43",
+      "variant": "transformer-h1",
+      "model_type": "transformer",
+      "h_window": 1,
+      "seed": 43
+    },
+    {
+      "name": "mlp_s43",
+      "variant": "mlp",
+      "model_type": "mlp",
+      "h_window": 1,
+      "seed": 43
+    },
+    {
+      "name": "transformer-h3_s43",
+      "variant": "transformer-h3",
+      "model_type": "transformer",
+      "h_window": 3,
+      "seed": 43
+    },
+    {
+      "name": "transformer-h1_s44",
+      "variant": "transformer-h1",
+      "model_type": "transformer",
+      "h_window": 1,
+      "seed": 44
+    },
+    {
+      "name": "mlp_s44",
+      "variant": "mlp",
+      "model_type": "mlp",
+      "h_window": 1,
+      "seed": 44
+    },
+    {
+      "name": "transformer-h3_s44",
+      "variant": "transformer-h3",
+      "model_type": "transformer",
+      "h_window": 3,
+      "seed": 44
+    }
+  ],
+  "manifest_sha256": "61c9f63f16553ae2f81d57478fdeeaccc8cb653223da9931705102c935d4acb9",
+  "code_sha256": {
+    "corrector_models.py": "811386798aa491d8c0b43c08cd400bf00f397ad380484693689a1912976c4201",
+    "smolvla_training_workbench.py": "bce2e5c77ebec1070008f28d163e0ab02fa4c98db6122a0fc2b8f1befe44e250",
+    "corrector_data_workbench.py": "bb51dfae7c54bd61241c780be8929c056286dca66b142ff0fd95972060c30fe4",
+    "smolvla_libero_tools.py": "43d8c17b7242339d8456823ed3c47b8bb0eebd9445d2d960d3a67a24404039f4",
+    "smolvla_baseline_benchmark.py": "18a4844cbdceb28e674d3ef5b18cb9f8df24136b2e3b92d39d8d7450cb0a984c",
+    "batch_evaluation.py": "524c91972422a12282f457d40f43a5fa9b69bbeaf567b9fc27d2ea7cfa94bbf7",
+    "inspect_robot_datasets.py": "fe132976490704526d829de06171d25f52901d04165ae9f40e94a073890e448d",
+    "corrector_train.py": "8baaf7be9afaccf4bafc9ff05a287da29e80bd578ac6ae28659c1c2c8dcfd95b",
+    "corrector_prediction_report.py": "b3995ce8ebc1f594dacf392a4fb8094e817e04dca65d4a2df7e47ada7368e0f7",
+    "corrector_stream_workbench.py": "2cd5356e4cb77c955e92d30a6e29c60ad020aa9f16d5e4be7282861f5e388047",
+    "corrector_online_runtime.py": "32a6daa67254f6e587e43df0f5c42a0cc83e29fa17854dbab874715f8ae70a5a",
+    "corrector_online_practice.py": "5c076c017b086254ec63c3aa8089063d8fbae5840c01c3240f7a57afce99198f",
+    "corrector_closed_loop_eval.py": "1a2496489dea84f02d82993ca07cb8a45d8fdcc36b91f432a03fa4e775d68c45",
+    "corrector_training_queue.py": "eff43ec86a45cccbec9fe4e03ff3807120f907f16d6c1975fe0b42ce51811faf",
+    "corrector_night_sweep.py": "ef420df66e9a90cffb468a0e9e045532c1eba07581e199c1d44cf919bee5fbe1",
+    "corrector_temporal_audit.py": "2837a01c233d7e4a088ad163d8aea3f9a924d85dd307c1cf7f15ffa0b4c9e238"
+  },
+  "settings": {
+    "archive": "/root/autodl-tmp/corrector/object10",
+    "runtime": "/root/autodl-tmp/corrector/runtime",
+    "source_root": "/root/autodl-tmp/corrector/runtime/vla-corrector-reference",
+    "output": "/root/autodl-tmp/corrector/object10/night_20261109_001",
+    "models": [
+      "transformer-h1",
+      "mlp",
+      "transformer-h3"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "eval_training_seeds": [
+      42
+    ],
+    "methods": [
+      "H50",
+      "H20",
+      "lvm",
+      "ogg"
+    ],
+    "eval_initials": 3,
+    "eval_random_seeds": [
+      1000,
+      1001
+    ],
+    "epochs": 150,
+    "patience": 5,
+    "snapshot_every": 0,
+    "predictor_precision": "amp-bfloat16",
+    "loader_workers": 2,
+    "min_free_gib": 5.0,
+    "no_eval": false
+  }
+}

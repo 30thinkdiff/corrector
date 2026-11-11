@@ -1,0 +1,188 @@
+[
+  {
+    "final_success": false,
+    "capture_start_s": 0.0,
+    "capture_end_s": 5.999999999999506,
+    "first_bilateral_interval_end_s": 2.9999999999998357,
+    "first_rise_10cm_s": 3.4999999999997806,
+    "peak_rise_cm": 14.838540511985787,
+    "peak_time_s": 4.799999999999638,
+    "first_height_decrease_5cm_after_lift_s": null,
+    "bilateral_absent_3_intervals_start_s": 5.549999999999556,
+    "relative_position_change_3cm_after_lift_s": 5.549999999999556,
+    "candidate_for_review": "曾明显抬升但最终失败；复核保持、搬运和放置阶段",
+    "limits": "事件仅覆盖采集窗口；高度下降可能是正常放置；相对位移不直接证明滑脱；未采集目标与篮子的接触。",
+    "case": "view_10_seed1000_H20",
+    "frame_extraction": {
+      "original_video_fps": "80/1",
+      "control_hz": 20,
+      "selected_frame_indices": [
+        0,
+        40,
+        60,
+        70,
+        80,
+        111,
+        120,
+        160,
+        200,
+        240,
+        279
+      ],
+      "alignment": "approximately one recorded frame per control step; manually confirm event boundaries"
+    }
+  },
+  {
+    "final_success": false,
+    "capture_start_s": 0.0,
+    "capture_end_s": 5.999999999999506,
+    "first_bilateral_interval_end_s": 3.149999999999819,
+    "first_rise_10cm_s": 3.59999999999977,
+    "peak_rise_cm": 20.331748854164886,
+    "peak_time_s": 4.549999999999666,
+    "first_height_decrease_5cm_after_lift_s": 4.649999999999655,
+    "bilateral_absent_3_intervals_start_s": 4.59999999999966,
+    "relative_position_change_3cm_after_lift_s": 4.649999999999655,
+    "candidate_for_review": "曾明显抬升但最终失败；复核保持、搬运和放置阶段",
+    "limits": "事件仅覆盖采集窗口；高度下降可能是正常放置；相对位移不直接证明滑脱；未采集目标与篮子的接触。",
+    "case": "view_10_seed1000_H50",
+    "frame_extraction": {
+      "original_video_fps": "80/1",
+      "control_hz": 20,
+      "selected_frame_indices": [
+        0,
+        40,
+        63,
+        72,
+        80,
+        93,
+        120,
+        160,
+        200,
+        240,
+        279
+      ],
+      "alignment": "approximately one recorded frame per control step; manually confirm event boundaries"
+    }
+  },
+  {
+    "final_success": true,
+    "capture_start_s": 0.0,
+    "capture_end_s": 5.999999999999506,
+    "first_bilateral_interval_end_s": 2.9999999999998357,
+    "first_rise_10cm_s": 3.449999999999786,
+    "peak_rise_cm": 16.010730802264053,
+    "peak_time_s": 4.749999999999644,
+    "first_height_decrease_5cm_after_lift_s": null,
+    "bilateral_absent_3_intervals_start_s": null,
+    "relative_position_change_3cm_after_lift_s": null,
+    "candidate_for_review": "任务已完成；采集窗内有明显抬升",
+    "limits": "事件仅覆盖采集窗口；高度下降可能是正常放置；相对位移不直接证明滑脱；未采集目标与篮子的接触。",
+    "case": "view_10_seed1002_H20",
+    "frame_extraction": {
+      "original_video_fps": "80/1",
+      "control_hz": 20,
+      "selected_frame_indices": [
+        0,
+        40,
+        60,
+        69,
+        80,
+        120,
+        135
+      ],
+      "alignment": "approximately one recorded frame per control step; manually confirm event boundaries"
+    }
+  },
+  {
+    "final_success": false,
+    "capture_start_s": 0.0,
+    "capture_end_s": 5.999999999999506,
+    "first_bilateral_interval_end_s": 3.149999999999819,
+    "first_rise_10cm_s": null,
+    "peak_rise_cm": 0.5479071546224117,
+    "peak_time_s": 3.04999999999983,
+    "first_height_decrease_5cm_after_lift_s": null,
+    "bilateral_absent_3_intervals_start_s": 3.1999999999998137,
+    "relative_position_change_3cm_after_lift_s": null,
+    "candidate_for_review": "首采集窗内无10cm抬升且最终失败；优先复核接近与夹持",
+    "limits": "事件仅覆盖采集窗口；高度下降可能是正常放置；相对位移不直接证明滑脱；未采集目标与篮子的接触。",
+    "case": "view_10_seed1002_H50",
+    "frame_extraction": {
+      "original_video_fps": "80/1",
+      "control_hz": 20,
+      "selected_frame_indices": [
+        0,
+        40,
+        63,
+        80,
+        120,
+        160,
+        200,
+        240,
+        279
+      ],
+      "alignment": "approximately one recorded frame per control step; manually confirm event boundaries"
+    }
+  },
+  {
+    "final_success": true,
+    "capture_start_s": 0.0,
+    "capture_end_s": 5.999999999999506,
+    "first_bilateral_interval_end_s": null,
+    "first_rise_10cm_s": null,
+    "peak_rise_cm": 1.066017234658497,
+    "peak_time_s": 5.1499999999996,
+    "first_height_decrease_5cm_after_lift_s": null,
+    "bilateral_absent_3_intervals_start_s": null,
+    "relative_position_change_3cm_after_lift_s": null,
+    "candidate_for_review": "任务已完成；首采集窗不足以解释成功过程",
+    "limits": "事件仅覆盖采集窗口；高度下降可能是正常放置；相对位移不直接证明滑脱；未采集目标与篮子的接触。",
+    "case": "view_5_seed1001_H20",
+    "frame_extraction": {
+      "original_video_fps": "80/1",
+      "control_hz": 20,
+      "selected_frame_indices": [
+        0,
+        40,
+        80,
+        120,
+        160,
+        200,
+        240,
+        244
+      ],
+      "alignment": "approximately one recorded frame per control step; manually confirm event boundaries"
+    }
+  },
+  {
+    "final_success": false,
+    "capture_start_s": 0.0,
+    "capture_end_s": 5.999999999999506,
+    "first_bilateral_interval_end_s": null,
+    "first_rise_10cm_s": null,
+    "peak_rise_cm": 0.5358366143885851,
+    "peak_time_s": 3.0999999999998247,
+    "first_height_decrease_5cm_after_lift_s": null,
+    "bilateral_absent_3_intervals_start_s": null,
+    "relative_position_change_3cm_after_lift_s": null,
+    "candidate_for_review": "首采集窗内无10cm抬升且最终失败；优先复核接近与夹持",
+    "limits": "事件仅覆盖采集窗口；高度下降可能是正常放置；相对位移不直接证明滑脱；未采集目标与篮子的接触。",
+    "case": "view_5_seed1001_H50",
+    "frame_extraction": {
+      "original_video_fps": "80/1",
+      "control_hz": 20,
+      "selected_frame_indices": [
+        0,
+        40,
+        80,
+        120,
+        160,
+        200,
+        240,
+        279
+      ],
+      "alignment": "approximately one recorded frame per control step; manually confirm event boundaries"
+    }
+  }
+]

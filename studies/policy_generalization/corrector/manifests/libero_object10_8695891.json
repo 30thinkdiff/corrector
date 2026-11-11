@@ -1,0 +1,5930 @@
+{
+  "format": 1,
+  "dataset": "HuggingFaceVLA/libero",
+  "revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "selection": {
+    "task_ids": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "limit": 0,
+    "seed": 42
+  },
+  "records": [
+    {
+      "episode": 813,
+      "frames": 155,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-213.parquet",
+          "bytes": 102411765
+        }
+      ]
+    },
+    {
+      "episode": 818,
+      "frames": 164,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-214.parquet",
+          "bytes": 98527849
+        }
+      ]
+    },
+    {
+      "episode": 825,
+      "frames": 153,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-215.parquet",
+          "bytes": 87174761
+        }
+      ]
+    },
+    {
+      "episode": 807,
+      "frames": 143,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-211.parquet",
+          "bytes": 99083096
+        }
+      ]
+    },
+    {
+      "episode": 808,
+      "frames": 148,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-212.parquet",
+          "bytes": 94412007
+        }
+      ]
+    },
+    {
+      "episode": 809,
+      "frames": 141,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-212.parquet",
+          "bytes": 94412007
+        }
+      ]
+    },
+    {
+      "episode": 810,
+      "frames": 130,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-212.parquet",
+          "bytes": 94412007
+        }
+      ]
+    },
+    {
+      "episode": 811,
+      "frames": 132,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-212.parquet",
+          "bytes": 94412007
+        }
+      ]
+    },
+    {
+      "episode": 812,
+      "frames": 132,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-212.parquet",
+          "bytes": 94412007
+        }
+      ]
+    },
+    {
+      "episode": 814,
+      "frames": 175,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-213.parquet",
+          "bytes": 102411765
+        }
+      ]
+    },
+    {
+      "episode": 815,
+      "frames": 152,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-213.parquet",
+          "bytes": 102411765
+        }
+      ]
+    },
+    {
+      "episode": 816,
+      "frames": 124,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-213.parquet",
+          "bytes": 102411765
+        }
+      ]
+    },
+    {
+      "episode": 817,
+      "frames": 143,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-213.parquet",
+          "bytes": 102411765
+        }
+      ]
+    },
+    {
+      "episode": 819,
+      "frames": 152,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-214.parquet",
+          "bytes": 98527849
+        }
+      ]
+    },
+    {
+      "episode": 820,
+      "frames": 151,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-214.parquet",
+          "bytes": 98527849
+        }
+      ]
+    },
+    {
+      "episode": 821,
+      "frames": 132,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-214.parquet",
+          "bytes": 98527849
+        }
+      ]
+    },
+    {
+      "episode": 822,
+      "frames": 115,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-214.parquet",
+          "bytes": 98527849
+        }
+      ]
+    },
+    {
+      "episode": 823,
+      "frames": 162,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-215.parquet",
+          "bytes": 87174761
+        }
+      ]
+    },
+    {
+      "episode": 824,
+      "frames": 161,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-215.parquet",
+          "bytes": 87174761
+        }
+      ]
+    },
+    {
+      "episode": 826,
+      "frames": 161,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-215.parquet",
+          "bytes": 87174761
+        }
+      ]
+    },
+    {
+      "episode": 827,
+      "frames": 156,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-216.parquet",
+          "bytes": 99657643
+        }
+      ]
+    },
+    {
+      "episode": 828,
+      "frames": 167,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-216.parquet",
+          "bytes": 99657643
+        }
+      ]
+    },
+    {
+      "episode": 829,
+      "frames": 136,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-216.parquet",
+          "bytes": 99657643
+        }
+      ]
+    },
+    {
+      "episode": 830,
+      "frames": 130,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-216.parquet",
+          "bytes": 99657643
+        }
+      ]
+    },
+    {
+      "episode": 831,
+      "frames": 126,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-216.parquet",
+          "bytes": 99657643
+        }
+      ]
+    },
+    {
+      "episode": 832,
+      "frames": 136,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-217.parquet",
+          "bytes": 95821259
+        }
+      ]
+    },
+    {
+      "episode": 833,
+      "frames": 137,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-217.parquet",
+          "bytes": 95821259
+        }
+      ]
+    },
+    {
+      "episode": 834,
+      "frames": 159,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-217.parquet",
+          "bytes": 95821259
+        }
+      ]
+    },
+    {
+      "episode": 835,
+      "frames": 129,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-217.parquet",
+          "bytes": 95821259
+        }
+      ]
+    },
+    {
+      "episode": 836,
+      "frames": 136,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-217.parquet",
+          "bytes": 95821259
+        }
+      ]
+    },
+    {
+      "episode": 837,
+      "frames": 125,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-218.parquet",
+          "bytes": 78561746
+        }
+      ]
+    },
+    {
+      "episode": 838,
+      "frames": 145,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-218.parquet",
+          "bytes": 78561746
+        }
+      ]
+    },
+    {
+      "episode": 839,
+      "frames": 139,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-218.parquet",
+          "bytes": 78561746
+        }
+      ]
+    },
+    {
+      "episode": 840,
+      "frames": 153,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-218.parquet",
+          "bytes": 78561746
+        }
+      ]
+    },
+    {
+      "episode": 841,
+      "frames": 224,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-219.parquet",
+          "bytes": 91926329
+        }
+      ]
+    },
+    {
+      "episode": 842,
+      "frames": 168,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-219.parquet",
+          "bytes": 91926329
+        }
+      ]
+    },
+    {
+      "episode": 843,
+      "frames": 135,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-219.parquet",
+          "bytes": 91926329
+        }
+      ]
+    },
+    {
+      "episode": 844,
+      "frames": 144,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-219.parquet",
+          "bytes": 91926329
+        }
+      ]
+    },
+    {
+      "episode": 845,
+      "frames": 158,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-220.parquet",
+          "bytes": 101201520
+        }
+      ]
+    },
+    {
+      "episode": 846,
+      "frames": 133,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-220.parquet",
+          "bytes": 101201520
+        }
+      ]
+    },
+    {
+      "episode": 847,
+      "frames": 163,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-220.parquet",
+          "bytes": 101201520
+        }
+      ]
+    },
+    {
+      "episode": 848,
+      "frames": 127,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-220.parquet",
+          "bytes": 101201520
+        }
+      ]
+    },
+    {
+      "episode": 849,
+      "frames": 160,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-220.parquet",
+          "bytes": 101201520
+        }
+      ]
+    },
+    {
+      "episode": 850,
+      "frames": 152,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-221.parquet",
+          "bytes": 96360176
+        }
+      ]
+    },
+    {
+      "episode": 851,
+      "frames": 137,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-221.parquet",
+          "bytes": 96360176
+        }
+      ]
+    },
+    {
+      "episode": 852,
+      "frames": 169,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-221.parquet",
+          "bytes": 96360176
+        }
+      ]
+    },
+    {
+      "episode": 853,
+      "frames": 125,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-221.parquet",
+          "bytes": 96360176
+        }
+      ]
+    },
+    {
+      "episode": 854,
+      "frames": 132,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-221.parquet",
+          "bytes": 96360176
+        }
+      ]
+    },
+    {
+      "episode": 855,
+      "frames": 151,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-222.parquet",
+          "bytes": 100371196
+        }
+      ]
+    },
+    {
+      "episode": 856,
+      "frames": 153,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-222.parquet",
+          "bytes": 100371196
+        }
+      ]
+    },
+    {
+      "episode": 857,
+      "frames": 154,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-222.parquet",
+          "bytes": 100371196
+        }
+      ]
+    },
+    {
+      "episode": 858,
+      "frames": 132,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-222.parquet",
+          "bytes": 100371196
+        }
+      ]
+    },
+    {
+      "episode": 859,
+      "frames": 141,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-222.parquet",
+          "bytes": 100371196
+        }
+      ]
+    },
+    {
+      "episode": 860,
+      "frames": 153,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-223.parquet",
+          "bytes": 102336875
+        }
+      ]
+    },
+    {
+      "episode": 861,
+      "frames": 149,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-223.parquet",
+          "bytes": 102336875
+        }
+      ]
+    },
+    {
+      "episode": 862,
+      "frames": 167,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-223.parquet",
+          "bytes": 102336875
+        }
+      ]
+    },
+    {
+      "episode": 863,
+      "frames": 141,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-223.parquet",
+          "bytes": 102336875
+        }
+      ]
+    },
+    {
+      "episode": 864,
+      "frames": 133,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-223.parquet",
+          "bytes": 102336875
+        }
+      ]
+    },
+    {
+      "episode": 865,
+      "frames": 125,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-224.parquet",
+          "bytes": 92802027
+        }
+      ]
+    },
+    {
+      "episode": 866,
+      "frames": 254,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-224.parquet",
+          "bytes": 92802027
+        }
+      ]
+    },
+    {
+      "episode": 867,
+      "frames": 128,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-224.parquet",
+          "bytes": 92802027
+        }
+      ]
+    },
+    {
+      "episode": 868,
+      "frames": 148,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-224.parquet",
+          "bytes": 92802027
+        }
+      ]
+    },
+    {
+      "episode": 869,
+      "frames": 150,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-225.parquet",
+          "bytes": 98390469
+        }
+      ]
+    },
+    {
+      "episode": 870,
+      "frames": 135,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-225.parquet",
+          "bytes": 98390469
+        }
+      ]
+    },
+    {
+      "episode": 871,
+      "frames": 129,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-225.parquet",
+          "bytes": 98390469
+        }
+      ]
+    },
+    {
+      "episode": 872,
+      "frames": 151,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-225.parquet",
+          "bytes": 98390469
+        }
+      ]
+    },
+    {
+      "episode": 873,
+      "frames": 158,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-225.parquet",
+          "bytes": 98390469
+        }
+      ]
+    },
+    {
+      "episode": 874,
+      "frames": 161,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-226.parquet",
+          "bytes": 86977934
+        }
+      ]
+    },
+    {
+      "episode": 875,
+      "frames": 153,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-226.parquet",
+          "bytes": 86977934
+        }
+      ]
+    },
+    {
+      "episode": 876,
+      "frames": 160,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-226.parquet",
+          "bytes": 86977934
+        }
+      ]
+    },
+    {
+      "episode": 877,
+      "frames": 153,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-226.parquet",
+          "bytes": 86977934
+        }
+      ]
+    },
+    {
+      "episode": 878,
+      "frames": 163,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-227.parquet",
+          "bytes": 97177952
+        }
+      ]
+    },
+    {
+      "episode": 879,
+      "frames": 130,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-227.parquet",
+          "bytes": 97177952
+        }
+      ]
+    },
+    {
+      "episode": 880,
+      "frames": 128,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-227.parquet",
+          "bytes": 97177952
+        }
+      ]
+    },
+    {
+      "episode": 881,
+      "frames": 153,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-227.parquet",
+          "bytes": 97177952
+        }
+      ]
+    },
+    {
+      "episode": 882,
+      "frames": 128,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-227.parquet",
+          "bytes": 97177952
+        }
+      ]
+    },
+    {
+      "episode": 883,
+      "frames": 137,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-228.parquet",
+          "bytes": 88924726
+        }
+      ]
+    },
+    {
+      "episode": 884,
+      "frames": 177,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-228.parquet",
+          "bytes": 88924726
+        }
+      ]
+    },
+    {
+      "episode": 885,
+      "frames": 175,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-228.parquet",
+          "bytes": 88924726
+        }
+      ]
+    },
+    {
+      "episode": 886,
+      "frames": 138,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-228.parquet",
+          "bytes": 88924726
+        }
+      ]
+    },
+    {
+      "episode": 887,
+      "frames": 143,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-229.parquet",
+          "bytes": 93142720
+        }
+      ]
+    },
+    {
+      "episode": 888,
+      "frames": 121,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-229.parquet",
+          "bytes": 93142720
+        }
+      ]
+    },
+    {
+      "episode": 889,
+      "frames": 135,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-229.parquet",
+          "bytes": 93142720
+        }
+      ]
+    },
+    {
+      "episode": 890,
+      "frames": 159,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-229.parquet",
+          "bytes": 93142720
+        }
+      ]
+    },
+    {
+      "episode": 891,
+      "frames": 122,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-229.parquet",
+          "bytes": 93142720
+        }
+      ]
+    },
+    {
+      "episode": 892,
+      "frames": 171,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-230.parquet",
+          "bytes": 101957841
+        }
+      ]
+    },
+    {
+      "episode": 893,
+      "frames": 126,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-230.parquet",
+          "bytes": 101957841
+        }
+      ]
+    },
+    {
+      "episode": 894,
+      "frames": 150,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-230.parquet",
+          "bytes": 101957841
+        }
+      ]
+    },
+    {
+      "episode": 895,
+      "frames": 139,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-230.parquet",
+          "bytes": 101957841
+        }
+      ]
+    },
+    {
+      "episode": 896,
+      "frames": 166,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-230.parquet",
+          "bytes": 101957841
+        }
+      ]
+    },
+    {
+      "episode": 897,
+      "frames": 126,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-231.parquet",
+          "bytes": 92656986
+        }
+      ]
+    },
+    {
+      "episode": 898,
+      "frames": 121,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-231.parquet",
+          "bytes": 92656986
+        }
+      ]
+    },
+    {
+      "episode": 899,
+      "frames": 133,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-231.parquet",
+          "bytes": 92656986
+        }
+      ]
+    },
+    {
+      "episode": 900,
+      "frames": 140,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-231.parquet",
+          "bytes": 92656986
+        }
+      ]
+    },
+    {
+      "episode": 901,
+      "frames": 139,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-231.parquet",
+          "bytes": 92656986
+        }
+      ]
+    },
+    {
+      "episode": 902,
+      "frames": 124,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-232.parquet",
+          "bytes": 95916787
+        }
+      ]
+    },
+    {
+      "episode": 903,
+      "frames": 133,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-232.parquet",
+          "bytes": 95916787
+        }
+      ]
+    },
+    {
+      "episode": 904,
+      "frames": 140,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-232.parquet",
+          "bytes": 95916787
+        }
+      ]
+    },
+    {
+      "episode": 905,
+      "frames": 154,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-232.parquet",
+          "bytes": 95916787
+        }
+      ]
+    },
+    {
+      "episode": 906,
+      "frames": 133,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-232.parquet",
+          "bytes": 95916787
+        }
+      ]
+    },
+    {
+      "episode": 907,
+      "frames": 154,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-233.parquet",
+          "bytes": 87889932
+        }
+      ]
+    },
+    {
+      "episode": 908,
+      "frames": 195,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-233.parquet",
+          "bytes": 87889932
+        }
+      ]
+    },
+    {
+      "episode": 909,
+      "frames": 133,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-233.parquet",
+          "bytes": 87889932
+        }
+      ]
+    },
+    {
+      "episode": 910,
+      "frames": 157,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-233.parquet",
+          "bytes": 87889932
+        }
+      ]
+    },
+    {
+      "episode": 911,
+      "frames": 137,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-234.parquet",
+          "bytes": 98973735
+        }
+      ]
+    },
+    {
+      "episode": 912,
+      "frames": 138,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-234.parquet",
+          "bytes": 98973735
+        }
+      ]
+    },
+    {
+      "episode": 913,
+      "frames": 127,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-234.parquet",
+          "bytes": 98973735
+        }
+      ]
+    },
+    {
+      "episode": 914,
+      "frames": 154,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-234.parquet",
+          "bytes": 98973735
+        }
+      ]
+    },
+    {
+      "episode": 915,
+      "frames": 160,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-234.parquet",
+          "bytes": 98973735
+        }
+      ]
+    },
+    {
+      "episode": 916,
+      "frames": 132,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-235.parquet",
+          "bytes": 103563388
+        }
+      ]
+    },
+    {
+      "episode": 917,
+      "frames": 150,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-235.parquet",
+          "bytes": 103563388
+        }
+      ]
+    },
+    {
+      "episode": 918,
+      "frames": 162,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-235.parquet",
+          "bytes": 103563388
+        }
+      ]
+    },
+    {
+      "episode": 919,
+      "frames": 163,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-235.parquet",
+          "bytes": 103563388
+        }
+      ]
+    },
+    {
+      "episode": 920,
+      "frames": 152,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-235.parquet",
+          "bytes": 103563388
+        }
+      ]
+    },
+    {
+      "episode": 921,
+      "frames": 158,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-236.parquet",
+          "bytes": 88297938
+        }
+      ]
+    },
+    {
+      "episode": 922,
+      "frames": 129,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-236.parquet",
+          "bytes": 88297938
+        }
+      ]
+    },
+    {
+      "episode": 923,
+      "frames": 195,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-236.parquet",
+          "bytes": 88297938
+        }
+      ]
+    },
+    {
+      "episode": 924,
+      "frames": 159,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-236.parquet",
+          "bytes": 88297938
+        }
+      ]
+    },
+    {
+      "episode": 925,
+      "frames": 157,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-237.parquet",
+          "bytes": 101659663
+        }
+      ]
+    },
+    {
+      "episode": 926,
+      "frames": 121,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-237.parquet",
+          "bytes": 101659663
+        }
+      ]
+    },
+    {
+      "episode": 927,
+      "frames": 157,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-237.parquet",
+          "bytes": 101659663
+        }
+      ]
+    },
+    {
+      "episode": 928,
+      "frames": 141,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-237.parquet",
+          "bytes": 101659663
+        }
+      ]
+    },
+    {
+      "episode": 929,
+      "frames": 158,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-237.parquet",
+          "bytes": 101659663
+        }
+      ]
+    },
+    {
+      "episode": 930,
+      "frames": 157,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-238.parquet",
+          "bytes": 99187598
+        }
+      ]
+    },
+    {
+      "episode": 931,
+      "frames": 127,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-238.parquet",
+          "bytes": 99187598
+        }
+      ]
+    },
+    {
+      "episode": 932,
+      "frames": 127,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-238.parquet",
+          "bytes": 99187598
+        }
+      ]
+    },
+    {
+      "episode": 933,
+      "frames": 149,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-238.parquet",
+          "bytes": 99187598
+        }
+      ]
+    },
+    {
+      "episode": 934,
+      "frames": 160,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-238.parquet",
+          "bytes": 99187598
+        }
+      ]
+    },
+    {
+      "episode": 935,
+      "frames": 138,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-239.parquet",
+          "bytes": 82496297
+        }
+      ]
+    },
+    {
+      "episode": 936,
+      "frames": 127,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-239.parquet",
+          "bytes": 82496297
+        }
+      ]
+    },
+    {
+      "episode": 937,
+      "frames": 150,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-239.parquet",
+          "bytes": 82496297
+        }
+      ]
+    },
+    {
+      "episode": 938,
+      "frames": 178,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-239.parquet",
+          "bytes": 82496297
+        }
+      ]
+    },
+    {
+      "episode": 939,
+      "frames": 207,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-240.parquet",
+          "bytes": 103104186
+        }
+      ]
+    },
+    {
+      "episode": 940,
+      "frames": 141,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-240.parquet",
+          "bytes": 103104186
+        }
+      ]
+    },
+    {
+      "episode": 941,
+      "frames": 126,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-240.parquet",
+          "bytes": 103104186
+        }
+      ]
+    },
+    {
+      "episode": 942,
+      "frames": 156,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-240.parquet",
+          "bytes": 103104186
+        }
+      ]
+    },
+    {
+      "episode": 943,
+      "frames": 131,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-240.parquet",
+          "bytes": 103104186
+        }
+      ]
+    },
+    {
+      "episode": 944,
+      "frames": 165,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-241.parquet",
+          "bytes": 103795286
+        }
+      ]
+    },
+    {
+      "episode": 945,
+      "frames": 154,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-241.parquet",
+          "bytes": 103795286
+        }
+      ]
+    },
+    {
+      "episode": 946,
+      "frames": 140,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-241.parquet",
+          "bytes": 103795286
+        }
+      ]
+    },
+    {
+      "episode": 947,
+      "frames": 138,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-241.parquet",
+          "bytes": 103795286
+        }
+      ]
+    },
+    {
+      "episode": 948,
+      "frames": 158,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-241.parquet",
+          "bytes": 103795286
+        }
+      ]
+    },
+    {
+      "episode": 949,
+      "frames": 166,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-242.parquet",
+          "bytes": 103101106
+        }
+      ]
+    },
+    {
+      "episode": 950,
+      "frames": 161,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-242.parquet",
+          "bytes": 103101106
+        }
+      ]
+    },
+    {
+      "episode": 951,
+      "frames": 122,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-242.parquet",
+          "bytes": 103101106
+        }
+      ]
+    },
+    {
+      "episode": 952,
+      "frames": 124,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-242.parquet",
+          "bytes": 103101106
+        }
+      ]
+    },
+    {
+      "episode": 953,
+      "frames": 168,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-242.parquet",
+          "bytes": 103101106
+        }
+      ]
+    },
+    {
+      "episode": 954,
+      "frames": 134,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-243.parquet",
+          "bytes": 95620395
+        }
+      ]
+    },
+    {
+      "episode": 955,
+      "frames": 148,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-243.parquet",
+          "bytes": 95620395
+        }
+      ]
+    },
+    {
+      "episode": 956,
+      "frames": 125,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-243.parquet",
+          "bytes": 95620395
+        }
+      ]
+    },
+    {
+      "episode": 957,
+      "frames": 150,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-243.parquet",
+          "bytes": 95620395
+        }
+      ]
+    },
+    {
+      "episode": 958,
+      "frames": 144,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-243.parquet",
+          "bytes": 95620395
+        }
+      ]
+    },
+    {
+      "episode": 959,
+      "frames": 116,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-244.parquet",
+          "bytes": 100872809
+        }
+      ]
+    },
+    {
+      "episode": 960,
+      "frames": 167,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-244.parquet",
+          "bytes": 100872809
+        }
+      ]
+    },
+    {
+      "episode": 961,
+      "frames": 149,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-244.parquet",
+          "bytes": 100872809
+        }
+      ]
+    },
+    {
+      "episode": 962,
+      "frames": 137,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-244.parquet",
+          "bytes": 100872809
+        }
+      ]
+    },
+    {
+      "episode": 963,
+      "frames": 148,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-244.parquet",
+          "bytes": 100872809
+        }
+      ]
+    },
+    {
+      "episode": 964,
+      "frames": 156,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-245.parquet",
+          "bytes": 86094763
+        }
+      ]
+    },
+    {
+      "episode": 965,
+      "frames": 162,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-245.parquet",
+          "bytes": 86094763
+        }
+      ]
+    },
+    {
+      "episode": 966,
+      "frames": 151,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-245.parquet",
+          "bytes": 86094763
+        }
+      ]
+    },
+    {
+      "episode": 967,
+      "frames": 145,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-245.parquet",
+          "bytes": 86094763
+        }
+      ]
+    },
+    {
+      "episode": 968,
+      "frames": 172,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-246.parquet",
+          "bytes": 100781953
+        }
+      ]
+    },
+    {
+      "episode": 969,
+      "frames": 134,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-246.parquet",
+          "bytes": 100781953
+        }
+      ]
+    },
+    {
+      "episode": 970,
+      "frames": 134,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-246.parquet",
+          "bytes": 100781953
+        }
+      ]
+    },
+    {
+      "episode": 971,
+      "frames": 156,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-246.parquet",
+          "bytes": 100781953
+        }
+      ]
+    },
+    {
+      "episode": 972,
+      "frames": 150,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-246.parquet",
+          "bytes": 100781953
+        }
+      ]
+    },
+    {
+      "episode": 973,
+      "frames": 129,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-247.parquet",
+          "bytes": 102450607
+        }
+      ]
+    },
+    {
+      "episode": 974,
+      "frames": 129,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-247.parquet",
+          "bytes": 102450607
+        }
+      ]
+    },
+    {
+      "episode": 975,
+      "frames": 164,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-247.parquet",
+          "bytes": 102450607
+        }
+      ]
+    },
+    {
+      "episode": 976,
+      "frames": 167,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-247.parquet",
+          "bytes": 102450607
+        }
+      ]
+    },
+    {
+      "episode": 977,
+      "frames": 160,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-247.parquet",
+          "bytes": 102450607
+        }
+      ]
+    },
+    {
+      "episode": 978,
+      "frames": 187,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-248.parquet",
+          "bytes": 98642802
+        }
+      ]
+    },
+    {
+      "episode": 979,
+      "frames": 125,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-248.parquet",
+          "bytes": 98642802
+        }
+      ]
+    },
+    {
+      "episode": 980,
+      "frames": 132,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-248.parquet",
+          "bytes": 98642802
+        }
+      ]
+    },
+    {
+      "episode": 981,
+      "frames": 147,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-248.parquet",
+          "bytes": 98642802
+        }
+      ]
+    },
+    {
+      "episode": 982,
+      "frames": 135,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-248.parquet",
+          "bytes": 98642802
+        }
+      ]
+    },
+    {
+      "episode": 983,
+      "frames": 148,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-249.parquet",
+          "bytes": 104335270
+        }
+      ]
+    },
+    {
+      "episode": 984,
+      "frames": 152,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-249.parquet",
+          "bytes": 104335270
+        }
+      ]
+    },
+    {
+      "episode": 985,
+      "frames": 145,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-249.parquet",
+          "bytes": 104335270
+        }
+      ]
+    },
+    {
+      "episode": 986,
+      "frames": 177,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-249.parquet",
+          "bytes": 104335270
+        }
+      ]
+    },
+    {
+      "episode": 987,
+      "frames": 139,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-249.parquet",
+          "bytes": 104335270
+        }
+      ]
+    },
+    {
+      "episode": 988,
+      "frames": 150,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-250.parquet",
+          "bytes": 101346406
+        }
+      ]
+    },
+    {
+      "episode": 989,
+      "frames": 156,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-250.parquet",
+          "bytes": 101346406
+        }
+      ]
+    },
+    {
+      "episode": 990,
+      "frames": 150,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-250.parquet",
+          "bytes": 101346406
+        }
+      ]
+    },
+    {
+      "episode": 991,
+      "frames": 133,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-250.parquet",
+          "bytes": 101346406
+        }
+      ]
+    },
+    {
+      "episode": 992,
+      "frames": 142,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-250.parquet",
+          "bytes": 101346406
+        }
+      ]
+    },
+    {
+      "episode": 993,
+      "frames": 141,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-251.parquet",
+          "bytes": 101199967
+        }
+      ]
+    },
+    {
+      "episode": 994,
+      "frames": 156,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-251.parquet",
+          "bytes": 101199967
+        }
+      ]
+    },
+    {
+      "episode": 995,
+      "frames": 157,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-251.parquet",
+          "bytes": 101199967
+        }
+      ]
+    },
+    {
+      "episode": 996,
+      "frames": 126,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-251.parquet",
+          "bytes": 101199967
+        }
+      ]
+    },
+    {
+      "episode": 997,
+      "frames": 177,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-251.parquet",
+          "bytes": 101199967
+        }
+      ]
+    },
+    {
+      "episode": 998,
+      "frames": 158,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-252.parquet",
+          "bytes": 82826737
+        }
+      ]
+    },
+    {
+      "episode": 999,
+      "frames": 165,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-252.parquet",
+          "bytes": 82826737
+        }
+      ]
+    },
+    {
+      "episode": 1000,
+      "frames": 127,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-252.parquet",
+          "bytes": 82826737
+        }
+      ]
+    },
+    {
+      "episode": 1001,
+      "frames": 135,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-252.parquet",
+          "bytes": 82826737
+        }
+      ]
+    },
+    {
+      "episode": 1002,
+      "frames": 172,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-253.parquet",
+          "bytes": 84811070
+        }
+      ]
+    },
+    {
+      "episode": 1003,
+      "frames": 143,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-253.parquet",
+          "bytes": 84811070
+        }
+      ]
+    },
+    {
+      "episode": 1004,
+      "frames": 142,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-253.parquet",
+          "bytes": 84811070
+        }
+      ]
+    },
+    {
+      "episode": 1005,
+      "frames": 162,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-253.parquet",
+          "bytes": 84811070
+        }
+      ]
+    },
+    {
+      "episode": 1006,
+      "frames": 151,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-254.parquet",
+          "bytes": 93933809
+        }
+      ]
+    },
+    {
+      "episode": 1007,
+      "frames": 125,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-254.parquet",
+          "bytes": 93933809
+        }
+      ]
+    },
+    {
+      "episode": 1008,
+      "frames": 140,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-254.parquet",
+          "bytes": 93933809
+        }
+      ]
+    },
+    {
+      "episode": 1009,
+      "frames": 129,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-254.parquet",
+          "bytes": 93933809
+        }
+      ]
+    },
+    {
+      "episode": 1010,
+      "frames": 144,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-254.parquet",
+          "bytes": 93933809
+        }
+      ]
+    },
+    {
+      "episode": 1011,
+      "frames": 176,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-255.parquet",
+          "bytes": 104619432
+        }
+      ]
+    },
+    {
+      "episode": 1012,
+      "frames": 152,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-255.parquet",
+          "bytes": 104619432
+        }
+      ]
+    },
+    {
+      "episode": 1013,
+      "frames": 144,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-255.parquet",
+          "bytes": 104619432
+        }
+      ]
+    },
+    {
+      "episode": 1014,
+      "frames": 164,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-255.parquet",
+          "bytes": 104619432
+        }
+      ]
+    },
+    {
+      "episode": 1015,
+      "frames": 133,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-255.parquet",
+          "bytes": 104619432
+        }
+      ]
+    },
+    {
+      "episode": 1016,
+      "frames": 139,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-256.parquet",
+          "bytes": 99164615
+        }
+      ]
+    },
+    {
+      "episode": 1017,
+      "frames": 118,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-256.parquet",
+          "bytes": 99164615
+        }
+      ]
+    },
+    {
+      "episode": 1018,
+      "frames": 179,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-256.parquet",
+          "bytes": 99164615
+        }
+      ]
+    },
+    {
+      "episode": 1019,
+      "frames": 126,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-256.parquet",
+          "bytes": 99164615
+        }
+      ]
+    },
+    {
+      "episode": 1020,
+      "frames": 161,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-256.parquet",
+          "bytes": 99164615
+        }
+      ]
+    },
+    {
+      "episode": 1021,
+      "frames": 171,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-257.parquet",
+          "bytes": 103137240
+        }
+      ]
+    },
+    {
+      "episode": 1022,
+      "frames": 175,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-257.parquet",
+          "bytes": 103137240
+        }
+      ]
+    },
+    {
+      "episode": 1023,
+      "frames": 127,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-257.parquet",
+          "bytes": 103137240
+        }
+      ]
+    },
+    {
+      "episode": 1024,
+      "frames": 143,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-257.parquet",
+          "bytes": 103137240
+        }
+      ]
+    },
+    {
+      "episode": 1025,
+      "frames": 149,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-257.parquet",
+          "bytes": 103137240
+        }
+      ]
+    },
+    {
+      "episode": 1026,
+      "frames": 146,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-258.parquet",
+          "bytes": 100198941
+        }
+      ]
+    },
+    {
+      "episode": 1027,
+      "frames": 146,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-258.parquet",
+          "bytes": 100198941
+        }
+      ]
+    },
+    {
+      "episode": 1028,
+      "frames": 116,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-258.parquet",
+          "bytes": 100198941
+        }
+      ]
+    },
+    {
+      "episode": 1029,
+      "frames": 159,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-258.parquet",
+          "bytes": 100198941
+        }
+      ]
+    },
+    {
+      "episode": 1030,
+      "frames": 161,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-258.parquet",
+          "bytes": 100198941
+        }
+      ]
+    },
+    {
+      "episode": 1031,
+      "frames": 161,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-259.parquet",
+          "bytes": 99767648
+        }
+      ]
+    },
+    {
+      "episode": 1032,
+      "frames": 157,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-259.parquet",
+          "bytes": 99767648
+        }
+      ]
+    },
+    {
+      "episode": 1033,
+      "frames": 148,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-259.parquet",
+          "bytes": 99767648
+        }
+      ]
+    },
+    {
+      "episode": 1034,
+      "frames": 132,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-259.parquet",
+          "bytes": 99767648
+        }
+      ]
+    },
+    {
+      "episode": 1035,
+      "frames": 136,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-259.parquet",
+          "bytes": 99767648
+        }
+      ]
+    },
+    {
+      "episode": 1036,
+      "frames": 162,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-260.parquet",
+          "bytes": 88210809
+        }
+      ]
+    },
+    {
+      "episode": 1037,
+      "frames": 183,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-260.parquet",
+          "bytes": 88210809
+        }
+      ]
+    },
+    {
+      "episode": 1038,
+      "frames": 135,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-260.parquet",
+          "bytes": 88210809
+        }
+      ]
+    },
+    {
+      "episode": 1039,
+      "frames": 141,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-260.parquet",
+          "bytes": 88210809
+        }
+      ]
+    },
+    {
+      "episode": 1040,
+      "frames": 122,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-261.parquet",
+          "bytes": 90875025
+        }
+      ]
+    },
+    {
+      "episode": 1041,
+      "frames": 119,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-261.parquet",
+          "bytes": 90875025
+        }
+      ]
+    },
+    {
+      "episode": 1042,
+      "frames": 144,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-261.parquet",
+          "bytes": 90875025
+        }
+      ]
+    },
+    {
+      "episode": 1043,
+      "frames": 131,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-261.parquet",
+          "bytes": 90875025
+        }
+      ]
+    },
+    {
+      "episode": 1044,
+      "frames": 141,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-261.parquet",
+          "bytes": 90875025
+        }
+      ]
+    },
+    {
+      "episode": 1045,
+      "frames": 142,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-262.parquet",
+          "bytes": 99981360
+        }
+      ]
+    },
+    {
+      "episode": 1046,
+      "frames": 126,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-262.parquet",
+          "bytes": 99981360
+        }
+      ]
+    },
+    {
+      "episode": 1047,
+      "frames": 166,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-262.parquet",
+          "bytes": 99981360
+        }
+      ]
+    },
+    {
+      "episode": 1048,
+      "frames": 171,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-262.parquet",
+          "bytes": 99981360
+        }
+      ]
+    },
+    {
+      "episode": 1049,
+      "frames": 114,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-262.parquet",
+          "bytes": 99981360
+        }
+      ]
+    },
+    {
+      "episode": 1050,
+      "frames": 123,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-263.parquet",
+          "bytes": 90400453
+        }
+      ]
+    },
+    {
+      "episode": 1051,
+      "frames": 131,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-263.parquet",
+          "bytes": 90400453
+        }
+      ]
+    },
+    {
+      "episode": 1052,
+      "frames": 147,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-263.parquet",
+          "bytes": 90400453
+        }
+      ]
+    },
+    {
+      "episode": 1053,
+      "frames": 127,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-263.parquet",
+          "bytes": 90400453
+        }
+      ]
+    },
+    {
+      "episode": 1054,
+      "frames": 124,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-263.parquet",
+          "bytes": 90400453
+        }
+      ]
+    },
+    {
+      "episode": 1055,
+      "frames": 147,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-264.parquet",
+          "bytes": 103928102
+        }
+      ]
+    },
+    {
+      "episode": 1056,
+      "frames": 163,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-264.parquet",
+          "bytes": 103928102
+        }
+      ]
+    },
+    {
+      "episode": 1057,
+      "frames": 135,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-264.parquet",
+          "bytes": 103928102
+        }
+      ]
+    },
+    {
+      "episode": 1058,
+      "frames": 141,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-264.parquet",
+          "bytes": 103928102
+        }
+      ]
+    },
+    {
+      "episode": 1059,
+      "frames": 161,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-264.parquet",
+          "bytes": 103928102
+        }
+      ]
+    },
+    {
+      "episode": 1060,
+      "frames": 156,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-265.parquet",
+          "bytes": 103977767
+        }
+      ]
+    },
+    {
+      "episode": 1061,
+      "frames": 139,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-265.parquet",
+          "bytes": 103977767
+        }
+      ]
+    },
+    {
+      "episode": 1062,
+      "frames": 140,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-265.parquet",
+          "bytes": 103977767
+        }
+      ]
+    },
+    {
+      "episode": 1063,
+      "frames": 148,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-265.parquet",
+          "bytes": 103977767
+        }
+      ]
+    },
+    {
+      "episode": 1064,
+      "frames": 157,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-265.parquet",
+          "bytes": 103977767
+        }
+      ]
+    },
+    {
+      "episode": 1065,
+      "frames": 131,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-266.parquet",
+          "bytes": 87170310
+        }
+      ]
+    },
+    {
+      "episode": 1066,
+      "frames": 164,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-266.parquet",
+          "bytes": 87170310
+        }
+      ]
+    },
+    {
+      "episode": 1067,
+      "frames": 162,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-266.parquet",
+          "bytes": 87170310
+        }
+      ]
+    },
+    {
+      "episode": 1068,
+      "frames": 168,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-266.parquet",
+          "bytes": 87170310
+        }
+      ]
+    },
+    {
+      "episode": 1069,
+      "frames": 146,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-267.parquet",
+          "bytes": 87610949
+        }
+      ]
+    },
+    {
+      "episode": 1070,
+      "frames": 133,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-267.parquet",
+          "bytes": 87610949
+        }
+      ]
+    },
+    {
+      "episode": 1071,
+      "frames": 216,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-267.parquet",
+          "bytes": 87610949
+        }
+      ]
+    },
+    {
+      "episode": 1072,
+      "frames": 133,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-267.parquet",
+          "bytes": 87610949
+        }
+      ]
+    },
+    {
+      "episode": 1073,
+      "frames": 134,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-268.parquet",
+          "bytes": 102648659
+        }
+      ]
+    },
+    {
+      "episode": 1074,
+      "frames": 149,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-268.parquet",
+          "bytes": 102648659
+        }
+      ]
+    },
+    {
+      "episode": 1075,
+      "frames": 160,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-268.parquet",
+          "bytes": 102648659
+        }
+      ]
+    },
+    {
+      "episode": 1076,
+      "frames": 173,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-268.parquet",
+          "bytes": 102648659
+        }
+      ]
+    },
+    {
+      "episode": 1077,
+      "frames": 135,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-268.parquet",
+          "bytes": 102648659
+        }
+      ]
+    },
+    {
+      "episode": 1078,
+      "frames": 143,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-269.parquet",
+          "bytes": 100522916
+        }
+      ]
+    },
+    {
+      "episode": 1079,
+      "frames": 120,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-269.parquet",
+          "bytes": 100522916
+        }
+      ]
+    },
+    {
+      "episode": 1080,
+      "frames": 143,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-269.parquet",
+          "bytes": 100522916
+        }
+      ]
+    },
+    {
+      "episode": 1081,
+      "frames": 165,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-269.parquet",
+          "bytes": 100522916
+        }
+      ]
+    },
+    {
+      "episode": 1082,
+      "frames": 150,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-269.parquet",
+          "bytes": 100522916
+        }
+      ]
+    },
+    {
+      "episode": 1083,
+      "frames": 132,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-270.parquet",
+          "bytes": 99680637
+        }
+      ]
+    },
+    {
+      "episode": 1084,
+      "frames": 138,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-270.parquet",
+          "bytes": 99680637
+        }
+      ]
+    },
+    {
+      "episode": 1085,
+      "frames": 131,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-270.parquet",
+          "bytes": 99680637
+        }
+      ]
+    },
+    {
+      "episode": 1086,
+      "frames": 154,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-270.parquet",
+          "bytes": 99680637
+        }
+      ]
+    },
+    {
+      "episode": 1087,
+      "frames": 160,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-270.parquet",
+          "bytes": 99680637
+        }
+      ]
+    },
+    {
+      "episode": 1088,
+      "frames": 153,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-271.parquet",
+          "bytes": 88428883
+        }
+      ]
+    },
+    {
+      "episode": 1089,
+      "frames": 136,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-271.parquet",
+          "bytes": 88428883
+        }
+      ]
+    },
+    {
+      "episode": 1090,
+      "frames": 219,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-271.parquet",
+          "bytes": 88428883
+        }
+      ]
+    },
+    {
+      "episode": 1091,
+      "frames": 151,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-271.parquet",
+          "bytes": 88428883
+        }
+      ]
+    },
+    {
+      "episode": 1092,
+      "frames": 137,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-272.parquet",
+          "bytes": 98987279
+        }
+      ]
+    },
+    {
+      "episode": 1093,
+      "frames": 133,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-272.parquet",
+          "bytes": 98987279
+        }
+      ]
+    },
+    {
+      "episode": 1094,
+      "frames": 148,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-272.parquet",
+          "bytes": 98987279
+        }
+      ]
+    },
+    {
+      "episode": 1095,
+      "frames": 150,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-272.parquet",
+          "bytes": 98987279
+        }
+      ]
+    },
+    {
+      "episode": 1096,
+      "frames": 149,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-272.parquet",
+          "bytes": 98987279
+        }
+      ]
+    },
+    {
+      "episode": 1097,
+      "frames": 158,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-273.parquet",
+          "bytes": 87041198
+        }
+      ]
+    },
+    {
+      "episode": 1098,
+      "frames": 129,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-273.parquet",
+          "bytes": 87041198
+        }
+      ]
+    },
+    {
+      "episode": 1099,
+      "frames": 164,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-273.parquet",
+          "bytes": 87041198
+        }
+      ]
+    },
+    {
+      "episode": 1100,
+      "frames": 179,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-273.parquet",
+          "bytes": 87041198
+        }
+      ]
+    },
+    {
+      "episode": 1101,
+      "frames": 128,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-274.parquet",
+          "bytes": 78651162
+        }
+      ]
+    },
+    {
+      "episode": 1102,
+      "frames": 150,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-274.parquet",
+          "bytes": 78651162
+        }
+      ]
+    },
+    {
+      "episode": 1103,
+      "frames": 125,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-274.parquet",
+          "bytes": 78651162
+        }
+      ]
+    },
+    {
+      "episode": 1104,
+      "frames": 168,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-274.parquet",
+          "bytes": 78651162
+        }
+      ]
+    },
+    {
+      "episode": 1105,
+      "frames": 196,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-275.parquet",
+          "bytes": 86434248
+        }
+      ]
+    },
+    {
+      "episode": 1106,
+      "frames": 169,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-275.parquet",
+          "bytes": 86434248
+        }
+      ]
+    },
+    {
+      "episode": 1107,
+      "frames": 126,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-275.parquet",
+          "bytes": 86434248
+        }
+      ]
+    },
+    {
+      "episode": 1108,
+      "frames": 137,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-275.parquet",
+          "bytes": 86434248
+        }
+      ]
+    },
+    {
+      "episode": 1109,
+      "frames": 141,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-276.parquet",
+          "bytes": 103947128
+        }
+      ]
+    },
+    {
+      "episode": 1110,
+      "frames": 151,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-276.parquet",
+          "bytes": 103947128
+        }
+      ]
+    },
+    {
+      "episode": 1111,
+      "frames": 147,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-276.parquet",
+          "bytes": 103947128
+        }
+      ]
+    },
+    {
+      "episode": 1112,
+      "frames": 150,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-276.parquet",
+          "bytes": 103947128
+        }
+      ]
+    },
+    {
+      "episode": 1113,
+      "frames": 154,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-276.parquet",
+          "bytes": 103947128
+        }
+      ]
+    },
+    {
+      "episode": 1114,
+      "frames": 127,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-277.parquet",
+          "bytes": 99701652
+        }
+      ]
+    },
+    {
+      "episode": 1115,
+      "frames": 164,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-277.parquet",
+          "bytes": 99701652
+        }
+      ]
+    },
+    {
+      "episode": 1116,
+      "frames": 130,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-277.parquet",
+          "bytes": 99701652
+        }
+      ]
+    },
+    {
+      "episode": 1117,
+      "frames": 149,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-277.parquet",
+          "bytes": 99701652
+        }
+      ]
+    },
+    {
+      "episode": 1118,
+      "frames": 155,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-277.parquet",
+          "bytes": 99701652
+        }
+      ]
+    },
+    {
+      "episode": 1119,
+      "frames": 199,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-278.parquet",
+          "bytes": 94117066
+        }
+      ]
+    },
+    {
+      "episode": 1120,
+      "frames": 194,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-278.parquet",
+          "bytes": 94117066
+        }
+      ]
+    },
+    {
+      "episode": 1121,
+      "frames": 168,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-278.parquet",
+          "bytes": 94117066
+        }
+      ]
+    },
+    {
+      "episode": 1122,
+      "frames": 120,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-278.parquet",
+          "bytes": 94117066
+        }
+      ]
+    },
+    {
+      "episode": 1123,
+      "frames": 129,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-279.parquet",
+          "bytes": 101767727
+        }
+      ]
+    },
+    {
+      "episode": 1124,
+      "frames": 155,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-279.parquet",
+          "bytes": 101767727
+        }
+      ]
+    },
+    {
+      "episode": 1125,
+      "frames": 170,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-279.parquet",
+          "bytes": 101767727
+        }
+      ]
+    },
+    {
+      "episode": 1126,
+      "frames": 131,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-279.parquet",
+          "bytes": 101767727
+        }
+      ]
+    },
+    {
+      "episode": 1127,
+      "frames": 159,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-279.parquet",
+          "bytes": 101767727
+        }
+      ]
+    },
+    {
+      "episode": 1128,
+      "frames": 157,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-280.parquet",
+          "bytes": 85491425
+        }
+      ]
+    },
+    {
+      "episode": 1129,
+      "frames": 140,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-280.parquet",
+          "bytes": 85491425
+        }
+      ]
+    },
+    {
+      "episode": 1130,
+      "frames": 166,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-280.parquet",
+          "bytes": 85491425
+        }
+      ]
+    },
+    {
+      "episode": 1131,
+      "frames": 151,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-280.parquet",
+          "bytes": 85491425
+        }
+      ]
+    },
+    {
+      "episode": 1132,
+      "frames": 136,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-281.parquet",
+          "bytes": 98405923
+        }
+      ]
+    },
+    {
+      "episode": 1133,
+      "frames": 131,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-281.parquet",
+          "bytes": 98405923
+        }
+      ]
+    },
+    {
+      "episode": 1134,
+      "frames": 139,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-281.parquet",
+          "bytes": 98405923
+        }
+      ]
+    },
+    {
+      "episode": 1135,
+      "frames": 174,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-281.parquet",
+          "bytes": 98405923
+        }
+      ]
+    },
+    {
+      "episode": 1136,
+      "frames": 129,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-281.parquet",
+          "bytes": 98405923
+        }
+      ]
+    },
+    {
+      "episode": 1137,
+      "frames": 136,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-282.parquet",
+          "bytes": 100510727
+        }
+      ]
+    },
+    {
+      "episode": 1138,
+      "frames": 154,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-282.parquet",
+          "bytes": 100510727
+        }
+      ]
+    },
+    {
+      "episode": 1139,
+      "frames": 129,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-282.parquet",
+          "bytes": 100510727
+        }
+      ]
+    },
+    {
+      "episode": 1140,
+      "frames": 162,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-282.parquet",
+          "bytes": 100510727
+        }
+      ]
+    },
+    {
+      "episode": 1141,
+      "frames": 142,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-282.parquet",
+          "bytes": 100510727
+        }
+      ]
+    },
+    {
+      "episode": 1142,
+      "frames": 145,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-283.parquet",
+          "bytes": 85292638
+        }
+      ]
+    },
+    {
+      "episode": 1143,
+      "frames": 189,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-283.parquet",
+          "bytes": 85292638
+        }
+      ]
+    },
+    {
+      "episode": 1144,
+      "frames": 134,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-283.parquet",
+          "bytes": 85292638
+        }
+      ]
+    },
+    {
+      "episode": 1145,
+      "frames": 164,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-283.parquet",
+          "bytes": 85292638
+        }
+      ]
+    },
+    {
+      "episode": 1146,
+      "frames": 163,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-284.parquet",
+          "bytes": 86358749
+        }
+      ]
+    },
+    {
+      "episode": 1147,
+      "frames": 146,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-284.parquet",
+          "bytes": 86358749
+        }
+      ]
+    },
+    {
+      "episode": 1148,
+      "frames": 150,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-284.parquet",
+          "bytes": 86358749
+        }
+      ]
+    },
+    {
+      "episode": 1149,
+      "frames": 168,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-284.parquet",
+          "bytes": 86358749
+        }
+      ]
+    },
+    {
+      "episode": 1150,
+      "frames": 149,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-285.parquet",
+          "bytes": 104153187
+        }
+      ]
+    },
+    {
+      "episode": 1151,
+      "frames": 156,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-285.parquet",
+          "bytes": 104153187
+        }
+      ]
+    },
+    {
+      "episode": 1152,
+      "frames": 152,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-285.parquet",
+          "bytes": 104153187
+        }
+      ]
+    },
+    {
+      "episode": 1153,
+      "frames": 130,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-285.parquet",
+          "bytes": 104153187
+        }
+      ]
+    },
+    {
+      "episode": 1154,
+      "frames": 175,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-285.parquet",
+          "bytes": 104153187
+        }
+      ]
+    },
+    {
+      "episode": 1155,
+      "frames": 124,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-286.parquet",
+          "bytes": 96021494
+        }
+      ]
+    },
+    {
+      "episode": 1156,
+      "frames": 142,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-286.parquet",
+          "bytes": 96021494
+        }
+      ]
+    },
+    {
+      "episode": 1157,
+      "frames": 123,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-286.parquet",
+          "bytes": 96021494
+        }
+      ]
+    },
+    {
+      "episode": 1158,
+      "frames": 154,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-286.parquet",
+          "bytes": 96021494
+        }
+      ]
+    },
+    {
+      "episode": 1159,
+      "frames": 153,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-286.parquet",
+          "bytes": 96021494
+        }
+      ]
+    },
+    {
+      "episode": 1160,
+      "frames": 141,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-287.parquet",
+          "bytes": 96213016
+        }
+      ]
+    },
+    {
+      "episode": 1161,
+      "frames": 139,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-287.parquet",
+          "bytes": 96213016
+        }
+      ]
+    },
+    {
+      "episode": 1162,
+      "frames": 164,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-287.parquet",
+          "bytes": 96213016
+        }
+      ]
+    },
+    {
+      "episode": 1163,
+      "frames": 125,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-287.parquet",
+          "bytes": 96213016
+        }
+      ]
+    },
+    {
+      "episode": 1164,
+      "frames": 132,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-287.parquet",
+          "bytes": 96213016
+        }
+      ]
+    },
+    {
+      "episode": 1165,
+      "frames": 124,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-288.parquet",
+          "bytes": 91751781
+        }
+      ]
+    },
+    {
+      "episode": 1166,
+      "frames": 148,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-288.parquet",
+          "bytes": 91751781
+        }
+      ]
+    },
+    {
+      "episode": 1167,
+      "frames": 120,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-288.parquet",
+          "bytes": 91751781
+        }
+      ]
+    },
+    {
+      "episode": 1168,
+      "frames": 149,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-288.parquet",
+          "bytes": 91751781
+        }
+      ]
+    },
+    {
+      "episode": 1169,
+      "frames": 128,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-288.parquet",
+          "bytes": 91751781
+        }
+      ]
+    },
+    {
+      "episode": 1170,
+      "frames": 123,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-289.parquet",
+          "bytes": 96495679
+        }
+      ]
+    },
+    {
+      "episode": 1171,
+      "frames": 151,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-289.parquet",
+          "bytes": 96495679
+        }
+      ]
+    },
+    {
+      "episode": 1172,
+      "frames": 142,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-289.parquet",
+          "bytes": 96495679
+        }
+      ]
+    },
+    {
+      "episode": 1173,
+      "frames": 142,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-289.parquet",
+          "bytes": 96495679
+        }
+      ]
+    },
+    {
+      "episode": 1174,
+      "frames": 135,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-289.parquet",
+          "bytes": 96495679
+        }
+      ]
+    },
+    {
+      "episode": 1175,
+      "frames": 134,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-290.parquet",
+          "bytes": 87933624
+        }
+      ]
+    },
+    {
+      "episode": 1176,
+      "frames": 146,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-290.parquet",
+          "bytes": 87933624
+        }
+      ]
+    },
+    {
+      "episode": 1177,
+      "frames": 201,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-290.parquet",
+          "bytes": 87933624
+        }
+      ]
+    },
+    {
+      "episode": 1178,
+      "frames": 146,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-290.parquet",
+          "bytes": 87933624
+        }
+      ]
+    },
+    {
+      "episode": 1179,
+      "frames": 161,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-291.parquet",
+          "bytes": 97135564
+        }
+      ]
+    },
+    {
+      "episode": 1180,
+      "frames": 175,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-291.parquet",
+          "bytes": 97135564
+        }
+      ]
+    },
+    {
+      "episode": 1181,
+      "frames": 221,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-291.parquet",
+          "bytes": 97135564
+        }
+      ]
+    },
+    {
+      "episode": 1182,
+      "frames": 132,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-291.parquet",
+          "bytes": 97135564
+        }
+      ]
+    },
+    {
+      "episode": 1183,
+      "frames": 143,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-292.parquet",
+          "bytes": 85552551
+        }
+      ]
+    },
+    {
+      "episode": 1184,
+      "frames": 141,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-292.parquet",
+          "bytes": 85552551
+        }
+      ]
+    },
+    {
+      "episode": 1185,
+      "frames": 162,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-292.parquet",
+          "bytes": 85552551
+        }
+      ]
+    },
+    {
+      "episode": 1186,
+      "frames": 175,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-292.parquet",
+          "bytes": 85552551
+        }
+      ]
+    },
+    {
+      "episode": 1187,
+      "frames": 151,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-293.parquet",
+          "bytes": 95816066
+        }
+      ]
+    },
+    {
+      "episode": 1188,
+      "frames": 145,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-293.parquet",
+          "bytes": 95816066
+        }
+      ]
+    },
+    {
+      "episode": 1189,
+      "frames": 129,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-293.parquet",
+          "bytes": 95816066
+        }
+      ]
+    },
+    {
+      "episode": 1190,
+      "frames": 136,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-293.parquet",
+          "bytes": 95816066
+        }
+      ]
+    },
+    {
+      "episode": 1191,
+      "frames": 125,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-293.parquet",
+          "bytes": 95816066
+        }
+      ]
+    },
+    {
+      "episode": 1192,
+      "frames": 157,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-294.parquet",
+          "bytes": 103481376
+        }
+      ]
+    },
+    {
+      "episode": 1193,
+      "frames": 166,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-294.parquet",
+          "bytes": 103481376
+        }
+      ]
+    },
+    {
+      "episode": 1194,
+      "frames": 144,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-294.parquet",
+          "bytes": 103481376
+        }
+      ]
+    },
+    {
+      "episode": 1195,
+      "frames": 147,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-294.parquet",
+          "bytes": 103481376
+        }
+      ]
+    },
+    {
+      "episode": 1196,
+      "frames": 134,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-294.parquet",
+          "bytes": 103481376
+        }
+      ]
+    },
+    {
+      "episode": 1197,
+      "frames": 121,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-295.parquet",
+          "bytes": 100849015
+        }
+      ]
+    },
+    {
+      "episode": 1198,
+      "frames": 187,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-295.parquet",
+          "bytes": 100849015
+        }
+      ]
+    },
+    {
+      "episode": 1199,
+      "frames": 139,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-295.parquet",
+          "bytes": 100849015
+        }
+      ]
+    },
+    {
+      "episode": 1200,
+      "frames": 133,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-295.parquet",
+          "bytes": 100849015
+        }
+      ]
+    },
+    {
+      "episode": 1201,
+      "frames": 148,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-295.parquet",
+          "bytes": 100849015
+        }
+      ]
+    },
+    {
+      "episode": 1202,
+      "frames": 139,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-296.parquet",
+          "bytes": 103307130
+        }
+      ]
+    },
+    {
+      "episode": 1203,
+      "frames": 143,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-296.parquet",
+          "bytes": 103307130
+        }
+      ]
+    },
+    {
+      "episode": 1204,
+      "frames": 162,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-296.parquet",
+          "bytes": 103307130
+        }
+      ]
+    },
+    {
+      "episode": 1205,
+      "frames": 146,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-296.parquet",
+          "bytes": 103307130
+        }
+      ]
+    },
+    {
+      "episode": 1206,
+      "frames": 150,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-296.parquet",
+          "bytes": 103307130
+        }
+      ]
+    },
+    {
+      "episode": 1207,
+      "frames": 133,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-297.parquet",
+          "bytes": 101753530
+        }
+      ]
+    },
+    {
+      "episode": 1208,
+      "frames": 145,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-297.parquet",
+          "bytes": 101753530
+        }
+      ]
+    },
+    {
+      "episode": 1209,
+      "frames": 136,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-297.parquet",
+          "bytes": 101753530
+        }
+      ]
+    },
+    {
+      "episode": 1210,
+      "frames": 162,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-297.parquet",
+          "bytes": 101753530
+        }
+      ]
+    },
+    {
+      "episode": 1211,
+      "frames": 155,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-297.parquet",
+          "bytes": 101753530
+        }
+      ]
+    },
+    {
+      "episode": 1212,
+      "frames": 153,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-298.parquet",
+          "bytes": 81841452
+        }
+      ]
+    },
+    {
+      "episode": 1213,
+      "frames": 123,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-298.parquet",
+          "bytes": 81841452
+        }
+      ]
+    },
+    {
+      "episode": 1214,
+      "frames": 148,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-298.parquet",
+          "bytes": 81841452
+        }
+      ]
+    },
+    {
+      "episode": 1215,
+      "frames": 171,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-298.parquet",
+          "bytes": 81841452
+        }
+      ]
+    },
+    {
+      "episode": 1216,
+      "frames": 180,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-299.parquet",
+          "bytes": 85376889
+        }
+      ]
+    },
+    {
+      "episode": 1217,
+      "frames": 141,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-299.parquet",
+          "bytes": 85376889
+        }
+      ]
+    },
+    {
+      "episode": 1218,
+      "frames": 145,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-299.parquet",
+          "bytes": 85376889
+        }
+      ]
+    },
+    {
+      "episode": 1219,
+      "frames": 149,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-299.parquet",
+          "bytes": 85376889
+        }
+      ]
+    },
+    {
+      "episode": 1220,
+      "frames": 150,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-300.parquet",
+          "bytes": 100979482
+        }
+      ]
+    },
+    {
+      "episode": 1221,
+      "frames": 138,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-300.parquet",
+          "bytes": 100979482
+        }
+      ]
+    },
+    {
+      "episode": 1222,
+      "frames": 128,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-300.parquet",
+          "bytes": 100979482
+        }
+      ]
+    },
+    {
+      "episode": 1223,
+      "frames": 165,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-300.parquet",
+          "bytes": 100979482
+        }
+      ]
+    },
+    {
+      "episode": 1224,
+      "frames": 146,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-300.parquet",
+          "bytes": 100979482
+        }
+      ]
+    },
+    {
+      "episode": 1225,
+      "frames": 151,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-301.parquet",
+          "bytes": 98616764
+        }
+      ]
+    },
+    {
+      "episode": 1226,
+      "frames": 177,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-301.parquet",
+          "bytes": 98616764
+        }
+      ]
+    },
+    {
+      "episode": 1227,
+      "frames": 126,
+      "task_id": 20,
+      "task": "pick up the orange juice and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-301.parquet",
+          "bytes": 98616764
+        }
+      ]
+    },
+    {
+      "episode": 1228,
+      "frames": 124,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-301.parquet",
+          "bytes": 98616764
+        }
+      ]
+    },
+    {
+      "episode": 1229,
+      "frames": 135,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-301.parquet",
+          "bytes": 98616764
+        }
+      ]
+    },
+    {
+      "episode": 1230,
+      "frames": 131,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-302.parquet",
+          "bytes": 97681620
+        }
+      ]
+    },
+    {
+      "episode": 1231,
+      "frames": 141,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-302.parquet",
+          "bytes": 97681620
+        }
+      ]
+    },
+    {
+      "episode": 1232,
+      "frames": 128,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-302.parquet",
+          "bytes": 97681620
+        }
+      ]
+    },
+    {
+      "episode": 1233,
+      "frames": 146,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-302.parquet",
+          "bytes": 97681620
+        }
+      ]
+    },
+    {
+      "episode": 1234,
+      "frames": 169,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-302.parquet",
+          "bytes": 97681620
+        }
+      ]
+    },
+    {
+      "episode": 1235,
+      "frames": 168,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-303.parquet",
+          "bytes": 104295835
+        }
+      ]
+    },
+    {
+      "episode": 1236,
+      "frames": 135,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-303.parquet",
+          "bytes": 104295835
+        }
+      ]
+    },
+    {
+      "episode": 1237,
+      "frames": 149,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-303.parquet",
+          "bytes": 104295835
+        }
+      ]
+    },
+    {
+      "episode": 1238,
+      "frames": 164,
+      "task_id": 27,
+      "task": "pick up the butter and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-303.parquet",
+          "bytes": 104295835
+        }
+      ]
+    },
+    {
+      "episode": 1239,
+      "frames": 130,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-303.parquet",
+          "bytes": 104295835
+        }
+      ]
+    },
+    {
+      "episode": 1240,
+      "frames": 155,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-304.parquet",
+          "bytes": 103678931
+        }
+      ]
+    },
+    {
+      "episode": 1241,
+      "frames": 137,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-304.parquet",
+          "bytes": 103678931
+        }
+      ]
+    },
+    {
+      "episode": 1242,
+      "frames": 155,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-304.parquet",
+          "bytes": 103678931
+        }
+      ]
+    },
+    {
+      "episode": 1243,
+      "frames": 155,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-304.parquet",
+          "bytes": 103678931
+        }
+      ]
+    },
+    {
+      "episode": 1244,
+      "frames": 150,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-304.parquet",
+          "bytes": 103678931
+        }
+      ]
+    },
+    {
+      "episode": 1245,
+      "frames": 157,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-305.parquet",
+          "bytes": 100506531
+        }
+      ]
+    },
+    {
+      "episode": 1246,
+      "frames": 132,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-305.parquet",
+          "bytes": 100506531
+        }
+      ]
+    },
+    {
+      "episode": 1247,
+      "frames": 118,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-305.parquet",
+          "bytes": 100506531
+        }
+      ]
+    },
+    {
+      "episode": 1248,
+      "frames": 135,
+      "task_id": 25,
+      "task": "pick up the milk and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-305.parquet",
+          "bytes": 100506531
+        }
+      ]
+    },
+    {
+      "episode": 1249,
+      "frames": 177,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-305.parquet",
+          "bytes": 100506531
+        }
+      ]
+    },
+    {
+      "episode": 1250,
+      "frames": 153,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-306.parquet",
+          "bytes": 96168681
+        }
+      ]
+    },
+    {
+      "episode": 1251,
+      "frames": 141,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-306.parquet",
+          "bytes": 96168681
+        }
+      ]
+    },
+    {
+      "episode": 1252,
+      "frames": 125,
+      "task_id": 26,
+      "task": "pick up the salad dressing and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-306.parquet",
+          "bytes": 96168681
+        }
+      ]
+    },
+    {
+      "episode": 1253,
+      "frames": 120,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-306.parquet",
+          "bytes": 96168681
+        }
+      ]
+    },
+    {
+      "episode": 1254,
+      "frames": 142,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-306.parquet",
+          "bytes": 96168681
+        }
+      ]
+    },
+    {
+      "episode": 1255,
+      "frames": 155,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-307.parquet",
+          "bytes": 100309706
+        }
+      ]
+    },
+    {
+      "episode": 1256,
+      "frames": 128,
+      "task_id": 22,
+      "task": "pick up the cream cheese and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-307.parquet",
+          "bytes": 100309706
+        }
+      ]
+    },
+    {
+      "episode": 1257,
+      "frames": 132,
+      "task_id": 28,
+      "task": "pick up the tomato sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-307.parquet",
+          "bytes": 100309706
+        }
+      ]
+    },
+    {
+      "episode": 1258,
+      "frames": 148,
+      "task_id": 23,
+      "task": "pick up the bbq sauce and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-307.parquet",
+          "bytes": 100309706
+        }
+      ]
+    },
+    {
+      "episode": 1259,
+      "frames": 153,
+      "task_id": 29,
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-307.parquet",
+          "bytes": 100309706
+        }
+      ]
+    },
+    {
+      "episode": 1260,
+      "frames": 152,
+      "task_id": 21,
+      "task": "pick up the ketchup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-308.parquet",
+          "bytes": 94375105
+        }
+      ]
+    }
+  ],
+  "frames": 66984,
+  "physical_download_bytes": 9402105058,
+  "estimated_feature_bytes": 8252294832,
+  "fps": 10,
+  "split_scope": "episode train/validation development split; no independent predictor test set"
+}

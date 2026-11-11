@@ -1,0 +1,99 @@
+{
+  "recorded_on": "2026-11-08",
+  "execution_date": "2026-11-07",
+  "evidence_source": "user-saved remote Notebook outputs; reviewed locally, no new GPU execution",
+  "dataset": {
+    "id": "HuggingFaceVLA/libero",
+    "revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+    "episodes": [
+      {
+        "id": 813,
+        "frames": 155,
+        "split": "train"
+      },
+      {
+        "id": 818,
+        "frames": 164,
+        "split": "train"
+      },
+      {
+        "id": 825,
+        "frames": 153,
+        "split": "validation"
+      }
+    ],
+    "frames": 472,
+    "camera_count": 2,
+    "fps": 10,
+    "visual_shape_per_frame": [
+      128,
+      960
+    ],
+    "action_dim": 7,
+    "raw_and_features_sha_check": "COMPLETE for all three episodes",
+    "feature_array_payload_mib_estimate": 55.46,
+    "scope": "pipeline pilot; not full dataset"
+  },
+  "baseline_protocol": {
+    "policy": "lerobot/smolvla_libero",
+    "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+    "suite": "libero_object",
+    "task_ids": [
+      0
+    ],
+    "initial_state_ids": [
+      0,
+      1
+    ],
+    "seed": 1000,
+    "action_steps": 50,
+    "scope": "two original LIBERO smoke episodes; not Plus or Corrector improvement"
+  },
+  "baseline_summary": {
+    "groups": [
+      {
+        "method": "H50",
+        "condition": "libero_object/task_0/init_0",
+        "planned": 1,
+        "completed": 1,
+        "successes": 1,
+        "errors": 0,
+        "success_rate": 1.0,
+        "pending": 0
+      },
+      {
+        "method": "H50",
+        "condition": "libero_object/task_0/init_1",
+        "planned": 1,
+        "completed": 1,
+        "successes": 1,
+        "errors": 0,
+        "success_rate": 1.0,
+        "pending": 0
+      }
+    ],
+    "overall_by_method": [
+      {
+        "method": "H50",
+        "planned": 2,
+        "completed": 2,
+        "successes": 2,
+        "errors": 0,
+        "success_rate": 1.0,
+        "completion_rate": 1.0,
+        "mean_chunk_calls": 3.0,
+        "observed_chunk_calls_n": 2,
+        "mean_policy_s": 2.2907333564994588,
+        "observed_policy_s_n": 2,
+        "mean_monitor_s": 0.0,
+        "observed_monitor_s_n": 2,
+        "mean_event_replans": 0.0,
+        "observed_event_replans_n": 2
+      }
+    ],
+    "note": "总体按成功数/完成数加权，不直接平均各组百分比；error/未完成不当作任务失败；非配对因果结论"
+  },
+  "corrector_real_feature_training_completed": false,
+  "online_corrector_evaluated": false,
+  "training_practice": "four student training tasks intentionally unfinished; reference orchestration tested with constructed inputs"
+}
