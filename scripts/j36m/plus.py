@@ -195,8 +195,9 @@ def run_plus(args,guard):
                 env.close()
                 if events:
                     events.pending.clear();events.history.clear();events.z_now=None;events.context_now=None;events.target_now=None
+    output_floor=args.data_min_free_gib if output.stat().st_dev==Path('/root/autodl-tmp').stat().st_dev else args.system_min_free_gib
     run_plan(output,plan,{m:callback for m in {c['method'] for c in plan['cases']}},max_seconds=args.max_hours*3600,
-             min_free_gib=20,stop_file=args.stop_file)
+             min_free_gib=output_floor,stop_file=args.stop_file)
     execution=json.loads((output/'execution.json').read_text())
     if execution['status']=='completed':
         if args.phase=='online-smoke':audit_online_smoke(output)

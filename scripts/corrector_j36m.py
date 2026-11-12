@@ -26,7 +26,7 @@ def make_guard(args,gpu=False):
     def disk():
         report=resources(['/root','/root/autodl-tmp'])
         if report.get('effective_available_ram_gib',report.get('host_available_ram_gib',999))<2:raise ResourcePause('less than 2GiB effective RAM available')
-        for root,reserve in [('/root',8),('/root/autodl-tmp',20)]:
+        for root,reserve in [('/root',args.system_min_free_gib),('/root/autodl-tmp',args.data_min_free_gib)]:
             if Path(root).exists() and shutil.disk_usage(root).free<reserve*2**30:raise ResourcePause(f'{root} free below {reserve}GiB')
     def guard():
         disk()
@@ -73,6 +73,8 @@ def main():
     p.add_argument('--source-root',type=Path,default=Path('/root/autodl-tmp/corrector/runtime/vla-corrector-reference'))
     p.add_argument('--data-root',type=Path,default=Path('/root/autodl-tmp/corrector/object10-work/source'))
     p.add_argument('--allow-source-download',action='store_true');p.add_argument('--proxy-url')
+    p.add_argument('--data-min-free-gib',type=float,default=20.)
+    p.add_argument('--system-min-free-gib',type=float,default=8.)
     p.add_argument('--checkpoint',type=Path);p.add_argument('--calibration',type=Path)
     p.add_argument('--plus-source',type=Path,default=Path('/root/autodl-tmp/corrector/runtime/libero-plus'))
     p.add_argument('--plus-config',type=Path,default=Path('/root/autodl-tmp/corrector/runtime/libero-plus-config'))
@@ -80,6 +82,7 @@ def main():
     p.add_argument('--include-monitor',action='store_true');p.add_argument('--development-receipt',type=Path);p.add_argument('--physical-reference',type=Path)
     args=p.parse_args()
     if min(args.epochs,args.microbatch,args.accumulate,args.overfit_steps)<1 or args.patience<0:raise ValueError('invalid budget')
+    if args.data_min_free_gib<5 or args.system_min_free_gib<5:raise ValueError('disk hard floor must be at least 5GiB')
     if args.mode=='summarize':
         from j36m.reporting import summarize
         print(json.dumps(summarize(args.output),indent=2));return
@@ -148,7 +151,7 @@ def main():
         from j36m.extraction import extract70
         manifest=json.loads(args.manifest.read_text());pending=sum(r['frames'] for r in cfg['episodes'] if not Path(r['raw_path']).exists())
         missing={f['path']:f['bytes'] for r in manifest['records'] for f in r['files'] if not (args.data_root/f['path']).is_file()}
-        reserve=20*2**30+pending*2*2*1024*768*2+8*2**30+sum(missing.values())
+        reserve=args.data_min_free_gib*2**30+pending*2*2*1024*768*2+8*2**30+sum(missing.values())
         if shutil.disk_usage('/root/autodl-tmp').free<reserve:raise ResourcePause('insufficient capacity for complete selection + reserve/checkpoints')
         extract70(args,cfg,manifest,make_guard(args,gpu=True));return
     records=validate(cfg)

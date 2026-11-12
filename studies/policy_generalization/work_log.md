@@ -1371,3 +1371,12 @@ flowchart TD
 - 用户重建SSH后仅执行真实5轨迹CPU只读尺度统计及资源核对，130GiB数据盘约88.09GiB空闲，系统盘约15GiB；train原值RMS .3426/.8326/7.0449，val zero原始MSE .03818/.24257/9.92698，归一约.99。逐站点GPU因果归因尚未运行。
 - 远程目前未找到Plus源码和独立配置；新入口要求固定Plus、历史资产revision/BDDL SHA和实际20261031物理参考，缺失则停止，不混用普通LIBERO。新GPU smoke、70缓存、长训练和Plus48/60回合均未启动。
 - 独立源码部署包/阶段gate/默认只到smoke/12h预算/STOP与恢复说明见corrector/j36m/README.md；实际CPU测试与结果由results/20261112/j36m_development记录。
+
+### 2026-11-13：用户授权32小时长期队列，双盘资源与真实GPU门槛
+
+- 远程共享SSH有效；实际4090空闲、数据盘130GiB/约89GiB可用、系统盘30GiB/约16GiB可用。部署原402ce72包到新dev路径，preflight/CPU28项/cache-audit已过。
+- 首次station因上游Extractor重新排列路径而导入参考旧LeRobot、报缺imageio。保留错误栈；仅为新进程显式LEROBOT_SRC=现有runtime/lerobot/src修复，不pip、不修改第三方。恢复后真实5图像对station通过、原始FP16及Connector重新量化一致；J/C0/S2/S8/J_equal真实GPU batch1 smoke全部通过，J36.79M峰值0.825GiB、单缓存batch约20.3sample/s。该吞吐不是完整epoch耗时。
+- 用户要求结合原5GiB余量经验，新增显式磁盘硬下限CLI；长期计划数据盘5GiB、系统盘8GiB，开提取仍计pending raw/分片/8GiB训练预算，不删除旧缓存。seed42/43新权重在数据盘、seed44新权重及小日志在系统盘。
+- 新独立长队列先验证microbatch8；固定8×4=有效batch32、FP32、60轮×5模型×seed42/43/44，先J、C0、J_equal、S2、S8。32小时deadline，完整Episode/epoch恢复、文件描述符8192、有限IO重试、资源不足等待、未知错误停止。它不会修改旧30轮默认计划。
+- 当前Plus源码/资产缺失，远程限时直连HF探测亦失败；不会伪造Plus已完成或改用Object10。长队列先完成有意义的多层离线训练和复现，闭环另需环境核验。
+- CPU新增4项长队列检查通过，核心及历史回归继续通过。正式启动与首阶段实际状态保存在独立远程receipt及本地交付目录；不能把队列计划写作15模型已完成。

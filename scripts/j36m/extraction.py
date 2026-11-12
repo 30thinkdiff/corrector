@@ -17,7 +17,7 @@ def extract70(args,cfg,manifest,guard):
     if args.allow_source_download:
         command=[sys.executable,str(Path(__file__).resolve().parents[1]/'corrector_prefetch.py'),
                  '--manifest',str(args.manifest),'--local-dir',str(args.data_root),'--workers','3',
-                 '--max-new-files','0','--min-free-gib','20']
+                 '--max-new-files','0','--min-free-gib',str(args.data_min_free_gib)]
         if args.proxy_url:command+=['--proxy-url',args.proxy_url]
         subprocess.run(command,check=True)
     # Fail on missing shards before loading any large model. No implicit network.
@@ -50,7 +50,7 @@ def extract70(args,cfg,manifest,guard):
         cmd=[sys.executable,str(Path(__file__).resolve().parents[1]/'corrector_multilayer_pilot.py'),
              '--runtime',str(args.runtime),'--source-root',str(args.source_root),'--deep-root',cfg['features_root'],
              '--data-root',str(args.data_root),'--manifest',str(args.manifest),'--output',str(attempt),
-             '--episodes',str(ep),'--layers','2','8','--save-fp16','--min-free-gib','20']
+             '--episodes',str(ep),'--layers','2','8','--save-fp16','--min-free-gib',str(args.data_min_free_gib)]
         log=output/f'extract_{ep}.log'
         with log.open('a') as f:subprocess.run(cmd,stdout=f,stderr=subprocess.STDOUT,check=True)
         raw=attempt/f'episode_{ep}';marker=verify_marker(raw,raw=True)

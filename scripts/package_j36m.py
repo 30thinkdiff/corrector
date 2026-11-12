@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def sha(data):return hashlib.sha256(data).hexdigest()
 
 def files():
-    names=['corrector_j36m.py','corrector_j36m_pipeline.py','package_j36m.py','corrector_train.py','corrector_models.py',
+    names=['corrector_j36m.py','corrector_j36m_pipeline.py','corrector_j36m_longrun.py','package_j36m.py','corrector_train.py','corrector_models.py',
            'corrector_data_workbench.py','corrector_online_runtime.py','corrector_multilayer.py','corrector_multilayer_pilot.py',
            'corrector_prefetch.py','smolvla_libero_tools.py','smolvla_training_workbench.py','package_multilayer_mvp.py','corrector_multilayer_train.py']
     paths=[ROOT/'scripts'/n for n in names]
