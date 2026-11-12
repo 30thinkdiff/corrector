@@ -1,0 +1,24 @@
+{
+  "task_base_commit": "8dbd4638e15f39cb04de35ed0e50fcba364a3612",
+  "state": "local_implementation_and_cpu_validation",
+  "models_parameters": {
+    "J": 36793536,
+    "C0": 38052800,
+    "S2": 37266176,
+    "S8": 37266176
+  },
+  "real_cpu_scale_audit_episodes": [
+    813,
+    814,
+    815,
+    816,
+    817
+  ],
+  "real_gpu_smoke_executed": false,
+  "new70_raw_extracted": false,
+  "formal_training_executed": false,
+  "plus_evaluation_executed": false,
+  "remote_plus_source_config_found": false,
+  "historical_mvp_worktree_preserved": true,
+  "frozen_code_and_caches_modified": false
+}

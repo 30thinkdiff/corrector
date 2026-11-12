@@ -1,0 +1,29 @@
+{
+  "mvp": {
+    "source_commit": "721f2bae4c3cf2c9ef7abaf548caf40ee9d9f92d",
+    "zip_sha256": "a98b5be6319054a532af7d35e0939d8684fea48c21485d8a215b808996515565",
+    "source_model_file_sha256": "22a8effc50eee61947daa69304afbce2ea9198b690a96a023015566e38a171fa",
+    "parameters": 767328,
+    "topology": "MultiLayerCorrector(\n  (connector_projection): Linear(in_features=960, out_features=96, bias=True)\n  (action_projection): Linear(in_features=7, out_features=96, bias=True)\n  (backbone): Sequential(\n    (0): SharedBlock(\n      (net): Sequential(\n        (0): LayerNorm((96,), eps=1e-05, elementwise_affine=True)\n        (1): Linear(in_features=96, out_features=192, bias=True)\n        (2): GELU(approximate='none')\n        (3): Linear(in_features=192, out_features=96, bias=True)\n      )\n    )\n    (1): SharedBlock(\n      (net): Sequential(\n        (0): LayerNorm((96,), eps=1e-05, elementwise_affine=True)\n        (1): Linear(in_features=96, out_features=192, bias=True)\n        (2): GELU(approximate='none')\n        (3): Linear(in_features=192, out_features=96, bias=True)\n      )\n    )\n  )\n  (heads): ModuleDict(\n    (delta_connector): Linear(in_features=96, out_features=960, bias=True)\n    (delta_block_02): Linear(in_features=96, out_features=768, bias=True)\n    (delta_block_08): Linear(in_features=96, out_features=768, bias=True)\n  )\n  (block_02_projection): Linear(in_features=768, out_features=96, bias=True)\n  (block_08_projection): Linear(in_features=768, out_features=96, bias=True)\n  (local): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=96)\n)"
+  },
+  "formal": {
+    "parameters": 36793536,
+    "topology": "Joint36M(\n  (adapters): ModuleDict(\n    (block_02): Linear(in_features=12288, out_features=512, bias=True)\n    (block_08): Linear(in_features=12288, out_features=512, bias=True)\n    (connector): Linear(in_features=960, out_features=512, bias=True)\n  )\n  (fusion): Linear(in_features=1536, out_features=768, bias=True)\n  (action_embed): Sequential(\n    (0): Linear(in_features=7, out_features=256, bias=True)\n    (1): SiLU()\n  )\n  (film): Linear(in_features=256, out_features=1536, bias=True)\n  (backbone): ModuleList(\n    (0-2): 3 x TransformerEncoderLayer(\n      (self_attn): MultiheadAttention(\n        (out_proj): NonDynamicallyQuantizableLinear(in_features=768, out_features=768, bias=True)\n      )\n      (linear1): Linear(in_features=768, out_features=1536, bias=True)\n      (dropout): Dropout(p=0.0, inplace=False)\n      (linear2): Linear(in_features=1536, out_features=768, bias=True)\n      (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)\n      (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)\n      (dropout1): Dropout(p=0.0, inplace=False)\n      (dropout2): Dropout(p=0.0, inplace=False)\n    )\n  )\n  (heads): ModuleDict(\n    (block_02): Sequential(\n      (0): Linear(in_features=768, out_features=256, bias=True)\n      (1): SiLU()\n      (2): Linear(in_features=256, out_features=12288, bias=True)\n    )\n    (block_08): Sequential(\n      (0): Linear(in_features=768, out_features=256, bias=True)\n      (1): SiLU()\n      (2): Linear(in_features=256, out_features=12288, bias=True)\n    )\n    (connector): Linear(in_features=768, out_features=960, bias=True)\n  )\n  (local): ModuleDict(\n    (block_02): Sequential(\n      (0): Linear(in_features=1024, out_features=128, bias=True)\n      (1): SiLU()\n      (2): Linear(in_features=128, out_features=768, bias=True)\n    )\n    (block_08): Sequential(\n      (0): Linear(in_features=1024, out_features=128, bias=True)\n      (1): SiLU()\n      (2): Linear(in_features=128, out_features=768, bias=True)\n    )\n  )\n)",
+    "module_parameters": {
+      "adapters": 13075968,
+      "fusion": 1180416,
+      "action_embed": 2048,
+      "film": 394752,
+      "backbone": 14181120,
+      "heads": 7448000,
+      "local": 460544
+    },
+    "camera_parameters": 1536,
+    "position_parameters": 49152
+  },
+  "baselines": {
+    "C0": 38052800,
+    "S2": 37266176,
+    "S8": 37266176
+  }
+}

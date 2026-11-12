@@ -1,0 +1,9 @@
+{
+  "upstream": "ZJU-OmniAI/vla-corrector",
+  "revision": "927a06da8f00d7df483459e9039219e076c846de",
+  "files": {
+    "MLP.py": "b0231797e2308752f2008d8b5399be51dcb669b5db378c1abb4c18f3508e3e77",
+    "config.py": "b664a521512548258cd8c6d69a2863a70ff86919117103429d4f7c4b6a0ac08e"
+  },
+  "note": "verbatim frozen reference copy; no installed third-party changes"
+}

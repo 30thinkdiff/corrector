@@ -1,0 +1,37 @@
+{
+  "format": "j36m_local_cpu_validation_v1",
+  "python_torch": "2.11.0+cpu",
+  "numpy": "2.2.6",
+  "suites": [
+    {
+      "suite": "j36m",
+      "tests": 28,
+      "seconds": 17.978,
+      "status": "passed",
+      "python": "/home/hhd/ws_lerobot/.venv/bin/python",
+      "command": "-m unittest discover -s tests/j36m -v",
+      "log_sha256": "a33fd02c81b190d23158393aa64ec40775f9c19b6b5f140c15b300c42a9248c3"
+    },
+    {
+      "suite": "historical_mvp",
+      "tests": 23,
+      "seconds": 1.935,
+      "status": "passed",
+      "python": "/home/hhd/ws_lerobot/.venv/bin/python",
+      "command": "-m unittest discover -s tests/multilayer_mvp -v",
+      "log_sha256": "3efc54de9c6289b5e869dd0accd237a525f807fcd0e011c3aa10fc9a697ca69f"
+    },
+    {
+      "suite": "multilayer_export",
+      "tests": 9,
+      "seconds": 0.169,
+      "status": "passed",
+      "python": "/home/hhd/ws_lerobot/.venv/bin/python",
+      "command": "-m unittest discover -s tests -p test_corrector_multilayer_pilot.py -v",
+      "log_sha256": "342c9bb4087992a947856d2aa91c6cab44053c9a52d6f08b81c0042cea64b292"
+    }
+  ],
+  "real_full_J_cpu_forward_backward": true,
+  "gpu_tests_executed": false,
+  "synthetic_fixture_scope": "CPU shapes, gradients, controller routing and checkpoint transactions; not real-data model performance"
+}

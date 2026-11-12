@@ -51,3 +51,6 @@
 *.pem
 id_rsa
 id_ed25519
+
+# Formal J36M CPU and protocol regression fixtures only.
+!/tests/

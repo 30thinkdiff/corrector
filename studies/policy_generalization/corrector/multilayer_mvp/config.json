@@ -1,0 +1,16 @@
+{
+  "features_root": "/root/autodl-tmp/corrector/object10/features",
+  "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+  "policy_weight_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+  "raw_shape": [2, 1024, 768],
+  "connector_shape": [128, 960],
+  "fps": 10.0,
+  "k_step": 10,
+  "episodes": [
+    {"episode": 813, "task_id": 24, "split": "train", "frames": 155, "raw_path": "/root/multilayer_export_813_full_001/episode_813"},
+    {"episode": 814, "task_id": 25, "split": "train", "frames": 175, "raw_path": "/root/multilayer_export_file213_rest_001/episode_814"},
+    {"episode": 815, "task_id": 21, "split": "validation", "frames": 152, "raw_path": "/root/multilayer_export_file213_rest_001/episode_815"},
+    {"episode": 816, "task_id": 26, "split": "train", "frames": 124, "raw_path": "/root/multilayer_export_file213_rest_001/episode_816"},
+    {"episode": 817, "task_id": 25, "split": "train", "frames": 143, "raw_path": "/root/multilayer_export_file213_rest_001/episode_817"}
+  ]
+}
