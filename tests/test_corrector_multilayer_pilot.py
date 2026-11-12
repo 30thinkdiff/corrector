@@ -78,6 +78,24 @@ class TestPilot(unittest.TestCase):
         self.assertGreater(err4,err8)
         self.assertGreater(err8,0)
 
+    def test_dynamic_16_and_32_grids(self):
+        a=np.zeros((2,1024,8),np.float32)
+        b=a.copy()
+        b[:,1,0]=1
+        metrics=evaluate_pair({"block_08":a},{"block_08":b},["block_08"],grids=(8,16,32))
+        self.assertEqual(set(metrics["block_08"]),{"8","16","32"})
+        self.assertLess(metrics["block_08"]["32"]["pooled_vs_full_delta"]["relative_l2"],1e-7)
+        self.assertGreater(metrics["block_08"]["8"]["pooled_vs_full_delta"]["relative_l2"],metrics["block_08"]["16"]["pooled_vs_full_delta"]["relative_l2"])
+        s=summarize_pairs([{"metrics":metrics}])
+        self.assertEqual(set(s["block_08"]),{"8","16","32"})
+
+    def test_quantized_deep_cache_exactness_protocol(self):
+        z=np.random.default_rng(1337).normal(size=(128,960)).astype(np.float32)
+        cache_q,cache_scale=quantize_per_token(z)
+        repeat_q,repeat_scale=quantize_per_token(z.copy())
+        self.assertTrue(np.array_equal(cache_q,repeat_q))
+        self.assertTrue(np.array_equal(cache_scale,repeat_scale))
+
     def test_token_quantization(self):
         x=np.random.default_rng(42).standard_normal((2,8,8,768)).astype(np.float32)
         q,sc=quantize_per_token(x)
