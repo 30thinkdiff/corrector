@@ -152,8 +152,10 @@ def run(args):
         raise ValueError("pilot is limited to at most 6 episodes/4 block outputs")
     if len(set(args.episodes)) != len(args.episodes) or len(set(args.layers)) != len(args.layers):
         raise ValueError("duplicate episode/layer")
+    if not args.output.parent.is_dir():
+        raise FileNotFoundError("output parent missing; create it explicitly: "+str(args.output.parent))
     if shutil.disk_usage(args.output.parent).free < args.min_free_gib * 2**30:
-        raise RuntimeError("destination disk below 5GiB free reserve")
+        raise RuntimeError("destination disk below minimum free reserve")
     os.environ.update(HF_HOME=str(args.runtime/"hf"),HF_HUB_OFFLINE="1",
                       TRANSFORMERS_OFFLINE="1",TOKENIZERS_PARALLELISM="false",
                       LEROBOT_SRC=str(args.runtime/"lerobot/src"))
@@ -200,6 +202,25 @@ def run(args):
             rows=sorted((r for r in table.to_pylist() if r["episode_index"]==ep),key=lambda r:r["frame_index"])
             if len(rows)!=rec["frames"] or [r["frame_index"] for r in rows]!=list(range(rec["frames"])):
                 raise RuntimeError(f"source episode {ep} is incomplete")
+            # Raw intermediates are opt-in. Each file is [frame, camera, 1024 patches, 768 dim].
+            # This preserves ALL spatial tokens and permits later 4x4/8x8/16x16 comparisons
+            # WITHOUT rerunning the frozen visual model. Never duplicate old Connector or actions.
+            raw_memmaps={}
+            raw_paths={}
+            expected_frames=min(rec["frames"], args.max_frames) if args.max_frames else rec["frames"]
+            if args.save_fp16:
+                expected_bytes=expected_frames*len(args.layers)*2*1024*768*2
+                reserve=int(args.min_free_gib*2**30)
+                if shutil.disk_usage(args.output).free < expected_bytes+reserve+64*2**20:
+                    raise RuntimeError(f"not enough free space for {expected_bytes/2**20:.1f} MiB raw FP16 plus reserve")
+                raw_dir=args.output/f"episode_{ep}"
+                raw_dir.mkdir(exist_ok=False)
+                for layer in args.layers:
+                    label=f"block_{layer:02d}"
+                    path=raw_dir/f"{label}.fp16.npy"
+                    raw_paths[label]=path
+                    raw_memmaps[label]=np.lib.format.open_memmap(
+                        path,mode="w+",dtype=np.float16,shape=(expected_frames,2,1024,768))
             history=deque(maxlen=10)
             pairs=[]
             old_diff=[]
@@ -235,6 +256,15 @@ def run(args):
                 old_q_element_match.append(float(np.mean(q_equal)))
                 old_scale_element_match.append(float(np.mean(scale_equal)))
                 current={name:feature[name] for name in feature if name.startswith("block_")}
+                if args.save_fp16:
+                    for name, arr in raw_memmaps.items():
+                        src=current[name]
+                        if src.shape!=(2,1024,768) or not np.isfinite(src).all():
+                            raise RuntimeError(f"unexpected raw vision tensor for {name}: {src.shape}")
+                        fp16=src.astype(np.float16)
+                        if not np.isfinite(fp16).all():
+                            raise RuntimeError(f"FP16 overflow for {name} at ep{ep}/frame{fi}")
+                        arr[fi]=fp16
                 if len(history)==10:
                     pairs.append({"episode":ep,"frame_index":fi-10,"future_frame_index":fi,
                                   "metrics":evaluate_pair(history[0],current,current,args.grids)})
@@ -242,6 +272,35 @@ def run(args):
                 frame_count+=1
                 if frame_count%50==0:
                     print(f"episode {ep}: {frame_count}/{rec['frames']} frames",flush=True)
+            # Confirm true byte-identical connector quantization before publishing raw cache.
+            # A failure leaves an unmarked work directory; old data are untouched.
+            if args.save_fp16 and not all(old_quantized_match):
+                raise RuntimeError(f"old Connector requantization disagrees; no published cache for episode {ep}")
+            raw_archive=None
+            if args.save_fp16:
+                for arr in raw_memmaps.values():
+                    arr.flush()
+                raw_memmaps.clear()  # releases writable mmap handles
+                old_dir=args.deep_root/f"episode_{ep}"
+                raw_archive={
+                    "format":"multilayer_raw_fp16_v1",
+                    "episode":ep,"num_frames":frame_count,"fps":10.,
+                    "layer_indices_zero_based":args.layers,
+                    "camera_keys":cameras,"source_image_keys":IMAGE_KEYS,
+                    "dtype":"float16","pooling":"none",
+                    "shape_per_layer":[frame_count,2,1024,768],
+                    "source_parquet":str(parquet),"source_parquet_sha256":sha256(parquet),
+                    "policy_revision":POLICY_SHA,"policy_weight_sha256":weight_sha,
+                    "deep_cache_path":str(old_dir),
+                    "deep_cache_complete_sha256":sha256(old_dir/"COMPLETE.json"),
+                    "frame_index_and_timestamp_source":"deep_cache_path",
+                    "action_source":"deep_cache_path/actions.npy; checkpoint_processor_normalized",
+                    "k_data_frames":10,
+                    "files":{name+".fp16.npy":{"sha256":sha256(path),
+                       "size_bytes":path.stat().st_size} for name,path in raw_paths.items()},
+                    "note":"Feature tensors only; future delta label = z[t+10]-z[t] from same episode; no keyframe annotation",
+                }
+                atomic_json(raw_dir/"COMPLETE.json",raw_archive)
             record={
                 "episode":ep,"task_id":rec.get("task_id"),"frames":frame_count,"pairs":len(pairs),
                 "source_parquet":parquet.name,"source_sha256":sha256(parquet),
@@ -253,6 +312,8 @@ def run(args):
                 "old_deep_q_element_agreement_fraction":float(np.mean(old_q_element_match)),
                 "old_deep_scale_element_agreement_fraction":float(np.mean(old_scale_element_match)),
                 "layer_metrics":summarize_pairs(pairs),
+                "raw_fp16_cache_path":str(args.output/f"episode_{ep}") if args.save_fp16 else None,
+                "raw_fp16_cache_written":bool(args.save_fp16),
             }
             # This is an intentionally generous *sanity* threshold, not a scientific criterion.
             # Mismatch can arise from image order, preprocessing or model/source drift.
@@ -268,6 +329,7 @@ def run(args):
         "scope":"Small real demonstration screening; no training, no closed-loop/OGG claims",
         "policy_sha":POLICY_SHA,"dataset_sha":DATA_SHA,"weights_sha256":weight_sha,
         "layer_indices_zero_based":args.layers,"grids":args.grids,
+        "raw_fp16_cache_written":bool(args.save_fp16),
         "prediction_k_data_frames":10,"fps":10,
         "elapsed_seconds":time.perf_counter()-begin,"episodes":results,
         "limitations":[
@@ -275,7 +337,8 @@ def run(args):
             "INT8 errors are measured on changes of pooled features, not classification accuracy",
             "Deep cache comparison is sensitive to the old per-token quantization protocol",
             "No failure labels, online interruption precision, or OGG gradients evaluated",
-            "No feature tensors or old checkpoint files were written",
+            "Old Connector feature cache, original actions, and model checkpoints were not modified",
+            "Raw intermediate feature tensors are only written when --save-fp16 is set",
         ],
     }
     atomic_json(args.output/"report.json",report)
@@ -293,6 +356,8 @@ def args_parser():
     p.add_argument("--episodes",nargs="+",type=int,default=[813])
     p.add_argument("--layers",nargs="+",type=int,default=[2,5,8])
     p.add_argument("--grids",nargs="+",type=int,default=[4,8,16],help="allowed grids 4,8,16,32; screen only")
+    p.add_argument("--save-fp16",action="store_true",
+                   help="opt in to per-episode unpooled intermediate FP16 memmaps; no old connector duplicate")
     p.add_argument("--max-frames",type=int,default=0,help="0=entire episode; 11+=first N frames")
     p.add_argument("--min-free-gib",type=float,default=5)
     a=p.parse_args()
