@@ -2,7 +2,7 @@
 
 2026-11-12。本任务最高优先级为`J36M_LVM_OGG_CODEX_TASK_20261112.md`，同步基分支`feature/multilayer-feature-screening-20261112@8dbd4638e15f39cb04de35ed0e50fcba364a3612`。开发分支`feature/j36m-lvm-ogg-20261112`，独立工作树；原MVP工作树未提交的报告排版保留。
 
-## 当前证据边界
+## 首次交付时的证据边界（当前启动更新见下）
 
 | 项目 | 状态 |
 |---|---|
@@ -198,3 +198,11 @@ nohup "$JPY" -u scripts/corrector_j36m_pipeline.py resume --root "$JROOT" --unti
 本地`j36m_development`报告只含代码/真实缓存CPU统计；正式训练和Plus结果当前为空，不得从离线MSE外推机器人成功率。后续仅取回JSON/CSV/小日志，原始FP16、Checkpoint、大视频继续留远程。
 
 本轮最终源码树CPU测试：J36M专项28项、历史MVP23项、原多层导出9项，全部通过；独立部署包回归另记交付回执。
+
+## 2026-11-13凌晨：已开始远程实际执行
+
+用户授权32小时长期队列后，五条同帧逐站点GPU审计、J/C0/S2/S8/J_equal的batch1和batch8真实GPU smoke均已完成；新的70条完整FP16正在提取（早期快照已发布10条新Episode）。正式60轮/三种子训练尚在等待完整70条验证，不把排队写作已训练。
+
+当前运行源码固定`1eb520f`，部署ZIP SHA=`35ecdd7488bfcf79b844eb2c2ede2b9d9a34722fe0d1efe458b89a623e2266f4`，监督器原始deadline=北京时间2026-11-14 08:51:56。实际状态以新独立status.json为准。主15模型/JC后续、双盘路径与恢复命令见[长期队列说明](LONGRUN_20261113.md)，GPU证据见[启动报告](../../results/20261113/j36m_remote_start_001/RESULTS.md)。
+
+此更新没有在运行中修改源码/权重/原计划；初始单batch门槛曾遇LEROBOT_SRC路径优先级错误，保留日志后显式指定已有LeRobot，未安装新依赖。新长计划数据盘5GiB硬下限（按用户要求），系统盘8GiB，另有pending数据/Checkpoint预算；不再将20GiB固定余量当硬要求。Plus环境仍未准备，不声称闭环已完成。

@@ -1,0 +1,10 @@
+{
+  "specialized_cpu_tests": 40,
+  "seconds": 17.665,
+  "log_sha256": "ca0e044e2d4a470c47959cbbb947a75746631be31e613386d9ce7f94d6192d9a",
+  "MVP_regression_tests": 23,
+  "export_regression_tests": 9,
+  "source_gpu_smoke_verified": true,
+  "formal_training_completed": false,
+  "real_online_J_evaluation_completed": false
+}

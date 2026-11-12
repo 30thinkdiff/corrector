@@ -1,0 +1,6 @@
+{
+  "diagnosis": "upstream extractor repointed to reference lerobot; explicit existing LEROBOT_SRC priority restored",
+  "LEROBOT_SRC": "/root/autodl-tmp/corrector/runtime/lerobot/src",
+  "dependencies_changed": false,
+  "source_changed": false
+}

@@ -1,0 +1,708 @@
+{
+  "status": "passed",
+  "source": [
+    {
+      "episode": 813,
+      "split": "train",
+      "frames": 155,
+      "task_id": 24,
+      "deep_complete_sha256": "c17284f82f66aee55003448ff85a5915edc143a7a1153ef4b164872ef0bca413",
+      "raw_complete_sha256": "c28e0292a93d9da75c27e62a9e3e0730fde45988d5af762c986ae68ab97f41eb"
+    },
+    {
+      "episode": 814,
+      "split": "train",
+      "frames": 175,
+      "task_id": 25,
+      "deep_complete_sha256": "3449a0d6dbc5193909ba1f846cc28307bad2899de4dc0ec42ef5e23af75192ed",
+      "raw_complete_sha256": "47a18995acea69590ee15a58af1c86261ba468e72a08f0aae6ddc968b3bb00e7"
+    },
+    {
+      "episode": 815,
+      "split": "validation",
+      "frames": 152,
+      "task_id": 21,
+      "deep_complete_sha256": "4ec78a8719d6dc574131d466ea5b619bd2ed2fbb0b59e470f183fccfbc322874",
+      "raw_complete_sha256": "478f2075d08c7ddac93255a82a3d7ae692ea88501c2d54b8f7aa4f7f183088d5"
+    },
+    {
+      "episode": 816,
+      "split": "train",
+      "frames": 124,
+      "task_id": 26,
+      "deep_complete_sha256": "59ccb793a662f92d8676a32a43c06a46dd1991c72cbd4d4e40443cdb72177881",
+      "raw_complete_sha256": "d5e26b1b1334c8a3994f2f1a235de7fc050619567ce9f68374b3d8fc074ee789"
+    },
+    {
+      "episode": 817,
+      "split": "train",
+      "frames": 143,
+      "task_id": 25,
+      "deep_complete_sha256": "2d2a683dd1a0a2d9a2d85b1f527e1f661419f0b545f80f84a6b7b92b2158f737",
+      "raw_complete_sha256": "4f1abaec260e7f8145311f849563c3009a0299069dd934627a81a2d4b73c8fdf"
+    }
+  ],
+  "pairs": [
+    {
+      "episode": 813,
+      "t": 0,
+      "future_t": 10,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "weight_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+      "installed_shuffle_source_sha256": "59fd364af5e65d6c062e339968dee46e9c9c1812817003b80b475f5cdfdcede8",
+      "sites": {
+        "block_02": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.34191035978645695,
+          "delta_rms": 0.19170550724793414
+        },
+        "block_08": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.8307374964999299,
+          "delta_rms": 0.45961576634353696
+        },
+        "block_09": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.9260298224000909,
+          "delta_rms": 0.5360829030380928
+        },
+        "block_10": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.1475158551353133,
+          "delta_rms": 0.727629718247371
+        },
+        "block_11": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 12.074855051411314,
+          "delta_rms": 4.5686235398442365
+        },
+        "vision_postnorm": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.324576259219656,
+          "delta_rms": 0.8079791538819138
+        },
+        "connector": {
+          "shape": [
+            1,
+            2,
+            64,
+            960
+          ],
+          "rms": 8.575678148276317,
+          "delta_rms": 3.982068721203922
+        },
+        "pixel_shuffle": {
+          "shape": [
+            1,
+            2,
+            64,
+            12288
+          ],
+          "rms": 1.3245762592196562,
+          "delta_rms": 0.8079791538819135
+        }
+      },
+      "amplitude_ratios_only_no_cross_site_element_subtraction": {
+        "block_08->block_09": {
+          "rms": 1.114708107316267,
+          "delta_rms": 1.1663718747137168
+        },
+        "block_09->block_10": {
+          "rms": 1.2391780776143615,
+          "delta_rms": 1.3573081964072025
+        },
+        "block_10->block_11": {
+          "rms": 10.522604108147565,
+          "delta_rms": 6.278775351353983
+        },
+        "block_11->vision_postnorm": {
+          "rms": 0.10969707326340443,
+          "delta_rms": 0.1768539576166219
+        },
+        "vision_postnorm->pixel_shuffle": {
+          "rms": 1.0000000000000002,
+          "delta_rms": 0.9999999999999998
+        },
+        "pixel_shuffle->connector": {
+          "rms": 6.474280426351958,
+          "delta_rms": 4.928430024552221
+        }
+      },
+      "quantization_level": {
+        "mse": 0.03886207575946041,
+        "relative_l2": 0.02298061145874561,
+        "cosine": 0.999735911758318
+      },
+      "quantization_delta": {
+        "mse": 0.09938233993238725,
+        "relative_l2": 0.07890948600933907,
+        "cosine": 0.9968817944865067
+      },
+      "requantized_connector_matches": [
+        true,
+        true
+      ],
+      "same_frame_same_camera_order": true,
+      "pixel_shuffle_layout_verified": true
+    },
+    {
+      "episode": 814,
+      "t": 0,
+      "future_t": 10,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "weight_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+      "installed_shuffle_source_sha256": "59fd364af5e65d6c062e339968dee46e9c9c1812817003b80b475f5cdfdcede8",
+      "sites": {
+        "block_02": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.34095874295021766,
+          "delta_rms": 0.19589789943810032
+        },
+        "block_08": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.8200445269087688,
+          "delta_rms": 0.462298757758582
+        },
+        "block_09": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.9271599508427768,
+          "delta_rms": 0.5369501762307068
+        },
+        "block_10": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.1678744945283903,
+          "delta_rms": 0.717644646729633
+        },
+        "block_11": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 13.03054731917863,
+          "delta_rms": 4.357607000508965
+        },
+        "vision_postnorm": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.1806508060099647,
+          "delta_rms": 0.6832776949015117
+        },
+        "connector": {
+          "shape": [
+            1,
+            2,
+            64,
+            960
+          ],
+          "rms": 7.86660890793126,
+          "delta_rms": 3.299543637566448
+        },
+        "pixel_shuffle": {
+          "shape": [
+            1,
+            2,
+            64,
+            12288
+          ],
+          "rms": 1.1806508060099643,
+          "delta_rms": 0.6832776949015116
+        }
+      },
+      "amplitude_ratios_only_no_cross_site_element_subtraction": {
+        "block_08->block_09": {
+          "rms": 1.130621472882441,
+          "delta_rms": 1.1614787347343658
+        },
+        "block_09->block_10": {
+          "rms": 1.259625691841852,
+          "delta_rms": 1.3365199947737585
+        },
+        "block_10->block_11": {
+          "rms": 11.157489422217933,
+          "delta_rms": 6.072095737586766
+        },
+        "block_11->vision_postnorm": {
+          "rms": 0.09060638644642795,
+          "delta_rms": 0.15680112842248173
+        },
+        "vision_postnorm->pixel_shuffle": {
+          "rms": 0.9999999999999997,
+          "delta_rms": 0.9999999999999999
+        },
+        "pixel_shuffle->connector": {
+          "rms": 6.662942902242738,
+          "delta_rms": 4.828993631999136
+        }
+      },
+      "quantization_level": {
+        "mse": 0.037308376422240976,
+        "relative_l2": 0.024543699756984377,
+        "cosine": 0.9996987633320951
+      },
+      "quantization_delta": {
+        "mse": 0.0862909251307182,
+        "relative_l2": 0.08870119414940542,
+        "cosine": 0.9960583160510296
+      },
+      "requantized_connector_matches": [
+        true,
+        true
+      ],
+      "same_frame_same_camera_order": true,
+      "pixel_shuffle_layout_verified": true
+    },
+    {
+      "episode": 815,
+      "t": 0,
+      "future_t": 10,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "weight_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+      "installed_shuffle_source_sha256": "59fd364af5e65d6c062e339968dee46e9c9c1812817003b80b475f5cdfdcede8",
+      "sites": {
+        "block_02": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.3421702609477708,
+          "delta_rms": 0.18971030762855423
+        },
+        "block_08": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.8141994441836634,
+          "delta_rms": 0.41787284041319556
+        },
+        "block_09": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.9137392832917479,
+          "delta_rms": 0.48825965817033556
+        },
+        "block_10": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.1403605201413973,
+          "delta_rms": 0.65942954766597
+        },
+        "block_11": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 13.312096437344952,
+          "delta_rms": 4.3782792857979285
+        },
+        "vision_postnorm": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.221744091831011,
+          "delta_rms": 0.6798110663741749
+        },
+        "connector": {
+          "shape": [
+            1,
+            2,
+            64,
+            960
+          ],
+          "rms": 7.911294992396662,
+          "delta_rms": 3.0876968588951037
+        },
+        "pixel_shuffle": {
+          "shape": [
+            1,
+            2,
+            64,
+            12288
+          ],
+          "rms": 1.2217440918310105,
+          "delta_rms": 0.6798110663741749
+        }
+      },
+      "amplitude_ratios_only_no_cross_site_element_subtraction": {
+        "block_08->block_09": {
+          "rms": 1.1222548600581344,
+          "delta_rms": 1.168440757450379
+        },
+        "block_09->block_10": {
+          "rms": 1.2480152062995977,
+          "delta_rms": 1.3505714359795
+        },
+        "block_10->block_11": {
+          "rms": 11.673585854843816,
+          "delta_rms": 6.639495153492454
+        },
+        "block_11->vision_postnorm": {
+          "rms": 0.09177698626067671,
+          "delta_rms": 0.15526900455604017
+        },
+        "vision_postnorm->pixel_shuffle": {
+          "rms": 0.9999999999999997,
+          "delta_rms": 1.0
+        },
+        "pixel_shuffle->connector": {
+          "rms": 6.475410886202949,
+          "delta_rms": 4.54199263828342
+        }
+      },
+      "quantization_level": {
+        "mse": 0.037560336811034274,
+        "relative_l2": 0.02449071087262526,
+        "cosine": 0.9997000581159893
+      },
+      "quantization_delta": {
+        "mse": 0.08797981354921044,
+        "relative_l2": 0.0956792947850001,
+        "cosine": 0.9954123882137298
+      },
+      "requantized_connector_matches": [
+        true,
+        true
+      ],
+      "same_frame_same_camera_order": true,
+      "pixel_shuffle_layout_verified": true
+    },
+    {
+      "episode": 816,
+      "t": 0,
+      "future_t": 10,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "weight_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+      "installed_shuffle_source_sha256": "59fd364af5e65d6c062e339968dee46e9c9c1812817003b80b475f5cdfdcede8",
+      "sites": {
+        "block_02": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.34126322160774397,
+          "delta_rms": 0.16540384962404692
+        },
+        "block_08": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.8239182954371914,
+          "delta_rms": 0.3708202385802111
+        },
+        "block_09": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.9268563483250328,
+          "delta_rms": 0.43320356347538547
+        },
+        "block_10": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.1372415876008555,
+          "delta_rms": 0.5956645484767561
+        },
+        "block_11": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 12.59524985852013,
+          "delta_rms": 3.7670094295451557
+        },
+        "vision_postnorm": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.2554969649968712,
+          "delta_rms": 0.6870233406172251
+        },
+        "connector": {
+          "shape": [
+            1,
+            2,
+            64,
+            960
+          ],
+          "rms": 8.190405484615804,
+          "delta_rms": 3.214565407668126
+        },
+        "pixel_shuffle": {
+          "shape": [
+            1,
+            2,
+            64,
+            12288
+          ],
+          "rms": 1.255496964996871,
+          "delta_rms": 0.687023340617225
+        }
+      },
+      "amplitude_ratios_only_no_cross_site_element_subtraction": {
+        "block_08->block_09": {
+          "rms": 1.124937209742648,
+          "delta_rms": 1.1682306368552762
+        },
+        "block_09->block_10": {
+          "rms": 1.2269879681527995,
+          "delta_rms": 1.375022272896427
+        },
+        "block_10->block_11": {
+          "rms": 11.075263159423573,
+          "delta_rms": 6.324045033699284
+        },
+        "block_11->vision_postnorm": {
+          "rms": 0.09968019524023837,
+          "delta_rms": 0.1823789808511786
+        },
+        "vision_postnorm->pixel_shuffle": {
+          "rms": 0.9999999999999998,
+          "delta_rms": 0.9999999999999999
+        },
+        "pixel_shuffle->connector": {
+          "rms": 6.523636227695872,
+          "delta_rms": 4.678975542199403
+        }
+      },
+      "quantization_level": {
+        "mse": 0.039553306161443896,
+        "relative_l2": 0.024274199108029963,
+        "cosine": 0.9997053386704061
+      },
+      "quantization_delta": {
+        "mse": 0.09345253885770242,
+        "relative_l2": 0.09467657739577663,
+        "cosine": 0.9955080857731067
+      },
+      "requantized_connector_matches": [
+        true,
+        true
+      ],
+      "same_frame_same_camera_order": true,
+      "pixel_shuffle_layout_verified": true
+    },
+    {
+      "episode": 817,
+      "t": 0,
+      "future_t": 10,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "weight_sha256": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8",
+      "installed_shuffle_source_sha256": "59fd364af5e65d6c062e339968dee46e9c9c1812817003b80b475f5cdfdcede8",
+      "sites": {
+        "block_02": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.34172276254290057,
+          "delta_rms": 0.19928626362377608
+        },
+        "block_08": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.8219608806162444,
+          "delta_rms": 0.5247710218453607
+        },
+        "block_09": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 0.9266141696804875,
+          "delta_rms": 0.59854345606419
+        },
+        "block_10": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.153242749698756,
+          "delta_rms": 0.7697559388360273
+        },
+        "block_11": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 12.262138117422268,
+          "delta_rms": 4.670923509129657
+        },
+        "vision_postnorm": {
+          "shape": [
+            1,
+            2,
+            1024,
+            768
+          ],
+          "rms": 1.2500841720434572,
+          "delta_rms": 0.7117596062400352
+        },
+        "connector": {
+          "shape": [
+            1,
+            2,
+            64,
+            960
+          ],
+          "rms": 8.255223516961664,
+          "delta_rms": 3.475336153382835
+        },
+        "pixel_shuffle": {
+          "shape": [
+            1,
+            2,
+            64,
+            12288
+          ],
+          "rms": 1.2500841720434575,
+          "delta_rms": 0.7117596062400354
+        }
+      },
+      "amplitude_ratios_only_no_cross_site_element_subtraction": {
+        "block_08->block_09": {
+          "rms": 1.1273214961103526,
+          "delta_rms": 1.1405802362321913
+        },
+        "block_09->block_10": {
+          "rms": 1.2445770714864137,
+          "delta_rms": 1.2860485417344132
+        },
+        "block_10->block_11": {
+          "rms": 10.632746766129957,
+          "delta_rms": 6.068057774510594
+        },
+        "block_11->vision_postnorm": {
+          "rms": 0.10194667194845204,
+          "delta_rms": 0.15238091671782886
+        },
+        "vision_postnorm->pixel_shuffle": {
+          "rms": 1.0000000000000002,
+          "delta_rms": 1.0000000000000002
+        },
+        "pixel_shuffle->connector": {
+          "rms": 6.603734133732142,
+          "delta_rms": 4.8827386703521425
+        }
+      },
+      "quantization_level": {
+        "mse": 0.040142421122821285,
+        "relative_l2": 0.024262662247161677,
+        "cosine": 0.9997056183963572
+      },
+      "quantization_delta": {
+        "mse": 0.09536362055768374,
+        "relative_l2": 0.08846676368759929,
+        "cosine": 0.9960792437607262
+      },
+      "requantized_connector_matches": [
+        true,
+        true
+      ],
+      "same_frame_same_camera_order": true,
+      "pixel_shuffle_layout_verified": true
+    }
+  ],
+  "note": "same frames, same cameras/weights; shuffle verified numerically, not assumed"
+}

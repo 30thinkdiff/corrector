@@ -1,0 +1,16 @@
+{
+  "pid": 22982,
+  "script_sha256": "6b411bfd209e4ddc42df03a607a3d7231fdcc56e203b6ce29643dceeec2858dd",
+  "root": "/root/corrector_j36m_extension_20261113_001",
+  "data_root": "/root/autodl-tmp/corrector/j36m_extension_20261113_001",
+  "log": "/root/corrector_j36m_extension_20261113_001.launch.log",
+  "starts_only_after_primary_success": true,
+  "shares_original_32h_deadline": true,
+  "JC_seeds": [
+    42,
+    43,
+    44
+  ],
+  "seed45_only_if_elapsed_under_22h_after_JC": true,
+  "old_primary_code_unchanged": true
+}

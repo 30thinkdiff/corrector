@@ -1,0 +1,18 @@
+{
+  "smoke_pid": 21167,
+  "supervisor_pid": 21168,
+  "code": "/root/autodl-tmp/corrector/dev/j36m-35ecdd7488bf",
+  "smoke_root": "/root/autodl-tmp/corrector/j36m_runs/formal_20261113_002",
+  "supervisor_root": "/root/corrector_j36m_longrun_20261113_001",
+  "data_root": "/root/autodl-tmp/corrector/j36m_longrun_20261113_001",
+  "launch_log": "/root/corrector_j36m_longrun_20261113_001.launch.log",
+  "budget_hours": 32,
+  "training_models_planned": 15,
+  "training_epochs_each": 60,
+  "batch": 8,
+  "accumulate": 4,
+  "data_floor_gib": 5,
+  "system_floor_gib": 8,
+  "no_installed_dependencies_changed": true,
+  "no_downloads": true
+}

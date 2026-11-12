@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-12T17:05:49.528424+00:00",
+  "main_status": "running",
+  "phase": "extract70",
+  "complete_raw_episodes": [
+    807,
+    832,
+    835,
+    837,
+    848,
+    829,
+    870,
+    808,
+    809,
+    820
+  ],
+  "remaining_hours": 31.77064534763495,
+  "resources": {
+    "system_free_gib": 15.141284942626953,
+    "data_free_gib": 77.96100997924805,
+    "gpu": "0, 4, 24564, 32"
+  },
+  "extension_status": "running",
+  "extension_phase": "waiting_primary_completion"
+}
