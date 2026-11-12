@@ -65,7 +65,7 @@ def nearest_upsample(x, target_side=32):
     return np.repeat(np.repeat(x, n, axis=1), n, axis=2)
 
 
-def evaluate_pair(previous, current, selected_layers, grids=(4, 8)):
+def evaluate_pair(previous, current, selected_layers, grids=(4, 8, 16)):
     """Changes are measured over k=10 data frames; no failure-classification labels."""
     result = {}
     for layer in selected_layers:
@@ -99,7 +99,7 @@ def summarize_pairs(pairs):
         return summary
     for layer in pairs[0]["metrics"]:
         summary[layer] = {}
-        for grid in ("4", "8"):
+        for grid in sorted(pairs[0]["metrics"][layer], key=int):
             summary[layer][grid] = {}
             for kind in ("pooled_vs_full_delta", "fp16_delta", "int8_delta"):
                 arr = [r["metrics"][layer][grid][kind]["relative_l2"] for r in pairs]
@@ -203,6 +203,9 @@ def run(args):
             history=deque(maxlen=10)
             pairs=[]
             old_diff=[]
+            old_quantized_match=[]
+            old_q_element_match=[]
+            old_scale_element_match=[]
             frame_count=0
             last_frame=-1
             for row in rows:
@@ -225,10 +228,16 @@ def run(args):
                 old=dequantize(old_q[fi],old_scale[fi])
                 deep=feature["connector"].reshape(128,960)
                 old_diff.append(compare_arrays(deep,old))
+                check_q, check_scale = quantize_per_token(deep)
+                q_equal = check_q == old_q[fi]
+                scale_equal = check_scale == old_scale[fi]
+                old_quantized_match.append(bool(q_equal.all() and scale_equal.all()))
+                old_q_element_match.append(float(np.mean(q_equal)))
+                old_scale_element_match.append(float(np.mean(scale_equal)))
                 current={name:feature[name] for name in feature if name.startswith("block_")}
                 if len(history)==10:
                     pairs.append({"episode":ep,"frame_index":fi-10,"future_frame_index":fi,
-                                  "metrics":evaluate_pair(history[0],current,current)})
+                                  "metrics":evaluate_pair(history[0],current,current,args.grids)})
                 history.append(current)
                 frame_count+=1
                 if frame_count%50==0:
@@ -239,6 +248,10 @@ def run(args):
                 "old_deep_median_relative_l2":float(np.median([x["relative_l2"] for x in old_diff])),
                 "old_deep_max_relative_l2":max(x["relative_l2"] for x in old_diff),
                 "old_deep_min_cosine":min(x["cosine"] for x in old_diff),
+                "old_deep_exact_requantized_frames":int(sum(old_quantized_match)),
+                "old_deep_exact_requantized_frame_fraction":float(np.mean(old_quantized_match)),
+                "old_deep_q_element_agreement_fraction":float(np.mean(old_q_element_match)),
+                "old_deep_scale_element_agreement_fraction":float(np.mean(old_scale_element_match)),
                 "layer_metrics":summarize_pairs(pairs),
             }
             # This is an intentionally generous *sanity* threshold, not a scientific criterion.
@@ -254,7 +267,7 @@ def run(args):
         "schema":"multilayer_select_pilot_v1",
         "scope":"Small real demonstration screening; no training, no closed-loop/OGG claims",
         "policy_sha":POLICY_SHA,"dataset_sha":DATA_SHA,"weights_sha256":weight_sha,
-        "layer_indices_zero_based":args.layers,"grids":[4,8],
+        "layer_indices_zero_based":args.layers,"grids":args.grids,
         "prediction_k_data_frames":10,"fps":10,
         "elapsed_seconds":time.perf_counter()-begin,"episodes":results,
         "limitations":[
@@ -279,9 +292,12 @@ def args_parser():
     p.add_argument("--manifest",type=Path,default=BASE/"object10/manifest.json")
     p.add_argument("--episodes",nargs="+",type=int,default=[813])
     p.add_argument("--layers",nargs="+",type=int,default=[2,5,8])
+    p.add_argument("--grids",nargs="+",type=int,default=[4,8,16],help="allowed grids 4,8,16,32; screen only")
     p.add_argument("--max-frames",type=int,default=0,help="0=entire episode; 11+=first N frames")
     p.add_argument("--min-free-gib",type=float,default=5)
     a=p.parse_args()
+    if len(set(a.grids))!=len(a.grids) or not a.grids or any(g not in (4,8,16,32) for g in a.grids):
+        p.error("--grids must be a unique nonempty subset of 4 8 16 32")
     if a.max_frames and a.max_frames<11:
         p.error("--max-frames must be 0 or at least 11")
     if a.min_free_gib<5:
