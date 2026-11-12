@@ -1,0 +1,41 @@
+AutoDL部署包（没有任何账号、令牌或SSH配置）
+1. 解压到/root/autodl-tmp/corrector/runtime；Python入口使用已有bootstrap环境。
+2. prepare只装依赖和检查真实渲染，不需要权重，不训练、不提取特征。
+   /root/autodl-tmp/corrector/bootstrap/bin/python corrector_autodl.py prepare --proxy-url http://127.0.0.1:17890
+3. 从Drive的corrector_stream_task24_001/predictor/paper_width_001下载best_model.pt，
+   上传为runtime/checkpoints/best_model.pt；SHA256应为
+   19f73f07cc75a32500aaaeb6f059f30b11ce8cc5b3626eff84a33f4b8ca7492c
+4. 在tmux中执行：
+   /root/autodl-tmp/corrector/bootstrap/bin/python corrector_autodl.py night --proxy-url http://127.0.0.1:17890
+   默认原始LIBERO object/task0，5真实初始状态×2种子×5方法=50正式回合。
+   之前另有1个强制事件单回合及至多10个小规模自然事件回合，分别记录，不计入长批次正式成功率。
+   当前建议先小规模：在night命令后加
+   --initial-state-ids 0 1 --seeds 1000 --output results/pilot_001
+   得到5方法×2初始化×1种子=10回合；检查视频/触发/耗时后再用新output扩大。
+5. stdout和所有阶段完整日志在runtime/logs；结果、视频、分数在runtime/results/night_001。
+   正式批次成功前自动检查smoke；默认HF离线，失败视频留存，成功率按真实完成回合统计。
+6. 中断后，原机器/原代码/原参数重跑同一night命令；已完成回合验视频SHA后跳过。
+   改方法/种子/初始状态/保留规则请用新--output；不要编辑已有冻结计划。
+7. 只看结果不需要GPU：python corrector_autodl.py summary
+8. 环境/实验出错时收集小日志包：python corrector_autodl.py diagnostics
+   diagnostics_*.zip不含权重/视频/账号目录，可取回本地进行定位。
+9. 当前prepare仍在运行时，将新版包解压到另一代码目录longrun-code，不能覆盖运行中的旧代码。
+   用新目录的入口指定--workdir /root/autodl-tmp/corrector/runtime，复用旧安装与权重。
+   night加--wait-ready-minutes 240会只等待原prepare成功结束，不并行安装；失败会停止等待。
+   --initial-state-count 50 --seed-count 20得到5000个有限自然事件回合；
+   --max-wall-hours 10为每次启动正式批次的墙钟预算，回合完整结束后暂停，可能略超预算。
+   安装/等待/单回合检查不计入该10小时，脚本不会自动关机。
+   这里只在1个任务上重复真实初始化与随机种子，不表示完成多任务或视角泛化评测。
+10. 暂停：touch /root/autodl-tmp/corrector/runtime/results/overnight_001/STOP
+    （output为overnight_001时）；当前完整回合结束后停止。
+    续跑前删除这个STOP文件，再用batch模式和原output/原计划参数继续；不必重复prepare。
+    完成回合验SHA跳过；被强制中断的当前回合在新attempt目录重做。
+    修改时间预算允许续跑；改变方法/初始状态/种子/代码须新output。
+11. plan模式只预览有限队列，不需要GPU/模型；execution.json记录当前暂停原因/完成数，
+    analysis/overall.csv包含任务成功率、策略/监控/回合墙钟耗时及Torch分配显存峰值均值。
+    磁盘剩余不足5GiB时默认暂停，不会删除原始结果。计划提前完成则退出，不无意义循环。
+联网下载阶段依赖SSH反向代理时，保持本地隧道开启；tmux只保证任务不因SSH退出而结束，
+不会让本地代理永久在线。night中通过smoke后，默认批次阶段不再请求HF网络。
+如果127.0.0.1:17890报Connection refused，先在本地重建ssh -R反向代理并保持开启，
+远端curl --proxy返回200后重跑prepare；不要删除半成品venv或误判成pip版本不存在。
+本包是准备好的入口，尚未证明AutoDL上的真实完整实验已通过。

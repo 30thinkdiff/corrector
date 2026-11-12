@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "code_id": "49cb4998e2",
+  "scope": "read-only local cache consumer; existing prefetch unchanged",
+  "files": {
+    "corrector_stream_workbench.py": "2cd5356e4cb77c955e92d30a6e29c60ad020aa9f16d5e4be7282861f5e388047",
+    "corrector_data_workbench.py": "bb51dfae7c54bd61241c780be8929c056286dca66b142ff0fd95972060c30fe4",
+    "START_HERE.txt": "219c2a3d8d33ef865b72c158b0e1063bff73b1b0af2a04711b7eda5853e2f3ed"
+  }
+}

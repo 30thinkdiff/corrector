@@ -1,0 +1,1070 @@
+{
+  "study_id": "replay_casebank_20261112_001",
+  "pattern_order": [
+    "H50",
+    "H20",
+    "mlp_ogg"
+  ],
+  "source_archive_sha256": "425a22e6d2ebbdf9c611eef8d78b9e58ae70da7de7c2957b9858b19662293c8e",
+  "inventory": [
+    {
+      "pattern": "001",
+      "matched_cases": 3,
+      "physical_states": 3,
+      "video_complete_triples": 0
+    },
+    {
+      "pattern": "000",
+      "matched_cases": 4,
+      "physical_states": 3,
+      "video_complete_triples": 4
+    },
+    {
+      "pattern": "011",
+      "matched_cases": 8,
+      "physical_states": 5,
+      "video_complete_triples": 0
+    },
+    {
+      "pattern": "111",
+      "matched_cases": 42,
+      "physical_states": 22,
+      "video_complete_triples": 0
+    },
+    {
+      "pattern": "010",
+      "matched_cases": 1,
+      "physical_states": 1,
+      "video_complete_triples": 0
+    },
+    {
+      "pattern": "101",
+      "matched_cases": 2,
+      "physical_states": 2,
+      "video_complete_triples": 0
+    },
+    {
+      "pattern": "100",
+      "matched_cases": 0,
+      "physical_states": 0,
+      "video_complete_triples": 0
+    },
+    {
+      "pattern": "110",
+      "matched_cases": 0,
+      "physical_states": 0,
+      "video_complete_triples": 0
+    }
+  ],
+  "anchors": [
+    {
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1001,
+      "pattern": "001",
+      "methods": {
+        "transformer-a10-h1_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/469cdee7df2e722e646f.json",
+          "trial_sha256": "979ce3d2b3aff9852f0be0c62a7c60c0f6b5f1659aa406631c0e3153b0fc0da5",
+          "retained_video": false
+        },
+        "transformer-a10-h1_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/927158dee709156637fa.json",
+          "trial_sha256": "47061b4587400f4ed677d218a87fd774092dd68e215cc8c235e082462fd53bdf",
+          "retained_video": false
+        },
+        "transformer-a10-h3_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/090be1b88bb2fccd6b53.json",
+          "trial_sha256": "8782eed3c8f40a6671f99674b3eec05ef1e74da70fd519852a071f78891da7b1",
+          "retained_video": false
+        },
+        "transformer-a10-h3_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/ac218205851d98622a52.json",
+          "trial_sha256": "98dc036f246c9d05e7a9b17f0a735d385d8a09d3492a77dc138dcf895a6acf54",
+          "retained_video": false
+        },
+        "H50": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/11c99a33eca115895f4d.json",
+          "trial_sha256": "4449ca80c6b1f5629f389066f6c3df9a737085864ad0b31df7e7763d7a58543c",
+          "retained_video": true
+        },
+        "mlp_lvm": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/545d24e5ed3b612b3d7e.json",
+          "trial_sha256": "020c184ed278567b351c3dccae22bda8f83eb68fbed6241ecbaf001594645255",
+          "retained_video": false
+        },
+        "mlp_ogg": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/b446d2908c67533b5161.json",
+          "trial_sha256": "8e4e30b6e950d16dd180ad735d494c75e0022ee7c229ee73be7cdc9bf456b0d8",
+          "retained_video": false
+        },
+        "H20": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/dfe5b2ba9b25da911112.json",
+          "trial_sha256": "f825173fa24e6fa4ff79d91e08f704e2aafd763e7d035d2903fcd25cb3ec65a3",
+          "retained_video": true
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/4d907d4ed3ded56e3a75.json",
+          "trial_sha256": "922b25bc02fe586d2845b411f5d6e2ffe595d0e3f5edef76bc372501a3cff4ce",
+          "retained_video": false
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/ac1ec7068726766a4bfd.json",
+          "trial_sha256": "1fa423b39533c463ba4a30ab7b1bb985f8bd77678a18707ba3c244dedb78be6b",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/41573849c2c0861c307d.json",
+          "trial_sha256": "19d07f4f2443180efb13b02dd6f9c071c269906bd704d7869fa7172200f78baa",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/6b3ab25bdb82131fd1df.json",
+          "trial_sha256": "177758a3bb3db351f86bb64aa14f45bc9e2f75e7975696a23788e33c842afb72",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_7/init_2",
+      "seed": 1001,
+      "pattern": "001",
+      "methods": {
+        "transformer-a10-h1_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/51914d5342d7f227ccd4.json",
+          "trial_sha256": "ebf4c86939e9796b45ac66a15d955c49cccb7d8f68d1c40ef0382616f37cd8b3",
+          "retained_video": true
+        },
+        "transformer-a10-h1_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/8e13f8b201c3b7e3ffe5.json",
+          "trial_sha256": "fb1826d2d2e3c8ae445912df9457733f1d7ed6d373811ee38e92eb4eb9739f66",
+          "retained_video": true
+        },
+        "transformer-a10-h3_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/7cc097905beb0035e9bd.json",
+          "trial_sha256": "bf0ae8ae34451ed524eb632597bb965203005818ae2aeffaee6ff73172d6f265",
+          "retained_video": true
+        },
+        "transformer-a10-h3_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/b830b3441c0429f24df1.json",
+          "trial_sha256": "576f96c000e0f10935039b84d7479f3a0398669e2da96aa20a3af45336accc17",
+          "retained_video": true
+        },
+        "H20": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/4c22351b5c321841ce63.json",
+          "trial_sha256": "e43cf8b1a2e972f92ca8fa6f7a4eb3bc937e8e94528416657a40f69deeaaf4c5",
+          "retained_video": true
+        },
+        "mlp_lvm": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/b72ee8014c00a4c93f19.json",
+          "trial_sha256": "5e048fd456cd0accc8bf22918066c33d16675c53754e8c8aee916bb5880315c6",
+          "retained_video": false
+        },
+        "mlp_ogg": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/bd082f8eb1f39d744f12.json",
+          "trial_sha256": "2ec772ae546b26435fccbfa92e2aa8c8d0eb46386463e1f2adf78a4f50c9ea7d",
+          "retained_video": false
+        },
+        "H50": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/dad484f9cdcb86f3896c.json",
+          "trial_sha256": "b67f0e94e4a32d5ba8a5aa64402b26e685b3387db2ae631a027e85ba9d1df741",
+          "retained_video": true
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/1147138b8349adf3bf8f.json",
+          "trial_sha256": "70376340428702bc944628e679b3d4d52c8e94a4443bc995df40a4fb63c48320",
+          "retained_video": false
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/e5ab7f448889eb6d2901.json",
+          "trial_sha256": "c0453d2167a1759020d60a5dd464c1069bd71f851f090b87ae8066340d52bea5",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/42e52390d2ead43a2e16.json",
+          "trial_sha256": "b15362b3028bb85bd33ae08d24eded12e10ef09d83de44db60e7f1ae851eb4da",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/dc855d2189745c1aac34.json",
+          "trial_sha256": "6f4fde5ffedfde4f918a886c1ca7a4cd949aae23e6bb3a8c349376b2795d64fe",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_2/init_2",
+      "seed": 1000,
+      "pattern": "000",
+      "methods": {
+        "transformer-a10-h1_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/5c4074d44697cd05590e.json",
+          "trial_sha256": "34df6207bff2413a5b3c6bd2052606d0ebd231b2d486fd423e4c3a4c8deb2eac",
+          "retained_video": true
+        },
+        "transformer-a10-h1_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/7c04abaef0b18300d8b0.json",
+          "trial_sha256": "b8be7ccba2c7c38d4697d4eac5ad8a9fcb10beb5fc0c0868508ee3faf29281ba",
+          "retained_video": true
+        },
+        "transformer-a10-h3_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/2c6535b3b66910639ceb.json",
+          "trial_sha256": "e6652d0824e018bc23ed0cc75bb8ec7d11554ab2572d71c735e7231200388273",
+          "retained_video": true
+        },
+        "transformer-a10-h3_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/8d8197a2818fbdce95ad.json",
+          "trial_sha256": "eace428f6d5b43385bc5358ec6cf59a5e7e305e026c03cf0a31071bf0f1c35e6",
+          "retained_video": true
+        },
+        "mlp_lvm": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/3f50fd83a436a29c4f47.json",
+          "trial_sha256": "759e46c6620dbf974a3e57c974b80975071cd0581d13728f58c22abfd9c1e7c9",
+          "retained_video": true
+        },
+        "H20": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/724a3e3dd5fb8b63d434.json",
+          "trial_sha256": "a0a87d40cd3513c9ba5f7298e1ce0bef408858ea24a90fdd5dfe90d8b648dfec",
+          "retained_video": true
+        },
+        "mlp_ogg": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/89ddaae814ef16fbf0fd.json",
+          "trial_sha256": "2d75bbb1f4e950a60cf572b96e05ba3e2326511f140fb581b6ec714dafea99b5",
+          "retained_video": true
+        },
+        "H50": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/b96d20940959cb75d9bb.json",
+          "trial_sha256": "30159515e7d213362c3ee021a734355500235f3b3a1efea45a64421775acaa29",
+          "retained_video": true
+        },
+        "transformer-h1_lvm": {
+          "success": false,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/43a5b5e7de4ee4006cef.json",
+          "trial_sha256": "bbcf7fe461989f6949024992e19aafadd15995f95a03e56cccc4c1a97b1bfcd1",
+          "retained_video": true
+        },
+        "transformer-h1_ogg": {
+          "success": false,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/5090c20801e0fb220e13.json",
+          "trial_sha256": "07ff20d781d1436f59dd3b71a5bca0f1751edc1d95d05d96ea08a8d914b45665",
+          "retained_video": true
+        },
+        "transformer-h3_lvm": {
+          "success": false,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/3d121c672eee83aee8db.json",
+          "trial_sha256": "767017c113d1acd6ab8d9a30958342de26f1b9048d948cbda4412d6a728b00d0",
+          "retained_video": true
+        },
+        "transformer-h3_ogg": {
+          "success": false,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/403119bba7ac3fb4982b.json",
+          "trial_sha256": "00630263e20da74fcd8df4f390875a39727548132540c091c8c4eb702ba013c8",
+          "retained_video": true
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "pattern": "000",
+      "methods": {
+        "transformer-a10-h1_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/2513e78bfa427a4ea736.json",
+          "trial_sha256": "1477affd07a74d5f1da3dc45f1886906beb5910894bb93905512b7fc6a8df990",
+          "retained_video": true
+        },
+        "transformer-a10-h1_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/ac3a53b895da9b0c6f59.json",
+          "trial_sha256": "eedfd969ac2b5599333bc7f0750b33eeff7b7c0ec5b802e0a15faf6a49ba62f5",
+          "retained_video": true
+        },
+        "transformer-a10-h3_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/9107e9daa5395341b601.json",
+          "trial_sha256": "ff5257c42410e6a93e7a06edd7dffe06360b8e22bb7d0a88bf43d52dd96f27bc",
+          "retained_video": true
+        },
+        "transformer-a10-h3_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/c61f717fa7a0cfe6e769.json",
+          "trial_sha256": "f1c20260304f2387f5ac1a634e6ee06c3bd8a4ee2c2d5ab228bfe00f419cbb63",
+          "retained_video": true
+        },
+        "H20": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/02e9cba325f35e6d12b5.json",
+          "trial_sha256": "9635f4590f5483d21889251708c23538dedf68e4da0dc31835e844bef560216f",
+          "retained_video": true
+        },
+        "mlp_ogg": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/1a1620245337d59a8093.json",
+          "trial_sha256": "1920af8f600a7f18be0824c70d967bfcc3f207809799b220cd603052b70822cc",
+          "retained_video": true
+        },
+        "mlp_lvm": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/6827705048bf78b0cdb2.json",
+          "trial_sha256": "9e3c6d00dbc4aa592d9e0cf60c41c5e42e5436308b099bd6c6e475cc1387e9b5",
+          "retained_video": true
+        },
+        "H50": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/d3fdf4d13218b6bde7bb.json",
+          "trial_sha256": "29a1d441c720ea1277d8b0cc25e6ab75df4106799eb26931bb2ce2d07fdd4512",
+          "retained_video": true
+        },
+        "transformer-h1_lvm": {
+          "success": false,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/35394cb667d4366a51af.json",
+          "trial_sha256": "93fce5d278f16beff69d87d469feef71e40f044b1265580ef554d5450257ddc0",
+          "retained_video": true
+        },
+        "transformer-h1_ogg": {
+          "success": false,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/4b092c1f2854d8b0fee1.json",
+          "trial_sha256": "ad3c76436e074257c00fb6485c3d2f93a15c1c39ca47281f3752cd7d836c4cba",
+          "retained_video": true
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/0417050cd008b1d8e9b5.json",
+          "trial_sha256": "d93b908a3d8b45ed39df76b08628e7b4d81295ca70931adfeb18cd8a23e68060",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/0ea4d51ec3f51efa74d0.json",
+          "trial_sha256": "7b421451da246a592cb3c6a01921cdf9f5cb9ba08b5f11085d80b22b6060567f",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "pattern": "011",
+      "methods": {
+        "transformer-a10-h1_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/2af619ce180aa8b88f4a.json",
+          "trial_sha256": "dceaadb2ae2d82c1841c8d105d1daf84e0d69a0fb903ac031ff6c4a0bda6866f",
+          "retained_video": true
+        },
+        "transformer-a10-h1_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/f7256706d370ba004b4b.json",
+          "trial_sha256": "d5b403ba4355645e35618b51009bf6a3a965ce236d79e73fd4569cca0fe1f5ac",
+          "retained_video": true
+        },
+        "transformer-a10-h3_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/7cde8790be297874280c.json",
+          "trial_sha256": "f183d15c46cdabb41bfb9fcd3441e63a802ae8ef5b665b0520d170686075b8e9",
+          "retained_video": true
+        },
+        "transformer-a10-h3_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/97a028f197560552d5bd.json",
+          "trial_sha256": "9a9d9f2412e7eb61bde1125194f84f4895b930d78907e9d08d356f0739ceb6e1",
+          "retained_video": true
+        },
+        "H50": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/6af6c0846959928672b3.json",
+          "trial_sha256": "0ee8f5761d9fb0d762259642a63bf58d8ca79bad37152203557962a233f9b37f",
+          "retained_video": true
+        },
+        "H20": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/71c666f126654178b8d2.json",
+          "trial_sha256": "8a8c0906276d17544a48fda7524e4073f525e3475ae1afc25833af33a1952141",
+          "retained_video": false
+        },
+        "mlp_ogg": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/93f8c89d275dca0c289f.json",
+          "trial_sha256": "334874bbca73424b89ddd1fe787218ecc7d27d954ec79992613963513de405a9",
+          "retained_video": false
+        },
+        "mlp_lvm": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/e7a8ee1d87f9d03a2108.json",
+          "trial_sha256": "16f39f622be64d77a5af26ddf84fe13a6621c8bf0a1bfdd4416973a47d809190",
+          "retained_video": false
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/c40b8758746b4cc9f0aa.json",
+          "trial_sha256": "fc592c5244a56f7ded7b4d1e00c09433f771525c4e200892c5d7fea2d9c7e86f",
+          "retained_video": false
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/e49bbc8e12055e8eb1dd.json",
+          "trial_sha256": "2c5fe3a47867858a58aaf56a3eb4fc573e46631ea00660dc25ea0251c599fad6",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/2cb0792e375c79746b57.json",
+          "trial_sha256": "2607f1a22a6b847537ba3e40e3d9274823df25b7e0e702dcbebecc1d69eda24e",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/a7caa66d12eb6055d061.json",
+          "trial_sha256": "62418d9d916fb60694defa80a63b0115ab966118ff9a43e44e0bcf06570c8dcc",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_2/init_1",
+      "seed": 1000,
+      "pattern": "011",
+      "methods": {
+        "transformer-a10-h1_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/7af9b76250df5351f000.json",
+          "trial_sha256": "29da7bcb06ee8eb49cd646984ddaeea6f4d642befcd97015e26b350be282518e",
+          "retained_video": false
+        },
+        "transformer-a10-h1_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/b19049f5c5a93075cb7d.json",
+          "trial_sha256": "d55803099c5f23c61f56e2569ee9c74881161ff5a9b15e0a47d4369ee93bcc65",
+          "retained_video": false
+        },
+        "transformer-a10-h3_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/4d5011cfd623b58f6cbf.json",
+          "trial_sha256": "223634e6a6b1253f004376597fcf05572ac1c4adb4ca9085b935bac5c7a6e2de",
+          "retained_video": false
+        },
+        "transformer-a10-h3_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/d2da8606c17b3eb1166c.json",
+          "trial_sha256": "b0509a2fdbbb9f6f23e6f260f87a7b4bbd27df6c05d7762a9bbc49d56a28cc04",
+          "retained_video": false
+        },
+        "mlp_ogg": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/1ea0b662927949801b95.json",
+          "trial_sha256": "0a1149f1fc7216c8ad346b55d9f1616f003e86176c2d025e5f3c98d606094701",
+          "retained_video": false
+        },
+        "H50": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/482b4a564def37bc2c33.json",
+          "trial_sha256": "5e189a7b6ab385029ac34ae74ff3a565af88f573adcb417155d24cfde3701ef8",
+          "retained_video": true
+        },
+        "mlp_lvm": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/8823cbcc834fc4cedf11.json",
+          "trial_sha256": "877429326cf8d988b959d545f7b09b088daf57886ccf3c1fa960c2678c8254da",
+          "retained_video": false
+        },
+        "H20": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/f5f49ad52ba6021c7787.json",
+          "trial_sha256": "bc5e7e76fbb1e994da9bde5c0f2b7a307752095da36fde678401957957cd601a",
+          "retained_video": false
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/2fc1ef0b569728123f2d.json",
+          "trial_sha256": "ab61c2fdcef4a97bc2a95e14c8ea6a2f10f284eb5786b75634d624493c487e8e",
+          "retained_video": false
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/fa4aa7deb95d4db75eef.json",
+          "trial_sha256": "3e939ca7b42c80712a55497d676c128c3eb579625fa97354d7ecc6f5138e1c76",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/21a36a9fbd97bd2302f6.json",
+          "trial_sha256": "3c30feea109c7ebb839bb365acabb34c85bc0b6a2e4d899d25e5c3672e04da29",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/d7c4251c69ed9091ddd1.json",
+          "trial_sha256": "c77979e788d2497dd921efd15935a4c62170b4d228f3b63f7731944ae4d50552",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_0/init_0",
+      "seed": 1000,
+      "pattern": "111",
+      "methods": {
+        "transformer-a10-h1_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/3c3b9a91d4f16b63a8e6.json",
+          "trial_sha256": "da9451f915ad16dc208e39fa5b2cfa80a837921196f9e2f24e4db5a13a780988",
+          "retained_video": false
+        },
+        "transformer-a10-h1_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/926cf02789d031c7d388.json",
+          "trial_sha256": "2342c1d43bc4a5349b1e9327961bd7243cf3b719077078919493b9b5aa0ede83",
+          "retained_video": false
+        },
+        "transformer-a10-h3_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/d67c96b4c3028b10a7e7.json",
+          "trial_sha256": "1aa6a07a4fc810cd9118f84a6c8e9dd4defd25ae7640848c904dd66045ca6067",
+          "retained_video": false
+        },
+        "transformer-a10-h3_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/d9190b23f46ad373a9f7.json",
+          "trial_sha256": "328f41e7560ce2542963d0f493576e10a74300d85075b8179fe720347f24fa11",
+          "retained_video": false
+        },
+        "H20": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/359599310ed60a379fa6.json",
+          "trial_sha256": "4e7a7e9bfd9b4f211563afb2b3607f7ecfb95bf7073416d9db23d775f89bd50f",
+          "retained_video": false
+        },
+        "mlp_lvm": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/6b838bcb1ff26fa07d3e.json",
+          "trial_sha256": "495bb36ef2da57af72abca97a6e38e0b0bffe0bd0dd5d1f9a69f0ec00014c916",
+          "retained_video": false
+        },
+        "H50": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/96eb62679655aeb6b646.json",
+          "trial_sha256": "1c181c7deb58b60749c65540f04d5da048379a3854e869624c003e29b7d077e5",
+          "retained_video": false
+        },
+        "mlp_ogg": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/ead305b3c3c3b9f167ef.json",
+          "trial_sha256": "f87563c43fd6cf122374d0568b119ea74b0518c7448c4d3f8d63f07dabcfb4dd",
+          "retained_video": false
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/00303450c2d24b9a4ac2.json",
+          "trial_sha256": "282a12e93edd21c5984f2afac7ce25e598584d47e0a8e45a5b76a731cb135b19",
+          "retained_video": false
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/4979deec033232fde2e4.json",
+          "trial_sha256": "872f11ff7d135a1562422403c0d3937041cf20c3168f79c3e68d4e8e62c81a0b",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/8ee0b9a81cc3f20b8d8a.json",
+          "trial_sha256": "852d3d293655807a6ce7b52f0bd28707668522623f2bd850254116e36f349f49",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/e3ad7a213d7ee6dc6634.json",
+          "trial_sha256": "65b5ce4045f8a99aabcca7a5460e14779b63c248a797cbdef227a9abdf5da2ef",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_1",
+      "seed": 1000,
+      "pattern": "111",
+      "methods": {
+        "transformer-a10-h1_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/2a680a1aeacac3eb3d36.json",
+          "trial_sha256": "cacb43673d842c191c81a1f3833e29dfc1e1520aa3214e03925738fa9d4cc960",
+          "retained_video": false
+        },
+        "transformer-a10-h1_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/4990414a5590cb04d372.json",
+          "trial_sha256": "9f3dc0a1b3e2c00297d58140437d8debde4df613d5dbdb3f0cbc759df8e877fa",
+          "retained_video": false
+        },
+        "transformer-a10-h3_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/57db96e68a24892f745c.json",
+          "trial_sha256": "9a8403b3c7dd161d7b906aa49ac9b3956b660560ed265edd69519017ab7bd921",
+          "retained_video": false
+        },
+        "transformer-a10-h3_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/76f1847cf17da60f7ce7.json",
+          "trial_sha256": "524ab5df7a4cb39620e5bd5f1a03c18cf4cc49472fda8da53cb1b384fea7b800",
+          "retained_video": false
+        },
+        "H50": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/18ca21581558bce5dcb7.json",
+          "trial_sha256": "732faf135782d20347200975fd38f3770e13bbde40190e47ecfe907ee5c1aaad",
+          "retained_video": false
+        },
+        "H20": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/3ae91963b92ea7b2079f.json",
+          "trial_sha256": "f7c34bab258aa477cc649c6cfe3194ed1b1deeb0f176ed0fa1289fba84374cfa",
+          "retained_video": false
+        },
+        "mlp_lvm": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/840abd04b3b5ef636069.json",
+          "trial_sha256": "c38feb6855ac94b802be3144f556caf038b46b61b8d99ffe5a3a55d0af730a2c",
+          "retained_video": false
+        },
+        "mlp_ogg": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/90c6c693a743d4728612.json",
+          "trial_sha256": "f5334f25c996683a8bb967ce0b8594b7ee31ec401598c4b207d0450ea5500f0c",
+          "retained_video": false
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/2d82dd543a470f7a3ed4.json",
+          "trial_sha256": "7dc1878c7eb15bada8935e9882357608ed1e68e622a1d67982f3ccc335a01554",
+          "retained_video": false
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/379d96a925cf2372060f.json",
+          "trial_sha256": "e4c09174dcc49f80594560fef6d8956ad714f70e38abf6efff3f3ff0982e4529",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/1f6d70198d84bcf6e8de.json",
+          "trial_sha256": "43354141556d99f50e5f29bf9287120e9194c598975b0c48c500c27f838bd933",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/c27efb29afda08edc2c4.json",
+          "trial_sha256": "f5f20a6cf9def0043f74ff423cdab83530446274c97872f3dd8f1ea6a79aa870",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_0/init_2",
+      "seed": 1001,
+      "pattern": "010",
+      "methods": {
+        "transformer-a10-h1_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/73f5519bacab2d07b8b2.json",
+          "trial_sha256": "ddc85ce79a4f5dc30f9686f8689320a7940fce60a938bc0b421814a726ddd420",
+          "retained_video": true
+        },
+        "transformer-a10-h1_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/bfd77e5b8d6c2d9bd4a8.json",
+          "trial_sha256": "c9b963ff74272270dcccbe0819644fdaca65a97003856f425c6b5a832143d3d5",
+          "retained_video": true
+        },
+        "transformer-a10-h3_ogg": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/8ced7f0fbdcc2aa47e4f.json",
+          "trial_sha256": "06ee3fa9fd66e2ef53731ae06235b862ac76b4cea787d431885e686f9364a5dc",
+          "retained_video": true
+        },
+        "transformer-a10-h3_lvm": {
+          "success": false,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/f42fd4ef28a4d6e33970.json",
+          "trial_sha256": "58e523873b4d21c51a313570ba8abc388842f9e9841585a58847b8dc6900db47",
+          "retained_video": true
+        },
+        "mlp_lvm": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/1e142462627f91365785.json",
+          "trial_sha256": "ed414ae95413075253fad16d91db52a8a88ed82906ef30c452fa4bacd5797872",
+          "retained_video": true
+        },
+        "H50": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/5a9d8a3d368e07c1c2e5.json",
+          "trial_sha256": "65ca12de3962e2bd5afa03542f7a220277b161e584552f454b5928592fe7e717",
+          "retained_video": true
+        },
+        "mlp_ogg": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/81b04c11e6f3c748ae6c.json",
+          "trial_sha256": "17875757706ad1ec0cbd3c4eebac2868e5ba4ddd5fedaf405d0473c5021bfe4e",
+          "retained_video": true
+        },
+        "H20": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/f1fa9737fe2f766a7447.json",
+          "trial_sha256": "b292be02e1ce7c7a1a1d240c15b71c36b3abdadc46728d129ca23dff73e3f346",
+          "retained_video": false
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/2ce42b1ae73a0dca60ec.json",
+          "trial_sha256": "63c03735a683aa2e4d2aa3a1a142baa59c7176e20380820285de633c60650204",
+          "retained_video": false
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/2ea45fefa277a70fc1c3.json",
+          "trial_sha256": "71d549010a386e6dba95a9d04a37af415994b79e7184721ff308d63ec1bf5f46",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/09d63191adf653ffc1e1.json",
+          "trial_sha256": "5727d24060f7ab9835b8fd8ff3e9e05515e97d637340232e9681c79bdea813ba",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/c191c5017fedac59237d.json",
+          "trial_sha256": "4892ff7cf3a73f1e85124efa2505ea7e273754df48ee53c9d0dae99c6a6fec65",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "pattern": "101",
+      "methods": {
+        "transformer-a10-h1_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/a3cea5f4d430d82a9812.json",
+          "trial_sha256": "b3485b7cde830fc258198de1c91c83158f879171af6f62b6219b9a65116d12db",
+          "retained_video": false
+        },
+        "transformer-a10-h1_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/ec9e397520641c9b0b3c.json",
+          "trial_sha256": "ae39c0c34b48d12814a517d788fd7adb878b8981b575cb06729c291254a4fd31",
+          "retained_video": false
+        },
+        "transformer-a10-h3_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/3ca04370e8ca191b28f9.json",
+          "trial_sha256": "def1e11cad255fd2b74e252937054664cb59a234e516f6afd9a2ccbcd163d2b4",
+          "retained_video": false
+        },
+        "transformer-a10-h3_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/ce699c1911300a65e94f.json",
+          "trial_sha256": "d949b5354ab9186d44b730ac09a50f6baebf599484fe00b44f2bf762b2b9aad5",
+          "retained_video": false
+        },
+        "H20": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/4643cdc08fb513274445.json",
+          "trial_sha256": "741ab9530d36a185d295ff70f31ae5dd821acd373794b73e64a085af4aa5dddd",
+          "retained_video": true
+        },
+        "mlp_lvm": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/6aefa3820589762d175f.json",
+          "trial_sha256": "2d13a116164cde799d0dfa16b5b004ce8f14c0aa2d6eae088af9590eecb87db5",
+          "retained_video": false
+        },
+        "mlp_ogg": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/6ccbc981c8554598bda0.json",
+          "trial_sha256": "f7f382dd8268cb2d57ac97e5bb8c3707a60dd649d1bea1e33b73e9d2d81f1184",
+          "retained_video": false
+        },
+        "H50": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/db7a5ef8829dd521e001.json",
+          "trial_sha256": "8513d51bdf53ce2d4310457d228119d467465c9371e5182e015c87331b9e7cec",
+          "retained_video": false
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/69b1afa2af17f5c3f542.json",
+          "trial_sha256": "8aa34b72dca230170fa57be9ce44d538774012c8c2e8527a3ca75adf0240e5da",
+          "retained_video": false
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/7fb4d381078786a9dfa5.json",
+          "trial_sha256": "7047a3c251b6ed0c472ac015a0d5795e61f98e8cf3244a9a9523824318441b70",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/2dc5c163cb0382f4bf9f.json",
+          "trial_sha256": "581325b56c611afa908f5473fd79c3cdae739cafb1768a406a3391ee59edb696",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/88d980ad1a0605e24d86.json",
+          "trial_sha256": "7f7e048a8a987b728d3dd6988f467d6d1efd4f9f72f564a13e646e6bd368156d",
+          "retained_video": false
+        }
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_1",
+      "seed": 1000,
+      "pattern": "101",
+      "methods": {
+        "transformer-a10-h1_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/0d87fcdd810b7d795887.json",
+          "trial_sha256": "441d5af8b016d3314a0aea651007f141a394107944d44c7820cd0f2d79f58425",
+          "retained_video": false
+        },
+        "transformer-a10-h1_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h1_s42/c7185ff584d2ed22/paired/trials/e03c3f73f123a5942267.json",
+          "trial_sha256": "d1df6248b16951a6990a0c4df900dbddf77ffc4fa99dae3b3d32e06ead5de8cf",
+          "retained_video": false
+        },
+        "transformer-a10-h3_lvm": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/0105bf3d1fbce1a05f04.json",
+          "trial_sha256": "362dccf19f10f2717aa997cda7dc1b05fd4ecb81111dd9581fd4746c2832ed91",
+          "retained_video": false
+        },
+        "transformer-a10-h3_ogg": {
+          "success": true,
+          "member": "actions/experiments/evaluation/transformer-a10-h3_s42/c872498119c625ae/paired/trials/591c37dc861ff7f7b4e5.json",
+          "trial_sha256": "6a6932768230da8981c91b7a7e4c11cf17c74831efb4f6cacbb7ca8c59f13ad4",
+          "retained_video": false
+        },
+        "H50": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/603054f48b50eac8279b.json",
+          "trial_sha256": "56e6b19d2fdcb90c79bc16f64b6357d72827e018909f98c0120506164cacab3c",
+          "retained_video": false
+        },
+        "mlp_lvm": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/84578cdb4c75fef193ca.json",
+          "trial_sha256": "f9f05c0b371344f5c87151e3d93a235dcd9826b72a3fa5b3c216f7cf8120f421",
+          "retained_video": false
+        },
+        "H20": {
+          "success": false,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/bf91c89b7e858bc5eea1.json",
+          "trial_sha256": "1f04a27925db150377b714cf73c83345b1002303e2b8235732c4c43d83a9c11e",
+          "retained_video": true
+        },
+        "mlp_ogg": {
+          "success": true,
+          "member": "night/evaluation/mlp_s42/05d55ba9452142be/paired/trials/fe33c4d88e79b93b430a.json",
+          "trial_sha256": "27ea471b05b6d3339a258ff3ea7b8c993c56247146798a584f68c3d05256bf1a",
+          "retained_video": false
+        },
+        "transformer-h1_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/27788d105dceaa57ec70.json",
+          "trial_sha256": "e9bcd996f8b6579931164c61749560b0228053fe8d41abbb1a60e8a187b83d34",
+          "retained_video": false
+        },
+        "transformer-h1_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h1_s42/db5f037acb24a2f0/paired/trials/a046fedc2b7a2856775e.json",
+          "trial_sha256": "1936c0f64adc735d5ed6a6a7f8a64557de030b26875c0d3dd1e2b8113e55a10f",
+          "retained_video": false
+        },
+        "transformer-h3_ogg": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/4934841756c233a54f3c.json",
+          "trial_sha256": "398e034ad8887c30fee1ac065eb236412dc0c9ffb6eaff9cd5e0a27e9bdc565d",
+          "retained_video": false
+        },
+        "transformer-h3_lvm": {
+          "success": true,
+          "member": "night/evaluation/transformer-h3_s42/2b9eb4142f49b0ff/paired/trials/f9a06ce1bfcc6e145ec2.json",
+          "trial_sha256": "a7a10eedfa4f2b6aace6865703b685745b353d359047690b24fda7782c9f87dc",
+          "retained_video": false
+        }
+      }
+    }
+  ],
+  "missing_patterns": [
+    "100",
+    "110"
+  ],
+  "confirmation_seeds": [
+    2000,
+    2001,
+    2002
+  ],
+  "models": [
+    "mlp",
+    "transformer-h1",
+    "transformer-h3",
+    "transformer-a10-h1",
+    "transformer-a10-h3"
+  ],
+  "methods": {
+    "H50": {
+      "family": "baseline",
+      "action_steps": 50,
+      "model_label": "SmolVLA",
+      "video_policy": "all"
+    },
+    "H20": {
+      "family": "baseline",
+      "action_steps": 20,
+      "model_label": "SmolVLA",
+      "video_policy": "all"
+    },
+    "mlp_lvm": {
+      "family": "original",
+      "model": "mlp",
+      "mode": "lvm",
+      "action_steps": 50,
+      "model_label": "MLP",
+      "video_policy": "all"
+    },
+    "mlp_ogg": {
+      "family": "original",
+      "model": "mlp",
+      "mode": "ogg",
+      "action_steps": 50,
+      "model_label": "MLP",
+      "video_policy": "all"
+    },
+    "transformer-h1_lvm": {
+      "family": "original",
+      "model": "transformer-h1",
+      "mode": "lvm",
+      "action_steps": 50,
+      "model_label": "T-H1",
+      "video_policy": "all"
+    },
+    "transformer-h1_ogg": {
+      "family": "original",
+      "model": "transformer-h1",
+      "mode": "ogg",
+      "action_steps": 50,
+      "model_label": "T-H1",
+      "video_policy": "all"
+    },
+    "transformer-h3_lvm": {
+      "family": "original",
+      "model": "transformer-h3",
+      "mode": "lvm",
+      "action_steps": 50,
+      "model_label": "T-H3",
+      "video_policy": "all"
+    },
+    "transformer-h3_ogg": {
+      "family": "original",
+      "model": "transformer-h3",
+      "mode": "ogg",
+      "action_steps": 50,
+      "model_label": "T-H3",
+      "video_policy": "all"
+    },
+    "transformer-a10-h1_lvm": {
+      "family": "original",
+      "model": "transformer-a10-h1",
+      "mode": "lvm",
+      "action_steps": 50,
+      "model_label": "A10-H1",
+      "video_policy": "all"
+    },
+    "transformer-a10-h1_ogg": {
+      "family": "original",
+      "model": "transformer-a10-h1",
+      "mode": "ogg",
+      "action_steps": 50,
+      "model_label": "A10-H1",
+      "video_policy": "all"
+    },
+    "transformer-a10-h3_lvm": {
+      "family": "original",
+      "model": "transformer-a10-h3",
+      "mode": "lvm",
+      "action_steps": 50,
+      "model_label": "A10-H3",
+      "video_policy": "all"
+    },
+    "transformer-a10-h3_ogg": {
+      "family": "original",
+      "model": "transformer-a10-h3",
+      "mode": "ogg",
+      "action_steps": 50,
+      "model_label": "A10-H3",
+      "video_policy": "all"
+    },
+    "hybrid_t1_a10_ogg": {
+      "family": "hybrid",
+      "model": "transformer-h1",
+      "guide": "transformer-a10-h1",
+      "mode": "ogg",
+      "action_steps": 50,
+      "model_label": "T-H1 → A10-H1",
+      "video_policy": "all"
+    },
+    "planned_lvm": {
+      "family": "consistency",
+      "model": "transformer-a10-h1",
+      "mode": "planned_lvm",
+      "action_steps": 50,
+      "model_label": "A10-H1",
+      "video_policy": "all"
+    },
+    "executed_lvm": {
+      "family": "consistency",
+      "model": "transformer-a10-h1",
+      "mode": "executed_lvm",
+      "action_steps": 50,
+      "model_label": "A10-H1",
+      "video_policy": "all"
+    }
+  },
+  "scope": "outcome-selected diagnostic bank; repeated held-out noise seeds, not unbiased benchmark success rate",
+  "original_corrector": "MLP seed42 + original robust LVM + original first-action OGG; checkpoint pinned in models manifest",
+  "do_not_force_requested_outcomes": true,
+  "no_training": true,
+  "automatic_expansion": false
+}

@@ -1,0 +1,97 @@
+{
+  "pid": 285840,
+  "branch": "experiment/hybrid-corrector-pilot-20261111",
+  "code": "/root/autodl-tmp/corrector/dev/hybrid-pilot-a3b68ebdba95",
+  "output": "/root/autodl-tmp/corrector/object10/hybrid_pilot_20261111_001",
+  "log": "/root/autodl-tmp/corrector/hybrid-pilot-20261111-001.log",
+  "stages": [
+    "compatibility",
+    "shape_gradient_probe",
+    "3 forced interface checks",
+    "12 natural paired trials"
+  ],
+  "preflight": {
+    "gpu": "NVIDIA GeForce RTX 4090, 1, 24564, 0",
+    "compute_processes": "",
+    "free_gib": 8.64028549194336,
+    "prior_training": [
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/mlp_s42",
+        "status": "completed",
+        "epochs": 53
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/mlp_s43",
+        "status": "completed",
+        "epochs": 57
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/mlp_s44",
+        "status": "completed",
+        "epochs": 45
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/transformer-h1_s42",
+        "status": "completed",
+        "epochs": 48
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/transformer-h1_s43",
+        "status": "completed",
+        "epochs": 69
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/transformer-h1_s44",
+        "status": "completed",
+        "epochs": 59
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/transformer-h3_s42",
+        "status": "completed",
+        "epochs": 56
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/transformer-h3_s43",
+        "status": "completed",
+        "epochs": 55
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/transformer-h3_s44",
+        "status": "completed",
+        "epochs": 62
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h1_s42",
+        "status": "completed",
+        "epochs": 60
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h1_s43",
+        "status": "completed",
+        "epochs": 54
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h1_s44",
+        "status": "completed",
+        "epochs": 47
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h3_s42",
+        "status": "completed",
+        "epochs": 69
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h3_s43",
+        "status": "completed",
+        "epochs": 59
+      },
+      {
+        "run": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h3_s44",
+        "status": "completed",
+        "epochs": 51
+      }
+    ]
+  },
+  "retraining": false,
+  "automatic_expansion": false
+}

@@ -1,0 +1,23 @@
+# 逐条复制到远程执行；不要把整份说明当作脚本一口气运行。
+# 现有prefetch下载继续，不重装环境、不覆盖其代码。
+# 如果曾启动3轨迹GPU训练预检，先等它结束；不得同时再运行默认run或另一消费者。
+# 先用下面命令确认没有旧消费者/训练进程，再启动本包。
+pgrep -af '[c]orrector_stream_workbench.py run|[c]orrector_train.py fit'
+
+# 1. 本地上传zip到远端/root/autodl-tmp/corrector后，远端解压到独立代码ID目录：
+unzip -n /root/autodl-tmp/corrector/corrector_local_pipeline_20261109.zip -d /root/autodl-tmp/corrector/local-pipeline-49cb4998e2
+
+# 2. 只启动一次；全部路径为绝对路径，无需切换cwd，也不需要代理选项。
+HF_HOME=/root/autodl-tmp/corrector/runtime/hf HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 nohup /root/autodl-tmp/corrector/runtime/venv/bin/python -u /root/autodl-tmp/corrector/local-pipeline-49cb4998e2/corrector_stream_workbench.py run --archive /root/autodl-tmp/corrector/object10 --workdir /root/autodl-tmp/corrector/object10-work --source-root /root/autodl-tmp/corrector/runtime/vla-corrector-reference --watch-local --poll-seconds 15 --idle-minutes 30 --max-new-episodes 0 --minutes 0 --min-free-gib 5 >> /root/autodl-tmp/corrector/object10-local-consumer.log 2>&1 < /dev/null &
+
+# 3. 查看日志。等待新文件是正常状态；每条轨迹完成立即归档。
+tail -n 30 -f /root/autodl-tmp/corrector/object10-local-consumer.log
+
+# watcher只读已发布的分片及Hub元数据，SHA核验后处理，忽略.incomplete，不删除source。
+# 编码器和processor只从既有缓存加载一次；缺少缓存会报错，不联网重下。
+# 连续30分钟无可处理新轨迹会暂停；下载恢复后同命令重新启动即可跳过已完成轨迹。
+# 人工暂停：touch /root/autodl-tmp/corrector/object10/STOP，当前轨迹完成后暂停。
+# 恢复前先删除自己创建的该STOP文件，再同命令启动；每次仅一个消费者。
+# 原始分片在watch期间保留，预算包含未下载文件、未生成特征及至少5GiB余量。
+# 原始分片全部下载不等于特征已完成；等454条特征完成后才运行正式inspect/fit。
+# 本包没有模型/数据/凭据；只读Hub .metadata格式不符时会停下，不跳过校验。

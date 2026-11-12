@@ -1,0 +1,591 @@
+{
+  "format": 1,
+  "dataset": "HuggingFaceVLA/libero",
+  "revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "selection": {
+    "task_ids": [
+      24
+    ],
+    "limit": 44,
+    "seed": 42
+  },
+  "records": [
+    {
+      "episode": 813,
+      "frames": 155,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-213.parquet",
+          "bytes": 102411765
+        }
+      ]
+    },
+    {
+      "episode": 818,
+      "frames": 164,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-214.parquet",
+          "bytes": 98527849
+        }
+      ]
+    },
+    {
+      "episode": 825,
+      "frames": 153,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-215.parquet",
+          "bytes": 87174761
+        }
+      ]
+    },
+    {
+      "episode": 850,
+      "frames": 152,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-221.parquet",
+          "bytes": 96360176
+        }
+      ]
+    },
+    {
+      "episode": 852,
+      "frames": 169,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-221.parquet",
+          "bytes": 96360176
+        }
+      ]
+    },
+    {
+      "episode": 857,
+      "frames": 154,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-222.parquet",
+          "bytes": 100371196
+        }
+      ]
+    },
+    {
+      "episode": 860,
+      "frames": 153,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-223.parquet",
+          "bytes": 102336875
+        }
+      ]
+    },
+    {
+      "episode": 876,
+      "frames": 160,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-226.parquet",
+          "bytes": 86977934
+        }
+      ]
+    },
+    {
+      "episode": 877,
+      "frames": 153,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-226.parquet",
+          "bytes": 86977934
+        }
+      ]
+    },
+    {
+      "episode": 887,
+      "frames": 143,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-229.parquet",
+          "bytes": 93142720
+        }
+      ]
+    },
+    {
+      "episode": 905,
+      "frames": 154,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-232.parquet",
+          "bytes": 95916787
+        }
+      ]
+    },
+    {
+      "episode": 908,
+      "frames": 195,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-233.parquet",
+          "bytes": 87889932
+        }
+      ]
+    },
+    {
+      "episode": 934,
+      "frames": 160,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-238.parquet",
+          "bytes": 99187598
+        }
+      ]
+    },
+    {
+      "episode": 945,
+      "frames": 154,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-241.parquet",
+          "bytes": 103795286
+        }
+      ]
+    },
+    {
+      "episode": 978,
+      "frames": 187,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-248.parquet",
+          "bytes": 98642802
+        }
+      ]
+    },
+    {
+      "episode": 983,
+      "frames": 148,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-249.parquet",
+          "bytes": 104335270
+        }
+      ]
+    },
+    {
+      "episode": 984,
+      "frames": 152,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-249.parquet",
+          "bytes": 104335270
+        }
+      ]
+    },
+    {
+      "episode": 985,
+      "frames": 145,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-249.parquet",
+          "bytes": 104335270
+        }
+      ]
+    },
+    {
+      "episode": 1002,
+      "frames": 172,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-253.parquet",
+          "bytes": 84811070
+        }
+      ]
+    },
+    {
+      "episode": 1011,
+      "frames": 176,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-255.parquet",
+          "bytes": 104619432
+        }
+      ]
+    },
+    {
+      "episode": 1020,
+      "frames": 161,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-256.parquet",
+          "bytes": 99164615
+        }
+      ]
+    },
+    {
+      "episode": 1024,
+      "frames": 143,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-257.parquet",
+          "bytes": 103137240
+        }
+      ]
+    },
+    {
+      "episode": 1035,
+      "frames": 136,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-259.parquet",
+          "bytes": 99767648
+        }
+      ]
+    },
+    {
+      "episode": 1074,
+      "frames": 149,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-268.parquet",
+          "bytes": 102648659
+        }
+      ]
+    },
+    {
+      "episode": 1075,
+      "frames": 160,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-268.parquet",
+          "bytes": 102648659
+        }
+      ]
+    },
+    {
+      "episode": 1100,
+      "frames": 179,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-273.parquet",
+          "bytes": 87041198
+        }
+      ]
+    },
+    {
+      "episode": 1102,
+      "frames": 150,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-274.parquet",
+          "bytes": 78651162
+        }
+      ]
+    },
+    {
+      "episode": 1108,
+      "frames": 137,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-275.parquet",
+          "bytes": 86434248
+        }
+      ]
+    },
+    {
+      "episode": 1131,
+      "frames": 151,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-280.parquet",
+          "bytes": 85491425
+        }
+      ]
+    },
+    {
+      "episode": 1143,
+      "frames": 189,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-283.parquet",
+          "bytes": 85292638
+        }
+      ]
+    },
+    {
+      "episode": 1148,
+      "frames": 150,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-284.parquet",
+          "bytes": 86358749
+        }
+      ]
+    },
+    {
+      "episode": 1151,
+      "frames": 156,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-285.parquet",
+          "bytes": 104153187
+        }
+      ]
+    },
+    {
+      "episode": 1152,
+      "frames": 152,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-285.parquet",
+          "bytes": 104153187
+        }
+      ]
+    },
+    {
+      "episode": 1166,
+      "frames": 148,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-288.parquet",
+          "bytes": 91751781
+        }
+      ]
+    },
+    {
+      "episode": 1171,
+      "frames": 151,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-289.parquet",
+          "bytes": 96495679
+        }
+      ]
+    },
+    {
+      "episode": 1187,
+      "frames": 151,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-293.parquet",
+          "bytes": 95816066
+        }
+      ]
+    },
+    {
+      "episode": 1205,
+      "frames": 146,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-296.parquet",
+          "bytes": 103307130
+        }
+      ]
+    },
+    {
+      "episode": 1219,
+      "frames": 149,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-299.parquet",
+          "bytes": 85376889
+        }
+      ]
+    },
+    {
+      "episode": 1224,
+      "frames": 146,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-300.parquet",
+          "bytes": 100979482
+        }
+      ]
+    },
+    {
+      "episode": 1225,
+      "frames": 151,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "validation",
+      "files": [
+        {
+          "path": "data/chunk-000/file-301.parquet",
+          "bytes": 98616764
+        }
+      ]
+    },
+    {
+      "episode": 1233,
+      "frames": 146,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-302.parquet",
+          "bytes": 97681620
+        }
+      ]
+    },
+    {
+      "episode": 1242,
+      "frames": 155,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-304.parquet",
+          "bytes": 103678931
+        }
+      ]
+    },
+    {
+      "episode": 1243,
+      "frames": 155,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-304.parquet",
+          "bytes": 103678931
+        }
+      ]
+    },
+    {
+      "episode": 1245,
+      "frames": 157,
+      "task_id": 24,
+      "task": "pick up the alphabet soup and place it in the basket",
+      "split": "train",
+      "files": [
+        {
+          "path": "data/chunk-000/file-305.parquet",
+          "bytes": 100506531
+        }
+      ]
+    }
+  ],
+  "frames": 6867,
+  "physical_download_bytes": 3538853095,
+  "estimated_feature_bytes": 846000666,
+  "fps": 10,
+  "split_scope": "episode train/validation development split; no independent predictor test set"
+}

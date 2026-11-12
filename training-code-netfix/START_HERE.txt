@@ -1,0 +1,4 @@
+本包转向预测器训练，不自动启动5000回合评测。
+先在远端touch runtime/results/overnight_001/STOP，等待paired/execution.json为paused、评测进程退出。
+解压本包到新目录/root/autodl-tmp/corrector/training-code，不覆盖原longrun-code或旧runtime。
+已有环境无需再prepare。完整命令见START_TRAINING.txt；本包没有模型、凭据或数据图像。

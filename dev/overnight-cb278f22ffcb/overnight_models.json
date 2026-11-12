@@ -1,0 +1,42 @@
+[
+  {
+    "name": "mlp",
+    "checkpoint": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/mlp_s42/best_model.pt",
+    "sha": "05d55ba9452142be66840b3bef6fad10226480b6115be4bbbcf0842116732fad",
+    "factory": "/root/autodl-tmp/corrector/night-code-1e80242789/corrector_models.py",
+    "h_window": 1,
+    "action_steps": 1
+  },
+  {
+    "name": "transformer-h1",
+    "checkpoint": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/transformer-h1_s42/best_model.pt",
+    "sha": "db5f037acb24a2f0954bd9f7e5debd6974a43117411ebf157ec23fe68a02c7b3",
+    "factory": "/root/autodl-tmp/corrector/night-code-1e80242789/corrector_models.py",
+    "h_window": 1,
+    "action_steps": 1
+  },
+  {
+    "name": "transformer-h3",
+    "checkpoint": "/root/autodl-tmp/corrector/object10/night_20261109_001/runs/transformer-h3_s42/best_model.pt",
+    "sha": "2b9eb4142f49b0ffb0640e9d442baa76d5ec8fb008a7e6134e81f7dd120824d0",
+    "factory": "/root/autodl-tmp/corrector/night-code-1e80242789/corrector_models.py",
+    "h_window": 3,
+    "action_steps": 1
+  },
+  {
+    "name": "transformer-a10-h1",
+    "checkpoint": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h1_s42/best_model.pt",
+    "sha": "c7185ff584d2ed224249fce506cb11c9069cc8446010010de78dcac284f5336f",
+    "factory": "/root/autodl-tmp/corrector/action-code-9274415dd6/corrector_models.py",
+    "h_window": 1,
+    "action_steps": 10
+  },
+  {
+    "name": "transformer-a10-h3",
+    "checkpoint": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h3_s42/best_model.pt",
+    "sha": "c872498119c625ae97f1e4c6df4d9bbd1acf1cf857aeeb8c6c6978ce48db30e1",
+    "factory": "/root/autodl-tmp/corrector/action-code-9274415dd6/corrector_models.py",
+    "h_window": 3,
+    "action_steps": 10
+  }
+]
