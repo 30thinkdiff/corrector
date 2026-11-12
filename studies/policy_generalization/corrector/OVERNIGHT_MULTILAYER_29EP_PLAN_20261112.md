@@ -1,5 +1,8 @@
 # 2026-11-12 当晚执行：29条Episode / 联合多层Corrector A-B-C
 
+> **历史存储规划，已被新方案取代（2026-11-12晚）**：该文档建立在扩容前50GB数据盘、29条Episode、16×16池化的约束下。用户现已扩容至130GB，并决定优先保留原始32×32 FP16、覆盖10任务的70条Episode和正式J-36M，且增加**J-LVM-only vs J-LVM+OGG**闭环对照。执行时请以[新Codex任务书](J36M_LVM_OGG_CODEX_TASK_20261112.md)及[正式架构规范](FORMAL_MULTILAYER_CORRECTOR_J36M_DESIGN_20261112.md)为准；本文件只保留作历史审计，不要按旧容量假设执行或清理原数据。
+
+
 ## 目标与边界
 
 用户希望在当晚尽量完成数据准备、训练、离线测试。**绝不直接扩大454条**。该批次使用固定`object10/manifest.json`（数据修订`86958911c0f959db2bbbdb107eb3e17c5f9c798e`），选`file-212.parquet`到`file-217.parquet`共6个原始分片（其中file-213已验证在远程）。真实`721f2bae4c3cf2c9ef7abaf548caf40ee9d9f92d`训练MVP源代码目前只确认部署在远程`dev/multilayer-training-mvp-a98b5be63190`和用户的本地Codex工作区；**不要假定这个源提交已经存在于GitHub分支**，先核对真实本地版本。
