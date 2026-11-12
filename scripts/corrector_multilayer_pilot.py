@@ -300,6 +300,8 @@ def run(args):
                        "size_bytes":path.stat().st_size} for name,path in raw_paths.items()},
                     "note":"Feature tensors only; future delta label = z[t+10]-z[t] from same episode; no keyframe annotation",
                 }
+                if sha256(weights)!=weight_sha:
+                    raise RuntimeError("checkpoint weight SHA changed before raw cache publish")
                 atomic_json(raw_dir/"COMPLETE.json",raw_archive)
             record={
                 "episode":ep,"task_id":rec.get("task_id"),"frames":frame_count,"pairs":len(pairs),
