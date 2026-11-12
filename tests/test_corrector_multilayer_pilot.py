@@ -103,6 +103,17 @@ class TestPilot(unittest.TestCase):
         self.assertEqual(sc.shape,x.shape[:-1])
         self.assertLess(compare_arrays(x,dequantize(q,sc))["relative_l2"],.03)
 
+    def test_export_opt_in_cli(self):
+        from unittest.mock import patch
+        from corrector_multilayer_pilot import args_parser
+        with patch.object(sys,"argv",["multilayer_pilot","--output","/tmp/new-export"]):
+            self.assertFalse(args_parser().save_fp16)
+        with patch.object(sys,"argv",["multilayer_pilot","--output","/tmp/new-export","--save-fp16",
+                                       "--layers","2","8"]):
+            args=args_parser()
+            self.assertTrue(args.save_fp16)
+            self.assertEqual(args.layers,[2,8])
+
     def test_no_overwrite_report(self):
         with tempfile.TemporaryDirectory() as td:
             p=Path(td)/"report.json"
