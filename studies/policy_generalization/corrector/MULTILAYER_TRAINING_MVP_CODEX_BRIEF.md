@@ -1,5 +1,8 @@
 # 统一多层Corrector：本地Codex开发 / 远程4090小规模训练任务书
 
+> **历史MVP任务书（2026-11-12）**：本文件用于解释已完成的5条Episode、0.767M联合工程模型及其部署验收，不再作为正式J-36M模型训练或在线实验的当前需求。新任务须以[正式J-36M架构与LVM/OGG消融规范](FORMAL_MULTILAYER_CORRECTOR_J36M_DESIGN_20261112.md)及[Codex新执行任务书](J36M_LVM_OGG_CODEX_TASK_20261112.md)为准。旧结果不可覆盖。
+
+
 日期：2026-11-12。研究目标：在已有深层Connector Corrector基线基础上，以**一个联合模型**利用冻结SigLIP中间层Block 2及8，并以未来视觉变化为监督目标。此任务是MVP、不是大规模实验。
 
 ## 0. 已完成、不得重做
