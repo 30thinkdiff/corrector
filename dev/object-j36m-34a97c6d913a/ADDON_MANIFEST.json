@@ -1,0 +1,8 @@
+{
+  "format": "j36m_object_addon_v1",
+  "core_manifest_sha256": "a742e42b77fa2d05592c6b7b639881c80ed28515aa57524bf4eab7b6d499d0cc",
+  "files": {
+    "scripts/corrector_j36m_object_eval.py": "d57522eba75dcdea324ab759fd79d21542b0b988f3db0200041c552389ecfd9d",
+    "tests/j36m/test_object_eval.py": "fc122b31a4fd4310f6fd6414c6c54187aaaa5883a458605ab8f3a574fa2eb2e9"
+  }
+}

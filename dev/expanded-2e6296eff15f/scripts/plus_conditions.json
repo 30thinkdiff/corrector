@@ -1,0 +1,304 @@
+{
+  "source_sha": "4976dc30028e805ff8094b55501d532c48fec182",
+  "selection": "two predeclared base tasks, official min/max available difficulty, lexical first name; no success data",
+  "task_index_note": "classification id is one-based; actual suite ID resolved by exact name, never copied blindly",
+  "methods": 17,
+  "seeds": [
+    1000,
+    1001,
+    1002
+  ],
+  "conditions": {
+    "plus/default": {
+      "task_id": 653,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_1_15_100_0_0_initstate_0",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Historical camera",
+      "official_difficulty": null,
+      "historical_compat": true,
+      "default_task": "pick_up_the_alphabet_soup_and_place_it_in_the_basket"
+    },
+    "plus/view15": {
+      "task_id": 666,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_15_15_100_0_0_initstate_0",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Historical camera",
+      "official_difficulty": null,
+      "historical_compat": true
+    },
+    "plus/view5": {
+      "task_id": 656,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_5_15_100_0_0_initstate_0",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Historical camera",
+      "official_difficulty": null,
+      "historical_compat": true
+    },
+    "plus/view10": {
+      "task_id": 661,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_10_15_100_0_0_initstate_0",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Historical camera",
+      "official_difficulty": null,
+      "historical_compat": true
+    },
+    "plus/soup/background_textures/1": {
+      "task_id": 5,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_15",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Background Textures",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/soup/background_textures/2": {
+      "task_id": 0,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_1",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Background Textures",
+      "official_difficulty": 4,
+      "historical_compat": false
+    },
+    "plus/soup/camera_viewpoints/1": {
+      "task_id": 650,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_2_350_initstate_0",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Camera Viewpoints",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/soup/camera_viewpoints/2": {
+      "task_id": 663,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_12_15_100_0_0_initstate_0",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Camera Viewpoints",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/soup/language_instructions/1": {
+      "task_id": 1046,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_language_12_view_0_0_100_0_0_initstate_0",
+      "init": 0,
+      "language": "lift the alphabet soup and insert it into the basket",
+      "category": "Language Instructions",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/soup/language_instructions/2": {
+      "task_id": 1047,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_language_14_view_0_0_100_0_0_initstate_0",
+      "init": 0,
+      "language": "grasp the alphabet soup and set it in the basket",
+      "category": "Language Instructions",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/soup/light_conditions/1": {
+      "task_id": 2251,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_light_43",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Light Conditions",
+      "official_difficulty": 3,
+      "historical_compat": false
+    },
+    "plus/soup/light_conditions/2": {
+      "task_id": 2221,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_light_1",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Light Conditions",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/soup/objects_layout/1": {
+      "task_id": 1818,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_add_10",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Objects Layout",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/soup/objects_layout/2": {
+      "task_id": 1843,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_level2_sample1",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Objects Layout",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/soup/robot_initial_states/1": {
+      "task_id": 252,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_101",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Robot Initial States",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/soup/robot_initial_states/2": {
+      "task_id": 271,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_311",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Robot Initial States",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/soup/sensor_noise/1": {
+      "task_id": 1414,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_22",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Sensor Noise",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/soup/sensor_noise/2": {
+      "task_id": 1408,
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_15",
+      "init": 0,
+      "language": "pick the alphabet soup and place it in the basket",
+      "category": "Sensor Noise",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/cheese/background_textures/1": {
+      "task_id": 125,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_table_5",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Background Textures",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/cheese/background_textures/2": {
+      "task_id": 126,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_table_7",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Background Textures",
+      "official_difficulty": 4,
+      "historical_compat": false
+    },
+    "plus/cheese/camera_viewpoints/1": {
+      "task_id": 674,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_4_352_initstate_0",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Camera Viewpoints",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/cheese/camera_viewpoints/2": {
+      "task_id": 672,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_4_10_initstate_0",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Camera Viewpoints",
+      "official_difficulty": 3,
+      "historical_compat": false
+    },
+    "plus/cheese/language_instructions/1": {
+      "task_id": 1074,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_language_15_view_0_0_100_0_0_initstate_0",
+      "init": 0,
+      "language": "pick up the spread often used on bagels and place it in the container typically made of woven materials",
+      "category": "Language Instructions",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/cheese/language_instructions/2": {
+      "task_id": 1075,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_language_16_view_0_0_100_0_0_initstate_0",
+      "init": 0,
+      "language": "for our recipe well need to pick up the cream cheese and place it in the basket",
+      "category": "Language Instructions",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/cheese/light_conditions/1": {
+      "task_id": 2389,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_light_24",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Light Conditions",
+      "official_difficulty": 4,
+      "historical_compat": false
+    },
+    "plus/cheese/light_conditions/2": {
+      "task_id": 2387,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_light_11",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Light Conditions",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/cheese/objects_layout/1": {
+      "task_id": 1985,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_add_14",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Objects Layout",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/cheese/objects_layout/2": {
+      "task_id": 1992,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_level1_sample1",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Objects Layout",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/cheese/robot_initial_states/1": {
+      "task_id": 294,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_112",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Robot Initial States",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/cheese/robot_initial_states/2": {
+      "task_id": 306,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_262",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Robot Initial States",
+      "official_difficulty": 5,
+      "historical_compat": false
+    },
+    "plus/cheese/sensor_noise/1": {
+      "task_id": 1448,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_11",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Sensor Noise",
+      "official_difficulty": 1,
+      "historical_compat": false
+    },
+    "plus/cheese/sensor_noise/2": {
+      "task_id": 1447,
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_10",
+      "init": 0,
+      "language": "pick the cream cheese and place it in the basket",
+      "category": "Sensor Noise",
+      "official_difficulty": 5,
+      "historical_compat": false
+    }
+  },
+  "planned": 1632,
+  "scope": "structured diagnostic subset, not official 10030-task leaderboard protocol"
+}
