@@ -1,0 +1,25 @@
+{
+  "format": "multilayer_mvp_deployment_v1",
+  "git_commit": "721f2bae4c3cf2c9ef7abaf548caf40ee9d9f92d",
+  "files": {
+    "scripts/multilayer_mvp/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/multilayer_mvp/data.py": "7f30cfc0eea7a09cf79bfbb16d6037a86cee3af7fa4b5442cc5e52bc2e84460f",
+    "scripts/multilayer_mvp/metrics.py": "dc6f42dab33dbfef92e72802a5e1f476068845d87c0d06e87f39ac98ffc2f711",
+    "scripts/multilayer_mvp/model.py": "22a8effc50eee61947daa69304afbce2ea9198b690a96a023015566e38a171fa",
+    "scripts/multilayer_mvp/runtime.py": "c2237537413529864f599ae8b18b3660d4e27c6b8b5d4ce2ee093a12a7e087f5",
+    "tests/multilayer_mvp/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/multilayer_mvp/test_mvp.py": "ffbca7156a6e6d5a8bf9411e1b1da90d130e18f6eb47939f470d23c5adc5cbe3",
+    "studies/policy_generalization/corrector/multilayer_mvp/README.md": "4b734b9ccf6dc1368ac34e40984a75d41eb4c50851794d4b4049793647b7e3ee",
+    "studies/policy_generalization/corrector/multilayer_mvp/VALIDATION.md": "8cdde29bfba00bd9640f7b4bdee29f4fe64a1648d14787f935fdd0532c51da26",
+    "studies/policy_generalization/corrector/multilayer_mvp/config.json": "f37ad8f6a8c0cff3d9e1fa95d0d2d3889b80420b50def032afa6b2d0a8168a33",
+    "scripts/corrector_multilayer_train.py": "c4674db72a8f93f76a5273e37160638da27d48d2001f24889f57f5270d615fe3",
+    "scripts/corrector_train.py": "b2e06f181bd3dc4beee1bbe8fb215100d4664d0566a581fe2a864a15b6b496ca",
+    "scripts/corrector_models.py": "fa491d421b581425320279403a8d7dcbb970d8a0a3a2d32b4ab674a0ae2db168",
+    "scripts/corrector_data_workbench.py": "bb51dfae7c54bd61241c780be8929c056286dca66b142ff0fd95972060c30fe4",
+    "scripts/package_multilayer_mvp.py": "f9697e70ef5b18d31e249f8a208ea09facb7c1e8bad73b51607e2848e3fc82fc",
+    "AGENTS.md": "887fac6715b6b38295cc6e6500476ebc051c574b767ed05a95c69d8ef39d6ab8",
+    "THIRD_PARTY.md": "247ad05944d8301566130f5b957efc7625b8dd54b0ba455c2b9bfe3ccc0b908e"
+  },
+  "raw_data_included": false,
+  "weights_included": false
+}
