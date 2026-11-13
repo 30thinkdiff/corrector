@@ -1,0 +1,70 @@
+[
+  {
+    "condition": "libero_object/task_1/init_0",
+    "path": "/root/autodl-tmp/corrector/object10/executed_consistency_pilot_20261111_002/attempts/e2af0f32e4eba2491408/attempt_001/observed_features.f32",
+    "dtype": "float32",
+    "shape": [
+      280,
+      128,
+      960
+    ],
+    "sha256": "ff9f52bdbf3f88ee5e0031aa662d1eb52c5d160b581c7bc7d1dc841fbe3ca953",
+    "observation_clock": "Z_t before u_t; after successful controller submission u_(t-1)",
+    "controller_commands": 280,
+    "reset_settling_commands_excluded": 0,
+    "initial_reset_settling": "not instrumented; hook installed after lazy initialization and before first policy command",
+    "reset_count": 1,
+    "baseline_actions_exactly_equal": true
+  },
+  {
+    "condition": "libero_object/task_1/init_2",
+    "path": "/root/autodl-tmp/corrector/object10/executed_consistency_pilot_20261111_002/attempts/e1263e1b63dbedee82bf/attempt_001/observed_features.f32",
+    "dtype": "float32",
+    "shape": [
+      280,
+      128,
+      960
+    ],
+    "sha256": "e12af698f35881dadd969a1b08f7da7fbb4b2ca9d2d34e32dbfdc0d63d905cf5",
+    "observation_clock": "Z_t before u_t; after successful controller submission u_(t-1)",
+    "controller_commands": 280,
+    "reset_settling_commands_excluded": 0,
+    "initial_reset_settling": "not instrumented; hook installed after lazy initialization and before first policy command",
+    "reset_count": 1,
+    "baseline_actions_exactly_equal": true
+  },
+  {
+    "condition": "libero_object/task_9/init_0",
+    "path": "/root/autodl-tmp/corrector/object10/executed_consistency_pilot_20261111_002/attempts/c2d73fbbb5abcdfb2b8c/attempt_001/observed_features.f32",
+    "dtype": "float32",
+    "shape": [
+      126,
+      128,
+      960
+    ],
+    "sha256": "7cadfff51f0b9d98165b33bb4ab6cb5ce252d615acf060eef9f1b4db32cf9923",
+    "observation_clock": "Z_t before u_t; after successful controller submission u_(t-1)",
+    "controller_commands": 126,
+    "reset_settling_commands_excluded": 0,
+    "initial_reset_settling": "not instrumented; hook installed after lazy initialization and before first policy command",
+    "reset_count": 1,
+    "baseline_actions_exactly_equal": true
+  },
+  {
+    "condition": "libero_object/task_9/init_2",
+    "path": "/root/autodl-tmp/corrector/object10/executed_consistency_pilot_20261111_002/attempts/16eb4de6020a5d89961c/attempt_001/observed_features.f32",
+    "dtype": "float32",
+    "shape": [
+      280,
+      128,
+      960
+    ],
+    "sha256": "7878b08aa7ceb27038b098f1bda454c88a0427ca4354611dbffb351db95795c7",
+    "observation_clock": "Z_t before u_t; after successful controller submission u_(t-1)",
+    "controller_commands": 280,
+    "reset_settling_commands_excluded": 0,
+    "initial_reset_settling": "not instrumented; hook installed after lazy initialization and before first policy command",
+    "reset_count": 1,
+    "baseline_actions_exactly_equal": true
+  }
+]

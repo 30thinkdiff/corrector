@@ -1,0 +1,3041 @@
+{
+  "source_bundle_sha256": "69037e5c48d905daf945353808ee9f966b425487c17233207c823cbea0e2c812",
+  "new_execution": {
+    "status": "completed",
+    "started_utc": "2026-11-13T11:13:58.116122+00:00",
+    "max_seconds": 28726.917825698853,
+    "min_free_gib": 5,
+    "stop_file": "/root/corrector_expanded_object_20261113_001/STOP",
+    "wall_seconds": 1012.362277539447,
+    "planned": 120,
+    "completed": 120,
+    "errors": 0,
+    "reason": "all_planned_trials_completed"
+  },
+  "historical_bridge_passed": true,
+  "methods": {
+    "j_ogg": {
+      "completed": 60,
+      "successes": 55,
+      "errors": 0,
+      "pending": 0,
+      "success_rate": 0.9166666666666666,
+      "mean_env_steps": 150.91666666666666,
+      "mean_chunk_calls": 3.8833333333333333,
+      "mean_event_replans": 0.8666666666666667,
+      "mean_guidance_calls": 3.466666666666667,
+      "mean_policy_s": 1.0678166077782711,
+      "mean_monitor_s": 2.300037057014803,
+      "mean_episode_wall_s": 8.125696360350897,
+      "mean_peak_torch_allocated_gib": 3.3830787738164267
+    },
+    "j_lvm": {
+      "completed": 60,
+      "successes": 55,
+      "errors": 0,
+      "pending": 0,
+      "success_rate": 0.9166666666666666,
+      "mean_env_steps": 150.85,
+      "mean_chunk_calls": 3.9166666666666665,
+      "mean_event_replans": 0.85,
+      "mean_guidance_calls": 0,
+      "mean_policy_s": 0.933349038908879,
+      "mean_monitor_s": 2.293211760961761,
+      "mean_episode_wall_s": 7.98896029383565,
+      "mean_peak_torch_allocated_gib": 3.356924533843994
+    },
+    "H20": {
+      "completed": 60,
+      "successes": 51,
+      "errors": 0,
+      "pending": 0,
+      "success_rate": 0.85,
+      "mean_env_steps": 157.43333333333334,
+      "mean_chunk_calls": 8.266666666666667,
+      "mean_event_replans": 0,
+      "mean_guidance_calls": 0,
+      "mean_policy_s": 1.80843036401396,
+      "mean_monitor_s": 0.0,
+      "mean_episode_wall_s": null,
+      "mean_peak_torch_allocated_gib": 1.3288468360900878
+    },
+    "H50": {
+      "completed": 60,
+      "successes": 44,
+      "errors": 0,
+      "pending": 0,
+      "success_rate": 0.7333333333333333,
+      "mean_env_steps": 172.38333333333333,
+      "mean_chunk_calls": 3.8333333333333335,
+      "mean_event_replans": 0,
+      "mean_guidance_calls": 0,
+      "mean_policy_s": 0.8428213554124038,
+      "mean_monitor_s": 0.0,
+      "mean_episode_wall_s": null,
+      "mean_peak_torch_allocated_gib": 1.3288468360900878
+    },
+    "mlp_lvm": {
+      "completed": 60,
+      "successes": 55,
+      "errors": 0,
+      "pending": 0,
+      "success_rate": 0.9166666666666666,
+      "mean_env_steps": 150.41666666666666,
+      "mean_chunk_calls": 4.633333333333334,
+      "mean_event_replans": 2.0166666666666666,
+      "mean_guidance_calls": 0,
+      "mean_policy_s": 1.1204398078843951,
+      "mean_monitor_s": 3.330424112143616,
+      "mean_episode_wall_s": null,
+      "mean_peak_torch_allocated_gib": 1.348904514312744
+    },
+    "mlp_ogg": {
+      "completed": 60,
+      "successes": 55,
+      "errors": 0,
+      "pending": 0,
+      "success_rate": 0.9166666666666666,
+      "mean_env_steps": 150.3,
+      "mean_chunk_calls": 4.6,
+      "mean_event_replans": 1.9833333333333334,
+      "mean_guidance_calls": 7.933333333333334,
+      "mean_policy_s": 1.1715851687826215,
+      "mean_monitor_s": 3.3340076617896557,
+      "mean_episode_wall_s": null,
+      "mean_peak_torch_allocated_gib": 1.389206043879191
+    }
+  },
+  "paired_physical_states": 30,
+  "paired_condition_seeds": 60,
+  "four_way_pattern_order": [
+    "H50",
+    "H20",
+    "mlp_ogg",
+    "j_ogg"
+  ],
+  "observed_patterns": {
+    "1111": 42,
+    "0100": 1,
+    "0111": 7,
+    "0110": 1,
+    "0011": 2,
+    "0000": 2,
+    "0001": 2,
+    "1011": 2,
+    "0010": 1
+  },
+  "mlp_ogg_vs_j_ogg_flips": [
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1001,
+      "outcomes": {
+        "j_lvm": false,
+        "j_ogg": false,
+        "H50": false,
+        "H20": true,
+        "mlp_lvm": true,
+        "mlp_ogg": true
+      }
+    },
+    {
+      "condition": "libero_object/task_7/init_2",
+      "seed": 1000,
+      "outcomes": {
+        "j_lvm": true,
+        "j_ogg": true,
+        "H50": false,
+        "H20": false,
+        "mlp_lvm": false,
+        "mlp_ogg": false
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_1",
+      "seed": 1001,
+      "outcomes": {
+        "j_lvm": false,
+        "j_ogg": false,
+        "H50": false,
+        "H20": false,
+        "mlp_lvm": true,
+        "mlp_ogg": true
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "outcomes": {
+        "j_lvm": true,
+        "j_ogg": true,
+        "H50": false,
+        "H20": false,
+        "mlp_lvm": false,
+        "mlp_ogg": false
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "590890722386b570ef98"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "75213fe53d251e3fb3c8"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "2fcb12d5b70661445192"
+      },
+      "scored_steps": 115,
+      "eligible_steps": 115,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "56aa7aefafa61680c177"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "d99852a463c3e5b2c7f6"
+      },
+      "scored_steps": 108,
+      "eligible_steps": 108,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "5417b19ecb5c8e70b2c6"
+      },
+      "scored_steps": 103,
+      "eligible_steps": 103,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "0cac89311fa2a6e49f67"
+      },
+      "scored_steps": 108,
+      "eligible_steps": 108,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "174723ef83e108756ad5"
+      },
+      "scored_steps": 103,
+      "eligible_steps": 103,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "fb786316cb6e9584d209"
+      },
+      "scored_steps": 100,
+      "eligible_steps": 100,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "8087196b8bd5f0fa4082"
+      },
+      "scored_steps": 115,
+      "eligible_steps": 115,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "055c186f3b57a7303e18"
+      },
+      "scored_steps": 114,
+      "eligible_steps": 114,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "1ec5594b1849fdb0b4db"
+      },
+      "scored_steps": 115,
+      "eligible_steps": 115,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "0d4dab3a890473153c1e"
+      },
+      "scored_steps": 114,
+      "eligible_steps": 114,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "09c780ea62353fa2ca3f"
+      },
+      "scored_steps": 116,
+      "eligible_steps": 116,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "8d528d1c3435025edc3c"
+      },
+      "scored_steps": 114,
+      "eligible_steps": 114,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "378755d013a565d33666"
+      },
+      "scored_steps": 116,
+      "eligible_steps": 116,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "05c53c3f44a034183f04"
+      },
+      "scored_steps": 114,
+      "eligible_steps": 114,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "425ead9485236f615d3a"
+      },
+      "scored_steps": 103,
+      "eligible_steps": 103,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "77caf166964fd717672d"
+      },
+      "scored_steps": 114,
+      "eligible_steps": 114,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c8da8145f4d296580e98"
+      },
+      "scored_steps": 103,
+      "eligible_steps": 103,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "55f6d9bee4aeb274801e"
+      },
+      "scored_steps": 114,
+      "eligible_steps": 114,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "80b23858bc6a2a2df5cf"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "69746d1ffa837f4653c2"
+      },
+      "scored_steps": 109,
+      "eligible_steps": 109,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_0/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "2514a3d388148254859a"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c5dcc751e8b3e60ffb1a"
+      },
+      "scored_steps": 109,
+      "eligible_steps": 109,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "d3403212d136b89c548b"
+      },
+      "scored_steps": 126,
+      "eligible_steps": 126,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "aa36ecde7cec1f98206e"
+      },
+      "scored_steps": 110,
+      "eligible_steps": 110,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "6418e8f1e51fe2ab4a56"
+      },
+      "scored_steps": 126,
+      "eligible_steps": 126,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "03082de89d63e7c4e0b1"
+      },
+      "scored_steps": 110,
+      "eligible_steps": 110,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "2a47f0d21211cd3a1ea9"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "da3bd14ac2d6ca4e7cc3"
+      },
+      "scored_steps": 167,
+      "eligible_steps": 167,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c1cae79f7bbc722c3d16"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "cb746d7bcb82d0c49939"
+      },
+      "scored_steps": 168,
+      "eligible_steps": 168,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "728c4bee686066a78a27"
+      },
+      "scored_steps": 98,
+      "eligible_steps": 98,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "059552c5df3a060bfd11"
+      },
+      "scored_steps": 139,
+      "eligible_steps": 139,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "4355616146207bdcc076"
+      },
+      "scored_steps": 98,
+      "eligible_steps": 98,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "78a72394a6eeb0b92827"
+      },
+      "scored_steps": 139,
+      "eligible_steps": 139,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "6d46369e986d0924ad95"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "bcb481f53bb4f23d8a8a"
+      },
+      "scored_steps": 100,
+      "eligible_steps": 100,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "06a47bfb10612381e417"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "582d8f3e1fde50ed258a"
+      },
+      "scored_steps": 100,
+      "eligible_steps": 100,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "a14dd98179a147a68af4"
+      },
+      "scored_steps": 127,
+      "eligible_steps": 127,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "d2f52a30c4e20441e544"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "a50c3e4b35f0ec2e42b9"
+      },
+      "scored_steps": 127,
+      "eligible_steps": 127,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "0a03a4e471031b569c3c"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "b9e786d3f9bccaf096cf"
+      },
+      "scored_steps": 128,
+      "eligible_steps": 128,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "5019fc4b05ccbdce54bc"
+      },
+      "scored_steps": 100,
+      "eligible_steps": 100,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_1/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "b36e78d1e0bdfcc1c35c"
+      },
+      "scored_steps": 128,
+      "eligible_steps": 128,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "a6f2344f84fa3e34b9ea"
+      },
+      "scored_steps": 100,
+      "eligible_steps": 100,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "069caccabe157049c7e1"
+      },
+      "scored_steps": 89,
+      "eligible_steps": 89,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "2e72d711f52c31ef7695"
+      },
+      "scored_steps": 102,
+      "eligible_steps": 102,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "8e5d4163717a13200a09"
+      },
+      "scored_steps": 89,
+      "eligible_steps": 89,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_5/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "0953ccef4fc2837a3a00"
+      },
+      "scored_steps": 102,
+      "eligible_steps": 102,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "32f29098f1149c55b204"
+      },
+      "scored_steps": 88,
+      "eligible_steps": 88,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "1252785a9fcde1ff850b"
+      },
+      "scored_steps": 126,
+      "eligible_steps": 126,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "b222d982500d96cd76b8"
+      },
+      "scored_steps": 88,
+      "eligible_steps": 88,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "4b576b1d796a03972b3f"
+      },
+      "scored_steps": 129,
+      "eligible_steps": 129,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "404780cf647fdcf6c38f"
+      },
+      "scored_steps": 130,
+      "eligible_steps": 130,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "cc71a591b042347f0b6d"
+      },
+      "scored_steps": 127,
+      "eligible_steps": 127,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "77e69513700bf1927837"
+      },
+      "scored_steps": 130,
+      "eligible_steps": 130,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c76cbea588ca478fe49e"
+      },
+      "scored_steps": 127,
+      "eligible_steps": 127,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "d69050bcf18fbb575995"
+      },
+      "scored_steps": 133,
+      "eligible_steps": 133,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "cc5e2c104c559e4f9e99"
+      },
+      "scored_steps": 118,
+      "eligible_steps": 118,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "ff0d4b87f624b72d2682"
+      },
+      "scored_steps": 133,
+      "eligible_steps": 133,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "3fe5e2aba355c921c62e"
+      },
+      "scored_steps": 118,
+      "eligible_steps": 118,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "46ae1e7a496d048a1782"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "e5f6f2564acc37fb2876"
+      },
+      "scored_steps": 120,
+      "eligible_steps": 120,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "5b94298eba58179df711"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "d5c33589eb215198815a"
+      },
+      "scored_steps": 120,
+      "eligible_steps": 120,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c52a851487a39e4430fe"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "741e60bdd28eafc83e81"
+      },
+      "scored_steps": 115,
+      "eligible_steps": 115,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_2/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "603f7cdc19deb23e959c"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "be72fed795b4a6a4ce08"
+      },
+      "scored_steps": 115,
+      "eligible_steps": 115,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "f9d95a9daabfdad087f8"
+      },
+      "scored_steps": 108,
+      "eligible_steps": 108,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "9b54d6578848e631cb0f"
+      },
+      "scored_steps": 111,
+      "eligible_steps": 111,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "f4613ef54f465b0c8df0"
+      },
+      "scored_steps": 108,
+      "eligible_steps": 108,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_6/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "42630b6221b3811f8f5a"
+      },
+      "scored_steps": 111,
+      "eligible_steps": 111,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "b76ba06c85d5f55a14cd"
+      },
+      "scored_steps": 106,
+      "eligible_steps": 106,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "2d6d86c187ee7df387ab"
+      },
+      "scored_steps": 107,
+      "eligible_steps": 107,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "ee99adaabdd9e3b4d71a"
+      },
+      "scored_steps": 106,
+      "eligible_steps": 106,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "4f1ef0caa491f0d74736"
+      },
+      "scored_steps": 107,
+      "eligible_steps": 107,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "1e988bcee6d6b414b85f"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "d063651a73bc8db6f1e0"
+      },
+      "scored_steps": 100,
+      "eligible_steps": 100,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "29e1010a532862eec486"
+      },
+      "scored_steps": 104,
+      "eligible_steps": 104,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "bd5dbe977b3e2f64bfd8"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "6f5a6c49ca539be52345"
+      },
+      "scored_steps": 104,
+      "eligible_steps": 104,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_3/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "e9a033d23e39c84a0f0d"
+      },
+      "scored_steps": 101,
+      "eligible_steps": 101,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "5923659e2c047757cab2"
+      },
+      "scored_steps": 103,
+      "eligible_steps": 103,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_4/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "015ee814547fe1349dad"
+      },
+      "scored_steps": 115,
+      "eligible_steps": 115,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "18d3f77f29e8487dccb0"
+      },
+      "scored_steps": 103,
+      "eligible_steps": 103,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c5c9eabc6c3725a9ddc2"
+      },
+      "scored_steps": 107,
+      "eligible_steps": 107,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "96d3e353d483081e198e"
+      },
+      "scored_steps": 107,
+      "eligible_steps": 107,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "3ae2b6f9f0eea66e3829"
+      },
+      "scored_steps": 135,
+      "eligible_steps": 135,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "2aecfb9ef8667a06c204"
+      },
+      "scored_steps": 135,
+      "eligible_steps": 135,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c45f3602fcae7215b1dc"
+      },
+      "scored_steps": 134,
+      "eligible_steps": 134,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_7/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "0dcc0b0b7f26e73def2a"
+      },
+      "scored_steps": 134,
+      "eligible_steps": 134,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c6c16092c3234faa7550"
+      },
+      "scored_steps": 117,
+      "eligible_steps": 117,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "e049d7d654b9ca311403"
+      },
+      "scored_steps": 117,
+      "eligible_steps": 117,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "b41e307252bbc953dfbf"
+      },
+      "scored_steps": 119,
+      "eligible_steps": 119,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "a962f85417c228fcf383"
+      },
+      "scored_steps": 119,
+      "eligible_steps": 119,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "e47a5da8f0460cf67b1d"
+      },
+      "scored_steps": 128,
+      "eligible_steps": 128,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "0b2ed5ebf6a609e5a29d"
+      },
+      "scored_steps": 128,
+      "eligible_steps": 128,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "31ee6aae2f6fb19d46b4"
+      },
+      "scored_steps": 130,
+      "eligible_steps": 130,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "9d4523b94e9c396f2ad7"
+      },
+      "scored_steps": 130,
+      "eligible_steps": 130,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "5b0d49b721f61896a1d3"
+      },
+      "scored_steps": 125,
+      "eligible_steps": 125,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "4dae226dce7e895f3112"
+      },
+      "scored_steps": 125,
+      "eligible_steps": 125,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "af40f34db49ceffb087a"
+      },
+      "scored_steps": 124,
+      "eligible_steps": 124,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_8/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "99479eaf15cf4e1ab6d4"
+      },
+      "scored_steps": 124,
+      "eligible_steps": 124,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_0",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "1643fdc8578176d17841"
+      },
+      "scored_steps": 102,
+      "eligible_steps": 102,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_0",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "b29edf7d64cafd5ee030"
+      },
+      "scored_steps": 102,
+      "eligible_steps": 102,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_0",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "23cf481462b26b2b2f84"
+      },
+      "scored_steps": 121,
+      "eligible_steps": 121,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_0",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "c4695f0925d0d6dfab2d"
+      },
+      "scored_steps": 121,
+      "eligible_steps": 121,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_1",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "d890dfaaee46db16c086"
+      },
+      "scored_steps": 94,
+      "eligible_steps": 94,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_1",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "fad8ce6c9063103b020b"
+      },
+      "scored_steps": 94,
+      "eligible_steps": 94,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_1",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "9a3a812ac0f4792d1b7d"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_1",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "6639689ccfe55d535b52"
+      },
+      "scored_steps": 256,
+      "eligible_steps": 256,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_2",
+        "seed": 1000,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "b453b1e15d7f70fd0c8f"
+      },
+      "scored_steps": 140,
+      "eligible_steps": 140,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_2",
+        "seed": 1000,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "24624001974a0f1c732e"
+      },
+      "scored_steps": 139,
+      "eligible_steps": 139,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_2",
+        "seed": 1001,
+        "method": "j_lvm",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "lvm",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "6ae23f295692fa19843c"
+      },
+      "scored_steps": 157,
+      "eligible_steps": 157,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    },
+    {
+      "case": {
+        "condition": "libero_object/task_9/init_2",
+        "seed": 1001,
+        "method": "j_ogg",
+        "config": {
+          "steps": 50,
+          "joint": true,
+          "mode": "ogg",
+          "uses_corrector": true,
+          "corrector_sha256": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+          "video_policy": "all"
+        },
+        "id": "506cff84f5307293ab64"
+      },
+      "scored_steps": 158,
+      "eligible_steps": 158,
+      "fraction": 1.0,
+      "longest_gap_steps": 0,
+      "gap_timebase_hz": 20,
+      "definition": "unique actually scored steps / post-warmup stride1 control steps; skips/cancels not added"
+    }
+  ],
+  "selection": {
+    "selection": "observed outcomes; bounded diagnostic selection, no seed search",
+    "required_methods": [
+      "H50",
+      "H20",
+      "mlp_lvm",
+      "mlp_ogg",
+      "j_lvm",
+      "j_ogg"
+    ],
+    "eligible_groups": 60,
+    "selected_groups": [
+      {
+        "condition": "libero_object/task_1/init_0",
+        "seed": 1001,
+        "signature": "011100",
+        "outcomes": {
+          "j_lvm": false,
+          "j_ogg": false,
+          "H50": false,
+          "H20": true,
+          "mlp_lvm": true,
+          "mlp_ogg": true
+        },
+        "pair_flips": [
+          [
+            "H50",
+            "H20"
+          ],
+          [
+            "mlp_ogg",
+            "j_ogg"
+          ]
+        ]
+      },
+      {
+        "condition": "libero_object/task_0/init_2",
+        "seed": 1001,
+        "signature": "010000",
+        "outcomes": {
+          "j_lvm": false,
+          "j_ogg": false,
+          "H50": false,
+          "H20": true,
+          "mlp_lvm": false,
+          "mlp_ogg": false
+        },
+        "pair_flips": [
+          [
+            "H50",
+            "H20"
+          ]
+        ]
+      },
+      {
+        "condition": "libero_object/task_1/init_2",
+        "seed": 1000,
+        "signature": "011111",
+        "outcomes": {
+          "j_lvm": true,
+          "j_ogg": true,
+          "H20": true,
+          "mlp_lvm": true,
+          "mlp_ogg": true,
+          "H50": false
+        },
+        "pair_flips": [
+          [
+            "H50",
+            "H20"
+          ]
+        ]
+      },
+      {
+        "condition": "libero_object/task_2/init_1",
+        "seed": 1000,
+        "signature": "011111",
+        "outcomes": {
+          "j_lvm": true,
+          "j_ogg": true,
+          "H50": false,
+          "H20": true,
+          "mlp_lvm": true,
+          "mlp_ogg": true
+        },
+        "pair_flips": [
+          [
+            "H50",
+            "H20"
+          ]
+        ]
+      },
+      {
+        "condition": "libero_object/task_7/init_2",
+        "seed": 1000,
+        "signature": "000011",
+        "outcomes": {
+          "j_lvm": true,
+          "j_ogg": true,
+          "H50": false,
+          "H20": false,
+          "mlp_lvm": false,
+          "mlp_ogg": false
+        },
+        "pair_flips": [
+          [
+            "mlp_ogg",
+            "j_ogg"
+          ]
+        ]
+      },
+      {
+        "condition": "libero_object/task_9/init_0",
+        "seed": 1000,
+        "signature": "101111",
+        "outcomes": {
+          "j_lvm": true,
+          "j_ogg": true,
+          "H50": true,
+          "H20": false,
+          "mlp_lvm": true,
+          "mlp_ogg": true
+        },
+        "pair_flips": [
+          [
+            "H50",
+            "H20"
+          ]
+        ]
+      },
+      {
+        "condition": "libero_object/task_9/init_1",
+        "seed": 1000,
+        "signature": "101111",
+        "outcomes": {
+          "j_lvm": true,
+          "j_ogg": true,
+          "H50": true,
+          "H20": false,
+          "mlp_lvm": true,
+          "mlp_ogg": true
+        },
+        "pair_flips": [
+          [
+            "H50",
+            "H20"
+          ]
+        ]
+      },
+      {
+        "condition": "libero_object/task_9/init_2",
+        "seed": 1000,
+        "signature": "000011",
+        "outcomes": {
+          "j_lvm": true,
+          "j_ogg": true,
+          "H50": false,
+          "H20": false,
+          "mlp_lvm": false,
+          "mlp_ogg": false
+        },
+        "pair_flips": [
+          [
+            "mlp_ogg",
+            "j_ogg"
+          ]
+        ]
+      },
+      {
+        "condition": "libero_object/task_0/init_0",
+        "seed": 1000,
+        "signature": "111111",
+        "outcomes": {
+          "j_lvm": true,
+          "j_ogg": true,
+          "H50": true,
+          "H20": true,
+          "mlp_lvm": true,
+          "mlp_ogg": true
+        },
+        "pair_flips": []
+      },
+      {
+        "condition": "libero_object/task_0/init_1",
+        "seed": 1000,
+        "signature": "111111",
+        "outcomes": {
+          "j_lvm": true,
+          "j_ogg": true,
+          "H50": true,
+          "H20": true,
+          "mlp_lvm": true,
+          "mlp_ogg": true
+        },
+        "pair_flips": []
+      },
+      {
+        "condition": "libero_object/task_2/init_2",
+        "seed": 1000,
+        "signature": "000000",
+        "outcomes": {
+          "j_lvm": false,
+          "j_ogg": false,
+          "H50": false,
+          "H20": false,
+          "mlp_lvm": false,
+          "mlp_ogg": false
+        },
+        "pair_flips": []
+      }
+    ],
+    "max_groups": 18,
+    "per_signature_physical_limit": 2,
+    "deletion_performed": false,
+    "unknown_is_failure": false
+  },
+  "limits": [
+    "historical MLP trained454 episodes; J trained70: not architecture-only attribution",
+    "historical baseline reuse justified by four bridge rollouts, not every trajectory re-executed",
+    "diagnostic selected subset is not an unbiased success-rate sample",
+    "overall equality does not imply identical trajectories or absence of per-case gains/losses"
+  ]
+}

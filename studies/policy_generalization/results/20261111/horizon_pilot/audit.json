@@ -1,0 +1,87 @@
+{
+  "status": "verified",
+  "completed": 24,
+  "errors": 0,
+  "paired_conditions": 4,
+  "audited_queue_steps": 4111,
+  "sample_actions_calls": 1132,
+  "denoise_forward_calls": 11320,
+  "wall_seconds": 456.7714017685503,
+  "source_sha256": {
+    "smolvla_horizon_pilot.py": "6f03efa535aab4cd36a2f45368683956ff9ddd075a698896b6713c4ffcf682eb",
+    "smolvla_baseline_benchmark.py": "ab26ae3ba25854b4966d209ece43f3edc5e94409bc644ff4826ecdf943f0e895",
+    "smolvla_libero_tools.py": "43d8c17b7242339d8456823ed3c47b8bb0eebd9445d2d960d3a67a24404039f4",
+    "smolvla_training_workbench.py": "bce2e5c77ebec1070008f28d163e0ab02fa4c98db6122a0fc2b8f1befe44e250",
+    "batch_evaluation.py": "1852a7a23fb48b346ce52efdc82fb6c4c9d60d3085a63662c0aabf63010fc941"
+  },
+  "protocol": {
+    "policy_id": "lerobot/smolvla_libero",
+    "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+    "chunk_size": 50,
+    "num_steps": 10,
+    "fps": 20,
+    "max_env_steps": 280,
+    "suite": "libero_object",
+    "conditions": {
+      "libero_object/task_1/init_0": {
+        "task_id": 1,
+        "initial_state_id": 0,
+        "language": "pick up the cream cheese and place it in the basket"
+      },
+      "libero_object/task_1/init_2": {
+        "task_id": 1,
+        "initial_state_id": 2,
+        "language": "pick up the cream cheese and place it in the basket"
+      },
+      "libero_object/task_9/init_0": {
+        "task_id": 9,
+        "initial_state_id": 0,
+        "language": "pick up the orange juice and place it in the basket"
+      },
+      "libero_object/task_9/init_2": {
+        "task_id": 9,
+        "initial_state_id": 2,
+        "language": "pick up the orange juice and place it in the basket"
+      }
+    },
+    "runtime": {
+      "torch": "2.11.0+cu128",
+      "lerobot": "0.6.1",
+      "transformers": "5.5.4",
+      "mujoco": "3.7.0",
+      "robosuite": "1.4.1"
+    },
+    "source_sha256": {
+      "smolvla_horizon_pilot.py": "6f03efa535aab4cd36a2f45368683956ff9ddd075a698896b6713c4ffcf682eb",
+      "smolvla_baseline_benchmark.py": "ab26ae3ba25854b4966d209ece43f3edc5e94409bc644ff4826ecdf943f0e895",
+      "smolvla_libero_tools.py": "43d8c17b7242339d8456823ed3c47b8bb0eebd9445d2d960d3a67a24404039f4",
+      "smolvla_training_workbench.py": "bce2e5c77ebec1070008f28d163e0ab02fa4c98db6122a0fc2b8f1befe44e250",
+      "batch_evaluation.py": "1852a7a23fb48b346ce52efdc82fb6c4c9d60d3085a63662c0aabf63010fc941"
+    },
+    "lerobot_revision": "7e241bd630a3719a56157a497ce5d08f244784f1",
+    "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+    "policy_source_sha256": "37b1d56f37510732a087cf5c32c05cd15d6234201a3f002f108ec4c53438cc7d",
+    "config_sha256": "3ed3ed80ee077d94ff22942130642bb60e255443ee65da676bc88ab1684a7efe",
+    "warmup_chunks_per_episode": 2,
+    "weight_sha256": {
+      "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "b0cdde6e8a6f49a8e19eefb376728e47c09d3b3cc20ce3a97c45619fe7a732d9",
+      "policy_preprocessor_step_5_normalizer_processor.safetensors": "b0cdde6e8a6f49a8e19eefb376728e47c09d3b3cc20ce3a97c45619fe7a732d9",
+      "model.safetensors": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8"
+    },
+    "seed": 1000,
+    "corrector": false,
+    "lvm": false,
+    "ogg": false,
+    "task_selection": "historical cream-cheese H50 failures vs H20 recovery; orange-juice H20 failures",
+    "automatic_expansion": false
+  },
+  "video_bytes_verified_locally": false,
+  "limits": [
+    "failure-selected two tasks / two initial states / one seed; no population estimate",
+    "matched initial state/input/noise; different replan schedules use later random draws differently",
+    "timing includes synchronous queue-audit overhead; episode wall includes first policy load",
+    "action-vector differences are not physical jerk; H1 has no within-chunk transitions",
+    "20Hz is simulated control frequency; not a wall-clock inference deadline guarantee"
+  ],
+  "bundle_sha256": "2eb0537ee0d42fad3569ebd28498b65a74e029987dfd0757ff4ae52c6838e1c9"
+}

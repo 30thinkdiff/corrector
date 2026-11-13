@@ -1,0 +1,13 @@
+cohort,pattern,cases,physical_states,evaluation_seed_values,evaluation_seed_value_count,local_complete_cases,cases_with_all_traces,cases_with_all_commands,cases_with_numeric_ogg,all_initial_hashes_verified
+legacy_five_models,000,4,3,"[1000, 1001]",2,0,4,0,0,0
+legacy_five_models,001,3,3,[1001],1,0,3,0,0,0
+legacy_five_models,010,1,1,[1001],1,0,1,0,0,0
+legacy_five_models,011,8,5,"[1000, 1001]",2,0,8,0,0,0
+legacy_five_models,101,2,2,[1000],1,0,2,0,0,0
+legacy_five_models,111,42,22,"[1000, 1001]",2,0,42,0,0,0
+replay_casebank_20261112_001,000,2,2,[1000],1,2,2,2,2,2
+replay_casebank_20261112_001,001,2,2,[1001],1,2,2,2,2,2
+replay_casebank_20261112_001,010,1,1,[1001],1,1,1,1,1,1
+replay_casebank_20261112_001,011,1,1,[1000],1,1,1,1,1,1
+replay_casebank_20261112_001,101,1,1,[1000],1,1,1,1,1,1
+replay_casebank_20261112_001,111,1,1,[1000],1,1,1,1,1,1

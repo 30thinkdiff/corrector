@@ -1,0 +1,151 @@
+{
+  "checked_utc": "2026-11-13T14:36:06.430690+00:00",
+  "files": {
+    "queue_status.json": {
+      "content": {
+        "status": "running",
+        "phase": "plus_evaluation",
+        "pid": 116184,
+        "child_pid": 116188,
+        "ordinary_status": "completed",
+        "asset_status": "ready"
+      },
+      "sha256": "e87ba25f84d7828e0db489c0b0a2a3b0713024e7523a00abca67137f8b371f7c",
+      "mtime_utc": "2026-11-13T14:12:38.472057+00:00"
+    },
+    "results/status.json": {
+      "content": {
+        "status": "running",
+        "phase": "plus",
+        "pid": 116188,
+        "started_utc": "2026-11-13T11:33:57.698558+00:00"
+      },
+      "sha256": "2e870dc67b4d98d9b14c6fb42b5a01a39d837fd0eca0b657b9e179771d7cb6df",
+      "mtime_utc": "2026-11-13T11:39:32.759563+00:00"
+    },
+    "results/plus/execution.json": {
+      "content": {
+        "status": "running",
+        "started_utc": "2026-11-13T11:39:32.918996+00:00",
+        "max_seconds": 64464.78837680817,
+        "min_free_gib": 5,
+        "stop_file": "/root/corrector_plus_expanded_20261113_001/results/STOP",
+        "wall_seconds": 9151.130452565849,
+        "planned": 544,
+        "completed": 530,
+        "errors": 0
+      },
+      "sha256": "2a8055465085d4b7f5dda7c1ffa44458a32920741036d0d1abe654f825b1d366",
+      "mtime_utc": "2026-11-13T14:12:04.045782+00:00"
+    }
+  },
+  "process_alive": {
+    "116184": false,
+    "116188": false
+  },
+  "worker_log_mtime_utc": "2026-11-13T14:12:47.100993+00:00",
+  "worker_log_tail": "\u001b[A\n\rRunning rollout with at most 280 steps:  52%|█████▏    | 145/280 [00:36<00:36,  3.67it/s, running_success_rate=0.0%]\u001b[A\n\rRunning rollout with at most 280 steps:  52%|█████▏    | 145/280 [00:36<00:36,  3.67it/s, running_success_rate=0.0%]\u001b[A\n\rRunning rollout with at most 280 steps:  52%|█████▏    | 146/280 [00:36<00:34,  3.91it/s, running_success_rate=0.0%]\u001b[A\n\rRunning rollout with at most 280 steps:  52%|█████▏    | 146/280 [00:36<00:34,  3.91it/s, running_success_rate=0.0%]\u001b[A\n\rRunning rollout with at most 280 steps:  52%|█████▎    | 147/280 [00:36<00:32,  4.10it/s, running_success_rate=0.0%]\u001b[A\n\rRunning rollout with at most 280 steps:  52%|█████▎    | 147/280 [00:37<00:32,  4.10it/s, running_success_rate=0.0%]\u001b[A\n\rRunning rollout with at most 280 steps:  53%|█████▎    | 148/280 [00:37<00:30,  4.26it/s, running_success_rate=0.0%]\u001b[A\n\rRunning rollout with at most 280 steps:  53%|█████▎    | 148/280 [00:37<00:30,  4.26it/s, running_success_rate=0.0%]\u001b[A\n\rRunning rollout with at most 280 steps:  53%|█████▎    | 149/280 [00:37<00:30,  4.31it/s, running_success_rate=0.0%]\u001b[A",
+  "record_status_counts": {
+    "completed": 530,
+    "running": 1
+  },
+  "fully_paired_conditions": 31,
+  "paired_metrics": {
+    "H20": {
+      "successes": 20,
+      "completed": 31
+    },
+    "H50": {
+      "successes": 7,
+      "completed": 31
+    },
+    "executed_lvm": {
+      "successes": 11,
+      "completed": 31
+    },
+    "hybrid_t1_a10_ogg": {
+      "successes": 12,
+      "completed": 31
+    },
+    "j_lvm": {
+      "successes": 9,
+      "completed": 31
+    },
+    "j_ogg": {
+      "successes": 9,
+      "completed": 31
+    },
+    "mlp_lvm": {
+      "successes": 11,
+      "completed": 31
+    },
+    "mlp_ogg": {
+      "successes": 11,
+      "completed": 31
+    },
+    "planned_lvm": {
+      "successes": 10,
+      "completed": 31
+    },
+    "transformer-a10-h1_lvm": {
+      "successes": 11,
+      "completed": 31
+    },
+    "transformer-a10-h1_ogg": {
+      "successes": 11,
+      "completed": 31
+    },
+    "transformer-a10-h3_lvm": {
+      "successes": 12,
+      "completed": 31
+    },
+    "transformer-a10-h3_ogg": {
+      "successes": 11,
+      "completed": 31
+    },
+    "transformer-h1_lvm": {
+      "successes": 12,
+      "completed": 31
+    },
+    "transformer-h1_ogg": {
+      "successes": 12,
+      "completed": 31
+    },
+    "transformer-h3_lvm": {
+      "successes": 9,
+      "completed": 31
+    },
+    "transformer-h3_ogg": {
+      "successes": 11,
+      "completed": 31
+    }
+  },
+  "incomplete_conditions": [
+    {
+      "condition": "plus/cheese/sensor_noise/2",
+      "seed": 1000,
+      "missing_methods": [
+        "executed_lvm",
+        "hybrid_t1_a10_ogg",
+        "j_lvm",
+        "j_ogg",
+        "mlp_ogg",
+        "planned_lvm",
+        "transformer-a10-h1_lvm",
+        "transformer-a10-h1_ogg",
+        "transformer-a10-h3_lvm",
+        "transformer-a10-h3_ogg",
+        "transformer-h1_lvm",
+        "transformer-h1_ogg",
+        "transformer-h3_lvm",
+        "transformer-h3_ogg"
+      ]
+    }
+  ],
+  "cgroup_memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\n",
+  "free_gib": {
+    "/root": 10.489768981933594,
+    "/root/autodl-tmp": 11.081462860107422
+  },
+  "assessment": "unexpected process termination; stale running status; cause not established; no restart performed"
+}

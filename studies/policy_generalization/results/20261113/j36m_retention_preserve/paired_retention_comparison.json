@@ -1,0 +1,977 @@
+{
+  "unchanged_protocol_fields": [
+    "domain",
+    "core_manifest_sha256",
+    "checkpoints",
+    "fps",
+    "data_fps",
+    "k_step",
+    "due_steps",
+    "chunk_size",
+    "denoise_steps",
+    "horizon",
+    "conditions",
+    "guidance_eta",
+    "guidance_every",
+    "dataset_task_to_suite_id"
+  ],
+  "configuration_and_calibration_equal": true,
+  "methods": {
+    "H20": {
+      "matched": 4,
+      "both_success": 3,
+      "both_failure": 1,
+      "new_only_success": 0,
+      "old_only_success": 0
+    },
+    "H50": {
+      "matched": 4,
+      "both_success": 3,
+      "both_failure": 1,
+      "new_only_success": 0,
+      "old_only_success": 0
+    },
+    "c0_lvm": {
+      "matched": 4,
+      "both_success": 3,
+      "both_failure": 1,
+      "new_only_success": 0,
+      "old_only_success": 0
+    },
+    "c0_ogg": {
+      "matched": 4,
+      "both_success": 2,
+      "both_failure": 1,
+      "new_only_success": 0,
+      "old_only_success": 1
+    },
+    "j_lvm": {
+      "matched": 4,
+      "both_success": 3,
+      "both_failure": 1,
+      "new_only_success": 0,
+      "old_only_success": 0
+    },
+    "j_lvm_ogg": {
+      "matched": 4,
+      "both_success": 3,
+      "both_failure": 1,
+      "new_only_success": 0,
+      "old_only_success": 0
+    }
+  },
+  "cases": [
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "H20",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 119,
+        "chunk_calls": 6,
+        "policy_s": 1.2388331834226847,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.185234546661377,
+        "episode_wall_s": 7.6619404964149,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/0052a7cc1b5e39cc3164/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10777684550593014
+      },
+      "new": {
+        "success": true,
+        "env_steps": 119,
+        "chunk_calls": 6,
+        "policy_s": 1.1892688740044832,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.185234546661377,
+        "episode_wall_s": 7.195868106558919,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/0052a7cc1b5e39cc3164/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10777684550593014
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "H50",
+      "outcome": "both_failure",
+      "old": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 6,
+        "policy_s": 1.2204216960817575,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.665273666381836,
+        "episode_wall_s": 11.263227196410298,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/18b02e9c80203d4f9be1/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.06705164677993741
+      },
+      "new": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 6,
+        "policy_s": 1.1786867883056402,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.665731430053711,
+        "episode_wall_s": 10.882780516520143,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/18b02e9c80203d4f9be1/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.06705164677993741
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "c0_lvm",
+      "outcome": "both_failure",
+      "old": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 10,
+        "policy_s": 2.2277847807854414,
+        "monitor_s": 3.158675342798233,
+        "event_replans": 7,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 133,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 15.315532563254237,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/d6a2d5108713ba466e42/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.06895041686550821
+      },
+      "new": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 50,
+        "policy_s": 11.162507252767682,
+        "monitor_s": 3.3043838515877724,
+        "event_replans": 47,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.205376148223877,
+        "episode_wall_s": 24.424963627010584,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/d6a2d5108713ba466e42/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08553743370505473
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "c0_ogg",
+      "outcome": "both_failure",
+      "old": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 10,
+        "policy_s": 2.3498973585665226,
+        "monitor_s": 3.1371901370584965,
+        "event_replans": 7,
+        "guidance_calls": 28,
+        "cancelled_condition_predictions": 133,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 15.366516208276153,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/df3aeeaee83662bb4664/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.06945814825261461
+      },
+      "new": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 50,
+        "policy_s": 12.162100680172443,
+        "monitor_s": 3.3030993156135082,
+        "event_replans": 47,
+        "guidance_calls": 188,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.205376148223877,
+        "episode_wall_s": 25.590430792421103,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/df3aeeaee83662bb4664/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08483105973948984
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "j_lvm",
+      "outcome": "both_failure",
+      "old": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 8,
+        "policy_s": 1.780089296400547,
+        "monitor_s": 4.131701499223709,
+        "event_replans": 5,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 95,
+        "peak_torch_allocated_gib": 1.731205940246582,
+        "episode_wall_s": 15.96892986446619,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/9eed397707c298d49034/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.12440712261067892
+      },
+      "new": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 44,
+        "policy_s": 10.001440299674869,
+        "monitor_s": 4.361280808225274,
+        "event_replans": 42,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.731572151184082,
+        "episode_wall_s": 24.942693075165153,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/9eed397707c298d49034/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.22629553451524656
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "j_lvm_ogg",
+      "outcome": "both_failure",
+      "old": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 8,
+        "policy_s": 2.6370530147105455,
+        "monitor_s": 4.125326607376337,
+        "event_replans": 5,
+        "guidance_calls": 20,
+        "cancelled_condition_predictions": 95,
+        "peak_torch_allocated_gib": 1.731205940246582,
+        "episode_wall_s": 16.730110889300704,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/17320110a7e14f7fbfcf/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.12407189144496922
+      },
+      "new": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 27,
+        "policy_s": 10.351213639602065,
+        "monitor_s": 4.431307569146156,
+        "event_replans": 25,
+        "guidance_calls": 100,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.7692461013793945,
+        "episode_wall_s": 25.537869978696108,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/17320110a7e14f7fbfcf/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.23135125446550783
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_1",
+      "seed": 1000,
+      "method": "H20",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 125,
+        "chunk_calls": 7,
+        "policy_s": 1.3908023107796907,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.185234546661377,
+        "episode_wall_s": 7.4197494853287935,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/2c82a2088f917b7afa31/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10072606450580332
+      },
+      "new": {
+        "success": true,
+        "env_steps": 125,
+        "chunk_calls": 7,
+        "policy_s": 1.3720403835177422,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.185234546661377,
+        "episode_wall_s": 7.346001021564007,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/2c82a2088f917b7afa31/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10072606450580332
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_1",
+      "seed": 1000,
+      "method": "H50",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.5953777451068163,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.665273666381836,
+        "episode_wall_s": 6.658363251015544,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/f0a880f6a9d54e144e6b/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      },
+      "new": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.6022025495767593,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.665273666381836,
+        "episode_wall_s": 6.61882478184998,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/f0a880f6a9d54e144e6b/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_1",
+      "seed": 1000,
+      "method": "c0_lvm",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.6747098565101624,
+        "monitor_s": 1.406839905306697,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 8.123807361349463,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/3975042ad7508338475f/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      },
+      "new": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.6666211728006601,
+        "monitor_s": 1.425308058038354,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 7.963993960991502,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/3975042ad7508338475f/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_1",
+      "seed": 1000,
+      "method": "c0_ogg",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.667083490639925,
+        "monitor_s": 1.4038171377032995,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 7.806171042844653,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/139a17a9692af83b382e/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      },
+      "new": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.6644126269966364,
+        "monitor_s": 1.4015265628695488,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 7.854629896581173,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/139a17a9692af83b382e/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_1",
+      "seed": 1000,
+      "method": "j_lvm",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.6913298796862364,
+        "monitor_s": 1.9236914105713367,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.719395637512207,
+        "episode_wall_s": 8.70441771671176,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/711097bf5665ef0c2bcf/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      },
+      "new": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.6672965381294489,
+        "monitor_s": 1.8409525882452726,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.719029426574707,
+        "episode_wall_s": 8.288356512784958,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/711097bf5665ef0c2bcf/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      }
+    },
+    {
+      "condition": "libero_object/task_1/init_1",
+      "seed": 1000,
+      "method": "j_lvm_ogg",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.673099473118782,
+        "monitor_s": 1.8540756534785032,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.719395637512207,
+        "episode_wall_s": 8.71130084991455,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/1259f6cfe3207567a066/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      },
+      "new": {
+        "success": true,
+        "env_steps": 122,
+        "chunk_calls": 3,
+        "policy_s": 0.6701590605080128,
+        "monitor_s": 1.845748433843255,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.719029426574707,
+        "episode_wall_s": 8.497746163979173,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/1259f6cfe3207567a066/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.10144479015145867
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "H20",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 227,
+        "chunk_calls": 12,
+        "policy_s": 2.4224109668284655,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.185234546661377,
+        "episode_wall_s": 10.924973769113421,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/d7f2ce237e8eab78be48/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.06490343362185885
+      },
+      "new": {
+        "success": true,
+        "env_steps": 227,
+        "chunk_calls": 12,
+        "policy_s": 2.4109256006777287,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.185234546661377,
+        "episode_wall_s": 10.787728101015091,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/d7f2ce237e8eab78be48/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.06490343362185885
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "H50",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 138,
+        "chunk_calls": 3,
+        "policy_s": 0.6018867623060942,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.653097152709961,
+        "episode_wall_s": 7.0853413715958595,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/d599ddc718c6c0dac350/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.09171776687695232
+      },
+      "new": {
+        "success": true,
+        "env_steps": 138,
+        "chunk_calls": 3,
+        "policy_s": 0.5899850837886333,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.653097152709961,
+        "episode_wall_s": 6.973456712439656,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/d599ddc718c6c0dac350/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.09171776687695232
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "c0_lvm",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 145,
+        "chunk_calls": 4,
+        "policy_s": 0.9084020555019379,
+        "monitor_s": 1.6723525915294886,
+        "event_replans": 1,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 19,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 9.35493834502995,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/9697600bd2bee3591f2f/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.11882137841223006
+      },
+      "new": {
+        "success": true,
+        "env_steps": 142,
+        "chunk_calls": 6,
+        "policy_s": 1.376705251634121,
+        "monitor_s": 1.6531807277351618,
+        "event_replans": 3,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.205376148223877,
+        "episode_wall_s": 9.377734616398811,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/9697600bd2bee3591f2f/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.11990029802157591
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "c0_ogg",
+      "outcome": "old_only_success",
+      "old": {
+        "success": true,
+        "env_steps": 144,
+        "chunk_calls": 4,
+        "policy_s": 0.8900091983377934,
+        "monitor_s": 1.625420518219471,
+        "event_replans": 1,
+        "guidance_calls": 4,
+        "cancelled_condition_predictions": 19,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 8.974316069856286,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/1e29d37964a63d348ef4/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.1195991828753739
+      },
+      "new": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 50,
+        "policy_s": 12.25632943212986,
+        "monitor_s": 3.3280597217381,
+        "event_replans": 47,
+        "guidance_calls": 188,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.205376148223877,
+        "episode_wall_s": 25.242754517123103,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/1e29d37964a63d348ef4/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.07678421044533143
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "j_lvm",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 138,
+        "chunk_calls": 4,
+        "policy_s": 0.8856651373207569,
+        "monitor_s": 2.0814488623291254,
+        "event_replans": 1,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 19,
+        "peak_torch_allocated_gib": 1.719395637512207,
+        "episode_wall_s": 9.311445379629731,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/46ed08b5a51a8299c357/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.09254018809543743
+      },
+      "new": {
+        "success": true,
+        "env_steps": 138,
+        "chunk_calls": 4,
+        "policy_s": 0.9157085381448269,
+        "monitor_s": 2.127195928245783,
+        "event_replans": 1,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.730839729309082,
+        "episode_wall_s": 9.908588647842407,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/46ed08b5a51a8299c357/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.09254018809543743
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "j_lvm_ogg",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 138,
+        "chunk_calls": 4,
+        "policy_s": 1.0568075217306614,
+        "monitor_s": 2.0695954505354166,
+        "event_replans": 1,
+        "guidance_calls": 4,
+        "cancelled_condition_predictions": 19,
+        "peak_torch_allocated_gib": 1.719395637512207,
+        "episode_wall_s": 9.457425143569708,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/db6106099b0d632cdf01/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.0925407059627185
+      },
+      "new": {
+        "success": true,
+        "env_steps": 138,
+        "chunk_calls": 4,
+        "policy_s": 1.086391856893897,
+        "monitor_s": 2.181987162679434,
+        "event_replans": 1,
+        "guidance_calls": 4,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.7684221267700195,
+        "episode_wall_s": 9.78127135336399,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/db6106099b0d632cdf01/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.0925407059627185
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_1",
+      "seed": 1000,
+      "method": "H20",
+      "outcome": "both_failure",
+      "old": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 14,
+        "policy_s": 2.7379134353250265,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.185234546661377,
+        "episode_wall_s": 11.939307419583201,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/26757c908a126892c70e/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.1741189710911226
+      },
+      "new": {
+        "success": false,
+        "env_steps": 280,
+        "chunk_calls": 14,
+        "policy_s": 2.844660583883524,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.185234546661377,
+        "episode_wall_s": 12.058993199840188,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/26757c908a126892c70e/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.1741189710911226
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_1",
+      "seed": 1000,
+      "method": "H50",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6069538928568363,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.202566146850586,
+        "episode_wall_s": 6.407538345083594,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/3a7370bb8a0d114ef255/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      },
+      "new": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6197926308959723,
+        "monitor_s": 0.0,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.665273666381836,
+        "episode_wall_s": 6.373182971030474,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/3a7370bb8a0d114ef255/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_1",
+      "seed": 1000,
+      "method": "c0_lvm",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6877357754856348,
+        "monitor_s": 1.3769201431423426,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 7.887863719835877,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/f325326e09ce48dd8b9b/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      },
+      "new": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6632583159953356,
+        "monitor_s": 1.3481127377599478,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 7.727591196075082,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/f325326e09ce48dd8b9b/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_1",
+      "seed": 1000,
+      "method": "c0_ogg",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6614068523049355,
+        "monitor_s": 1.341220960021019,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 7.504434231668711,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/c0c0d0380c1095435c8a/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      },
+      "new": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6737476587295532,
+        "monitor_s": 1.3695603534579277,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.204918384552002,
+        "episode_wall_s": 7.726748211309314,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/c0c0d0380c1095435c8a/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_1",
+      "seed": 1000,
+      "method": "j_lvm",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6694850493222475,
+        "monitor_s": 1.7379178572446108,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.719395637512207,
+        "episode_wall_s": 8.04441799223423,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/20bb0c1120a27ac8b6da/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      },
+      "new": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6604768726974726,
+        "monitor_s": 1.7325261421501637,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.719029426574707,
+        "episode_wall_s": 8.004404367879033,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/20bb0c1120a27ac8b6da/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      }
+    },
+    {
+      "condition": "libero_object/task_9/init_1",
+      "seed": 1000,
+      "method": "j_lvm_ogg",
+      "outcome": "both_success",
+      "old": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6515655349940062,
+        "monitor_s": 1.7196983825415373,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.719395637512207,
+        "episode_wall_s": 8.036039344966412,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_002/pilot/attempts/7119bee961a6984095d0/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      },
+      "new": {
+        "success": true,
+        "env_steps": 117,
+        "chunk_calls": 3,
+        "policy_s": 0.6820609383285046,
+        "monitor_s": 1.868062725290656,
+        "event_replans": 0,
+        "guidance_calls": 0,
+        "cancelled_condition_predictions": 0,
+        "peak_torch_allocated_gib": 1.719029426574707,
+        "episode_wall_s": 8.46121695637703,
+        "video_paths": [
+          "/root/corrector_j36m_object_20261113_003/pilot/attempts/7119bee961a6984095d0/attempt_001/videos/eval_episode_0.mp4"
+        ],
+        "action_continuity_mean_l2": 0.08586107661920551
+      }
+    }
+  ]
+}

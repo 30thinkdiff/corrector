@@ -1,0 +1,13 @@
+{
+  "cause": "user confirmed GPU shutdown",
+  "completed": {
+    "plus_smoke": 17,
+    "plus": 530
+  },
+  "verified_video_artifacts": 547,
+  "verified_video_bytes": 67868798,
+  "incomplete_attempts_preserved": 1,
+  "queue_source_verified": true,
+  "old_training_remains_paused": true,
+  "recovery": "original immutable adapter and plans; new attempt for incomplete episode; explicit new 18h budget"
+}

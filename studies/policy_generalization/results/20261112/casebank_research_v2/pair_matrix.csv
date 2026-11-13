@@ -1,0 +1,69 @@
+cohort,comparison,a,b,outcome_a_b,cases,physical_states,evaluation_seed_values,evaluation_seed_value_count,local_complete_cases,cases_with_all_traces,cases_with_all_commands,cases_with_numeric_ogg,all_initial_hashes_verified
+consistency_closed_loop,规划 vs 已执行监测,planned_lvm,executed_lvm,00,2,1,"[1002, 1003]",2,0,2,2,0,2
+consistency_closed_loop,规划 vs 已执行监测,planned_lvm,executed_lvm,01,2,1,"[1002, 1003]",2,0,2,2,0,2
+consistency_closed_loop,规划 vs 已执行监测,planned_lvm,executed_lvm,11,8,4,"[1002, 1003]",2,0,8,8,0,8
+hybrid_pilot,同T-H1检测器，不同引导器,transformer-h1_ogg,hybrid_t1_a10_ogg,00,1,1,[1000],1,0,1,1,0,1
+hybrid_pilot,同T-H1检测器，不同引导器,transformer-h1_ogg,hybrid_t1_a10_ogg,10,1,1,[1000],1,1,1,1,0,1
+hybrid_pilot,同T-H1检测器，不同引导器,transformer-h1_ogg,hybrid_t1_a10_ogg,11,2,2,[1000],1,0,2,2,0,2
+legacy_five_models,LVM vs OGG,mlp_lvm,mlp_ogg,00,5,4,"[1000, 1001]",2,0,5,0,0,0
+legacy_five_models,LVM vs OGG,mlp_lvm,mlp_ogg,11,55,29,"[1000, 1001]",2,0,55,0,0,0
+legacy_five_models,LVM vs OGG,transformer-a10-h1_lvm,transformer-a10-h1_ogg,00,10,7,"[1000, 1001]",2,0,10,0,0,0
+legacy_five_models,LVM vs OGG,transformer-a10-h1_lvm,transformer-a10-h1_ogg,11,50,27,"[1000, 1001]",2,0,50,0,0,0
+legacy_five_models,LVM vs OGG,transformer-a10-h3_lvm,transformer-a10-h3_ogg,00,9,7,"[1000, 1001]",2,0,9,0,0,0
+legacy_five_models,LVM vs OGG,transformer-a10-h3_lvm,transformer-a10-h3_ogg,11,51,28,"[1000, 1001]",2,0,51,0,0,0
+legacy_five_models,LVM vs OGG,transformer-h1_lvm,transformer-h1_ogg,00,5,4,"[1000, 1001]",2,0,5,0,0,0
+legacy_five_models,LVM vs OGG,transformer-h1_lvm,transformer-h1_ogg,11,55,29,"[1000, 1001]",2,0,55,0,0,0
+legacy_five_models,LVM vs OGG,transformer-h3_lvm,transformer-h3_ogg,00,4,3,"[1000, 1001]",2,0,4,0,0,0
+legacy_five_models,LVM vs OGG,transformer-h3_lvm,transformer-h3_ogg,11,56,29,"[1000, 1001]",2,0,56,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h1_ogg,00,5,4,"[1000, 1001]",2,0,5,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h1_ogg,10,5,4,"[1000, 1001]",2,0,5,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h1_ogg,11,50,27,"[1000, 1001]",2,0,50,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h3_ogg,00,5,4,"[1000, 1001]",2,0,5,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h3_ogg,10,4,4,"[1000, 1001]",2,0,4,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h3_ogg,11,51,28,"[1000, 1001]",2,0,51,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-h1_ogg,00,4,3,"[1000, 1001]",2,0,4,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-h1_ogg,01,1,1,[1001],1,0,1,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-h1_ogg,10,1,1,[1001],1,0,1,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-h1_ogg,11,54,29,"[1000, 1001]",2,0,54,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-h3_ogg,00,3,2,"[1000, 1001]",2,0,3,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-h3_ogg,01,2,2,"[1000, 1001]",2,0,2,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-h3_ogg,10,1,1,[1001],1,0,1,0,0,0
+legacy_five_models,预测器 vs MLP OGG,mlp_ogg,transformer-h3_ogg,11,54,29,"[1000, 1001]",2,0,54,0,0,0
+overnight_snapshot,LVM vs OGG,transformer-h1_lvm,transformer-h1_ogg,00,13,8,"[1004, 1005]",2,0,0,0,0,13
+overnight_snapshot,LVM vs OGG,transformer-h1_lvm,transformer-h1_ogg,01,1,1,[1005],1,0,0,0,0,1
+overnight_snapshot,LVM vs OGG,transformer-h1_lvm,transformer-h1_ogg,10,2,2,[1005],1,0,0,0,0,2
+overnight_snapshot,LVM vs OGG,transformer-h1_lvm,transformer-h1_ogg,11,84,45,"[1004, 1005]",2,0,0,0,0,84
+overnight_snapshot,规划 vs 已执行监测,planned_lvm,executed_lvm,00,80,56,"[1004, 1005]",2,0,0,0,0,80
+overnight_snapshot,规划 vs 已执行监测,planned_lvm,executed_lvm,01,55,36,"[1004, 1005]",2,0,0,0,0,55
+overnight_snapshot,规划 vs 已执行监测,planned_lvm,executed_lvm,10,14,13,"[1004, 1005]",2,0,0,0,0,14
+overnight_snapshot,规划 vs 已执行监测,planned_lvm,executed_lvm,11,422,231,"[1004, 1005]",2,0,0,0,0,422
+replay_casebank_20261112_001,LVM vs OGG,mlp_lvm,mlp_ogg,00,3,3,"[1000, 1001]",2,3,3,3,3,3
+replay_casebank_20261112_001,LVM vs OGG,mlp_lvm,mlp_ogg,11,5,5,"[1000, 1001]",2,5,5,5,5,5
+replay_casebank_20261112_001,LVM vs OGG,transformer-a10-h1_lvm,transformer-a10-h1_ogg,00,5,5,"[1000, 1001]",2,5,5,5,5,5
+replay_casebank_20261112_001,LVM vs OGG,transformer-a10-h1_lvm,transformer-a10-h1_ogg,11,3,3,"[1000, 1001]",2,3,3,3,2,3
+replay_casebank_20261112_001,LVM vs OGG,transformer-a10-h3_lvm,transformer-a10-h3_ogg,00,5,5,"[1000, 1001]",2,5,5,5,5,5
+replay_casebank_20261112_001,LVM vs OGG,transformer-a10-h3_lvm,transformer-a10-h3_ogg,11,3,3,"[1000, 1001]",2,3,3,3,2,3
+replay_casebank_20261112_001,LVM vs OGG,transformer-h1_lvm,transformer-h1_ogg,00,2,2,[1000],1,2,2,2,2,2
+replay_casebank_20261112_001,LVM vs OGG,transformer-h1_lvm,transformer-h1_ogg,11,6,6,"[1000, 1001]",2,6,6,6,6,6
+replay_casebank_20261112_001,LVM vs OGG,transformer-h3_lvm,transformer-h3_ogg,00,1,1,[1000],1,1,1,1,1,1
+replay_casebank_20261112_001,LVM vs OGG,transformer-h3_lvm,transformer-h3_ogg,10,2,2,"[1000, 1001]",2,2,2,2,2,2
+replay_casebank_20261112_001,LVM vs OGG,transformer-h3_lvm,transformer-h3_ogg,11,5,5,"[1000, 1001]",2,5,5,5,5,5
+replay_casebank_20261112_001,同T-H1检测器，不同引导器,transformer-h1_ogg,hybrid_t1_a10_ogg,00,2,2,[1000],1,2,2,2,2,2
+replay_casebank_20261112_001,同T-H1检测器，不同引导器,transformer-h1_ogg,hybrid_t1_a10_ogg,10,1,1,[1000],1,1,1,1,1,1
+replay_casebank_20261112_001,同T-H1检测器，不同引导器,transformer-h1_ogg,hybrid_t1_a10_ogg,11,5,5,"[1000, 1001]",2,5,5,5,5,5
+replay_casebank_20261112_001,规划 vs 已执行监测,planned_lvm,executed_lvm,00,1,1,[1000],1,1,1,1,0,1
+replay_casebank_20261112_001,规划 vs 已执行监测,planned_lvm,executed_lvm,01,3,3,"[1000, 1001]",2,3,3,3,0,3
+replay_casebank_20261112_001,规划 vs 已执行监测,planned_lvm,executed_lvm,11,3,3,"[1000, 1001]",2,3,3,3,0,3
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h1_ogg,00,3,3,"[1000, 1001]",2,3,3,3,3,3
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h1_ogg,10,2,2,"[1000, 1001]",2,2,2,2,2,2
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h1_ogg,11,3,3,"[1000, 1001]",2,3,3,3,3,3
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h3_ogg,00,3,3,"[1000, 1001]",2,3,3,3,3,3
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h3_ogg,10,2,2,"[1000, 1001]",2,2,2,2,2,2
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-a10-h3_ogg,11,3,3,"[1000, 1001]",2,3,3,3,3,3
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-h1_ogg,00,2,2,[1000],1,2,2,2,2,2
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-h1_ogg,01,1,1,[1001],1,1,1,1,1,1
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-h1_ogg,11,5,5,"[1000, 1001]",2,5,5,5,5,5
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-h3_ogg,00,2,2,"[1000, 1001]",2,2,2,2,2,2
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-h3_ogg,01,1,1,[1000],1,1,1,1,1,1
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-h3_ogg,10,1,1,[1000],1,1,1,1,1,1
+replay_casebank_20261112_001,预测器 vs MLP OGG,mlp_ogg,transformer-h3_ogg,11,4,4,"[1000, 1001]",2,4,4,4,4,4

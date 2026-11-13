@@ -1,0 +1,13 @@
+condition,seed,planned_lvm_first_trigger,planned_lvm_first_action_divergence_from_H50,executed_lvm_first_trigger,executed_lvm_first_action_divergence_from_H50,planned_score_at_executed_first_trigger,shared_actions_before_executed_first_trigger
+libero_object/task_1/init_3,1002,75,75,68,68,,True
+libero_object/task_1/init_3,1003,75,75,68,68,,True
+libero_object/task_1/init_4,1002,,,,,,
+libero_object/task_1/init_4,1003,,,,,,
+libero_object/task_1/init_5,1002,,,,,,
+libero_object/task_1/init_5,1003,,,,,,
+libero_object/task_9/init_3,1002,86,86,57,57,,True
+libero_object/task_9/init_3,1003,86,86,57,57,,True
+libero_object/task_9/init_4,1002,,,,,,
+libero_object/task_9/init_4,1003,,,,,,
+libero_object/task_9/init_5,1002,,,,,,
+libero_object/task_9/init_5,1003,,,,,,

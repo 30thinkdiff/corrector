@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "phase": "passive",
+  "performance_scope": false,
+  "execution": {
+    "status": "completed",
+    "started_utc": "2026-11-13T10:16:14.977114+00:00",
+    "max_seconds": 7174.3049829006195,
+    "min_free_gib": 8,
+    "stop_file": "/root/corrector_j36m_object_20261113_003/STOP",
+    "wall_seconds": 19.55179762840271,
+    "planned": 3,
+    "completed": 3,
+    "errors": 0,
+    "reason": "all_planned_trials_completed"
+  },
+  "checkpoint_sha256": {
+    "j": "12b324888342ba17bf1035f94ed4c61fd1cd62f8b4f40d6b6c0e48c901e52ef1",
+    "c0": "c176cfc39f975f1a20763bd3a0acccb4c75277d524d3e82158e641eb44fcffa8"
+  }
+}

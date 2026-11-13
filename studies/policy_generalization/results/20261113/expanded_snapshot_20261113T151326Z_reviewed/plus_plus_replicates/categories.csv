@@ -1,0 +1,35 @@
+category,method,completed,successes,success_rate
+Language Instructions,H20,2,2,1.0
+Language Instructions,H50,2,0,0.0
+Language Instructions,executed_lvm,2,2,1.0
+Language Instructions,hybrid_t1_a10_ogg,2,1,0.5
+Language Instructions,j_lvm,2,0,0.0
+Language Instructions,j_ogg,2,0,0.0
+Language Instructions,mlp_lvm,2,2,1.0
+Language Instructions,mlp_ogg,2,2,1.0
+Language Instructions,planned_lvm,2,0,0.0
+Language Instructions,transformer-a10-h1_lvm,2,1,0.5
+Language Instructions,transformer-a10-h1_ogg,2,1,0.5
+Language Instructions,transformer-a10-h3_lvm,2,0,0.0
+Language Instructions,transformer-a10-h3_ogg,2,0,0.0
+Language Instructions,transformer-h1_lvm,2,2,1.0
+Language Instructions,transformer-h1_ogg,2,1,0.5
+Language Instructions,transformer-h3_lvm,2,1,0.5
+Language Instructions,transformer-h3_ogg,2,2,1.0
+Robot Initial States,H20,1,0,0.0
+Robot Initial States,H50,1,0,0.0
+Robot Initial States,executed_lvm,1,0,0.0
+Robot Initial States,hybrid_t1_a10_ogg,1,1,1.0
+Robot Initial States,j_lvm,1,1,1.0
+Robot Initial States,j_ogg,0,0,
+Robot Initial States,mlp_lvm,1,1,1.0
+Robot Initial States,mlp_ogg,1,1,1.0
+Robot Initial States,planned_lvm,1,0,0.0
+Robot Initial States,transformer-a10-h1_lvm,1,0,0.0
+Robot Initial States,transformer-a10-h1_ogg,1,0,0.0
+Robot Initial States,transformer-a10-h3_lvm,1,0,0.0
+Robot Initial States,transformer-a10-h3_ogg,1,0,0.0
+Robot Initial States,transformer-h1_lvm,1,1,1.0
+Robot Initial States,transformer-h1_ogg,1,1,1.0
+Robot Initial States,transformer-h3_lvm,1,1,1.0
+Robot Initial States,transformer-h3_ogg,1,1,1.0

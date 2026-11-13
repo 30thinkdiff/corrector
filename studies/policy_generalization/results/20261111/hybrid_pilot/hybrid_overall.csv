@@ -1,0 +1,4 @@
+configuration,planned,completed,successes,success_rate,mean_env_steps,mean_chunk_calls,mean_policy_s,mean_monitor_s,mean_guidance_s,mean_event_replans,mean_guidance_calls,mean_score_eligible_steps,mean_scored_steps,mean_sequence_prediction_skips,mean_cancelled_condition_predictions,mean_peak_torch_allocated_gib,score_coverage,mean_episode_wall_s
+A,4,4,3,0.75,181,7.5,2.1481990786269307,4.37541689677164,0.28014075942337513,4,16,157,157,0,0,1.540147304534912,1.0,14.875049537513405
+B,4,4,2,0.5,209.25,7.75,2.169287007302046,5.053506646305323,0.2535890880972147,3.75,15,185.25,185.25,0,0,1.5409464836120605,1.0,16.20084749814123
+C,4,4,2,0.5,212.25,5.5,1.45526829874143,4.920409590937197,0.1197426044382155,2,8,188.25,106,49.75,38,1.5141239166259766,0.5630810092961488,15.274710302241147

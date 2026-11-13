@@ -1,0 +1,254 @@
+{
+  "status": "verified",
+  "trials": 4,
+  "errors": 0,
+  "wall_seconds": 71.10690510086715,
+  "successes": 1,
+  "control_unchanged": true,
+  "controller_commands": 966,
+  "interruptions": 0,
+  "ogg_calls": 0,
+  "common_eligible_windows": 870,
+  "planned_scored": 547,
+  "executed_scored": 870,
+  "planned_coverage": 0.628735632183908,
+  "executed_coverage": 1.0,
+  "newly_scored_windows": 323,
+  "new_windows_from_planned_skips": 306,
+  "new_windows_from_planned_cancellations": 17,
+  "planned_max_gap_steps": 19,
+  "executed_max_gap_steps": 0,
+  "overlap_absolute_score_difference": {
+    "n": 547,
+    "mean": 1.582410697309365e-06,
+    "median": 0.0,
+    "p05": 0.0,
+    "p95": 0.0,
+    "min": 0.0,
+    "max": 0.0005171895027160645
+  },
+  "overlap_action_condition_max_abs_difference": {
+    "n": 547,
+    "mean": 1.304600748763006e-07,
+    "median": 1.1920928955078125e-07,
+    "p05": 5.960464477539063e-08,
+    "p95": 2.980232238769531e-07,
+    "min": 2.9802322387695312e-08,
+    "max": 4.76837158203125e-07
+  },
+  "score_distributions_by_episode_outcome_not_anomaly_labels": {
+    "successful_episode/all": {
+      "executed": {
+        "n": 102,
+        "mean": 0.29648562798313066,
+        "median": 0.28621044754981995,
+        "p05": 0.2008641004562378,
+        "p95": 0.3983334094285965,
+        "min": 0.18956220149993896,
+        "max": 0.41373586654663086
+      },
+      "planned": {
+        "n": 64,
+        "mean": 0.2967693628743291,
+        "median": 0.28297755122184753,
+        "p05": 0.2033638060092926,
+        "p95": 0.39761143624782563,
+        "min": 0.18956220149993896,
+        "max": 0.4024559259414673
+      }
+    },
+    "successful_episode/overlap": {
+      "executed": {
+        "n": 64,
+        "mean": 0.2967693628743291,
+        "median": 0.28297755122184753,
+        "p05": 0.2033638060092926,
+        "p95": 0.39761143624782563,
+        "min": 0.18956220149993896,
+        "max": 0.4024559259414673
+      },
+      "planned": {
+        "n": 64,
+        "mean": 0.2967693628743291,
+        "median": 0.28297755122184753,
+        "p05": 0.2033638060092926,
+        "p95": 0.39761143624782563,
+        "min": 0.18956220149993896,
+        "max": 0.4024559259414673
+      }
+    },
+    "successful_episode/executed_only": {
+      "executed": {
+        "n": 38,
+        "mean": 0.2960077586926912,
+        "median": 0.31793707609176636,
+        "p05": 0.1994723379611969,
+        "p95": 0.38107943534851074,
+        "min": 0.19211196899414062,
+        "max": 0.41373586654663086
+      },
+      "planned": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p05": null,
+        "p95": null,
+        "min": null,
+        "max": null
+      }
+    },
+    "failed_episode/all": {
+      "executed": {
+        "n": 768,
+        "mean": 0.5730886739523461,
+        "median": 0.5284561514854431,
+        "p05": 0.27193857729434967,
+        "p95": 0.8838173061609268,
+        "min": 0.22142493724822998,
+        "max": 0.9652235507965088
+      },
+      "planned": {
+        "n": 483,
+        "mean": 0.5555716161895736,
+        "median": 0.4995543360710144,
+        "p05": 0.25966376066207886,
+        "p95": 0.8643416047096252,
+        "min": 0.22142493724822998,
+        "max": 0.9643707275390625
+      }
+    },
+    "failed_episode/overlap": {
+      "executed": {
+        "n": 483,
+        "mean": 0.5555730657054277,
+        "median": 0.4995543360710144,
+        "p05": 0.25966376066207886,
+        "p95": 0.8643416047096252,
+        "min": 0.22142493724822998,
+        "max": 0.9643707275390625
+      },
+      "planned": {
+        "n": 483,
+        "mean": 0.5555716161895736,
+        "median": 0.4995543360710144,
+        "p05": 0.25966376066207886,
+        "p95": 0.8643416047096252,
+        "min": 0.22142493724822998,
+        "max": 0.9643707275390625
+      }
+    },
+    "failed_episode/executed_only": {
+      "executed": {
+        "n": 285,
+        "mean": 0.6027730205602814,
+        "median": 0.6506204605102539,
+        "p05": 0.30015161037445065,
+        "p95": 0.8988965392112731,
+        "min": 0.25028324127197266,
+        "max": 0.9652235507965088
+      },
+      "planned": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "p05": null,
+        "p95": null,
+        "min": null,
+        "max": null
+      }
+    }
+  },
+  "latency_milliseconds": {
+    "planned": {
+      "all": {
+        "n": 644,
+        "mean": 2.7480140496161045,
+        "median": 2.6561422273516655,
+        "p05": 2.6053613051772118,
+        "p95": 2.8042819350957875,
+        "min": 2.5687478482723236,
+        "max": 43.221594765782356
+      },
+      "excluding_first_5_per_episode": {
+        "n": 624,
+        "mean": 2.6822479811902995,
+        "median": 2.654528245329857,
+        "p05": 2.6051013730466366,
+        "p95": 2.7745804749429226,
+        "min": 2.5687478482723236,
+        "max": 7.539983838796616
+      }
+    },
+    "executed": {
+      "all": {
+        "n": 886,
+        "mean": 2.7379327502025976,
+        "median": 2.690841443836689,
+        "p05": 2.6502497494220734,
+        "p95": 2.824793104082346,
+        "min": 2.6295222342014313,
+        "max": 8.532915264368057
+      },
+      "excluding_first_5_per_episode": {
+        "n": 866,
+        "mean": 2.738105823602054,
+        "median": 2.6905229315161705,
+        "p05": 2.6502497494220734,
+        "p95": 2.8220396488904953,
+        "min": 2.6295222342014313,
+        "max": 8.532915264368057
+      }
+    },
+    "shared_visual": {
+      "all": {
+        "n": 966,
+        "mean": 20.511632654083193,
+        "median": 20.281917415559292,
+        "p05": 20.141344983130693,
+        "p95": 20.601360592991114,
+        "min": 20.071588456630707,
+        "max": 201.04163140058517
+      },
+      "excluding_first_5_per_episode": {
+        "n": 946,
+        "mean": 20.31465940941401,
+        "median": 20.28046641498804,
+        "p05": 20.140275359153748,
+        "p95": 20.55180026218295,
+        "min": 20.071588456630707,
+        "max": 23.00526760518551
+      }
+    },
+    "normalization": {
+      "all": {
+        "n": 966,
+        "mean": 0.9488616404788834,
+        "median": 0.9288126602768898,
+        "p05": 0.8677984587848186,
+        "p95": 1.086176373064518,
+        "min": 0.834491103887558,
+        "max": 4.113253206014633
+      },
+      "excluding_first_5_per_episode": {
+        "n": 946,
+        "mean": 0.944214451656407,
+        "median": 0.9285891428589821,
+        "p05": 0.8672899566590786,
+        "p95": 1.0781502351164818,
+        "min": 0.834491103887558,
+        "max": 2.3084264248609543
+      }
+    }
+  },
+  "feature_bytes_recorded_remotely": 474808320,
+  "raw_feature_and_video_bytes_verified_locally": false,
+  "anomaly_detection_metrics": {
+    "status": "not_identifiable_without_independent_window_labels",
+    "AUROC": null,
+    "recall": null,
+    "false_positive_rate": null,
+    "threshold": null
+  },
+  "interpretation": "retrospective due-consistency; coverage is scheduling availability, not detection recall",
+  "bundle_sha256": "f0552867a619165de9f4cf90e6cfeef5ca40a1bc226dcb1862bbb625db525b34"
+}

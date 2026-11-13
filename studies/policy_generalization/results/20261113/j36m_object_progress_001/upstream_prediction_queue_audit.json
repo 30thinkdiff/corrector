@@ -1,0 +1,61 @@
+{
+  "upstream_repository": "https://github.com/ZJU-OmniAI/vla-corrector",
+  "commit": "927a06da8f00d7df483459e9039219e076c846de",
+  "file": "src/lerobot/scripts/lerobot_eval_modified_detection.py",
+  "sha256": "fe8a2879f582a65a6e4837282b1cde7ab0507bbcd5784e44f7c45fd4f13b3660",
+  "matches_git_blob": true,
+  "calls": [
+    {
+      "queue": "z_history",
+      "operation": "append",
+      "line": 1169
+    },
+    {
+      "queue": "delta_z_pred_queue",
+      "operation": "popleft",
+      "line": 1198
+    },
+    {
+      "queue": "action_plan",
+      "operation": "clear",
+      "line": 1236
+    },
+    {
+      "queue": "raw_action_plan",
+      "operation": "clear",
+      "line": 1237
+    },
+    {
+      "queue": "delta_z_pred_queue",
+      "operation": "popleft",
+      "line": 1238
+    },
+    {
+      "queue": "action_plan",
+      "operation": "append",
+      "line": 1384
+    },
+    {
+      "queue": "raw_action_plan",
+      "operation": "append",
+      "line": 1385
+    },
+    {
+      "queue": "action_plan",
+      "operation": "popleft",
+      "line": 1516
+    },
+    {
+      "queue": "raw_action_plan",
+      "operation": "popleft",
+      "line": 1517
+    },
+    {
+      "queue": "delta_z_pred_queue",
+      "operation": "append",
+      "line": 1543
+    }
+  ],
+  "finding": "On meltdown clear action_plan/raw_action_plan; pop only due prediction; retain other pending forecasts and visual history; append a new forecast for current selected action.",
+  "local_deviation": "J interrupt wrapper and new C0 wrapper additionally clear all pending forecasts; not an upstream requirement."
+}

@@ -1,0 +1,1109 @@
+[
+  {
+    "condition": "plus/cheese/sensor_noise/1",
+    "method_a": "H20",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1000,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "H20",
+        "case_id": "48c4384f7470baed0e08",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/48c4384f7470baed0e08/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "290e139c3bb899afd3441e1c489fd9496771bf739a713776735a8a7945966d13"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "ceb9e87bacfd5f6e4b6f",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/ceb9e87bacfd5f6e4b6f/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "8f87ec640013a12fddde921b9647ca864ded253d69c89020506c7d38104e34a8"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "H20",
+        "case_id": "18dfc4ec161b00d518aa",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/18dfc4ec161b00d518aa/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "7d89cd696e29fd66e99768ee6e5cce4e2c2e2896a497dc242bf1e8fef8735bbc"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "a3cc136e2de5678f463c",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/a3cc136e2de5678f463c/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "b6c8f629cd9297c2be7ac6607bf5d9cf24da4ca67893c76052a3eccdcc045d75"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "H20",
+        "case_id": "ed4eb74e5cfb2c5f185c",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/ed4eb74e5cfb2c5f185c/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "88fd4e372cd285c70d2f22e7b3b8862dd8070489cb8925b69e98f04694eb4310"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "f944312dcc4c52526a30",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/f944312dcc4c52526a30/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "de3d89c693c5d45a44ab45a6c525b8a93d8af99fd83fec7d8b74d5f89f2cb79a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/cheese/sensor_noise/1",
+    "method_a": "mlp_ogg",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1000,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "mlp_ogg",
+        "case_id": "f07a8fe0c231d3128c0d",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/f07a8fe0c231d3128c0d/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "69fc9a3888cea654add27bd6fad36926f2dfc91dafbc4bc2772b3e0255cb2cee"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "ceb9e87bacfd5f6e4b6f",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/ceb9e87bacfd5f6e4b6f/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "8f87ec640013a12fddde921b9647ca864ded253d69c89020506c7d38104e34a8"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "mlp_ogg",
+        "case_id": "1b3020454339d96051cc",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/1b3020454339d96051cc/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "28549ff44b7729f1ffe15e67f39f36d5fe2a09f6c3202f1587f24a8ace8c6f63"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "a3cc136e2de5678f463c",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/a3cc136e2de5678f463c/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "b6c8f629cd9297c2be7ac6607bf5d9cf24da4ca67893c76052a3eccdcc045d75"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "mlp_ogg",
+        "case_id": "2281d9e3e1d2df177996",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/2281d9e3e1d2df177996/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "5f25b0bb2eac3d9149965df4de6151c7163ddb261924c366d27f30cc2e7a81bb"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "f944312dcc4c52526a30",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/f944312dcc4c52526a30/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "de3d89c693c5d45a44ab45a6c525b8a93d8af99fd83fec7d8b74d5f89f2cb79a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/soup/language_instructions/1",
+    "method_a": "H20",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1001,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "H20",
+        "case_id": "21cac0adebff1faff452",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/21cac0adebff1faff452/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "4b94396908211c2371116c3eb5b8fec251977a312c93c060f0a59062d88522bd"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "e50c82220a841c366ca3",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/e50c82220a841c366ca3/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "8e6278db14bdea32c3787478ebacab03c7836c676940c2340d723a3763b670f5"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "H20",
+        "case_id": "12734b969099d15cf52a",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/12734b969099d15cf52a/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "f40da2ed206ede137052736c74f2f3bb83c21dc07c7c15e1d60fd83818d59d60"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "d68130f70a898ec4fb19",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/d68130f70a898ec4fb19/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "2e4846c3f04d520eba0236fd2bf39921deee80f68fa8416502219d7e4a54e22c"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "H20",
+        "case_id": "3c13b764fd1c5eb67f3b",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/3c13b764fd1c5eb67f3b/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "87fe94a174a46a72f31a2af0e99db62e4d802f5f8912d920ddfe9940ee25e3d9"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "80818317829177148d96",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/80818317829177148d96/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "5926fe2bae44496bb92c2baea17c6326eadec6c06c9dd814f34d71ee36993000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/soup/language_instructions/1",
+    "method_a": "mlp_ogg",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1001,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "mlp_ogg",
+        "case_id": "53dc651184157b076390",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/53dc651184157b076390/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "7b4a5e0710573d5a2778536f4804d2074a0f2e23a9e85347fde3c80cf4e6bef5"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "e50c82220a841c366ca3",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/e50c82220a841c366ca3/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "8e6278db14bdea32c3787478ebacab03c7836c676940c2340d723a3763b670f5"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "mlp_ogg",
+        "case_id": "e49776c5389a8c85808a",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/e49776c5389a8c85808a/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "ed9eb398bdb23cd64bb1d479af35e33f29c461ba712fad8a71de7e285e8ba272"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "d68130f70a898ec4fb19",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/d68130f70a898ec4fb19/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "2e4846c3f04d520eba0236fd2bf39921deee80f68fa8416502219d7e4a54e22c"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "mlp_ogg",
+        "case_id": "809d8d95df40196bcb26",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/809d8d95df40196bcb26/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "234f8721dfeb9483632f91d2bc2da0fdc11c62afeecb85c0b1fd96a3b9dfbae5"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "80818317829177148d96",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/80818317829177148d96/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "5926fe2bae44496bb92c2baea17c6326eadec6c06c9dd814f34d71ee36993000"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/soup/language_instructions/1",
+    "method_a": "planned_lvm",
+    "method_b": "executed_lvm",
+    "a_only_success_seeds": [],
+    "b_only_success_seeds": [
+      1000,
+      1001,
+      1002
+    ],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "planned_lvm",
+        "case_id": "1dabc5f4154793369405",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/1dabc5f4154793369405/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "3d50b530283ffac41a0bd11e1e58a393ee292e8a0bfd5afd9417a7fc5407cb44"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "executed_lvm",
+        "case_id": "54e877bfb6957ff67a19",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/54e877bfb6957ff67a19/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "b1f2ce5cfe78a019ba3d4c8a3fd04ede984a9b18d050802d8783f4314ecb497e"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "planned_lvm",
+        "case_id": "42b6c5fe536b1b55bf61",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/42b6c5fe536b1b55bf61/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "ed03d0af743efc08b8d3b6b3080085fa97b2426a3b152ae6cbaeec86bf7d7dac"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "executed_lvm",
+        "case_id": "abe67c6a5bfee67bf1f4",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/abe67c6a5bfee67bf1f4/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "8ebb5e52236669b58a6358935e6312f53dc721836e7e80c873ebc346ab1dd7cf"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "planned_lvm",
+        "case_id": "bf587da66a5f6031272d",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/bf587da66a5f6031272d/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "07bac28c08fafe9b66011e4cf201e4b849b54747461e97d31956ed1477cd34d2"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "executed_lvm",
+        "case_id": "925b843f56a3ee264868",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/925b843f56a3ee264868/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "1b1cc24102ace8a78b3afba56cc21ef7734cf16225b0978f88d5508ff9931b6f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/soup/light_conditions/1",
+    "method_a": "H20",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1000,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "H20",
+        "case_id": "6f9c82a38cc56cbfdf44",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/6f9c82a38cc56cbfdf44/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "90c2ddbaf925fa127544c0ddcbcd821f7acb8304c1bd505e4c12143b25b0f7fc"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "4dcd05e0e1a38fe82d73",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/4dcd05e0e1a38fe82d73/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "d733ae1fbb2efb2bd9ad85d39b5794d7cfda2aae243612c37ccd440111577cae"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "H20",
+        "case_id": "5cfd0031d8bd3bf29258",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/5cfd0031d8bd3bf29258/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "a443efde7a6ef44cdd5eaf394b00d254e06a423674e4187d6225c13cba1c606e"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "d91e14dbceb23e683b66",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/d91e14dbceb23e683b66/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "4420bb35715bbd9cc156458f795a827175b3785d18907816ca4418d64d9272c1"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "H20",
+        "case_id": "fd36efc3219ca0a6f301",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/fd36efc3219ca0a6f301/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "2667ba192c061a89f9afaa5ffd81fc1ce92df5775463481b229bfd9026162072"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "4ede9687e47e478bd08c",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/4ede9687e47e478bd08c/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "be900f09dcf455b64e07fe6a25080092d02fd9f53f5a9baa24d50e8a86acd0d6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/soup/light_conditions/1",
+    "method_a": "mlp_ogg",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1000,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "mlp_ogg",
+        "case_id": "8a905be7fb4595ebc090",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/8a905be7fb4595ebc090/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "bf5ccb097d527b2f55a3f883d60864e1433c044b3bdd646f485604319eaf4fce"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "4dcd05e0e1a38fe82d73",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/4dcd05e0e1a38fe82d73/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "d733ae1fbb2efb2bd9ad85d39b5794d7cfda2aae243612c37ccd440111577cae"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "mlp_ogg",
+        "case_id": "d8986e6e1183e3b25c3c",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/d8986e6e1183e3b25c3c/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "6f01e3d1f9cfb1f638019d6b115ef87a8c3b60192d940c980a619fe9c53f89f3"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "d91e14dbceb23e683b66",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/d91e14dbceb23e683b66/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "4420bb35715bbd9cc156458f795a827175b3785d18907816ca4418d64d9272c1"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "mlp_ogg",
+        "case_id": "adc0db5f2bebb27d2ac2",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/adc0db5f2bebb27d2ac2/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "cf10dfc80a1016d651eef7081d024986876411db62afbae64bb1e735638254d4"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "4ede9687e47e478bd08c",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/4ede9687e47e478bd08c/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "be900f09dcf455b64e07fe6a25080092d02fd9f53f5a9baa24d50e8a86acd0d6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/soup/objects_layout/1",
+    "method_a": "H20",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1000,
+      1001
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "H20",
+        "case_id": "21b7de11e8a333f4da3f",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/21b7de11e8a333f4da3f/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "4b7a27cf33f030846a17cc50b306baa894bde3c3a658f20234c4b390b7aff1ef"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "fe680e0163d5b9f94088",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/fe680e0163d5b9f94088/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "581b47455da401a7de7829b6c83adfc9fe822b60b6c3252052460e5c7ef99c71"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "H20",
+        "case_id": "80bdc516da9ae0a9dc34",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/80bdc516da9ae0a9dc34/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "3264183543ca47642bcdaa7bc5831ff27b7bc1db77002dc1641496be190be600"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "2efb6367c4d8da9d5b43",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/2efb6367c4d8da9d5b43/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "3ed17561a2d3bf2c01159fa6396a8a1b8523192e7c3640b20bb81cb87b795fb1"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "H20",
+        "case_id": "2dde9db8aaa63ade1ee0",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/2dde9db8aaa63ade1ee0/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "3b729d6f7850420cd8a0758d4332f8f1378d0ef7750561d2307c765f54852412"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "202678c1a0e9eb717954",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/202678c1a0e9eb717954/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "9dc158c39a67889cb951b1c15e5d6cc96717d0845cc31ac1e49d490d24b8ab4a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/soup/objects_layout/2",
+    "method_a": "H20",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1000,
+      1001
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "H20",
+        "case_id": "fb55d795ec7b0e8ea86b",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/fb55d795ec7b0e8ea86b/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "e867df7e0a44beb59ffb31092005296220cbd91192964780f31eab046eddc9ff"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "ea1f94e07b041f7226a2",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/ea1f94e07b041f7226a2/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "8a920a872d6b99f7700f1aebb147a602d51ac6dc2448754b77b6975517460e6f"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "H20",
+        "case_id": "3a01b436190c579cda4e",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/3a01b436190c579cda4e/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "e09a0a248da9a55b4923f129b727ef472a3fa90da7a99d34d5b13dee647bfc99"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "5f5b926447ff259dd3d4",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/5f5b926447ff259dd3d4/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "7cc6bdb967444750f3501089bb66ac1ed31a3436e78b964eab8d0a82182789e9"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "H20",
+        "case_id": "7e5f3e0879de41c5e914",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/7e5f3e0879de41c5e914/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "ba04c91c1b18723df8065f8667ec7f75207f2a6ea592731ceca766f8936d7171"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "92202e4ca42efd6d3cb8",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/92202e4ca42efd6d3cb8/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "47ebbb7785855838b2b6708baee6593fe9e873ab2b7f57fd20972d62a8d71b8c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/soup/objects_layout/2",
+    "method_a": "mlp_ogg",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1001,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "mlp_ogg",
+        "case_id": "c7bc10e89882c067c9e2",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/c7bc10e89882c067c9e2/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "c83bf452bce99b599ec7f1c812e15a2db465353523bd74ff32a2e62eeec69ab9"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "ea1f94e07b041f7226a2",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/ea1f94e07b041f7226a2/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "8a920a872d6b99f7700f1aebb147a602d51ac6dc2448754b77b6975517460e6f"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "mlp_ogg",
+        "case_id": "bda610d334f5f1343727",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/bda610d334f5f1343727/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "c7a75d0cfb04304f1104a060c7202f55464d1d8c72ab78233c81379b0079c4e0"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "5f5b926447ff259dd3d4",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/5f5b926447ff259dd3d4/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "7cc6bdb967444750f3501089bb66ac1ed31a3436e78b964eab8d0a82182789e9"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "mlp_ogg",
+        "case_id": "538fb864e485af802637",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/538fb864e485af802637/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "68ebe7c1cb7a1318cf56ae24899be6a5dc45966bd6c9bc0e3acd2f6d81e86f44"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "92202e4ca42efd6d3cb8",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/92202e4ca42efd6d3cb8/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "47ebbb7785855838b2b6708baee6593fe9e873ab2b7f57fd20972d62a8d71b8c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/view15",
+    "method_a": "H20",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1000,
+      1001,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "H20",
+        "case_id": "8f555cb6850fa6b2d383",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/8f555cb6850fa6b2d383/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "9d172d1ab2a1bf715e1f4386e6d7a91c8de02ef017638256c9c36a78cbc61dc2"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "a6023f67b3edac53b7dd",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/a6023f67b3edac53b7dd/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "0dc7a01d42ad45617a1480affd320159f9e3bfb1a7fede9b3842504099bd06ee"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "H20",
+        "case_id": "054f43eaad6be4592b6a",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/054f43eaad6be4592b6a/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "a0e91e50fd2be6f6db7ef4ced947efb29922575ad819ec0c151744800a4a81ba"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "3fe6cfe82462a4a9810e",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/3fe6cfe82462a4a9810e/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "9a9f4fe449a4e747745cbc71430dff17a26c1a6f9c1a73a317257e952d79f459"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "H20",
+        "case_id": "acff45b0e7c0acb5a774",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/acff45b0e7c0acb5a774/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "e3515f97781536d171d9f719fed817e5991217cb85191d17e1bc11c6bcef9290"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "af76b42bddd6787df634",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/af76b42bddd6787df634/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "98b3ae6959b22516a485f4b056ef05118c7473b1b28a313dc5ed0565605a33e4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/view5",
+    "method_a": "H20",
+    "method_b": "j_ogg",
+    "a_only_success_seeds": [
+      1000,
+      1002
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "H20",
+        "case_id": "e64e9fe9354a5f53a595",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/e64e9fe9354a5f53a595/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "cfb61de865eea8ac2b1710129751841d11afa0131b3c5768402a135ea3725299"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "j_ogg",
+        "case_id": "774aeca9bfcfba909bcd",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/774aeca9bfcfba909bcd/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "274bde25ef996d03125e88dcd75bac9eeef0667cb1cf276a947b2f0b2d91a23d"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "H20",
+        "case_id": "2890cb0149c0b48513eb",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/2890cb0149c0b48513eb/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "35b5a1eee6a789e8d28d659a2bcbc32256c982f004da1ab932310b321e93133d"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "j_ogg",
+        "case_id": "edbd12aac868be39b05c",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/edbd12aac868be39b05c/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "cefe6b7d8caf8532f227e18da843082a34c0262650bc851437ac84b6ad6085cb"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "H20",
+        "case_id": "19237a1aedd946f45d7f",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/19237a1aedd946f45d7f/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "a88a51d58ecb7e3737111974a767d30960a6fd066c0c03e98c11dabb280cdc64"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "j_ogg",
+        "case_id": "715d85aa1e281fe510a4",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/715d85aa1e281fe510a4/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "b9825953bcc4d04a0de4238eec377ecdccfb75370518ed04d9f5ecced3299073"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "condition": "plus/view5",
+    "method_a": "planned_lvm",
+    "method_b": "executed_lvm",
+    "a_only_success_seeds": [
+      1000,
+      1001
+    ],
+    "b_only_success_seeds": [],
+    "selection": "repeated outcome contrast; failure type not visually labeled",
+    "trial_refs": [
+      {
+        "seed": 1000,
+        "method": "planned_lvm",
+        "case_id": "9ee5010442c6e3aeba77",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/9ee5010442c6e3aeba77/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "a77bb9f300b3c12c81ef250bf7697f392a1654243e23783ceb5660bb0cb8c480"
+          }
+        ]
+      },
+      {
+        "seed": 1000,
+        "method": "executed_lvm",
+        "case_id": "dde1dcdcde77ccddde93",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/dde1dcdcde77ccddde93/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "391c9db7fb8e3eee2fc0a53211a6e3f940f1aa1942a0ef6997aa84034825c00e"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "planned_lvm",
+        "case_id": "d0bf8ff3017877b39f41",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/d0bf8ff3017877b39f41/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "5c5d79aba603584a7c3c631864437a408b8e452ef8277f3aa4118f715e0f5231"
+          }
+        ]
+      },
+      {
+        "seed": 1001,
+        "method": "executed_lvm",
+        "case_id": "000bfe04e67708ce9d3f",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/000bfe04e67708ce9d3f/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "3b1a2b2233916c3a0358489c75d84612dcf09cbf1428e725460e6f00df45a4f5"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "planned_lvm",
+        "case_id": "047685c30fbe4812469b",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/047685c30fbe4812469b/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "68d614767877171a6f4c5bf56b5e57abf1ff506ca8dc02b3c2d7feaf7cead4f3"
+          }
+        ]
+      },
+      {
+        "seed": 1002,
+        "method": "executed_lvm",
+        "case_id": "803dcd91688712cf9a41",
+        "attempt": 1,
+        "video_artifacts": [
+          {
+            "path": "attempts/803dcd91688712cf9a41/attempt_001/videos/eval_episode_0.mp4",
+            "sha256": "cb72f8dcfce6ae8615ef36bf8b48194821201e05a63b82aafadb0806eacef24e"
+          }
+        ]
+      }
+    ]
+  }
+]

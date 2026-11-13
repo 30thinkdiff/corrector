@@ -1,0 +1,66 @@
+{
+  "compatible": true,
+  "visual_shape": [
+    1,
+    128,
+    960
+  ],
+  "prediction_seconds": 1.0,
+  "online_due_steps": 20,
+  "online_fps": 20,
+  "data_fps": 10.0,
+  "guide_action_offsets": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "target_definition": "detector_expected_delta - (observed_z - origin_z)",
+  "action_representation": "frozen policy processor normalized; no temporary rescaling",
+  "condition_distribution": "training demonstrated executed actions; deployment planned candidate actions",
+  "causal_limit": "B vs C changes coverage, scores AND detector-generated targets, not coverage alone",
+  "episodes_checked": 454,
+  "shared_feature_metadata": {
+    "l_tokens": 128,
+    "d_dim": 960,
+    "action_dim": 7,
+    "fps": 10.0,
+    "policy_id": "lerobot/smolvla_libero",
+    "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+    "image_keys": [
+      "observation.images.image",
+      "observation.images.image2"
+    ],
+    "camera_keys": [
+      "observation.images.camera1",
+      "observation.images.camera2"
+    ],
+    "action_representation": "checkpoint_processor_normalized",
+    "action_normalization": "saved policy preprocessor; raw_actions.npy retained for audit",
+    "encoder_info": {
+      "backend": "smolvla",
+      "encoder_policy_path": "/root/autodl-tmp/corrector/runtime/hf/hub/models--lerobot--smolvla_libero/snapshots/a24f1f380461b665158d52acd140152c79e8b36d",
+      "preprocess": {
+        "pipeline": "smolvla_prepare_images",
+        "resize_with_pad": [
+          512,
+          512
+        ],
+        "pad_value": 0,
+        "input_range": "[0,1]",
+        "output_range": "[-1,1]",
+        "layout": "BCHW"
+      },
+      "official_refs": [
+        "lerobot/src/lerobot/policies/smolvla/modeling_smolvla.py:prepare_images",
+        "lerobot/src/lerobot/policies/smolvla/smolvlm_with_expert.py:embed_image"
+      ]
+    }
+  }
+}

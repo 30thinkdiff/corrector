@@ -1,0 +1,10 @@
+scope,reference,candidate,matched,candidate_only_success,reference_only_success,net_successes
+core_six,H50,H10,100,26,3,23
+core_six,H50,executed_lvm,100,13,0,13
+core_six,planned_lvm,executed_lvm,100,8,2,6
+core_six,executed_lvm,H10,100,13,3,10
+core_six,single_lvm,single_ogg,100,1,2,-1
+matched_four,H50,H10,571,154,18,136
+matched_four,H50,executed_lvm,571,86,2,84
+matched_four,planned_lvm,executed_lvm,571,55,14,41
+matched_four,executed_lvm,H10,571,75,23,52

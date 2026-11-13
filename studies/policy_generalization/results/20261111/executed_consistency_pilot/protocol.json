@@ -1,0 +1,95 @@
+{
+  "scope": "passive due-consistency, not future prediction or closed-loop control",
+  "policy_id": "lerobot/smolvla_libero",
+  "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+  "checkpoint": {
+    "checkpoint": "/root/autodl-tmp/corrector/object10/action_followup_20261109_001/experiments/runs/transformer-a10-h1_s42/best_model.pt",
+    "checkpoint_sha256": "c7185ff584d2ed224249fce506cb11c9069cc8446010010de78dcac284f5336f",
+    "factory": "/root/autodl-tmp/corrector/action-code-9274415dd6/corrector_models.py",
+    "factory_sha256": "fa491d421b581425320279403a8d7dcbb970d8a0a3a2d32b4ab674a0ae2db168"
+  },
+  "data_fps": 10,
+  "control_fps": 20,
+  "horizon_steps": 20,
+  "prediction_seconds": 1,
+  "action_offsets": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "visual_shape": [
+    1,
+    128,
+    960
+  ],
+  "executed_first_due": 20,
+  "planned_first_due": 24,
+  "common_evaluation_start": 24,
+  "action_steps": 50,
+  "chunk_size": 50,
+  "num_steps": 10,
+  "seed": 1000,
+  "conditions": {
+    "libero_object/task_1/init_0": {
+      "task_id": 1,
+      "initial_state_id": 0,
+      "language": "pick up the cream cheese and place it in the basket"
+    },
+    "libero_object/task_1/init_2": {
+      "task_id": 1,
+      "initial_state_id": 2,
+      "language": "pick up the cream cheese and place it in the basket"
+    },
+    "libero_object/task_9/init_0": {
+      "task_id": 9,
+      "initial_state_id": 0,
+      "language": "pick up the orange juice and place it in the basket"
+    },
+    "libero_object/task_9/init_2": {
+      "task_id": 9,
+      "initial_state_id": 2,
+      "language": "pick up the orange juice and place it in the basket"
+    }
+  },
+  "branch": "experiment/executed-consistency-pilot-20261111-v2",
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "lerobot": "0.6.1",
+    "transformers": "5.5.4",
+    "mujoco": "3.7.0",
+    "robosuite": "1.4.1"
+  },
+  "thresholds_applied": false,
+  "interruptions_allowed": false,
+  "ogg_allowed": false,
+  "retraining": false,
+  "normalization": "actual raw controller command -> same frozen policy preprocessor as training",
+  "control_capture": "underlying simulator step, excluding reset settling; outer vector input checked equal",
+  "clock": "Z_t before u_t, after u_(t-1) returns; sampled history t-20+[0,2,...,18]",
+  "baseline_root": "/root/autodl-tmp/corrector/object10/horizon_pilot_20261111_001",
+  "automatic_expansion": false,
+  "source_sha256": {
+    "corrector_executed_monitor.py": "07eb4fae4103d5ef5e91c0ae8d5de7b73b10f0a0bc2be1041a1cdcf41985fa3c",
+    "corrector_executed_pilot.py": "db3870933e62bb9d003c0486d9e903847cb3da107a1871b2e70b7e805d9e1482",
+    "corrector_hybrid.py": "37ee20aa471e6a8530114a7c0dddfaf19620ec309c09ebbef79a61bb7c4ecbee",
+    "corrector_hybrid_pilot.py": "3c42a8a8324888822f11b086c560c7d07cd3af5110491ebf8003864b026c61f7",
+    "corrector_online_runtime.py": "71549a22d96e6b559ac0a256cf523cf98f8d4bfbcd5fd9535be1c7aeb23f0118",
+    "corrector_models.py": "fa491d421b581425320279403a8d7dcbb970d8a0a3a2d32b4ab674a0ae2db168",
+    "corrector_train.py": "b2e06f181bd3dc4beee1bbe8fb215100d4664d0566a581fe2a864a15b6b496ca",
+    "corrector_data_workbench.py": "bb51dfae7c54bd61241c780be8929c056286dca66b142ff0fd95972060c30fe4",
+    "smolvla_horizon_pilot.py": "6f03efa535aab4cd36a2f45368683956ff9ddd075a698896b6713c4ffcf682eb",
+    "smolvla_baseline_benchmark.py": "ab26ae3ba25854b4966d209ece43f3edc5e94409bc644ff4826ecdf943f0e895",
+    "smolvla_libero_tools.py": "43d8c17b7242339d8456823ed3c47b8bb0eebd9445d2d960d3a67a24404039f4",
+    "smolvla_training_workbench.py": "bce2e5c77ebec1070008f28d163e0ab02fa4c98db6122a0fc2b8f1befe44e250",
+    "batch_evaluation.py": "1852a7a23fb48b346ce52efdc82fb6c4c9d60d3085a63662c0aabf63010fc941",
+    "corrector_online_practice.py": "5c076c017b086254ec63c3aa8089063d8fbae5840c01c3240f7a57afce99198f"
+  },
+  "annotation_status": "no independent per-window anomaly labels; outcome-stratified scores are not normal/anomaly truth"
+}

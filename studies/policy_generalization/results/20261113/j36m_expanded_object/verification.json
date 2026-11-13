@@ -1,0 +1,19 @@
+{
+  "replay_unittest": {
+    "tests": 55,
+    "passed": 52,
+    "skipped": 3,
+    "reason": "three pre-existing Torch checks need Torch; default system Python lacks it"
+  },
+  "expanded_and_retention_torch_env": {
+    "tests": 9,
+    "passed": 9
+  },
+  "browser": {
+    "real_checks": 2,
+    "page_errors": 0,
+    "temporary_server_closed": true
+  },
+  "raw_data_deleted": false,
+  "third_party_tracked_source_modified": false
+}

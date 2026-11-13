@@ -21,7 +21,7 @@ def csv_write(path,rows):
     if not rows:return
     fields=list(dict.fromkeys(k for row in rows for k in row))
     with path.open('w',newline='') as f:
-        writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader();writer.writerows(rows)
+        writer=csv.DictWriter(f,fieldnames=fields,lineterminator='\n');writer.writeheader();writer.writerows(rows)
 def mean(values):return statistics.mean(values) if values else None
 def finite(value):return isinstance(value,(int,float)) and math.isfinite(value)
 def wilson(k,n):

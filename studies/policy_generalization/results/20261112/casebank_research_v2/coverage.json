@@ -1,0 +1,5271 @@
+{
+  "created_utc": "2026-11-12T07:21:44.395441+00:00",
+  "runtime": {
+    "execution": {
+      "status": "paused",
+      "started_utc": "2026-11-12T06:44:07.599082+00:00",
+      "max_seconds": 28800.0,
+      "min_free_gib": 5,
+      "stop_file": "/root/robotlab_replay_casebank_20261112_003/results/STOP",
+      "wall_seconds": 1916.4885469079018,
+      "planned": 660,
+      "completed": 119,
+      "errors": 0,
+      "reason": "operator_stop_file"
+    },
+    "compute_processes": "",
+    "completed": 119,
+    "all_mean_episode_seconds": 16.094867221557166,
+    "recent_n": 30,
+    "recent_mean_seconds": 17.334330787385504,
+    "recent_median_seconds": 17.532009471207857,
+    "recent_mib_per_episode": 9.507197507222493,
+    "root_gib": 1.10633475612849,
+    "remaining_trials": 541,
+    "estimated_remaining_hours": 2.6049647099932103,
+    "estimated_remaining_gib": 5.022845558015009,
+    "estimated_total_gib": 6.129180314143499,
+    "completed_physical_states": 8,
+    "completed_seed_values": [
+      1000,
+      1001
+    ],
+    "phase_counts": {
+      "discovery_replay": 119
+    },
+    "method_counts": {
+      "H50": 8,
+      "H20": 8,
+      "mlp_ogg": 8,
+      "mlp_lvm": 8,
+      "transformer-h1_lvm": 8,
+      "transformer-h1_ogg": 8,
+      "transformer-h3_lvm": 8,
+      "transformer-h3_ogg": 8,
+      "transformer-a10-h1_lvm": 8,
+      "transformer-a10-h1_ogg": 8,
+      "transformer-a10-h3_lvm": 8,
+      "transformer-a10-h3_ogg": 8,
+      "hybrid_t1_a10_ogg": 8,
+      "planned_lvm": 8,
+      "executed_lvm": 7
+    },
+    "projection_limit": "最近30条的方法/难度与剩余不完全相同；字节为已写文件大小，非完整磁盘分配量；原4GiB保护可能先暂停"
+  },
+  "records": 3385,
+  "cohorts": {
+    "hybrid_pilot": 12,
+    "legacy_five_models": 720,
+    "consistency_closed_loop": 48,
+    "replay_casebank_20261112_001": 119,
+    "overnight_snapshot": 2486
+  },
+  "protocol_checks": {
+    "hybrid_pilot": {
+      "control_fps": 20,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "pairing": "same frozen cohort, task/init/eval seed; initial hashes additionally verified where recorded",
+      "cross_cohort_pooling": false
+    },
+    "legacy_five_models": {
+      "control_fps": 20,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "pairing": "same frozen cohort, task/init/eval seed; initial hashes additionally verified where recorded",
+      "cross_cohort_pooling": false
+    },
+    "consistency_closed_loop": {
+      "control_fps": 20,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "pairing": "same frozen cohort, task/init/eval seed; initial hashes additionally verified where recorded",
+      "cross_cohort_pooling": false
+    },
+    "replay_casebank_20261112_001": {
+      "control_fps": 20,
+      "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+      "pairing": "same frozen cohort, task/init/eval seed; initial hashes additionally verified where recorded",
+      "cross_cohort_pooling": false
+    }
+  },
+  "excluded": [],
+  "patterns": [
+    {
+      "cohort": "legacy_five_models",
+      "pattern": "000",
+      "cases": 4,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 4,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "3d8fb57260bb63141010",
+            "3e482a84c6a75e45d99c",
+            "1d6c4ab352f6d7f837c5"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "32372477c546e77e4943",
+            "2667ee609260cacd4ef3",
+            "7c2a602bd7e3b40e6493"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "2b6081cdc13120d67776",
+            "71f4d8132cdaf4a207fd",
+            "0f33eedaeb4201e8862c"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "2079d173a64e0adfdffb",
+            "1fac86047ac4f8985b3f",
+            "5f4e1c5d701837161964"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "pattern": "001",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1001
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "0daa84604688a33cddb4",
+            "12d6bfa5327932101a9d",
+            "54503ff66bee86ca3bc8"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1001,
+          "trials": [
+            "4475f7ceab5beae2dbeb",
+            "3b95d3c2114ede3874ea",
+            "d644444d088aac961099"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "111808c22b0b3a88100b",
+            "a7395c7058e17c0890ed",
+            "f0ae49446dd946d1c738"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "pattern": "010",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1001
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "9420ab1adbdc651d0d34",
+            "9e3325704e183e7b5183",
+            "9ad294ce27c77b8b872c"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "pattern": "011",
+      "cases": 8,
+      "physical_states": 5,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 8,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_5/init_0",
+          "seed": 1000,
+          "trials": [
+            "771ca2bb7dda7c15377c",
+            "987a3305009d00b35f1e",
+            "2bb53778d9221ecde7ba"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "35ba552d4478a02374fc",
+            "45d6f362ca8ccf0cba01",
+            "d9a447344ff8c75a43dd"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1001,
+          "trials": [
+            "0841917e6912cddebf0a",
+            "2367e5ebbd9ff96002f6",
+            "777f878db9304a03d9fd"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1001,
+          "trials": [
+            "37135ba7e306f40aa762",
+            "39c6425a935951a50921",
+            "903885182ff9b355b3b4"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_1",
+          "seed": 1000,
+          "trials": [
+            "5a3403da7ebe0bc88983",
+            "68b659caf58d9c6a9d9b",
+            "c763f2eb8cbd52ae616f"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1000,
+          "trials": [
+            "a09b52c595f004c1469a",
+            "f8b7dbcb915d69c956d5",
+            "e29589111409491719aa"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_1",
+          "seed": 1001,
+          "trials": [
+            "e82f479f282c12f24ebe",
+            "e9164d77a4aec4295a6c",
+            "eea0b847cc9954a47dda"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_5/init_0",
+          "seed": 1001,
+          "trials": [
+            "8aa0b18bb667438cb9bf",
+            "b34ccb39201d3c993f52",
+            "2c657d49db5947bf6fe5"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "pattern": "101",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "bbfebb56750c30ce9316",
+            "fc39a0aa62194c210f9b",
+            "663d67aa1afff6a58615"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "ce0b2e3828819432584f",
+            "2e5b629f409f670a2487",
+            "862b50fe28fc3bbaf322"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "pattern": "111",
+      "cases": 42,
+      "physical_states": 22,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 42,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "5e9ce268675f2fb87f2b",
+            "049b611eaa43ef9176e9",
+            "ad81ef58e73ce8680441"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "1c40ed3393186cea9cc3",
+            "144521fbc21c791b1391",
+            "720adbdd066177274e7e"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "2ee4c08ada01380b8fa5",
+            "4321694e5bd1a051514f",
+            "eca4a9f96a51e111f522"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "ecac8aff73abf714155f",
+            "27b1661aac48d1aea8eb",
+            "47dbcbb6c2664ebd6e32"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "0cfa1eae63a617922fc2",
+            "65e67e649b6a26133411",
+            "5f2399b6436c2d200c5c"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "eac749769f72fc091792",
+            "206fa8e65e05e5cd545d",
+            "af80d9f6592afda711ef"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "0dc25f967a6f59ab90ec",
+            "5dcde507d216b8907f4c",
+            "baefc3aeba709ccee3fb"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_8/init_2",
+          "seed": 1001,
+          "trials": [
+            "f5723af9e5b1c98b05ca",
+            "cc924ac6969973e82b14",
+            "766dde18d1205a8d40aa"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "pattern": "000",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "596bb2292addb0de4f38",
+            "041a371d0871ff99742d",
+            "2d928301775bc6bd3a0b"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "219c341dddcdddb378f7",
+            "c9d97417fac194e2fc92",
+            "a7ee41251818067dc37b"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "pattern": "001",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1001
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "265a07d41fd01407cbbf",
+            "4ff5cf2b4900e45e5740",
+            "89ac4c2b1bba635b70bb"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "7a958281069775bdf0d8",
+            "875ca90f8f08e2b9dca6",
+            "3f362eed5383cd9de941"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "pattern": "010",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1001
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "60c7a2d9b1984375a923",
+            "b2ff04157a5c63854bf5",
+            "61ad53fe79081fe47902"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "pattern": "011",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "de1c89bab0a9f6445e82",
+            "1dc945a5584357d47dcf",
+            "17b9efe03170cb2a51f8"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "pattern": "101",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "68143b48241af7fee63f",
+            "5b40c1891e62cc314cb8",
+            "5f9df1cfc2020cd1f8a5"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "pattern": "111",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "9cf379131fa801ac34bb",
+            "a2cf05d7dc3f32a45ba1",
+            "02b134f24ded3c3867a7"
+          ]
+        }
+      ]
+    }
+  ],
+  "pair_matrix": [
+    {
+      "cohort": "consistency_closed_loop",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "00",
+      "cases": 2,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1002,
+        1003
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_3",
+          "seed": 1003,
+          "trials": [
+            "ffd04a8d5d6f5e19a939",
+            "d2e40e315736535857cb"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_3",
+          "seed": 1002,
+          "trials": [
+            "a266b25c074c0db1c962",
+            "92129eaaccb1c7212387"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "consistency_closed_loop",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "01",
+      "cases": 2,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1002,
+        1003
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_3",
+          "seed": 1002,
+          "trials": [
+            "3bea8ad1d7139e8094c8",
+            "3d37d6dbeecdcd9bb49f"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_3",
+          "seed": 1003,
+          "trials": [
+            "81ea8a14dd1f31719b1b",
+            "2cde69b8e5bd12ca6586"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "consistency_closed_loop",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "11",
+      "cases": 8,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1002,
+        1003
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 8,
+      "cases_with_all_commands": 8,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 8,
+      "examples": [
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_4",
+          "seed": 1002,
+          "trials": [
+            "3194894ecfc22caa3fd0",
+            "bb878f2fe540ab571893"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_5",
+          "seed": 1002,
+          "trials": [
+            "c139eb36ceb102006950",
+            "1eb27790902966dabd66"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_5",
+          "seed": 1003,
+          "trials": [
+            "7fce9f33db592d511ca9",
+            "8bde3ed4f5806d05f41e"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_4",
+          "seed": 1002,
+          "trials": [
+            "2d65907db25b2018ca48",
+            "9d4ea1ae8f23fa0a16d7"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_4",
+          "seed": 1003,
+          "trials": [
+            "d0bc4e9cd207733587c4",
+            "240c1c5e537162ae04c7"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_4",
+          "seed": 1003,
+          "trials": [
+            "b223d1addaff92083ef5",
+            "82e31e93ac5f3a67f82c"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_5",
+          "seed": 1003,
+          "trials": [
+            "be6b6e8fd895c77afe37",
+            "82c41ebe476677d250ca"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_5",
+          "seed": 1002,
+          "trials": [
+            "66bbe2ddac62fdb5fb48",
+            "9bc4eb4faf7594611141"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "hybrid_pilot",
+      "comparison": "同T-H1检测器，不同引导器",
+      "a": "transformer-h1_ogg",
+      "b": "hybrid_t1_a10_ogg",
+      "outcome_a_b": "00",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "e074072d4f4ada4108fc",
+            "e6e8b93b527f99e20591"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "hybrid_pilot",
+      "comparison": "同T-H1检测器，不同引导器",
+      "a": "transformer-h1_ogg",
+      "b": "hybrid_t1_a10_ogg",
+      "outcome_a_b": "10",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "96538bfd4805d09d407d",
+            "058580bc958e130437a6"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "hybrid_pilot",
+      "comparison": "同T-H1检测器，不同引导器",
+      "a": "transformer-h1_ogg",
+      "b": "hybrid_t1_a10_ogg",
+      "outcome_a_b": "11",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "248789f7ad79113cb223",
+            "a3c140a09a9cc58dcaf3"
+          ]
+        },
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1000,
+          "trials": [
+            "724b237010b569d09539",
+            "792fe61fe1bda43b33b6"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "mlp_lvm",
+      "b": "mlp_ogg",
+      "outcome_a_b": "00",
+      "cases": 5,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "b5e3c31ec9365c471c0c",
+            "1d6c4ab352f6d7f837c5"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "64dbb76b09b30ed7e433",
+            "7c2a602bd7e3b40e6493"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "9fea273db2589ce4e422",
+            "0f33eedaeb4201e8862c"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "3b5d725ce5742cc7ed2f",
+            "9ad294ce27c77b8b872c"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "5fe92cf593bda15a606a",
+            "5f4e1c5d701837161964"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "mlp_lvm",
+      "b": "mlp_ogg",
+      "outcome_a_b": "11",
+      "cases": 55,
+      "physical_states": 29,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 55,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "4e1e63c07e47de8adc32",
+            "ad81ef58e73ce8680441"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "4627da7e4bcd909d4353",
+            "720adbdd066177274e7e"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "7469b9843cdd54ac0f93",
+            "eca4a9f96a51e111f522"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "7da2d1369a56f17cf554",
+            "47dbcbb6c2664ebd6e32"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "4c0572bba98d21cb1046",
+            "663d67aa1afff6a58615"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "35989ec56dadfe34cafb",
+            "5f2399b6436c2d200c5c"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "2e650eb809e7dc00265c",
+            "af80d9f6592afda711ef"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "4976bc33d1abba2115c1",
+            "baefc3aeba709ccee3fb"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-a10-h1_lvm",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 10,
+      "physical_states": 7,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 10,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "97b5d5c1703c8a5e8231",
+            "c8111185d9776b5188dd"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "2b0c9d07b7eb85b81a7e",
+            "7e193a25a1c470e4c200"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "e6929ce9d215946f57d9",
+            "121ac81ece3fbabdeabb"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1001,
+          "trials": [
+            "af631770ad87527ae556",
+            "9da29431804eb8105f81"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1001,
+          "trials": [
+            "b6af4be698fb69c85ba6",
+            "a520ed795dca940332f4"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "67bc3c270f9296553998",
+            "9e2de5726c394e259a4f"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "c0863cee83e2e17e28c5",
+            "5dd4139f97fb3b13b585"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "877907ffa6f59f64f4de",
+            "4142edf672109c156f59"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-a10-h1_lvm",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 50,
+      "physical_states": 27,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 50,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "e41b2fe50f377020864b",
+            "f8dc3ebadbcb7ad421b8"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "d1185967c061990d2f3a",
+            "9562a386ad02c40d2bd9"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "6dc5f2ec963df8d34de6",
+            "e52df08864deb0daf32e"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "b6678360e041eb8a809c",
+            "e468e43302ea8907a248"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "d1430cae37b6c7067b72",
+            "f69c03393ddbab0a8aa4"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "a7f532f3c02cb95be266",
+            "794788c1e2df3b96cff3"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "a13a74c54611fc676498",
+            "434550b06f14fe957887"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "c35f1d563f94cda12fce",
+            "367c81e5ae6a2fffcf36"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-a10-h3_lvm",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "00",
+      "cases": 9,
+      "physical_states": 7,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 9,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "af59775e3b45dd45ee26",
+            "3ad957e910b50b431e65"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "e7e917dca84fdc794873",
+            "85c5aa641a681c360027"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "3ed493801a556b16344c",
+            "3302c75a3fa04f4c21bc"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1001,
+          "trials": [
+            "966c2aef87043b00af7f",
+            "0d47657054d5f407cfd5"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "0d7648c840f1e54834ab",
+            "0357abf72b6f24a3cc3b"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "6ff324f38b196e834960",
+            "1fd6c31d86392948ffc4"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "fc867acb1c6ca0cda833",
+            "7a2134f858bcc58358b2"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "c7523b8da9b5ba11da35",
+            "18c1b5f86fde4da8555e"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-a10-h3_lvm",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "11",
+      "cases": 51,
+      "physical_states": 28,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 51,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "af6e89b73eaeff24b179",
+            "576c988e79755f1a1d27"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "df394f4a888ab8e19a81",
+            "f7868574cfbafef614f2"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "fe1cec0895e98a850b00",
+            "fcb66433a99a1eccb3a5"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "8df52cf1e48033faff9d",
+            "7400ca21a44e6dba8134"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "81a960c022cfc1806f73",
+            "100a848967c50f8c16dd"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "7cf30b99e71c28e17df8",
+            "7186ba03116a068062b6"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "e0e6ad31c840053ea80f",
+            "9d0d7dbaf18cbb693c5d"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "5a4404ab98a401cafe22",
+            "94be4ea3e07929f86700"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h1_lvm",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 5,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "d0d7f23c9355b41f43b9",
+            "4e741cc9bcaa8117a38c"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "aca8e5fa2a797f00d99a",
+            "19d8f47c32c1d40bd7a5"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1001,
+          "trials": [
+            "b92951096f951695e73b",
+            "2fb026e477c2d3e3af58"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "c973ef51c606d704d936",
+            "cf8c8fba14ad29c4fab1"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "d99f4a80b2e7802baeec",
+            "a42ad5eeaf8ce7a0b750"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h1_lvm",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 55,
+      "physical_states": 29,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 55,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "97b03df78c71d3362bf0",
+            "2f4bd747832e82a724df"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "2bd796bd6eea9376e1ea",
+            "110ab3ead8dd63eed7a1"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "5523274f0eff24022f1d",
+            "7e4e172cec4f40a617cf"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "74c83014cea08fc2d17c",
+            "39fdaa1f0741c2260b4b"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "06fb7333ac83da33e1c6",
+            "bc31b2b7ba4efbff062b"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "a535956c984d0429fe3b",
+            "3e43cc98c1a148d9b186"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "d182fea8a9e15c3e76db",
+            "7d8069f45f9eb64b8893"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "5361ef39d928f580ada7",
+            "f82575f0c7cd49bc8565"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h3_lvm",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "00",
+      "cases": 4,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 4,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "6f91e194e518cc5802c2",
+            "da63d0373185aa9774ee"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "b0703903a82feb43ee45",
+            "781ba3d8b9071296e11d"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "9c2ed7744587ce54e4f5",
+            "8ad371c78c126239afbc"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_5/init_0",
+          "seed": 1001,
+          "trials": [
+            "136c9102c41459eb4fa1",
+            "a75330b5a1340d5f1d21"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h3_lvm",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "11",
+      "cases": 56,
+      "physical_states": 29,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 56,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "4f5fbc34bacda7690b66",
+            "cb44a18b3df9a528bd13"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "f0d15434c1d2bd6a3591",
+            "dbbac642a679f21c8e4b"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "ee06713e861bc8d08c00",
+            "b84f890ffee1e8e36f59"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "d580d309a05704488180",
+            "0a5cad6c7e8bfccf31c7"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "272f6dacec6c40150851",
+            "c6fd1f881b2d9f5a2bf6"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "6fe7801f64d8dda71942",
+            "1bf2e7c9d6d0bb377f49"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "638a6cc01b68b811d9bc",
+            "eaddc8f29a5f77e49aea"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "244cb34f3ec293cf606b",
+            "b5d2ad13ff5e4161bb17"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 5,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "1d6c4ab352f6d7f837c5",
+            "c8111185d9776b5188dd"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "7c2a602bd7e3b40e6493",
+            "121ac81ece3fbabdeabb"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "0f33eedaeb4201e8862c",
+            "5dd4139f97fb3b13b585"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "9ad294ce27c77b8b872c",
+            "4142edf672109c156f59"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "5f4e1c5d701837161964",
+            "e18a2f2681f75d678e7e"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "10",
+      "cases": 5,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "d9a447344ff8c75a43dd",
+            "7e193a25a1c470e4c200"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1001,
+          "trials": [
+            "d644444d088aac961099",
+            "9da29431804eb8105f81"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1001,
+          "trials": [
+            "903885182ff9b355b3b4",
+            "a520ed795dca940332f4"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "f0ae49446dd946d1c738",
+            "9e2de5726c394e259a4f"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_5/init_0",
+          "seed": 1001,
+          "trials": [
+            "2c657d49db5947bf6fe5",
+            "e775daf66726c20d33cd"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 50,
+      "physical_states": 27,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 50,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "ad81ef58e73ce8680441",
+            "f8dc3ebadbcb7ad421b8"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "720adbdd066177274e7e",
+            "9562a386ad02c40d2bd9"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "eca4a9f96a51e111f522",
+            "e52df08864deb0daf32e"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "47dbcbb6c2664ebd6e32",
+            "e468e43302ea8907a248"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "663d67aa1afff6a58615",
+            "f69c03393ddbab0a8aa4"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "5f2399b6436c2d200c5c",
+            "794788c1e2df3b96cff3"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "af80d9f6592afda711ef",
+            "434550b06f14fe957887"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "baefc3aeba709ccee3fb",
+            "367c81e5ae6a2fffcf36"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "00",
+      "cases": 5,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "1d6c4ab352f6d7f837c5",
+            "3ad957e910b50b431e65"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "7c2a602bd7e3b40e6493",
+            "3302c75a3fa04f4c21bc"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "0f33eedaeb4201e8862c",
+            "1fd6c31d86392948ffc4"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "9ad294ce27c77b8b872c",
+            "7a2134f858bcc58358b2"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "5f4e1c5d701837161964",
+            "18c1b5f86fde4da8555e"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "10",
+      "cases": 4,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 4,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "d9a447344ff8c75a43dd",
+            "85c5aa641a681c360027"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1001,
+          "trials": [
+            "d644444d088aac961099",
+            "0d47657054d5f407cfd5"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "f0ae49446dd946d1c738",
+            "0357abf72b6f24a3cc3b"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_5/init_0",
+          "seed": 1001,
+          "trials": [
+            "2c657d49db5947bf6fe5",
+            "2e4ed50036ab4d1dade6"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "11",
+      "cases": 51,
+      "physical_states": 28,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 51,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "ad81ef58e73ce8680441",
+            "576c988e79755f1a1d27"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "720adbdd066177274e7e",
+            "f7868574cfbafef614f2"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "eca4a9f96a51e111f522",
+            "fcb66433a99a1eccb3a5"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "47dbcbb6c2664ebd6e32",
+            "7400ca21a44e6dba8134"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "663d67aa1afff6a58615",
+            "100a848967c50f8c16dd"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "5f2399b6436c2d200c5c",
+            "7186ba03116a068062b6"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "af80d9f6592afda711ef",
+            "9d0d7dbaf18cbb693c5d"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "baefc3aeba709ccee3fb",
+            "94be4ea3e07929f86700"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 4,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 4,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "1d6c4ab352f6d7f837c5",
+            "4e741cc9bcaa8117a38c"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "7c2a602bd7e3b40e6493",
+            "19d8f47c32c1d40bd7a5"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "0f33eedaeb4201e8862c",
+            "cf8c8fba14ad29c4fab1"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "5f4e1c5d701837161964",
+            "a42ad5eeaf8ce7a0b750"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "01",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1001
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "9ad294ce27c77b8b872c",
+            "f58ea1480461f53ffb0c"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "10",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1001
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1001,
+          "trials": [
+            "903885182ff9b355b3b4",
+            "2fb026e477c2d3e3af58"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 54,
+      "physical_states": 29,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 54,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "ad81ef58e73ce8680441",
+            "2f4bd747832e82a724df"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "720adbdd066177274e7e",
+            "110ab3ead8dd63eed7a1"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "eca4a9f96a51e111f522",
+            "7e4e172cec4f40a617cf"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "47dbcbb6c2664ebd6e32",
+            "39fdaa1f0741c2260b4b"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "663d67aa1afff6a58615",
+            "bc31b2b7ba4efbff062b"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "5f2399b6436c2d200c5c",
+            "3e43cc98c1a148d9b186"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "af80d9f6592afda711ef",
+            "7d8069f45f9eb64b8893"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "baefc3aeba709ccee3fb",
+            "f82575f0c7cd49bc8565"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "00",
+      "cases": 3,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "7c2a602bd7e3b40e6493",
+            "da63d0373185aa9774ee"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "0f33eedaeb4201e8862c",
+            "781ba3d8b9071296e11d"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1001,
+          "trials": [
+            "5f4e1c5d701837161964",
+            "8ad371c78c126239afbc"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "01",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "1d6c4ab352f6d7f837c5",
+            "e8cc1b3b61d2106212f9"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "9ad294ce27c77b8b872c",
+            "f8ce47f751820b3f739b"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "10",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1001
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_5/init_0",
+          "seed": 1001,
+          "trials": [
+            "2c657d49db5947bf6fe5",
+            "a75330b5a1340d5f1d21"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "11",
+      "cases": 54,
+      "physical_states": 29,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 54,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "ad81ef58e73ce8680441",
+            "cb44a18b3df9a528bd13"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "720adbdd066177274e7e",
+            "dbbac642a679f21c8e4b"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "eca4a9f96a51e111f522",
+            "b84f890ffee1e8e36f59"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "47dbcbb6c2664ebd6e32",
+            "0a5cad6c7e8bfccf31c7"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "663d67aa1afff6a58615",
+            "c6fd1f881b2d9f5a2bf6"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "5f2399b6436c2d200c5c",
+            "1bf2e7c9d6d0bb377f49"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "af80d9f6592afda711ef",
+            "eaddc8f29a5f77e49aea"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "baefc3aeba709ccee3fb",
+            "b5d2ad13ff5e4161bb17"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "overnight_snapshot",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h1_lvm",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 13,
+      "physical_states": 8,
+      "evaluation_seed_values": [
+        1004,
+        1005
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 0,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 13,
+      "examples": [
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_5/init_11",
+          "seed": 1005,
+          "trials": [
+            "overnight:043fe4da1bbb48d3b832",
+            "overnight:5fda585a677f9af760be"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_7/init_10",
+          "seed": 1004,
+          "trials": [
+            "overnight:2741fe581f89354621dd",
+            "overnight:0456ce23dd55195df083"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_5/init_11",
+          "seed": 1004,
+          "trials": [
+            "overnight:c354abe1097c34c021a7",
+            "overnight:050d75066d73757e7647"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_7/init_11",
+          "seed": 1005,
+          "trials": [
+            "overnight:0ebeb5a11645ff20fcf5",
+            "overnight:3e9bed0077edfcd07548"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_0/init_11",
+          "seed": 1005,
+          "trials": [
+            "overnight:1cc63259728a03faa07f",
+            "overnight:fc0558ac867735c70b09"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_7/init_12",
+          "seed": 1004,
+          "trials": [
+            "overnight:9c27d4c2f43f7c72b4d2",
+            "overnight:1d47fa57c8b11c9ac4a3"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_2/init_14",
+          "seed": 1005,
+          "trials": [
+            "overnight:247effb853a11c264e2d",
+            "overnight:71e2ab62174ae6bff321"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_7/init_12",
+          "seed": 1005,
+          "trials": [
+            "overnight:400eeb5a46f4501bc2f8",
+            "overnight:d86a8d5765ca68661e9a"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "overnight_snapshot",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h1_lvm",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "01",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1005
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 0,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_5/init_14",
+          "seed": 1005,
+          "trials": [
+            "overnight:b1b1356333ab03ea2f00",
+            "overnight:4372b89fb9165eff41b7"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "overnight_snapshot",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h1_lvm",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "10",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1005
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 0,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_0/init_10",
+          "seed": 1005,
+          "trials": [
+            "overnight:09b1031f75584a5ac363",
+            "overnight:9764d96fb21ab1198cea"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_0/init_12",
+          "seed": 1005,
+          "trials": [
+            "overnight:8b3096b7cc741dcdf4a7",
+            "overnight:b6293abba42c657dc78b"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "overnight_snapshot",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h1_lvm",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 84,
+      "physical_states": 45,
+      "evaluation_seed_values": [
+        1004,
+        1005
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 0,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 84,
+      "examples": [
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_1/init_11",
+          "seed": 1005,
+          "trials": [
+            "overnight:dea387de5e394e034083",
+            "overnight:000218151a9295fde356"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_4/init_10",
+          "seed": 1005,
+          "trials": [
+            "overnight:275f560a33149c1e76b0",
+            "overnight:07db76629cce2c22952a"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_3/init_11",
+          "seed": 1005,
+          "trials": [
+            "overnight:9e070795643299a6c041",
+            "overnight:0812d508f05845439098"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_6/init_11",
+          "seed": 1005,
+          "trials": [
+            "overnight:d478808ddcc1d45d7f7e",
+            "overnight:09d00dbd6b3fddcbc6dc"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_8/init_11",
+          "seed": 1005,
+          "trials": [
+            "overnight:09fa8b8556659df4e6d0",
+            "overnight:351651c05e530ea26cd5"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_0/init_14",
+          "seed": 1005,
+          "trials": [
+            "overnight:33658f895264a8ca8eb4",
+            "overnight:0ef6aec9f4b147aff646"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_1/init_10",
+          "seed": 1004,
+          "trials": [
+            "overnight:fdce26af4f6b0d98ef62",
+            "overnight:0fb635e334791cbeabca"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_6/init_14",
+          "seed": 1004,
+          "trials": [
+            "overnight:36d495c1296c1358feb6",
+            "overnight:11458a26ff22c51122d4"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "overnight_snapshot",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "00",
+      "cases": 80,
+      "physical_states": 56,
+      "evaluation_seed_values": [
+        1004,
+        1005
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 0,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 80,
+      "examples": [
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_2/init_25",
+          "seed": 1004,
+          "trials": [
+            "overnight:3b255ba8f6ae7ab4197e",
+            "overnight:f33906c0489ab1a31a9c"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_9/init_25",
+          "seed": 1005,
+          "trials": [
+            "overnight:bc2f5e9dabad93fbf38d",
+            "overnight:0027c30a7539c02a89d1"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_5/init_15",
+          "seed": 1005,
+          "trials": [
+            "overnight:d252c743479ef82bf9c1",
+            "overnight:0088d0bdb9f52232f8f8"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_4/init_35",
+          "seed": 1005,
+          "trials": [
+            "overnight:b4d2483d796888d76a44",
+            "overnight:a01826a7cd4abf9dedf2"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_3/init_16",
+          "seed": 1005,
+          "trials": [
+            "overnight:ea61db8d7ac1e8157553",
+            "overnight:7c5d31606803826e6d78"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_2/init_28",
+          "seed": 1005,
+          "trials": [
+            "overnight:09eba416d072e75c9ae2",
+            "overnight:621ad23f85538067ba13"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_4/init_29",
+          "seed": 1005,
+          "trials": [
+            "overnight:8aed7e19490774660b95",
+            "overnight:069c30c364694f53844a"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_1/init_25",
+          "seed": 1005,
+          "trials": [
+            "overnight:0713c8faa396f50b93cb",
+            "overnight:f8ee8767cab76ca5fa78"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "overnight_snapshot",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "01",
+      "cases": 55,
+      "physical_states": 36,
+      "evaluation_seed_values": [
+        1004,
+        1005
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 0,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 55,
+      "examples": [
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_1/init_15",
+          "seed": 1005,
+          "trials": [
+            "overnight:24223bfee3187c440740",
+            "overnight:ba1c37d637989dba9af5"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_7/init_16",
+          "seed": 1005,
+          "trials": [
+            "overnight:a1538bf62801090b537c",
+            "overnight:48a4ff2fd7e09d54adaa"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_0/init_15",
+          "seed": 1004,
+          "trials": [
+            "overnight:baed98427d9822df3c2e",
+            "overnight:89019ced05ae2d357cdc"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_7/init_20",
+          "seed": 1004,
+          "trials": [
+            "overnight:0be516efe36877723eb9",
+            "overnight:3f5151098db59026cf7b"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_9/init_14",
+          "seed": 1005,
+          "trials": [
+            "overnight:0cd8e8fa0e87a502c400",
+            "overnight:52915a0ce26edcee0502"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_5/init_32",
+          "seed": 1004,
+          "trials": [
+            "overnight:a8b05e46f635c748d4e0",
+            "overnight:0d781fb82779fd975154"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_2/init_34",
+          "seed": 1005,
+          "trials": [
+            "overnight:df29eb0d7da4f516f208",
+            "overnight:1e34d348c246f0e0a1f8"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_1/init_32",
+          "seed": 1004,
+          "trials": [
+            "overnight:5fadafe07b83a1093334",
+            "overnight:10ec532813809ea429ee"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "overnight_snapshot",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "10",
+      "cases": 14,
+      "physical_states": 13,
+      "evaluation_seed_values": [
+        1004,
+        1005
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 0,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 14,
+      "examples": [
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_6/init_25",
+          "seed": 1004,
+          "trials": [
+            "overnight:6035e4878a991609b5bc",
+            "overnight:078349ca4d7dc378ee42"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_5/init_14",
+          "seed": 1004,
+          "trials": [
+            "overnight:0e507d19b9f202e970a1",
+            "overnight:a03c4f4b798effd1c131"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_5/init_25",
+          "seed": 1005,
+          "trials": [
+            "overnight:bc674cdf968a6be24f2f",
+            "overnight:b4aaab62711d3be466cb"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_4/init_24",
+          "seed": 1005,
+          "trials": [
+            "overnight:10ec5fbd9890e0395dfc",
+            "overnight:74692c8c340df67a9ab4"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_6/init_21",
+          "seed": 1005,
+          "trials": [
+            "overnight:15424c4934eca6254d12",
+            "overnight:185816d3f8d8cda72ff3"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_6/init_18",
+          "seed": 1005,
+          "trials": [
+            "overnight:7e3e2b01bcb14c30fa52",
+            "overnight:22b06e2039fb05beb591"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_9/init_11",
+          "seed": 1004,
+          "trials": [
+            "overnight:29dc9073612ecf9341ca",
+            "overnight:f7478c8e9f55a2f36733"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_3/init_23",
+          "seed": 1004,
+          "trials": [
+            "overnight:63893d03e948350bd2be",
+            "overnight:2de1a44e33740553ee12"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "overnight_snapshot",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "11",
+      "cases": 422,
+      "physical_states": 231,
+      "evaluation_seed_values": [
+        1004,
+        1005
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 0,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 422,
+      "examples": [
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_7/init_31",
+          "seed": 1004,
+          "trials": [
+            "overnight:2df1f33202b378813eff",
+            "overnight:ec5ece8bf5454c077129"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_9/init_25",
+          "seed": 1004,
+          "trials": [
+            "overnight:d8f7080a9f35cd932c0c",
+            "overnight:658cd05f50f3484cab5b"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_0/init_31",
+          "seed": 1004,
+          "trials": [
+            "overnight:9b086589d64483997ae9",
+            "overnight:036d55973e47572fdec8"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_9/init_15",
+          "seed": 1004,
+          "trials": [
+            "overnight:b3e7112d66d7c9c50a0b",
+            "overnight:b0341e3cd91ea4d80445"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_8/init_16",
+          "seed": 1005,
+          "trials": [
+            "overnight:75337ee7aaef2b3163be",
+            "overnight:2a2428838ed242a3bc0a"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_2/init_11",
+          "seed": 1005,
+          "trials": [
+            "overnight:00a2e9dcf003deed7718",
+            "overnight:5adc531cc21ed726701f"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_7/init_31",
+          "seed": 1005,
+          "trials": [
+            "overnight:c119eead44c21f1532dd",
+            "overnight:00d1c026ec1206ce9e08"
+          ]
+        },
+        {
+          "cohort": "overnight_snapshot",
+          "condition": "libero_object/task_6/init_14",
+          "seed": 1005,
+          "trials": [
+            "overnight:ceabffc24ef2b5b57bf5",
+            "overnight:00d6e94ceae8930150bc"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "mlp_lvm",
+      "b": "mlp_ogg",
+      "outcome_a_b": "00",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 3,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "24938223f3b457fbb620",
+            "61ad53fe79081fe47902"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "84eec2f80d2789feed47",
+            "2d928301775bc6bd3a0b"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "0a9e3bccd43e475dcc49",
+            "a7ee41251818067dc37b"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "mlp_lvm",
+      "b": "mlp_ogg",
+      "outcome_a_b": "11",
+      "cases": 5,
+      "physical_states": 5,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 5,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 5,
+      "cases_with_numeric_ogg": 5,
+      "all_initial_hashes_verified": 5,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "10d2abd87284f29bec4e",
+            "02b134f24ded3c3867a7"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "d15cbbd6dd9d5a47ef40",
+            "89ac4c2b1bba635b70bb"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "bfcee23353ac6b11393a",
+            "3f362eed5383cd9de941"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "06ef27c14a0aaa22ab6b",
+            "17b9efe03170cb2a51f8"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "f50d991860138ec657ed",
+            "5f9df1cfc2020cd1f8a5"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-a10-h1_lvm",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 5,
+      "physical_states": 5,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 5,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 5,
+      "cases_with_numeric_ogg": 5,
+      "all_initial_hashes_verified": 5,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "75b620eeddf89481c284",
+            "d082bc9083548fcfe3f4"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "ce820fefc799f1ecb0aa",
+            "7b570342876fb1455bdd"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "6ee873aef8be518a9bf0",
+            "7134c65059839205166f"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "4b52fb590eafdbda35fd",
+            "775011d562c6d0397d9d"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "b94ebc0e6690d1e151af",
+            "65eb2f65e601facf67e2"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-a10-h1_lvm",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "f5c77a587402550b547f",
+            "b17c7470a0c6eb486968"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "86d9e04231fddb14b82e",
+            "dbd38b6e9f4f08156736"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "976aa2f56794c3479996",
+            "0e78dead9e93ac8b2907"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-a10-h3_lvm",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "00",
+      "cases": 5,
+      "physical_states": 5,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 5,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 5,
+      "cases_with_numeric_ogg": 5,
+      "all_initial_hashes_verified": 5,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "ab353d6297a107414efd",
+            "a94253623f98390019d0"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "381c76cf000f492a7ff7",
+            "fc7d4eeccae232d492ec"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "e2c85dab5eee29a5d8f0",
+            "4c07a166612d70ce31bd"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "cd7c211f4c989c70b9c1",
+            "e33f6acf7be32adad53f"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "17a71bc2d09437e2e0de",
+            "391d7b1abc6f00dff169"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-a10-h3_lvm",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "11",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "bdb555629b4c5d183302",
+            "dfb797b2ccd7f5115786"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "abe680df805cb1d81f01",
+            "55469c59f8d0aab69b12"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "d551cef375f435dfa9c7",
+            "646c622f030e9226a73d"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h1_lvm",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "c4eae29bbd1e955e1d06",
+            "67b36ef9f57dfb14bdc9"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "7dddf7b6d6327486ef5b",
+            "e3ec122f0f2a940abd56"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h1_lvm",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 6,
+      "physical_states": 6,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 6,
+      "cases_with_all_traces": 6,
+      "cases_with_all_commands": 6,
+      "cases_with_numeric_ogg": 6,
+      "all_initial_hashes_verified": 6,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "45e1da3e2273f182e343",
+            "c367a03dded66571a50d"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "9e248b99e244d24efac7",
+            "4da5e1ca137d2bdbaef5"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "e5b33df42a3c7ee7a0da",
+            "8cd768d6b5af47bfc98e"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "b86881754505c8a45eba",
+            "145b3fa037f7df3d32e5"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "88cfe9ce86b5e0f790c5",
+            "852c88368c378f6a49fa"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "fe3d3cfd85a4918ccab3",
+            "a02a04ede9d80d551a0a"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h3_lvm",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "00",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "29051766f9557189a0ca",
+            "f1269540e7471f914cb6"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h3_lvm",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "10",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "701ec7d1cbc2fd735df8",
+            "6b2608c529c2bbad5f57"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "8c5b2ffa873230dcd26b",
+            "051080a34a64b28db4cb"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "LVM vs OGG",
+      "a": "transformer-h3_lvm",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "11",
+      "cases": 5,
+      "physical_states": 5,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 5,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 5,
+      "cases_with_numeric_ogg": 5,
+      "all_initial_hashes_verified": 5,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "758c484190f22481f6c8",
+            "b4f358ed7aaf954ade03"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "c54db11a90779bd87323",
+            "6c17dc20942c88adb75e"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "cf63b56cb0436d4bbeb1",
+            "b3af7b993e457c880c21"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "9e4c793b650f597fa910",
+            "02733eaa2713f84f251e"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "52f59ccac97fe7d710ee",
+            "f3d0a8ad3348d2ac4ee8"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "同T-H1检测器，不同引导器",
+      "a": "transformer-h1_ogg",
+      "b": "hybrid_t1_a10_ogg",
+      "outcome_a_b": "00",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "67b36ef9f57dfb14bdc9",
+            "1cd4cd33f76d9e27c1fe"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "e3ec122f0f2a940abd56",
+            "1ae65bd40fd1536ae74b"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "同T-H1检测器，不同引导器",
+      "a": "transformer-h1_ogg",
+      "b": "hybrid_t1_a10_ogg",
+      "outcome_a_b": "10",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "145b3fa037f7df3d32e5",
+            "2015fce2070622fb5b56"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "同T-H1检测器，不同引导器",
+      "a": "transformer-h1_ogg",
+      "b": "hybrid_t1_a10_ogg",
+      "outcome_a_b": "11",
+      "cases": 5,
+      "physical_states": 5,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 5,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 5,
+      "cases_with_numeric_ogg": 5,
+      "all_initial_hashes_verified": 5,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "c367a03dded66571a50d",
+            "4cbed9cd03b2d0243739"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "4da5e1ca137d2bdbaef5",
+            "d2d2332bd6aa679e000f"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "8cd768d6b5af47bfc98e",
+            "bcd5652678b144a39312"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "852c88368c378f6a49fa",
+            "79949ee6977e742d6244"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "a02a04ede9d80d551a0a",
+            "16abf0a2c335a2793fa2"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "00",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "b635d9435a2b42c49b7d",
+            "eba9074017b9a24b1d7f"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "01",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "e371c2c343d36e04bb3c",
+            "0b45541ac8a82e9e864b"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "d272dc5427c369850acc",
+            "b78f17388c28b34b7593"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "609d9af630aed57e3cf0",
+            "7b8e7390bf197911bf0d"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "规划 vs 已执行监测",
+      "a": "planned_lvm",
+      "b": "executed_lvm",
+      "outcome_a_b": "11",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "48d0521e3bfe35edeae0",
+            "be2ecafd67285daa03f2"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "4163af02a229367cc532",
+            "7377ed29206bdf66debc"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "d8d8d7eace262221893c",
+            "392ed1f4b13a5060c269"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 3,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "61ad53fe79081fe47902",
+            "7134c65059839205166f"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "2d928301775bc6bd3a0b",
+            "775011d562c6d0397d9d"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "a7ee41251818067dc37b",
+            "65eb2f65e601facf67e2"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "10",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "3f362eed5383cd9de941",
+            "d082bc9083548fcfe3f4"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "17b9efe03170cb2a51f8",
+            "7b570342876fb1455bdd"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 3,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "02b134f24ded3c3867a7",
+            "b17c7470a0c6eb486968"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "89ac4c2b1bba635b70bb",
+            "dbd38b6e9f4f08156736"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "5f9df1cfc2020cd1f8a5",
+            "0e78dead9e93ac8b2907"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "00",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 3,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "61ad53fe79081fe47902",
+            "4c07a166612d70ce31bd"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "2d928301775bc6bd3a0b",
+            "e33f6acf7be32adad53f"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "a7ee41251818067dc37b",
+            "391d7b1abc6f00dff169"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "10",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "3f362eed5383cd9de941",
+            "a94253623f98390019d0"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "17b9efe03170cb2a51f8",
+            "fc7d4eeccae232d492ec"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-a10-h3_ogg",
+      "outcome_a_b": "11",
+      "cases": 3,
+      "physical_states": 3,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 3,
+      "cases_with_all_traces": 3,
+      "cases_with_all_commands": 3,
+      "cases_with_numeric_ogg": 3,
+      "all_initial_hashes_verified": 3,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "02b134f24ded3c3867a7",
+            "dfb797b2ccd7f5115786"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "89ac4c2b1bba635b70bb",
+            "55469c59f8d0aab69b12"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "5f9df1cfc2020cd1f8a5",
+            "646c622f030e9226a73d"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "00",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "2d928301775bc6bd3a0b",
+            "67b36ef9f57dfb14bdc9"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "a7ee41251818067dc37b",
+            "e3ec122f0f2a940abd56"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "01",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1001
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "61ad53fe79081fe47902",
+            "852c88368c378f6a49fa"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h1_ogg",
+      "outcome_a_b": "11",
+      "cases": 5,
+      "physical_states": 5,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 5,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 5,
+      "cases_with_numeric_ogg": 5,
+      "all_initial_hashes_verified": 5,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "02b134f24ded3c3867a7",
+            "c367a03dded66571a50d"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "89ac4c2b1bba635b70bb",
+            "4da5e1ca137d2bdbaef5"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "3f362eed5383cd9de941",
+            "8cd768d6b5af47bfc98e"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "17b9efe03170cb2a51f8",
+            "145b3fa037f7df3d32e5"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "5f9df1cfc2020cd1f8a5",
+            "a02a04ede9d80d551a0a"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "00",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 2,
+      "cases_with_numeric_ogg": 2,
+      "all_initial_hashes_verified": 2,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "61ad53fe79081fe47902",
+            "051080a34a64b28db4cb"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "a7ee41251818067dc37b",
+            "f1269540e7471f914cb6"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "01",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "2d928301775bc6bd3a0b",
+            "02733eaa2713f84f251e"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "10",
+      "cases": 1,
+      "physical_states": 1,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 1,
+      "cases_with_all_commands": 1,
+      "cases_with_numeric_ogg": 1,
+      "all_initial_hashes_verified": 1,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "17b9efe03170cb2a51f8",
+            "6b2608c529c2bbad5f57"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "comparison": "预测器 vs MLP OGG",
+      "a": "mlp_ogg",
+      "b": "transformer-h3_ogg",
+      "outcome_a_b": "11",
+      "cases": 4,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 4,
+      "cases_with_all_traces": 4,
+      "cases_with_all_commands": 4,
+      "cases_with_numeric_ogg": 4,
+      "all_initial_hashes_verified": 4,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "02b134f24ded3c3867a7",
+            "b4f358ed7aaf954ade03"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1001,
+          "trials": [
+            "89ac4c2b1bba635b70bb",
+            "6c17dc20942c88adb75e"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "3f362eed5383cd9de941",
+            "b3af7b993e457c880c21"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "5f9df1cfc2020cd1f8a5",
+            "f3d0a8ad3348d2ac4ee8"
+          ]
+        }
+      ]
+    }
+  ],
+  "phenomena": [
+    {
+      "cohort": "consistency_closed_loop",
+      "phenomenon": "至少10步无评分",
+      "cases": 12,
+      "physical_states": 6,
+      "evaluation_seed_values": [
+        1002,
+        1003
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 12,
+      "cases_with_all_commands": 12,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 12,
+      "examples": [
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_3",
+          "seed": 1002,
+          "trials": [
+            "3bea8ad1d7139e8094c8"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_3",
+          "seed": 1003,
+          "trials": [
+            "ffd04a8d5d6f5e19a939"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_4",
+          "seed": 1002,
+          "trials": [
+            "2d65907db25b2018ca48"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_5",
+          "seed": 1003,
+          "trials": [
+            "7fce9f33db592d511ca9"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_4",
+          "seed": 1003,
+          "trials": [
+            "b223d1addaff92083ef5"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_4",
+          "seed": 1002,
+          "trials": [
+            "3194894ecfc22caa3fd0"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_5",
+          "seed": 1002,
+          "trials": [
+            "66bbe2ddac62fdb5fb48"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_5",
+          "seed": 1003,
+          "trials": [
+            "be6b6e8fd895c77afe37"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "consistency_closed_loop",
+      "phenomenon": "触发重规划后最终仍失败",
+      "cases": 6,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1002,
+        1003
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 6,
+      "cases_with_all_commands": 6,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 6,
+      "examples": [
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_3",
+          "seed": 1002,
+          "trials": [
+            "3bea8ad1d7139e8094c8"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_3",
+          "seed": 1003,
+          "trials": [
+            "ffd04a8d5d6f5e19a939"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_1/init_3",
+          "seed": 1003,
+          "trials": [
+            "81ea8a14dd1f31719b1b"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_3",
+          "seed": 1003,
+          "trials": [
+            "d2e40e315736535857cb"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_3",
+          "seed": 1002,
+          "trials": [
+            "92129eaaccb1c7212387"
+          ]
+        },
+        {
+          "cohort": "consistency_closed_loop",
+          "condition": "libero_object/task_9/init_3",
+          "seed": 1002,
+          "trials": [
+            "a266b25c074c0db1c962"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "hybrid_pilot",
+      "phenomenon": "至少10步无评分",
+      "cases": 4,
+      "physical_states": 4,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 1,
+      "cases_with_all_traces": 4,
+      "cases_with_all_commands": 4,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 4,
+      "examples": [
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "2190a1860613dda7caf7"
+          ]
+        },
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "644c926139ea661a70c1"
+          ]
+        },
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_1/init_2",
+          "seed": 1000,
+          "trials": [
+            "30dd9d62f04ce6033322"
+          ]
+        },
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "1dfab103b36636232dec"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "hybrid_pilot",
+      "phenomenon": "触发重规划后最终仍失败",
+      "cases": 5,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000
+      ],
+      "evaluation_seed_value_count": 1,
+      "local_complete_cases": 2,
+      "cases_with_all_traces": 5,
+      "cases_with_all_commands": 5,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 5,
+      "examples": [
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "058580bc958e130437a6"
+          ]
+        },
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "e6e8b93b527f99e20591"
+          ]
+        },
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "2190a1860613dda7caf7"
+          ]
+        },
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "1dfab103b36636232dec"
+          ]
+        },
+        {
+          "cohort": "hybrid_pilot",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "e074072d4f4ada4108fc"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "phenomenon": "每100步至少5次中断（非过触发真值）",
+      "cases": 2,
+      "physical_states": 2,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 2,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "781ba3d8b9071296e11d"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_5/init_0",
+          "seed": 1001,
+          "trials": [
+            "a75330b5a1340d5f1d21"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "phenomenon": "至少10步无评分",
+      "cases": 240,
+      "physical_states": 30,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 240,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_0",
+          "seed": 1001,
+          "trials": [
+            "f8dc3ebadbcb7ad421b8"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_2",
+          "seed": 1001,
+          "trials": [
+            "d1185967c061990d2f3a"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_4/init_2",
+          "seed": 1001,
+          "trials": [
+            "e52df08864deb0daf32e"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_0",
+          "seed": 1001,
+          "trials": [
+            "e468e43302ea8907a248"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1000,
+          "trials": [
+            "d1430cae37b6c7067b72"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_0",
+          "seed": 1001,
+          "trials": [
+            "794788c1e2df3b96cff3"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_6/init_1",
+          "seed": 1000,
+          "trials": [
+            "a13a74c54611fc676498"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_3/init_1",
+          "seed": 1000,
+          "trials": [
+            "c35f1d563f94cda12fce"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "legacy_five_models",
+      "phenomenon": "触发重规划后最终仍失败",
+      "cases": 66,
+      "physical_states": 7,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 0,
+      "cases_with_all_traces": 66,
+      "cases_with_all_commands": 0,
+      "cases_with_numeric_ogg": 0,
+      "all_initial_hashes_verified": 0,
+      "examples": [
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "97b5d5c1703c8a5e8231"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "2b0c9d07b7eb85b81a7e"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "121ac81ece3fbabdeabb"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_9/init_1",
+          "seed": 1001,
+          "trials": [
+            "af631770ad87527ae556"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1001,
+          "trials": [
+            "a520ed795dca940332f4"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "9e2de5726c394e259a4f"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1000,
+          "trials": [
+            "e6929ce9d215946f57d9"
+          ]
+        },
+        {
+          "cohort": "legacy_five_models",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "5dd4139f97fb3b13b585"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "phenomenon": "至少10步无评分",
+      "cases": 40,
+      "physical_states": 8,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 40,
+      "cases_with_all_traces": 40,
+      "cases_with_all_commands": 40,
+      "cases_with_numeric_ogg": 14,
+      "all_initial_hashes_verified": 40,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_0",
+          "seed": 1000,
+          "trials": [
+            "dfb797b2ccd7f5115786"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "ab353d6297a107414efd"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "6ee873aef8be518a9bf0"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "1e810bc03bc7d1047b7a"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "7134c65059839205166f"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "646c622f030e9226a73d"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_0",
+          "seed": 1000,
+          "trials": [
+            "d8d8d7eace262221893c"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "775011d562c6d0397d9d"
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "replay_casebank_20261112_001",
+      "phenomenon": "触发重规划后最终仍失败",
+      "cases": 42,
+      "physical_states": 6,
+      "evaluation_seed_values": [
+        1000,
+        1001
+      ],
+      "evaluation_seed_value_count": 2,
+      "local_complete_cases": 42,
+      "cases_with_all_traces": 42,
+      "cases_with_all_commands": 42,
+      "cases_with_numeric_ogg": 21,
+      "all_initial_hashes_verified": 42,
+      "examples": [
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_7/init_2",
+          "seed": 1001,
+          "trials": [
+            "ab353d6297a107414efd"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "6ee873aef8be518a9bf0"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "7134c65059839205166f"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_0/init_2",
+          "seed": 1001,
+          "trials": [
+            "24938223f3b457fbb620"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_1/init_0",
+          "seed": 1000,
+          "trials": [
+            "2015fce2070622fb5b56"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "7dddf7b6d6327486ef5b"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_2/init_2",
+          "seed": 1000,
+          "trials": [
+            "eba9074017b9a24b1d7f"
+          ]
+        },
+        {
+          "cohort": "replay_casebank_20261112_001",
+          "condition": "libero_object/task_9/init_2",
+          "seed": 1000,
+          "trials": [
+            "84eec2f80d2789feed47"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "同一物理task/init的不同seed不算不同场景",
+    "不同cohort不合并为一次严格配对",
+    "评测seed唯一值不等于独立物理场景数",
+    "旧结果缺首输入/噪声SHA时只报告冻结协议匹配",
+    "历史归档中的重复基线只取固定MLP组；跨队列重复不汇总成功率",
+    "缺少异常/接触等逐步真值，不能把未触发称漏检或频繁触发称误报",
+    "夜间快照没有逐步trace/动作/本地视频，不能冒充完整回放",
+    "Case Bank没有多层视觉特征；事件NPZ是现有单表示，不能替代多层缓存"
+  ],
+  "trace_proxy_definitions": {
+    "long_gap_steps": 10,
+    "control_fps": 20,
+    "dense_interruptions_per_100_steps": 5,
+    "abnormality_ground_truth_available": false
+  },
+  "casebank_plan_sha256": "bb06a848c6376f91ec6df292d614e853d68a78a687f98185272ea7bb75384ed9",
+  "legacy_baseline_groups_verified_equal": 120
+}

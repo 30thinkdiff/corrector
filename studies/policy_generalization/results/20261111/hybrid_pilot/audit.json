@@ -1,0 +1,109 @@
+{
+  "status": "verified",
+  "natural_trials": 12,
+  "forced_checks": 3,
+  "errors": 0,
+  "checkpoint_sha_unchanged_reported": true,
+  "paired_initial_conditions_verified": true,
+  "AB_prefix_actions_scores_and_first_target_equal_cases": 4,
+  "historical_reproduced_cases": [
+    {
+      "configuration": "A",
+      "condition": "libero_object/task_1/init_0",
+      "matched_metrics": [
+        "success",
+        "env_steps",
+        "chunk_calls",
+        "event_replans",
+        "guidance_calls"
+      ]
+    },
+    {
+      "configuration": "A",
+      "condition": "libero_object/task_1/init_2",
+      "matched_metrics": [
+        "success",
+        "env_steps",
+        "chunk_calls",
+        "event_replans",
+        "guidance_calls"
+      ]
+    },
+    {
+      "configuration": "A",
+      "condition": "libero_object/task_9/init_0",
+      "matched_metrics": [
+        "success",
+        "env_steps",
+        "chunk_calls",
+        "event_replans",
+        "guidance_calls"
+      ]
+    },
+    {
+      "configuration": "A",
+      "condition": "libero_object/task_9/init_2",
+      "matched_metrics": [
+        "success",
+        "env_steps",
+        "chunk_calls",
+        "event_replans",
+        "guidance_calls"
+      ]
+    },
+    {
+      "configuration": "C",
+      "condition": "libero_object/task_1/init_0",
+      "matched_metrics": [
+        "success",
+        "env_steps",
+        "chunk_calls",
+        "event_replans",
+        "guidance_calls"
+      ]
+    },
+    {
+      "configuration": "C",
+      "condition": "libero_object/task_1/init_2",
+      "matched_metrics": [
+        "success",
+        "env_steps",
+        "chunk_calls",
+        "event_replans",
+        "guidance_calls"
+      ]
+    },
+    {
+      "configuration": "C",
+      "condition": "libero_object/task_9/init_0",
+      "matched_metrics": [
+        "success",
+        "env_steps",
+        "chunk_calls",
+        "event_replans",
+        "guidance_calls"
+      ]
+    },
+    {
+      "configuration": "C",
+      "condition": "libero_object/task_9/init_2",
+      "matched_metrics": [
+        "success",
+        "env_steps",
+        "chunk_calls",
+        "event_replans",
+        "guidance_calls"
+      ]
+    }
+  ],
+  "formal_guidance_calls": 156,
+  "formal_trigger_events": 39,
+  "video_and_target_tensor_bytes_verified_locally": false,
+  "causal_limits": [
+    "four conditions, one extra failure, no population-level superiority claim",
+    "B-C changes scores and detector-generated target as well as coverage",
+    "loss values of distinct learned predictors are not interchangeable quality scores",
+    "post-first-event trajectories differ; aggregate gradient means are not matched counterfactuals"
+  ],
+  "bundle_sha256": "1b90d6dab2277932173accbd3c55b8edd6289b94445af3bf24831128597ac3bf"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-11T11:05:42.789122+00:00",
+  "max_seconds": 3600,
+  "min_free_gib": 5,
+  "stop_file": "/root/autodl-tmp/corrector/object10/hybrid_pilot_20261111_001/STOP",
+  "wall_seconds": 185.44045681506395,
+  "planned": 12,
+  "completed": 12,
+  "errors": 0,
+  "reason": "all_planned_trials_completed"
+}

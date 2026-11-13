@@ -1,0 +1,535 @@
+{
+  "review_id": "casebank_research_20261112_v2",
+  "status": "review_complete_no_new_gpu_queue",
+  "goal": "representative replay mechanisms, not unbiased population success rates",
+  "parent_study_id": "replay_casebank_20261112_001",
+  "preserve_original_plan_and_stop": true,
+  "original_660_plan_sha256": "bb06a848c6376f91ec6df292d614e853d68a78a687f98185272ea7bb75384ed9",
+  "coverage_file_sha256": "eda185555a33c83c0cc2c3443bc684820b7c891d6e2f4029b58ec521bd574870",
+  "original_selection_sha256": "13f6c89374adeedce2bee73b253d2f5499a303cb9d0f2af98bf1540f483be9b4",
+  "completed_retained_trials": 119,
+  "selected_review_trials": 43,
+  "selected_review_trial_ids": [
+    "027847492da4daad02ac",
+    "0c8c5247847e02c60b15",
+    "0d128ffdd3716c514b4f",
+    "14816b962c9636b9a7ce",
+    "14b22b4b85074a227811",
+    "19048e567e9ad89e0046",
+    "19ae490df0f691a4a028",
+    "248bab33c639ad788568",
+    "25049141fbcae62e6789",
+    "2a2c9f49943072ba15c6",
+    "2b8a237377d6bbdc9d6e",
+    "44048697fed051ec1f98",
+    "5490769901503996a3f4",
+    "57ba058e1ec61b7701fd",
+    "6236cf12b6b28dbc68cf",
+    "624837b6774ceaa4724b",
+    "66d804a0609a578c066c",
+    "6a042871c80ae632da02",
+    "6dd1ffa017724eb600f8",
+    "738d27836707f568bee6",
+    "739d9e7baecc1dcf913f",
+    "770ca4de59304c869e6c",
+    "8f56f7b96f76d95271c0",
+    "91b96596c76aeba7a445",
+    "9486b5c9a5ef38ea3548",
+    "a52e3f89257f09a94bf0",
+    "a83eb3fdeaf9e06a803b",
+    "a8d352770298febbe9f1",
+    "cb16f97ae71faf04e99b",
+    "cb8d3218e8578cee1122",
+    "cce2635ac7515684508e",
+    "d0bf0ae48233338052b0",
+    "d729eb719efef5dd4c34",
+    "dc78586c01931ba706ef",
+    "e323f491da65b78c6599",
+    "e70ec08e518c8383b391",
+    "ed7a01b5adb81a927e9e",
+    "ef4ab0223ee568aac214",
+    "f42597c8d7f8317e0fef",
+    "f554eb3e9764c41de59f",
+    "fa8375c139c7369c9636",
+    "faa9c580a3b428c6d75c",
+    "fe287c440f07607935f6"
+  ],
+  "selected_local_replay_ids": [
+    "02733eaa2713f84f251e",
+    "02b134f24ded3c3867a7",
+    "041a371d0871ff99742d",
+    "051080a34a64b28db4cb",
+    "0b45541ac8a82e9e864b",
+    "145b3fa037f7df3d32e5",
+    "17b9efe03170cb2a51f8",
+    "1dc945a5584357d47dcf",
+    "2015fce2070622fb5b56",
+    "219c341dddcdddb378f7",
+    "265a07d41fd01407cbbf",
+    "2d928301775bc6bd3a0b",
+    "3f362eed5383cd9de941",
+    "4ff5cf2b4900e45e5740",
+    "596bb2292addb0de4f38",
+    "5b40c1891e62cc314cb8",
+    "5f9df1cfc2020cd1f8a5",
+    "60c7a2d9b1984375a923",
+    "61ad53fe79081fe47902",
+    "68143b48241af7fee63f",
+    "6b2608c529c2bbad5f57",
+    "6ee873aef8be518a9bf0",
+    "701ec7d1cbc2fd735df8",
+    "7a958281069775bdf0d8",
+    "7b570342876fb1455bdd",
+    "852c88368c378f6a49fa",
+    "875ca90f8f08e2b9dca6",
+    "89ac4c2b1bba635b70bb",
+    "8c5b2ffa873230dcd26b",
+    "9cf379131fa801ac34bb",
+    "a2cf05d7dc3f32a45ba1",
+    "a7ee41251818067dc37b",
+    "a94253623f98390019d0",
+    "ab353d6297a107414efd",
+    "b2ff04157a5c63854bf5",
+    "b78f17388c28b34b7593",
+    "c9d97417fac194e2fc92",
+    "d082bc9083548fcfe3f4",
+    "d272dc5427c369850acc",
+    "de1c89bab0a9f6445e82",
+    "dfb797b2ccd7f5115786",
+    "e371c2c343d36e04bb3c",
+    "fc7d4eeccae232d492ec"
+  ],
+  "all_completed_trial_ids": [
+    "027847492da4daad02ac",
+    "0632c9a8d6020c26b56d",
+    "08c972eec185a404f5e7",
+    "090ae04eef97c09fbf45",
+    "0c8c5247847e02c60b15",
+    "0d128ffdd3716c514b4f",
+    "0fb3fd6774e32de16988",
+    "14816b962c9636b9a7ce",
+    "14b22b4b85074a227811",
+    "15b1049b511a9b3d8401",
+    "19048e567e9ad89e0046",
+    "19ae490df0f691a4a028",
+    "202529a18e8682c60b77",
+    "21cc53bd129718fd8939",
+    "248bab33c639ad788568",
+    "25049141fbcae62e6789",
+    "27acba0210f103c33bc6",
+    "28567c291fa03ad3fb82",
+    "29c21b4c58215199c424",
+    "2a2c9f49943072ba15c6",
+    "2b8a237377d6bbdc9d6e",
+    "2c1971bf55529578fcbe",
+    "33210b7c3932b7af282c",
+    "35e6f5900780447a8595",
+    "380bd7f52807906e29b2",
+    "3a9e22c11f01cea856fb",
+    "3d16d2ca6f16ea90d2bb",
+    "3fb15ddcba76f64f1bec",
+    "44048697fed051ec1f98",
+    "4a224b891c9a95af3ddc",
+    "4d2f3f3bbfce9fbd8ed7",
+    "502e0dffe4a02656f04d",
+    "51e48c8dbcc467c0104a",
+    "5490769901503996a3f4",
+    "54d8340912c12a665533",
+    "54dc163c9d0df18caa75",
+    "57ba058e1ec61b7701fd",
+    "594559bfd094cf353a65",
+    "5cb52227c1f2c2c5881f",
+    "613b48e9e3a59ddccacb",
+    "6236cf12b6b28dbc68cf",
+    "624837b6774ceaa4724b",
+    "657d10dff93f46e3f843",
+    "66a20b8f060ed618e921",
+    "66d804a0609a578c066c",
+    "6a042871c80ae632da02",
+    "6b61a891d57085b3b2ad",
+    "6dd1ffa017724eb600f8",
+    "6fbb9ea5c9f62952d5a7",
+    "71b6ec21d937a79d164f",
+    "738d27836707f568bee6",
+    "739d9e7baecc1dcf913f",
+    "770ca4de59304c869e6c",
+    "7783def0e9e63df55c54",
+    "77cf4dec491de1960743",
+    "7a9153ac0b68ea4e971d",
+    "7bf03395b85564c02a9c",
+    "80b650ade25da8d0e1d1",
+    "8aac317d118821d1b973",
+    "8b8e944def8090f96931",
+    "8ccbd1027a950a5ffe27",
+    "8ecea549e11d083f5334",
+    "8f56f7b96f76d95271c0",
+    "912a3ea07a44fa4d9275",
+    "91b96596c76aeba7a445",
+    "9486b5c9a5ef38ea3548",
+    "9b41e8a8e9b63c3e8f3b",
+    "9c99bcb5dcce78b0a605",
+    "a52e3f89257f09a94bf0",
+    "a59e805e5c1b29b13dd9",
+    "a673396d77a26427e746",
+    "a83eb3fdeaf9e06a803b",
+    "a8d352770298febbe9f1",
+    "a9e53f660eff6e12749e",
+    "aa73a8be3790206f6671",
+    "ac291eb31d77c7e949bb",
+    "af434c58679b41a6e065",
+    "b35b57ddb704e758e664",
+    "b47800551e86f1705e88",
+    "b4eb8183fba1fbd08dbd",
+    "b525fe8c199db6951106",
+    "be1ac2dec2288a195873",
+    "bf100f9204b6de54ea92",
+    "bff99961ae87dcaa01b3",
+    "c287520f1e969bf0b084",
+    "c5f33d7bba2c0100d4f8",
+    "c63c994897cdd4523a49",
+    "c66d4cb196b66a622379",
+    "caab601d0b1ad4a14c81",
+    "cb16f97ae71faf04e99b",
+    "cb8d3218e8578cee1122",
+    "cce2635ac7515684508e",
+    "cef916474fa8ceafaedf",
+    "cfad7aa803d32a4293b5",
+    "d0bf0ae48233338052b0",
+    "d0d04c2525538b908559",
+    "d1034dd076dcbffa7d2e",
+    "d729eb719efef5dd4c34",
+    "d9d1b1698906b04da0f5",
+    "dc78586c01931ba706ef",
+    "e0bce13fbc2a51f76e6b",
+    "e17e2bc941b3e82171bb",
+    "e2f0c56b10b1eddab4cf",
+    "e323f491da65b78c6599",
+    "e46c134a6d66fd039329",
+    "e70ec08e518c8383b391",
+    "e96837dae35b9a4247ba",
+    "ed7a01b5adb81a927e9e",
+    "ef445bf25297af7e40c2",
+    "ef4ab0223ee568aac214",
+    "efcfdf44f19bb93567fb",
+    "f112f3789edd4f1c8a92",
+    "f121ccc91a8d05dec435",
+    "f42597c8d7f8317e0fef",
+    "f4949dd79a5d4e36201b",
+    "f554eb3e9764c41de59f",
+    "fa8375c139c7369c9636",
+    "faa9c580a3b428c6d75c",
+    "fe287c440f07607935f6"
+  ],
+  "new_gpu_cases": [],
+  "new_eval_seeds": [],
+  "new_training": false,
+  "automatic_launch": false,
+  "reason": "119完整回合已覆盖全部四类基本模式、预测器/OGG/混合引导翻转和已执行监测差异；先消费现有证据",
+  "gaps": [
+    {
+      "category": "011与111各补一个不同物理状态",
+      "currently_complete_physical_states_each": 1,
+      "prospective_cases_only": [
+        {
+          "condition": "libero_object/task_2/init_1",
+          "seed": 1000,
+          "method": "H50"
+        },
+        {
+          "condition": "libero_object/task_2/init_1",
+          "seed": 1000,
+          "method": "H20"
+        },
+        {
+          "condition": "libero_object/task_2/init_1",
+          "seed": 1000,
+          "method": "mlp_ogg"
+        },
+        {
+          "condition": "libero_object/task_1/init_1",
+          "seed": 1000,
+          "method": "H50"
+        },
+        {
+          "condition": "libero_object/task_1/init_1",
+          "seed": 1000,
+          "method": "H20"
+        },
+        {
+          "condition": "libero_object/task_1/init_1",
+          "seed": 1000,
+          "method": "mlp_ogg"
+        }
+      ],
+      "prospective_new_trials": 6,
+      "would_raise_total_to": 125,
+      "expected_information_gain": "各增加第二个物理案例，增加机制展示代表性，不重新估计总体成功率",
+      "decision": "超过120目标且现有基本模式已满足；本次不自动运行"
+    },
+    {
+      "category": "同检测器不同OGG引导翻转",
+      "currently_complete_physical_states": 1,
+      "decision": "现有旧Pilot与新复现指向同一状态，不能当作两个独立场景；暂不搜索seed"
+    },
+    {
+      "category": "真实漏检/误报真值",
+      "decision": "缺独立异常/接触标签；继续同类评测不能补足真值"
+    }
+  ],
+  "evidence": [
+    {
+      "category": "000",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "trials": [
+        "596bb2292addb0de4f38",
+        "041a371d0871ff99742d",
+        "2d928301775bc6bd3a0b"
+      ]
+    },
+    {
+      "category": "000",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_2/init_2",
+      "seed": 1000,
+      "trials": [
+        "219c341dddcdddb378f7",
+        "c9d97417fac194e2fc92",
+        "a7ee41251818067dc37b"
+      ]
+    },
+    {
+      "category": "001",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1001,
+      "trials": [
+        "265a07d41fd01407cbbf",
+        "4ff5cf2b4900e45e5740",
+        "89ac4c2b1bba635b70bb"
+      ]
+    },
+    {
+      "category": "001",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_7/init_2",
+      "seed": 1001,
+      "trials": [
+        "7a958281069775bdf0d8",
+        "875ca90f8f08e2b9dca6",
+        "3f362eed5383cd9de941"
+      ]
+    },
+    {
+      "category": "010",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_0/init_2",
+      "seed": 1001,
+      "trials": [
+        "60c7a2d9b1984375a923",
+        "b2ff04157a5c63854bf5",
+        "61ad53fe79081fe47902"
+      ]
+    },
+    {
+      "category": "011",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "trials": [
+        "de1c89bab0a9f6445e82",
+        "1dc945a5584357d47dcf",
+        "17b9efe03170cb2a51f8"
+      ]
+    },
+    {
+      "category": "101",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "trials": [
+        "68143b48241af7fee63f",
+        "5b40c1891e62cc314cb8",
+        "5f9df1cfc2020cd1f8a5"
+      ]
+    },
+    {
+      "category": "111",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_0/init_0",
+      "seed": 1000,
+      "trials": [
+        "9cf379131fa801ac34bb",
+        "a2cf05d7dc3f32a45ba1",
+        "02b134f24ded3c3867a7"
+      ]
+    },
+    {
+      "category": "LVM vs OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "trials": [
+        "701ec7d1cbc2fd735df8",
+        "6b2608c529c2bbad5f57"
+      ]
+    },
+    {
+      "category": "LVM vs OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_0/init_2",
+      "seed": 1001,
+      "trials": [
+        "8c5b2ffa873230dcd26b",
+        "051080a34a64b28db4cb"
+      ]
+    },
+    {
+      "category": "同T-H1检测器，不同引导器",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "trials": [
+        "145b3fa037f7df3d32e5",
+        "2015fce2070622fb5b56"
+      ]
+    },
+    {
+      "category": "规划 vs 已执行监测",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1001,
+      "trials": [
+        "e371c2c343d36e04bb3c",
+        "0b45541ac8a82e9e864b"
+      ]
+    },
+    {
+      "category": "规划 vs 已执行监测",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_7/init_2",
+      "seed": 1001,
+      "trials": [
+        "d272dc5427c369850acc",
+        "b78f17388c28b34b7593"
+      ]
+    },
+    {
+      "category": "预测器 vs MLP OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_7/init_2",
+      "seed": 1001,
+      "trials": [
+        "3f362eed5383cd9de941",
+        "d082bc9083548fcfe3f4"
+      ]
+    },
+    {
+      "category": "预测器 vs MLP OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "trials": [
+        "17b9efe03170cb2a51f8",
+        "7b570342876fb1455bdd"
+      ]
+    },
+    {
+      "category": "预测器 vs MLP OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_7/init_2",
+      "seed": 1001,
+      "trials": [
+        "3f362eed5383cd9de941",
+        "a94253623f98390019d0"
+      ]
+    },
+    {
+      "category": "预测器 vs MLP OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "trials": [
+        "17b9efe03170cb2a51f8",
+        "fc7d4eeccae232d492ec"
+      ]
+    },
+    {
+      "category": "预测器 vs MLP OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_0/init_2",
+      "seed": 1001,
+      "trials": [
+        "61ad53fe79081fe47902",
+        "852c88368c378f6a49fa"
+      ]
+    },
+    {
+      "category": "预测器 vs MLP OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "trials": [
+        "2d928301775bc6bd3a0b",
+        "02733eaa2713f84f251e"
+      ]
+    },
+    {
+      "category": "预测器 vs MLP OGG",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "trials": [
+        "17b9efe03170cb2a51f8",
+        "6b2608c529c2bbad5f57"
+      ]
+    },
+    {
+      "category": "至少10步无评分",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_0/init_0",
+      "seed": 1000,
+      "trials": [
+        "dfb797b2ccd7f5115786"
+      ]
+    },
+    {
+      "category": "至少10步无评分",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_7/init_2",
+      "seed": 1001,
+      "trials": [
+        "ab353d6297a107414efd"
+      ]
+    },
+    {
+      "category": "触发重规划后最终仍失败",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_7/init_2",
+      "seed": 1001,
+      "trials": [
+        "ab353d6297a107414efd"
+      ]
+    },
+    {
+      "category": "触发重规划后最终仍失败",
+      "cohort": "replay_casebank_20261112_001",
+      "condition": "libero_object/task_0/init_2",
+      "seed": 1001,
+      "trials": [
+        "6ee873aef8be518a9bf0"
+      ]
+    }
+  ],
+  "limits": [
+    "同一物理task/init的不同seed不算不同场景",
+    "不同cohort不合并为一次严格配对",
+    "评测seed唯一值不等于独立物理场景数",
+    "旧结果缺首输入/噪声SHA时只报告冻结协议匹配",
+    "历史归档中的重复基线只取固定MLP组；跨队列重复不汇总成功率",
+    "缺少异常/接触等逐步真值，不能把未触发称漏检或频繁触发称误报",
+    "夜间快照没有逐步trace/动作/本地视频，不能冒充完整回放",
+    "Case Bank没有多层视觉特征；事件NPZ是现有单表示，不能替代多层缓存"
+  ]
+}

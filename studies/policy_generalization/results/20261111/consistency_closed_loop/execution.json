@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-11T14:19:53.935602+00:00",
+  "max_seconds": 7200,
+  "min_free_gib": 5,
+  "stop_file": "/root/autodl-tmp/corrector/object10/consistency_closed_loop_20261111_001/STOP",
+  "wall_seconds": 502.7615811843425,
+  "planned": 48,
+  "completed": 48,
+  "errors": 0,
+  "reason": "all_planned_trials_completed"
+}

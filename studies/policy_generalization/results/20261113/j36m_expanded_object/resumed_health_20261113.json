@@ -1,0 +1,69 @@
+{
+  "checked_utc": "2026-11-13T14:43:14.409663+00:00",
+  "root": "/root/corrector_plus_expanded_20261113_001",
+  "queue": {
+    "persisted": {
+      "status": "running",
+      "phase": "plus_evaluation",
+      "pid": 1446,
+      "child_pid": 1449,
+      "ordinary_status": "completed",
+      "asset_status": "ready"
+    },
+    "process_matches": true,
+    "status": "running",
+    "status_file_mtime_utc": "2026-11-13T14:43:12.622287+00:00"
+  },
+  "worker": {
+    "persisted": {
+      "status": "running",
+      "phase": "plus",
+      "pid": 1449,
+      "started_utc": "2026-11-13T14:38:52.696298+00:00"
+    },
+    "process_matches": true,
+    "status": "running",
+    "status_file_mtime_utc": "2026-11-13T14:41:08.861332+00:00"
+  },
+  "phases": {
+    "plus_smoke": {
+      "execution": {
+        "status": "completed",
+        "started_utc": "2026-11-13T14:41:08.845632+00:00",
+        "max_seconds": 64663.85181927681,
+        "min_free_gib": 5,
+        "stop_file": "/root/corrector_plus_expanded_20261113_001/results/STOP",
+        "reason": "all_planned_trials_completed",
+        "wall_seconds": 0.0036954935640096664,
+        "planned": 17,
+        "completed": 17,
+        "errors": 0
+      },
+      "record_counts": {
+        "completed": 17
+      }
+    },
+    "plus": {
+      "execution": {
+        "status": "running",
+        "started_utc": "2026-11-13T14:41:09.005447+00:00",
+        "max_seconds": 64663.70125722885,
+        "min_free_gib": 5,
+        "stop_file": "/root/corrector_plus_expanded_20261113_001/results/STOP",
+        "wall_seconds": 80.42980994470417,
+        "planned": 544,
+        "completed": 531,
+        "errors": 0
+      },
+      "record_counts": {
+        "completed": 531,
+        "running": 1
+      }
+    }
+  },
+  "free_gib": {
+    "/root": 10.473567962646484,
+    "/root/autodl-tmp": 11.081459045410156
+  },
+  "disk_query_errors": {}
+}

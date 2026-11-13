@@ -1,0 +1,18 @@
+category,method,completed,successes,success_rate
+Historical camera,H20,1,1,1.0
+Historical camera,H50,1,1,1.0
+Historical camera,executed_lvm,1,1,1.0
+Historical camera,hybrid_t1_a10_ogg,1,1,1.0
+Historical camera,j_lvm,1,1,1.0
+Historical camera,j_ogg,1,1,1.0
+Historical camera,mlp_lvm,1,1,1.0
+Historical camera,mlp_ogg,1,1,1.0
+Historical camera,planned_lvm,1,1,1.0
+Historical camera,transformer-a10-h1_lvm,1,1,1.0
+Historical camera,transformer-a10-h1_ogg,1,1,1.0
+Historical camera,transformer-a10-h3_lvm,1,1,1.0
+Historical camera,transformer-a10-h3_ogg,1,1,1.0
+Historical camera,transformer-h1_lvm,1,1,1.0
+Historical camera,transformer-h1_ogg,1,1,1.0
+Historical camera,transformer-h3_lvm,1,1,1.0
+Historical camera,transformer-h3_ogg,1,1,1.0

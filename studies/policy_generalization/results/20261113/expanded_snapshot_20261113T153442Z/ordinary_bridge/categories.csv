@@ -1,0 +1,5 @@
+category,method,completed,successes,success_rate
+Object10,H20,1,0,0.0
+Object10,H50,1,0,0.0
+Object10,mlp_lvm,1,1,1.0
+Object10,mlp_ogg,1,1,1.0

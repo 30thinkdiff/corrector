@@ -2,13 +2,17 @@
 
 本仓库对应4090服务器上的 **`/root/autodl-tmp/corrector`现有项目根目录**，不是另一个替代目录。原始本地学习总仓库仍为[robot-lab](https://github.com/30thinkdiff/robot-lab)。两者拥有独立Git历史与origin；本仓库保留远程实际源码布局，以便GitHub/ChatGPT阅读、修改与后续同步。
 
-## 当前研究状态（2026-11-11）
+## 当前研究状态（2026-11-14）
 
-已完成Object10的454条示范、66984帧特征准备；MLP、单帧/三帧Transformer、单帧/三帧＋10动作Transformer各3个训练seed，共15组。五组seed42正式闭环各240回合，共1200回合；forced_check另计。H50=44/60、H20=51/60；完整OGG依次55/60、55/60、56/60、50/60、51/60。A10监测评分覆盖约59%，单动作100%，最长空窗0.95秒；当前LVM与OGG逐场景成败相同。尚未验证新的覆盖修复或训练—部署分布对齐方法，不宣称完整论文等价复现或新算法提升。
+原五模型15组训练、1200正式回合已完成并审计。新70条数据覆盖10任务，J-36M/C0/J_equal/S2训练完成，S8在24轮暂停。本次活动评测队列已全部完成：普通J补测120、Plus首轮544、选例复测272，错误0；957份完成视频与实际协议均通过SHA核验。普通Object10中J与原MLP同为55/60，Plus首轮H20为20/32、原MLP两方法各11/32、J两方法各9/32。J评分已完整，但尚未显示终点成功率优势；选例复测不能并入首轮总体成功率。
+
+当前开发入口是`feature/j36m-lvm-ogg-20261112`；服务器实际使用过的190份冻结源码另保留在[`archive/autodl-deployments-20261114`](https://github.com/30thinkdiff/corrector/tree/archive/autodl-deployments-20261114)，逐文件校验见该分支的`ARCHIVE_MANIFEST_20261114.json`。归档不改变服务器原分支、冻结代码或实验结果。
 
 - [研究报告](studies/policy_generalization/research_report.md)
 - [唯一行动/历史工作日志](studies/policy_generalization/work_log.md)
-- [本轮结果审计](studies/policy_generalization/results/20261111/RESULTS.md)
+- [最终结果与所有历史阶段入口](studies/policy_generalization/results/LATEST.md)
+- [配对得失、三种子复现与Replay候选](studies/policy_generalization/results/20261114/expanded_final_review_20261114_002/RESULTS.md)
+- [状态、结果同步与恢复说明](studies/policy_generalization/corrector/EXPERIMENT_OPERATIONS.md)
 - [冻结版本与数据来源](studies/policy_generalization/results/20261111/provenance.json)
 
 ## 目录与版本规则
@@ -46,7 +50,7 @@ git remote -v
 
 固定基础策略为`lerobot/smolvla_libero@a24f1f380461b665158d52acd140152c79e8b36d`；Corrector参考`927a06da8f00d7df483459e9039219e076c846de`，LeRobot源码`7e241bd630a3719a56157a497ce5d08f244784f1`，LIBERO源码`8f1084e3132a39270c3a13ebe37270a43ece2a01`。参考源按固定commit获取，不把`runtime`中的完整依赖克隆目录嵌入Git。
 
-现有Python环境：`runtime/venv/bin/python`用于预测器，`runtime/sim-venv/bin/python`用于LIBERO闭环，`bootstrap/bin/python`用于标准库调度。当前只进行版本接入，不自动安装环境、训练、下载或清理。
+现有Python环境：`runtime/venv/bin/python`用于预测器，`runtime/sim-venv/bin/python`用于LIBERO闭环，`bootstrap/bin/python`用于标准库调度。本轮评测已经结束；版本发布不安装环境、不启动训练或仿真、不下载模型、不清理旧数据。
 
 ## 本地结果复算
 

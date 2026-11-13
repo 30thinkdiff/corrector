@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "trials": 4,
+  "checkpoint_sha_unchanged": true,
+  "controller_actions_equal_to_baseline": true,
+  "interruptions": 0,
+  "ogg_calls": 0,
+  "automatic_expansion": false
+}

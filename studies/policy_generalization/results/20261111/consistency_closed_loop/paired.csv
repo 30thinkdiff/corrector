@@ -1,0 +1,4 @@
+reference,candidate,matched_cases,candidate_only_success,reference_only_success,both_success,both_failure,net_successes,paired_success_rate_difference,descriptive_exact_McNemar_p,limit
+H50,executed_lvm,12,2,0,8,2,2,0.16666666666666666,0.5,"exploratory, fixed two tasks, 6 init states x 2 noise seeds; no multiplicity correction or population claim"
+H10,executed_lvm,12,0,2,10,0,-2,-0.16666666666666666,0.5,"exploratory, fixed two tasks, 6 init states x 2 noise seeds; no multiplicity correction or population claim"
+planned_lvm,executed_lvm,12,2,0,8,2,2,0.16666666666666666,0.5,"exploratory, fixed two tasks, 6 init states x 2 noise seeds; no multiplicity correction or population claim"

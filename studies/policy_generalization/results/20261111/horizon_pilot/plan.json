@@ -1,0 +1,329 @@
+{
+  "protocol": {
+    "policy_id": "lerobot/smolvla_libero",
+    "policy_revision": "a24f1f380461b665158d52acd140152c79e8b36d",
+    "chunk_size": 50,
+    "num_steps": 10,
+    "fps": 20,
+    "max_env_steps": 280,
+    "suite": "libero_object",
+    "conditions": {
+      "libero_object/task_1/init_0": {
+        "task_id": 1,
+        "initial_state_id": 0,
+        "language": "pick up the cream cheese and place it in the basket"
+      },
+      "libero_object/task_1/init_2": {
+        "task_id": 1,
+        "initial_state_id": 2,
+        "language": "pick up the cream cheese and place it in the basket"
+      },
+      "libero_object/task_9/init_0": {
+        "task_id": 9,
+        "initial_state_id": 0,
+        "language": "pick up the orange juice and place it in the basket"
+      },
+      "libero_object/task_9/init_2": {
+        "task_id": 9,
+        "initial_state_id": 2,
+        "language": "pick up the orange juice and place it in the basket"
+      }
+    },
+    "runtime": {
+      "torch": "2.11.0+cu128",
+      "lerobot": "0.6.1",
+      "transformers": "5.5.4",
+      "mujoco": "3.7.0",
+      "robosuite": "1.4.1"
+    },
+    "source_sha256": {
+      "smolvla_horizon_pilot.py": "6f03efa535aab4cd36a2f45368683956ff9ddd075a698896b6713c4ffcf682eb",
+      "smolvla_baseline_benchmark.py": "ab26ae3ba25854b4966d209ece43f3edc5e94409bc644ff4826ecdf943f0e895",
+      "smolvla_libero_tools.py": "43d8c17b7242339d8456823ed3c47b8bb0eebd9445d2d960d3a67a24404039f4",
+      "smolvla_training_workbench.py": "bce2e5c77ebec1070008f28d163e0ab02fa4c98db6122a0fc2b8f1befe44e250",
+      "batch_evaluation.py": "1852a7a23fb48b346ce52efdc82fb6c4c9d60d3085a63662c0aabf63010fc941"
+    },
+    "lerobot_revision": "7e241bd630a3719a56157a497ce5d08f244784f1",
+    "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+    "policy_source_sha256": "37b1d56f37510732a087cf5c32c05cd15d6234201a3f002f108ec4c53438cc7d",
+    "config_sha256": "3ed3ed80ee077d94ff22942130642bb60e255443ee65da676bc88ab1684a7efe",
+    "warmup_chunks_per_episode": 2,
+    "weight_sha256": {
+      "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "b0cdde6e8a6f49a8e19eefb376728e47c09d3b3cc20ce3a97c45619fe7a732d9",
+      "policy_preprocessor_step_5_normalizer_processor.safetensors": "b0cdde6e8a6f49a8e19eefb376728e47c09d3b3cc20ce3a97c45619fe7a732d9",
+      "model.safetensors": "9a9f6413e42c0f332fccbce9a0dc796af2790f82cf002f791cdbf7e01e1afca8"
+    },
+    "seed": 1000,
+    "corrector": false,
+    "lvm": false,
+    "ogg": false,
+    "task_selection": "historical cream-cheese H50 failures vs H20 recovery; orange-juice H20 failures",
+    "automatic_expansion": false
+  },
+  "cases": [
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "H50",
+      "config": {
+        "n_action_steps": 50,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "e65f21bc9c266b5a307c"
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "H20",
+      "config": {
+        "n_action_steps": 20,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "1f7b17fb5fe471fdf461"
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "H10",
+      "config": {
+        "n_action_steps": 10,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "1c54b40522d0f8a5b796"
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "H5",
+      "config": {
+        "n_action_steps": 5,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "793b36b8839964dd9d0f"
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "H2",
+      "config": {
+        "n_action_steps": 2,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "acf88cee3cf17bd343e3"
+    },
+    {
+      "condition": "libero_object/task_1/init_0",
+      "seed": 1000,
+      "method": "H1",
+      "config": {
+        "n_action_steps": 1,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "f61f98402e5426304a58"
+    },
+    {
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1000,
+      "method": "H50",
+      "config": {
+        "n_action_steps": 50,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "00171e57c0b4e4ef8193"
+    },
+    {
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1000,
+      "method": "H20",
+      "config": {
+        "n_action_steps": 20,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "e89f88c8412b46a0c768"
+    },
+    {
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1000,
+      "method": "H10",
+      "config": {
+        "n_action_steps": 10,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "c7335e59a334273127a9"
+    },
+    {
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1000,
+      "method": "H5",
+      "config": {
+        "n_action_steps": 5,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "1fcdd4298ec4cb119b4c"
+    },
+    {
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1000,
+      "method": "H2",
+      "config": {
+        "n_action_steps": 2,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "10d7082a25130bdf029f"
+    },
+    {
+      "condition": "libero_object/task_1/init_2",
+      "seed": 1000,
+      "method": "H1",
+      "config": {
+        "n_action_steps": 1,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "27829fd6d34fb6d39301"
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "H50",
+      "config": {
+        "n_action_steps": 50,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "44f94717f61403b6e542"
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "H20",
+      "config": {
+        "n_action_steps": 20,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "ff2a00c0bef08c5be0b1"
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "H10",
+      "config": {
+        "n_action_steps": 10,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "4b7e79d3d7e4b3ca5247"
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "H5",
+      "config": {
+        "n_action_steps": 5,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "1c48a9782a69092ca55f"
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "H2",
+      "config": {
+        "n_action_steps": 2,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "16f14789b5fef1ad1a90"
+    },
+    {
+      "condition": "libero_object/task_9/init_0",
+      "seed": 1000,
+      "method": "H1",
+      "config": {
+        "n_action_steps": 1,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "84d60e5d152af216583b"
+    },
+    {
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "method": "H50",
+      "config": {
+        "n_action_steps": 50,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "d17d718e94274d9272dc"
+    },
+    {
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "method": "H20",
+      "config": {
+        "n_action_steps": 20,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "6259857d970ad5f7f8e7"
+    },
+    {
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "method": "H10",
+      "config": {
+        "n_action_steps": 10,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "1dd7489e1831bff22f6b"
+    },
+    {
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "method": "H5",
+      "config": {
+        "n_action_steps": 5,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "8c3bff2731eceeea3ed0"
+    },
+    {
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "method": "H2",
+      "config": {
+        "n_action_steps": 2,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "886bebc399af6fdb4547"
+    },
+    {
+      "condition": "libero_object/task_9/init_2",
+      "seed": 1000,
+      "method": "H1",
+      "config": {
+        "n_action_steps": 1,
+        "uses_corrector": false,
+        "video_policy": "all"
+      },
+      "id": "8095c17e80fd1d5eab74"
+    }
+  ]
+}

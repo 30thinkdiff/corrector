@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "phase": "pilot_complete",
+  "forced_checks": 3,
+  "paired_trials": 12,
+  "automatic_expansion": false,
+  "checkpoint_sha_unchanged": true
+}

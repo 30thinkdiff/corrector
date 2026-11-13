@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-11-13T11:50:37.567551+00:00",
+  "queue": {
+    "status": "running",
+    "phase": "plus_evaluation",
+    "pid": 116184,
+    "child_pid": 116188,
+    "ordinary_status": "completed",
+    "asset_status": "ready"
+  },
+  "worker": {
+    "status": "running",
+    "phase": "plus",
+    "pid": 116188,
+    "started_utc": "2026-11-13T11:33:57.698558+00:00"
+  },
+  "free_gib": {
+    "/root": 11.43508529663086,
+    "/root/autodl-tmp": 11.081462860107422
+  },
+  "training_status": "paused",
+  "environment_probe.json": {
+    "status": "passed",
+    "completed": 32,
+    "expected": 32,
+    "scope": "one-step environment/asset check, not success-rate trials"
+  },
+  "plus_smoke/execution.json": {
+    "status": "completed",
+    "started_utc": "2026-11-13T11:36:30.838610+00:00",
+    "max_seconds": 64646.86086630821,
+    "min_free_gib": 5,
+    "stop_file": "/root/corrector_plus_expanded_20261113_001/results/STOP",
+    "wall_seconds": 181.90842993557453,
+    "planned": 17,
+    "completed": 17,
+    "errors": 0,
+    "reason": "all_planned_trials_completed"
+  },
+  "plus/execution.json": {
+    "status": "running",
+    "started_utc": "2026-11-13T11:39:32.918996+00:00",
+    "max_seconds": 64464.78837680817,
+    "min_free_gib": 5,
+    "stop_file": "/root/corrector_plus_expanded_20261113_001/results/STOP",
+    "wall_seconds": 647.1797131821513,
+    "planned": 544,
+    "completed": 43,
+    "errors": 0
+  }
+}

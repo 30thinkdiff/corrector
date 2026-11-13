@@ -1,0 +1,5 @@
+method,label,planned,completed,successes,errors,success_rate,common_paired_n,common_paired_successes,coverage,max_gap_steps,guide_rows_recorded,max_peak_torch_allocated_gib,mean_env_steps,mean_chunk_calls,mean_policy_s,mean_monitor_s,mean_episode_wall_s,mean_callback_wall_s,mean_event_replans,mean_guidance_calls,mean_sequence_prediction_skips,mean_cancelled_condition_predictions,mean_peak_torch_allocated_gib,mean_ogg_loss,mean_ogg_gradient_l2,mean_ogg_clean_action_update_l2,mean_ogg_guidance_seconds
+H20,H20,1,1,0,0,0.0,0,0,,,0,2.346670627593994,280,14,2.935949956998229,0.0,10.525775987654924,10.861773872748017,0,0,0,0,2.346670627593994,,,,
+H50,H50,1,1,0,0,0.0,0,0,,,0,2.319998264312744,280,6,1.6202664375305176,0.0,9.73099522292614,10.522348787635565,0,0,0,0,2.319998264312744,,,,
+mlp_lvm,MLP-LVM,1,1,1,0,1.0,0,0,1.0,0,0,2.340139865875244,172,9,2.0849250592291355,3.7815113812685013,11.357029184699059,11.728596810251474,6,0,0,0,2.340139865875244,,,,
+mlp_ogg,MLP-OGG,1,1,1,0,1.0,0,0,1.0,0,28,2.416694164276123,178,10,2.634483527392149,3.8670750092715025,12.056661130860448,12.37932301312685,7,28,0,0,2.416694164276123,0.2490744505609785,,,

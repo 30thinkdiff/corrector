@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-11T10:13:56.284331+00:00",
+  "max_seconds": 10800,
+  "min_free_gib": 5,
+  "stop_file": "/root/autodl-tmp/corrector/object10/horizon_pilot_20261111_001/STOP",
+  "wall_seconds": 456.7714017685503,
+  "planned": 24,
+  "completed": 24,
+  "errors": 0,
+  "reason": "all_planned_trials_completed"
+}

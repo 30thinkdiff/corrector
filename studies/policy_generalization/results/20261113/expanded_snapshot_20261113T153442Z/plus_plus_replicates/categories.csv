@@ -1,0 +1,86 @@
+category,method,completed,successes,success_rate
+Language Instructions,H20,2,2,1.0
+Language Instructions,H50,2,0,0.0
+Language Instructions,executed_lvm,2,2,1.0
+Language Instructions,hybrid_t1_a10_ogg,2,1,0.5
+Language Instructions,j_lvm,2,0,0.0
+Language Instructions,j_ogg,2,0,0.0
+Language Instructions,mlp_lvm,2,2,1.0
+Language Instructions,mlp_ogg,2,2,1.0
+Language Instructions,planned_lvm,2,0,0.0
+Language Instructions,transformer-a10-h1_lvm,2,1,0.5
+Language Instructions,transformer-a10-h1_ogg,2,1,0.5
+Language Instructions,transformer-a10-h3_lvm,2,0,0.0
+Language Instructions,transformer-a10-h3_ogg,2,0,0.0
+Language Instructions,transformer-h1_lvm,2,2,1.0
+Language Instructions,transformer-h1_ogg,2,1,0.5
+Language Instructions,transformer-h3_lvm,2,1,0.5
+Language Instructions,transformer-h3_ogg,2,2,1.0
+Light Conditions,H20,2,2,1.0
+Light Conditions,H50,2,1,0.5
+Light Conditions,executed_lvm,2,1,0.5
+Light Conditions,hybrid_t1_a10_ogg,2,2,1.0
+Light Conditions,j_lvm,2,1,0.5
+Light Conditions,j_ogg,2,1,0.5
+Light Conditions,mlp_lvm,2,2,1.0
+Light Conditions,mlp_ogg,2,2,1.0
+Light Conditions,planned_lvm,2,1,0.5
+Light Conditions,transformer-a10-h1_lvm,2,1,0.5
+Light Conditions,transformer-a10-h1_ogg,2,1,0.5
+Light Conditions,transformer-a10-h3_lvm,2,1,0.5
+Light Conditions,transformer-a10-h3_ogg,2,2,1.0
+Light Conditions,transformer-h1_lvm,2,2,1.0
+Light Conditions,transformer-h1_ogg,2,2,1.0
+Light Conditions,transformer-h3_lvm,2,1,0.5
+Light Conditions,transformer-h3_ogg,2,1,0.5
+Objects Layout,H20,1,1,1.0
+Objects Layout,H50,1,0,0.0
+Objects Layout,executed_lvm,0,0,
+Objects Layout,hybrid_t1_a10_ogg,0,0,
+Objects Layout,j_lvm,0,0,
+Objects Layout,j_ogg,0,0,
+Objects Layout,mlp_lvm,1,1,1.0
+Objects Layout,mlp_ogg,0,0,
+Objects Layout,planned_lvm,0,0,
+Objects Layout,transformer-a10-h1_lvm,0,0,
+Objects Layout,transformer-a10-h1_ogg,0,0,
+Objects Layout,transformer-a10-h3_lvm,0,0,
+Objects Layout,transformer-a10-h3_ogg,0,0,
+Objects Layout,transformer-h1_lvm,0,0,
+Objects Layout,transformer-h1_ogg,0,0,
+Objects Layout,transformer-h3_lvm,0,0,
+Objects Layout,transformer-h3_ogg,0,0,
+Robot Initial States,H20,2,0,0.0
+Robot Initial States,H50,2,0,0.0
+Robot Initial States,executed_lvm,2,0,0.0
+Robot Initial States,hybrid_t1_a10_ogg,2,1,0.5
+Robot Initial States,j_lvm,2,1,0.5
+Robot Initial States,j_ogg,2,1,0.5
+Robot Initial States,mlp_lvm,2,1,0.5
+Robot Initial States,mlp_ogg,2,1,0.5
+Robot Initial States,planned_lvm,2,0,0.0
+Robot Initial States,transformer-a10-h1_lvm,2,0,0.0
+Robot Initial States,transformer-a10-h1_ogg,2,0,0.0
+Robot Initial States,transformer-a10-h3_lvm,2,0,0.0
+Robot Initial States,transformer-a10-h3_ogg,2,0,0.0
+Robot Initial States,transformer-h1_lvm,2,2,1.0
+Robot Initial States,transformer-h1_ogg,2,2,1.0
+Robot Initial States,transformer-h3_lvm,2,1,0.5
+Robot Initial States,transformer-h3_ogg,2,1,0.5
+Sensor Noise,H20,2,2,1.0
+Sensor Noise,H50,2,0,0.0
+Sensor Noise,executed_lvm,2,2,1.0
+Sensor Noise,hybrid_t1_a10_ogg,2,2,1.0
+Sensor Noise,j_lvm,2,1,0.5
+Sensor Noise,j_ogg,2,1,0.5
+Sensor Noise,mlp_lvm,2,2,1.0
+Sensor Noise,mlp_ogg,2,2,1.0
+Sensor Noise,planned_lvm,2,1,0.5
+Sensor Noise,transformer-a10-h1_lvm,2,2,1.0
+Sensor Noise,transformer-a10-h1_ogg,2,2,1.0
+Sensor Noise,transformer-a10-h3_lvm,2,2,1.0
+Sensor Noise,transformer-a10-h3_ogg,2,2,1.0
+Sensor Noise,transformer-h1_lvm,2,2,1.0
+Sensor Noise,transformer-h1_ogg,2,2,1.0
+Sensor Noise,transformer-h3_lvm,2,2,1.0
+Sensor Noise,transformer-h3_ogg,2,2,1.0

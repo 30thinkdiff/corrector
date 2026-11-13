@@ -1,0 +1,10 @@
+cohort,phenomenon,cases,physical_states,evaluation_seed_values,evaluation_seed_value_count,local_complete_cases,cases_with_all_traces,cases_with_all_commands,cases_with_numeric_ogg,all_initial_hashes_verified
+consistency_closed_loop,至少10步无评分,12,6,"[1002, 1003]",2,0,12,12,0,12
+consistency_closed_loop,触发重规划后最终仍失败,6,2,"[1002, 1003]",2,0,6,6,0,6
+hybrid_pilot,至少10步无评分,4,4,[1000],1,1,4,4,0,4
+hybrid_pilot,触发重规划后最终仍失败,5,2,[1000],1,2,5,5,0,5
+legacy_five_models,每100步至少5次中断（非过触发真值）,2,2,"[1000, 1001]",2,0,2,0,0,0
+legacy_five_models,至少10步无评分,240,30,"[1000, 1001]",2,0,240,0,0,0
+legacy_five_models,触发重规划后最终仍失败,66,7,"[1000, 1001]",2,0,66,0,0,0
+replay_casebank_20261112_001,至少10步无评分,40,8,"[1000, 1001]",2,40,40,40,14,40
+replay_casebank_20261112_001,触发重规划后最终仍失败,42,6,"[1000, 1001]",2,42,42,42,21,42

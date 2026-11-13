@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-14",
+  "scope": "prior documents preserved; current conclusions move to concise main documents",
+  "files": [
+    {
+      "original": "studies/policy_generalization/research_report.md",
+      "original_sha256": "3838b186664dea1de291ba931e3d1dbbd7c9e622fcd3d05e568a28758f92b892",
+      "published_archive": "studies/policy_generalization/history/20261114_before_consolidation/research_report.md",
+      "archive_sha256": "2abb00a4c73b88f448b1147e290a2faa092156aedcefb0c6d5849f070ed73c9c",
+      "transformations": [
+        "relative Markdown links rebased to original destinations",
+        "private endpoint replaced by SSH alias if present"
+      ]
+    },
+    {
+      "original": "studies/policy_generalization/work_log.md",
+      "original_sha256": "9b7556dbae66fde74a69c6e0e29ba71f06cddb70ec88585887f386d036568a6b",
+      "published_archive": "studies/policy_generalization/history/20261114_before_consolidation/work_log.md",
+      "archive_sha256": "1ef158fd563472af7eae7277da3df7f52395eb95205fda698bb60d14ac2bdcce",
+      "transformations": [
+        "relative Markdown links rebased to original destinations",
+        "private endpoint replaced by SSH alias if present"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+baseline,candidate,matched,candidate_only_success,baseline_only_success,both_success,both_failure,net_pp,exact_mcnemar_two_sided_unadjusted
+H50,H20,32,13,0,7,12,40.625,0.000244140625
+H50,mlp_ogg,32,4,0,7,21,12.5,0.125
+H20,j_ogg,32,0,11,9,12,-34.375,0.0009765625
+mlp_lvm,mlp_ogg,32,1,1,10,20,0.0,1.0
+j_lvm,j_ogg,32,0,0,9,23,0.0,1.0
+mlp_ogg,j_ogg,32,0,2,9,21,-6.25,0.5
+planned_lvm,executed_lvm,32,2,1,9,20,3.125,1.0

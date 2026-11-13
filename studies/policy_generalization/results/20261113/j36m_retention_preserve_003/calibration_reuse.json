@@ -1,0 +1,8 @@
+{
+  "source": "/root/corrector_j36m_object_20261113_002",
+  "refitted": false,
+  "files": {
+    "j_calibration.json": "10fed4d68435c0ee7f3c78b22124c7b20f0be89a4f96c5f747307ec416db2f0c",
+    "c0_calibration.json": "d45e0930f591c74aa34bf5205ac430ec3e467f2a035b6cf85742df530ad45d91"
+  }
+}

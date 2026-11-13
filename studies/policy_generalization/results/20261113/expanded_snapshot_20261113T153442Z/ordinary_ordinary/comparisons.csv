@@ -1,0 +1,2 @@
+baseline,candidate,matched,candidate_only_success,baseline_only_success,both_success,both_failure,net_pp,exact_mcnemar_two_sided_unadjusted
+j_lvm,j_ogg,60,0,0,55,5,0.0,1.0

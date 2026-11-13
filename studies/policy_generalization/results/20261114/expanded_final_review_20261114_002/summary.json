@@ -1,0 +1,291 @@
+{
+  "source_zip_sha256": "f1423602863b07c09f3930b362b62724fcf69bb01e7a98cdd03af4a6560c31f0",
+  "analysis_sha256": "ffc38182791a82ec5dd0693f0345449e788d06f9f873eeef46a344b058bdb888",
+  "ordinary_summary_sha256": "e3cc2f22e415e2cb17186e59b8a1940ff54d034dbcafa30066f3204e57ea5623",
+  "snapshot": "/home/hhd/robot-lab/studies/policy_generalization/results/20261114/expanded_snapshot_20261113T161434Z",
+  "counts": {
+    "ordinary/ordinary": 120,
+    "plus/plus": 544,
+    "plus/plus_replicates": 272,
+    "ordinary/bridge": 4,
+    "plus/plus_smoke": 17
+  },
+  "integrity": {
+    "checked_utc": "2026-11-13T16:16:13.740309+00:00",
+    "phases": {
+      "ordinary/bridge": {
+        "status": "completed",
+        "completed": 4,
+        "plan_sha256": "94e84ab5098a87d84b16519ed970cfeba9ae2901c14b9b871ee78bfaa28c2002",
+        "video_artifacts_verified": 4,
+        "video_bytes_verified": 514703,
+        "actual_protocol_sha_matches_plan": true
+      },
+      "ordinary/ordinary": {
+        "status": "completed",
+        "completed": 120,
+        "plan_sha256": "2bc9bb68889aeed9b14ed9640662c91f52baedb967c0c47ff3b81f60209a7efe",
+        "video_artifacts_verified": 120,
+        "video_bytes_verified": 10270564,
+        "actual_protocol_sha_matches_plan": true
+      },
+      "plus/plus_smoke": {
+        "status": "completed",
+        "completed": 17,
+        "plan_sha256": "7b7c7955158afe8789be9e24ce79298b51b0cfacc224659908a303f78ac84b59",
+        "video_artifacts_verified": 17,
+        "video_bytes_verified": 1174719,
+        "actual_protocol_sha_matches_plan": true
+      },
+      "plus/plus": {
+        "status": "completed",
+        "completed": 544,
+        "plan_sha256": "9ab8da080715f3f2cbf584f6fbee2ada9940ff89add587ab5af8b2e4d10d2088",
+        "video_artifacts_verified": 544,
+        "video_bytes_verified": 68972891,
+        "actual_protocol_sha_matches_plan": true
+      },
+      "plus/plus_replicates": {
+        "status": "completed",
+        "completed": 272,
+        "plan_sha256": "2dbe6e40396088e383d6e0fd5932c0a49f5a516c96b5522925367d558c34e946",
+        "video_artifacts_verified": 272,
+        "video_bytes_verified": 32201725,
+        "actual_protocol_sha_matches_plan": true
+      }
+    },
+    "read_only": true,
+    "gpu": "0 %, 1 MiB",
+    "gpu_compute_processes": "",
+    "training_status": "paused"
+  },
+  "seed_review": [
+    {
+      "method": "H20",
+      "label": "H20",
+      "conditions": 8,
+      "seed1000_successes": 8,
+      "seed1001_successes": 6,
+      "seed1002_successes": 6,
+      "new_seed_successes": 12,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 5,
+      "majority_success_conditions": 7
+    },
+    {
+      "method": "H50",
+      "label": "H50",
+      "conditions": 8,
+      "seed1000_successes": 0,
+      "seed1001_successes": 1,
+      "seed1002_successes": 1,
+      "new_seed_successes": 2,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 6,
+      "majority_success_conditions": 0
+    },
+    {
+      "method": "executed_lvm",
+      "label": "A10已执行动作LVM（新规则）",
+      "conditions": 8,
+      "seed1000_successes": 3,
+      "seed1001_successes": 4,
+      "seed1002_successes": 3,
+      "new_seed_successes": 7,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 5,
+      "majority_success_conditions": 3
+    },
+    {
+      "method": "hybrid_t1_a10_ogg",
+      "label": "T-H1检测→A10-H1引导",
+      "conditions": 8,
+      "seed1000_successes": 4,
+      "seed1001_successes": 4,
+      "seed1002_successes": 4,
+      "new_seed_successes": 8,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 5,
+      "majority_success_conditions": 5
+    },
+    {
+      "method": "j_lvm",
+      "label": "J-LVM",
+      "conditions": 8,
+      "seed1000_successes": 2,
+      "seed1001_successes": 3,
+      "seed1002_successes": 1,
+      "new_seed_successes": 4,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 3,
+      "majority_success_conditions": 1
+    },
+    {
+      "method": "j_ogg",
+      "label": "J-OGG",
+      "conditions": 8,
+      "seed1000_successes": 2,
+      "seed1001_successes": 3,
+      "seed1002_successes": 1,
+      "new_seed_successes": 4,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 3,
+      "majority_success_conditions": 1
+    },
+    {
+      "method": "mlp_lvm",
+      "label": "MLP-LVM",
+      "conditions": 8,
+      "seed1000_successes": 4,
+      "seed1001_successes": 8,
+      "seed1002_successes": 5,
+      "new_seed_successes": 13,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 3,
+      "majority_success_conditions": 6
+    },
+    {
+      "method": "mlp_ogg",
+      "label": "MLP-OGG",
+      "conditions": 8,
+      "seed1000_successes": 4,
+      "seed1001_successes": 8,
+      "seed1002_successes": 5,
+      "new_seed_successes": 13,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 3,
+      "majority_success_conditions": 6
+    },
+    {
+      "method": "planned_lvm",
+      "label": "A10规划动作LVM（新规则）",
+      "conditions": 8,
+      "seed1000_successes": 2,
+      "seed1001_successes": 3,
+      "seed1002_successes": 2,
+      "new_seed_successes": 5,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 5,
+      "majority_success_conditions": 2
+    },
+    {
+      "method": "transformer-a10-h1_lvm",
+      "label": "A10-H1-LVM",
+      "conditions": 8,
+      "seed1000_successes": 3,
+      "seed1001_successes": 3,
+      "seed1002_successes": 3,
+      "new_seed_successes": 6,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 6,
+      "majority_success_conditions": 3
+    },
+    {
+      "method": "transformer-a10-h1_ogg",
+      "label": "A10-H1-OGG",
+      "conditions": 8,
+      "seed1000_successes": 3,
+      "seed1001_successes": 3,
+      "seed1002_successes": 3,
+      "new_seed_successes": 6,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 6,
+      "majority_success_conditions": 3
+    },
+    {
+      "method": "transformer-a10-h3_lvm",
+      "label": "A10-H3-LVM",
+      "conditions": 8,
+      "seed1000_successes": 3,
+      "seed1001_successes": 3,
+      "seed1002_successes": 3,
+      "new_seed_successes": 6,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 6,
+      "majority_success_conditions": 3
+    },
+    {
+      "method": "transformer-a10-h3_ogg",
+      "label": "A10-H3-OGG",
+      "conditions": 8,
+      "seed1000_successes": 3,
+      "seed1001_successes": 3,
+      "seed1002_successes": 3,
+      "new_seed_successes": 6,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 6,
+      "majority_success_conditions": 3
+    },
+    {
+      "method": "transformer-h1_lvm",
+      "label": "T-H1-LVM",
+      "conditions": 8,
+      "seed1000_successes": 4,
+      "seed1001_successes": 5,
+      "seed1002_successes": 5,
+      "new_seed_successes": 10,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 7,
+      "majority_success_conditions": 5
+    },
+    {
+      "method": "transformer-h1_ogg",
+      "label": "T-H1-OGG",
+      "conditions": 8,
+      "seed1000_successes": 4,
+      "seed1001_successes": 4,
+      "seed1002_successes": 5,
+      "new_seed_successes": 9,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 6,
+      "majority_success_conditions": 5
+    },
+    {
+      "method": "transformer-h3_lvm",
+      "label": "T-H3-LVM",
+      "conditions": 8,
+      "seed1000_successes": 1,
+      "seed1001_successes": 4,
+      "seed1002_successes": 3,
+      "new_seed_successes": 7,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 3,
+      "majority_success_conditions": 1
+    },
+    {
+      "method": "transformer-h3_ogg",
+      "label": "T-H3-OGG",
+      "conditions": 8,
+      "seed1000_successes": 3,
+      "seed1001_successes": 6,
+      "seed1002_successes": 3,
+      "new_seed_successes": 9,
+      "new_seed_trials": 16,
+      "consistent_all_three_conditions": 5,
+      "majority_success_conditions": 3
+    }
+  ],
+  "j_ogg_pairs": [
+    {
+      "phase": "ordinary/ordinary",
+      "matched_j_pairs": 60,
+      "different_j_lvm_ogg_outcomes": 0
+    },
+    {
+      "phase": "plus/plus",
+      "matched_j_pairs": 32,
+      "different_j_lvm_ogg_outcomes": 0
+    },
+    {
+      "phase": "plus/plus_replicates",
+      "matched_j_pairs": 16,
+      "different_j_lvm_ogg_outcomes": 0
+    }
+  ],
+  "bounds": [
+    "discovery and outcome-selected replication remain separate",
+    "evaluation seeds are not training seeds or independent physical scenes",
+    "model MLP454 vs J70 training data differ",
+    "success/failure does not label each step as abnormal"
+  ]
+}

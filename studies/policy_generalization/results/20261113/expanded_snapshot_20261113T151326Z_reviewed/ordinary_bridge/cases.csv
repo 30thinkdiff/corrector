@@ -1,0 +1,5 @@
+method,condition,seed,category,success,attempt,callback_wall_s,env_steps,chunk_calls,policy_s,monitor_s,episode_wall_s,event_replans,guidance_calls,sequence_prediction_skips,cancelled_condition_predictions,peak_torch_allocated_gib,score_steps,eligible_steps,coverage,max_gap_steps,trial_member
+H50,libero_object/task_1/init_0,1000,Object10,False,1,10.522348787635565,280,6,1.6202664375305176,0.0,9.73099522292614,0,0,0,0,2.319998264312744,,,,,ordinary/bridge/trials/a130d80e3f13952d1389.json
+mlp_ogg,libero_object/task_1/init_0,1000,Object10,True,1,12.37932301312685,178,10,2.634483527392149,3.8670750092715025,12.056661130860448,7,28,0,0,2.416694164276123,154,154,1.0,0,ordinary/bridge/trials/b241a74f7a4d0c8865ba.json
+mlp_lvm,libero_object/task_1/init_0,1000,Object10,True,1,11.728596810251474,172,9,2.0849250592291355,3.7815113812685013,11.357029184699059,6,0,0,0,2.340139865875244,148,148,1.0,0,ordinary/bridge/trials/c3fc27b9f03f742d865b.json
+H20,libero_object/task_9/init_0,1000,Object10,False,1,10.861773872748017,280,14,2.935949956998229,0.0,10.525775987654924,0,0,0,0,2.346670627593994,,,,,ordinary/bridge/trials/fbb8edfa3d7bd34ef631.json
