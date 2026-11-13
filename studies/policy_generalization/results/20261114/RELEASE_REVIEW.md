@@ -4,7 +4,7 @@
 
 - robot-lab：研究报告与工作日志整理、历史文档归档、最终J/Plus指标、Replay适配和本地报告/健康检查/安全导出工具。
 - corrector主线：正式J闭环与Plus部署/测试、同一批最终证据及报告工具。
-- corrector独立归档分支：AutoDL实际使用过的190份冻结源码，服务器创建提交`6c006207279987c1febe902a5bace010e90ca5b3`，只复制约2MB文本，原分支与冻结文件SHA均未改变。
+- corrector独立归档分支：AutoDL实际使用过的190份冻结源码，服务器创建提交`6c006207279987c1febe902a5bace010e90ca5b3`，只复制约2MB文本。最初该归档尚未并入服务器当前分支，因此190份文件仍显示未跟踪；后续已正常合并至`feature/multilayer-feature-screening-20261112`，GitHub与服务器同为`39d6f61e33be5b1d928071ab8953f5ab8030c98d`。服务器工作区干净，190份冻结文件SHA逐项一致，无数据或权重变更。
 
 两仓库沿现有feature分支发布，不改origin、不强推、不自动合并到main。提交描述使用中文、作者使用GitHub noreply。原始数据、ZIP、模型、视频、环境、本地Replay缓存和SSH连接不入库；新同步工具使用可配置SSH别名，不写入真实GPU连接地址。
 
