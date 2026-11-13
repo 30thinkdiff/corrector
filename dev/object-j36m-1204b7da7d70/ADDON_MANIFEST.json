@@ -1,0 +1,11 @@
+{
+  "format": "j36m_object_addon_v1",
+  "prediction_retention": "preserve_pending_single_action_predictions_on_interrupt",
+  "core_manifest_sha256": "a742e42b77fa2d05592c6b7b639881c80ed28515aa57524bf4eab7b6d499d0cc",
+  "files": {
+    "scripts/corrector_j36m_object_eval.py": "a1453cd8967d0058abfb513848fe9407836d028bb2c305d7d66d3f0b00d89169",
+    "scripts/corrector_j36m_object_report.py": "c6884644a733f379c72ca648a20835e1809b50f29a31f5ead149f9720677b2dc",
+    "tests/j36m/test_object_eval.py": "282f183008ff24f4ca4429ecd6ea8c3e4d6e9bb64fb81b4a779a0ef5a15c7bc9",
+    "tests/j36m/test_object_report.py": "6c9a4a7867dbfababbbe72092e5aba6d24c75af8d13e6580e07a5918da259598"
+  }
+}

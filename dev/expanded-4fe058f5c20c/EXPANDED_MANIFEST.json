@@ -1,0 +1,15 @@
+{
+  "format": "expanded_eval_v1",
+  "files": {
+    "scripts/corrector_expanded_eval.py": "71fa166c5ecf4c6c5eaaa1268826654d21b324b0e053977af74bdd92b9f89fa3",
+    "scripts/corrector_j36m_object_eval.py": "a1453cd8967d0058abfb513848fe9407836d028bb2c305d7d66d3f0b00d89169",
+    "scripts/corrector_j36m_object_report.py": "740e52d495581a4f4d8aa97cf47c3e3f1e44715acb6ddbf670f480e27264afbd",
+    "scripts/plus_conditions.json": "1f9429cba918df7f638aa94364e98dee310234780a333880daaf491788a70ceb",
+    "scripts/build_plus_conditions.py": "a54a970e42f3062e4ac7da86a31265ef4e0eb0f965b2992d4389dd5b02fe8b14",
+    "tests/j36m/test_expanded_eval.py": "3246096c644b895e2950192025cb428681c48c398a46e7f76069ebab3e98b792",
+    "scripts/expanded_helpers/corrector_hybrid.py": "37ee20aa471e6a8530114a7c0dddfaf19620ec309c09ebbef79a61bb7c4ecbee",
+    "scripts/expanded_helpers/corrector_executed_monitor.py": "07eb4fae4103d5ef5e91c0ae8d5de7b73b10f0a0bc2be1041a1cdcf41985fa3c",
+    "scripts/expanded_helpers/corrector_consistency_control.py": "782a43ec3aa34fd5feaec4f4dbe8354524b79f2b9a8918fe32f7a4579ae62910"
+  },
+  "no_weights_or_data": true
+}

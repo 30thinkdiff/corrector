@@ -1,0 +1,121 @@
+{
+  "train": {
+    "block_02": {
+      "value_mean": 0.01432730023078336,
+      "value_std": 0.34230010804806504,
+      "value_rms": 0.342599818303542,
+      "max_abs": 10.9375,
+      "abs_quantiles_sampled": {
+        "p50": 0.15625,
+        "p90": 0.42578125,
+        "p99": 1.15625
+      },
+      "delta_rms": 0.19666583816766092,
+      "delta_abs_quantiles_sampled": {
+        "p50": 0.0302734375,
+        "p90": 0.314453125,
+        "p99": 0.724609375
+      },
+      "zero_raw_mse": 0.038677451902188596,
+      "zero_normalized_mse": 1.0
+    },
+    "block_08": {
+      "value_mean": 0.016307754227898263,
+      "value_std": 0.8324644883059772,
+      "value_rms": 0.8326242052321623,
+      "max_abs": 154.0,
+      "abs_quantiles_sampled": {
+        "p50": 0.326171875,
+        "p90": 0.83984375,
+        "p99": 1.546875
+      },
+      "delta_rms": 0.4940200792220407,
+      "delta_abs_quantiles_sampled": {
+        "p50": 0.1357421875,
+        "p90": 0.630859375,
+        "p99": 1.328125
+      },
+      "zero_raw_mse": 0.24405583867455138,
+      "zero_normalized_mse": 1.0
+    },
+    "connector": {
+      "value_mean": -0.23249941675573804,
+      "value_std": 7.041100203400769,
+      "value_rms": 7.044937760769936,
+      "max_abs": 270.123046875,
+      "abs_quantiles_sampled": {
+        "p50": 3.0703125,
+        "p90": 10.0283203125,
+        "p99": 22.680395507812023
+      },
+      "delta_rms": 3.156204516510038,
+      "delta_abs_quantiles_sampled": {
+        "p50": 1.01416015625,
+        "p90": 4.58642578125,
+        "p99": 12.1474609375
+      },
+      "zero_raw_mse": 9.961626950038363,
+      "zero_normalized_mse": 1.0
+    }
+  },
+  "validation": {
+    "block_02": {
+      "value_mean": 0.01419272438269783,
+      "value_std": 0.34188399325840785,
+      "value_rms": 0.34217845968400507,
+      "max_abs": 10.875,
+      "abs_quantiles_sampled": {
+        "p50": 0.15625,
+        "p90": 0.42578125,
+        "p99": 1.1328125
+      },
+      "delta_rms": 0.19538840377341135,
+      "delta_abs_quantiles_sampled": {
+        "p50": 0.0302734375,
+        "p90": 0.3115234375,
+        "p99": 0.7177734375
+      },
+      "zero_raw_mse": 0.03817662832912163,
+      "zero_normalized_mse": 0.9870512779814581
+    },
+    "block_08": {
+      "value_mean": 0.017222354215003104,
+      "value_std": 0.839572621888648,
+      "value_rms": 0.8397492464478226,
+      "max_abs": 154.0,
+      "abs_quantiles_sampled": {
+        "p50": 0.328125,
+        "p90": 0.83984375,
+        "p99": 1.5625
+      },
+      "delta_rms": 0.49251128164638547,
+      "delta_abs_quantiles_sampled": {
+        "p50": 0.12890625,
+        "p90": 0.623046875,
+        "p99": 1.30859375
+      },
+      "zero_raw_mse": 0.24256736254896524,
+      "zero_normalized_mse": 0.9939010837287485
+    },
+    "connector": {
+      "value_mean": -0.24398349388257454,
+      "value_std": 7.076526582249192,
+      "value_rms": 7.080731347436265,
+      "max_abs": 257.96875,
+      "abs_quantiles_sampled": {
+        "p50": 3.1298828125,
+        "p90": 10.0634765625,
+        "p99": 22.519628906249977
+      },
+      "delta_rms": 3.150711144092017,
+      "delta_abs_quantiles_sampled": {
+        "p50": 1.03466796875,
+        "p90": 4.6544189453125,
+        "p99": 11.942651367187466
+      },
+      "zero_raw_mse": 9.926980713505625,
+      "zero_normalized_mse": 0.9965220303162823
+    }
+  },
+  "scope": "real CPU statistics on 813-817; no GPU station attribution yet; exact moments, sampled quantiles"
+}
